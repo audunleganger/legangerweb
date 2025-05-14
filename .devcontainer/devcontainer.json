@@ -1,11 +1,9 @@
 {
-    "name": "Alpine Dev",
-    "build": {
-        "dockerfile": "Dockerfile"
-    },
-    "forwardPorts": [8080, 8443, 3000, 5000],
-    // "runArgs": ["--publish=80:80", "--publish=443:443"],
-    "remoteUser": "root",
+    "name": "Legangerweb Dev",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "dev",
+    "workspaceFolder": "/workspace",
+    // "forwardPorts": [8080, 8443, 3000, 5000],
     "customizations": {
         "vscode": {
             "extensions": [
@@ -14,10 +12,10 @@
                 "dbaeumer.vscode-eslint",
                 "GitHub.copilot-chat",
                 "shanoor.vscode-nginx"
-            ]
+            ],
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash"
+            }
         }
-    },
-    "mounts": [
-        "source=${localWorkspaceFolder}/.devcontainer/nginx,target=/etc/nginx/http.d,type=bind"
-    ]
+    }
 }

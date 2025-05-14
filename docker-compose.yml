@@ -1,0 +1,50 @@
+version: "3.9"
+
+services:
+    dev:
+        # The VS Code Dev Container environment
+        build:
+            context: .
+            dockerfile: .devcontainer/Dockerfile
+        volumes:
+            - .:/workspace:cached
+            - /var/run/docker.sock:/var/run/docker.sock
+        working_dir: /workspace
+        command: sleep infinity
+        networks:
+            - devnet
+
+    frontend:
+        # React app in "dev" mode (hot-reload)
+        build:
+            context: ./frontend
+            dockerfile: Dockerfile.dev
+        volumes:
+            - ./frontend:/app
+            - /app/node_modules
+        expose:
+            - "3000"
+        environment:
+            - CHOKIDAR_USEPOLLING=true
+        command: npm run dev
+        networks:
+            - devnet
+
+    nginx:
+        # Reverse-proxy container
+        image: nginx:alpine
+        ports:
+            - "80:80"
+            - "443:443"
+        volumes:
+            - ./nginx:/etc/nginx/conf.d
+        depends_on:
+            - frontend
+        command: sleep infinity
+        networks:
+            - devnet
+
+networks:
+    devnet:
+        name: legangerweb-net
+        driver: bridge

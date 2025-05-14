@@ -1,7 +1,12 @@
 FROM alpine:latest
 
+RUN apk add --no-cache bash
+
+# Set bash as the default shell
+SHELL ["/bin/bash", "-c"]
+
+# Install dev tools and dependencies
 RUN apk add --no-cache \
-    bash \
     nginx \
     curl \
     nodejs \
@@ -14,6 +19,8 @@ RUN apk add --no-cache \
     openssl \
     certbot \
     certbot-nginx \
-    net-tools 
+    net-tools \
+    docker
 
-CMD [ "bash" ]
+# Set working directory
+WORKDIR /workspace
