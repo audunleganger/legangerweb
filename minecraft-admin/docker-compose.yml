@@ -1,0 +1,52 @@
+version: "3.9"
+
+services:
+    minecraft:
+        image: itzg/minecraft-server:latest
+        container_name: minecraft
+        ports:
+            - "25565:25565"
+        environment:
+            EULA: "TRUE"
+            RCON_PASSWORD: "secretpassword"
+            ENABLE_RCON: "true"
+            SERVER_PORT: "25565"
+            RCON_PORT: "25575"
+            LEVEL: "Midgard"
+        volumes:
+            - ./data:/data
+        restart: unless-stopped
+        networks:
+            - minecraft-net
+
+    backend:
+        build: ./backend
+        container_name: mc-backend
+        volumes:
+            - ./backend:/app
+        environment:
+            RCON_HOST: minecraft
+            RCON_PORT: 25575
+            RCON_PASSWORD: secretpassword
+        depends_on:
+            - minecraft
+        restart: unless-stopped
+        networks:
+            - minecraft-net
+
+    frontend:
+        build: ./frontend
+        container_name: mc-frontend
+        ports:
+            - "5000:5000"
+        volumes:
+            - ./frontend:/app
+        depends_on:
+            - backend
+        restart: unless-stopped
+        networks:
+            - minecraft-net
+
+networks:
+    minecraft-net:
+        driver: bridge
