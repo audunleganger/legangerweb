@@ -1,32 +1,202 @@
-[21:08:06] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:08:06] [ServerMain/INFO]: Loaded 1373 recipes
-[21:08:06] [ServerMain/INFO]: Loaded 1484 advancements
-[21:08:06] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[21:08:06] [Server thread/INFO]: Loading properties
-[21:08:06] [Server thread/INFO]: Default game type: SURVIVAL
-[21:08:06] [Server thread/INFO]: Generating keypair
-[21:08:06] [Server thread/INFO]: Starting Minecraft server on *:25565
-[21:08:06] [Server thread/INFO]: Using epoll channel type
-[21:08:06] [Server thread/INFO]: Preparing level "Midgard"
-[21:08:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:08:07] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[21:08:07] [Server thread/INFO]: Time elapsed: 364 ms
-[21:08:07] [Server thread/INFO]: Done (0.495s)! For help, type "help"
-[21:08:07] [Server thread/INFO]: Starting remote control listener
-[21:08:07] [Server thread/INFO]: Thread RCON Listener started
-[21:08:07] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[21:09:07] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[21:52:39] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
-[21:52:39] [Server thread/INFO]: [Rcon: Stopping the server]
-[21:52:39] [RCON Client /0:0:0:0:0:0:0:1 #2/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
-[21:52:39] [Server thread/INFO]: Stopping server
-[21:52:39] [Server thread/INFO]: Saving players
-[21:52:39] [Server thread/INFO]: Saving worlds
-[21:52:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Midgard]'/minecraft:overworld
-[21:52:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Midgard]'/minecraft:the_nether
-[21:52:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Midgard]'/minecraft:the_end
-[21:52:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (Midgard): All chunks are saved
-[21:52:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[21:52:39] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[21:52:39] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[21:52:39] [Server thread/INFO]: Thread RCON Listener stopped
+[16:51:23] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:51:23] [ServerMain/INFO]: Loaded 1373 recipes
+[16:51:23] [ServerMain/INFO]: Loaded 1484 advancements
+[16:51:23] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[16:51:23] [Server thread/INFO]: Loading properties
+[16:51:23] [Server thread/INFO]: Default game type: SURVIVAL
+[16:51:23] [Server thread/INFO]: Generating keypair
+[16:51:23] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:51:23] [Server thread/INFO]: Using epoll channel type
+[16:51:23] [Server thread/INFO]: Preparing level "Midgard"
+[16:51:23] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:51:24] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[16:51:24] [Server thread/INFO]: Time elapsed: 379 ms
+[16:51:24] [Server thread/INFO]: Done (0.500s)! For help, type "help"
+[16:51:24] [Server thread/INFO]: Starting remote control listener
+[16:51:24] [Server thread/INFO]: Thread RCON Listener started
+[16:51:24] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[16:52:24] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[16:53:53] [Server thread/INFO]: AudunTheViking (/172.19.0.1:59418) lost connection: Disconnected
+[16:53:58] [Server thread/INFO]: AudunTheViking (/172.19.0.1:59428) lost connection: Disconnected
+[16:54:30] [Server thread/INFO]: AudunTheViking (/172.19.0.1:57664) lost connection: Disconnected
+[16:55:21] [User Authenticator #1/INFO]: UUID of player AudunTheViking is 1514962e-456b-4616-8693-badc24157907
+[16:55:21] [Server thread/INFO]: AudunTheViking[/172.19.0.1:45748] logged in with entity id 13 at (43.5, 64.0, 42.5)
+[16:55:21] [Server thread/INFO]: AudunTheViking joined the game
+[16:55:30] [Server thread/INFO]: AudunTheViking lost connection: Disconnected
+[16:55:30] [Server thread/INFO]: AudunTheViking left the game
+[16:56:30] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[17:09:46] [User Authenticator #2/INFO]: UUID of player AudunTheViking is 1514962e-456b-4616-8693-badc24157907
+[17:09:46] [Server thread/INFO]: AudunTheViking[/172.19.0.1:34822] logged in with entity id 431 at (43.5, 64.0, 42.5)
+[17:09:46] [Server thread/INFO]: AudunTheViking joined the game
+[17:09:53] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[17:09:53] [Server thread/INFO]: [Not Secure] [Rcon] hello
+[17:09:53] [RCON Client /172.19.0.3 #2/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[17:10:26] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[17:10:26] [RCON Client /172.19.0.3 #3/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[17:10:47] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[17:10:47] [Server thread/INFO]: [Rcon: Made AudunTheViking a server operator]
+[17:10:47] [RCON Client /172.19.0.3 #4/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[17:11:03] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[17:11:03] [Server thread/INFO]: [Rcon: The difficulty has been set to Peaceful]
+[17:11:03] [RCON Client /172.19.0.3 #5/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[17:11:41] [Server thread/INFO]: Villager cru['Villager'/1387, l='ServerLevel[Midgard]', x=-238.28, y=80.56, z=-24.37] died, message: 'Villager suffocated in a wall'
+[19:22:07] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[19:22:07] [Server thread/INFO]: [Not Secure] [Rcon] hello
+[19:22:07] [RCON Client /172.19.0.3 #6/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[19:25:46] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[19:25:46] [RCON Client /172.19.0.3 #7/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[19:28:17] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[19:28:17] [RCON Client /172.19.0.3 #8/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[19:31:02] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[19:31:09] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[19:31:09] [Server thread/INFO]: [Not Secure] [Rcon] hello
+[19:31:09] [RCON Client /172.19.0.3 #10/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[19:34:35] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[19:34:35] [RCON Client /172.19.0.3 #11/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[19:34:57] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[19:34:57] [Server thread/INFO]: [Rcon: The difficulty has been set to Easy]
+[19:34:57] [RCON Client /172.19.0.3 #12/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[19:34:58] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[19:34:58] [Server thread/INFO]: [Rcon: The difficulty has been set to Hard]
+[19:34:58] [RCON Client /172.19.0.3 #13/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[19:34:59] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[19:34:59] [Server thread/INFO]: [Rcon: The difficulty has been set to Normal]
+[19:34:59] [RCON Client /172.19.0.3 #14/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[19:35:01] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[19:35:01] [Server thread/INFO]: [Rcon: The difficulty has been set to Hard]
+[19:35:01] [RCON Client /172.19.0.3 #15/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[19:35:01] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[19:35:01] [Server thread/INFO]: [Rcon: The difficulty has been set to Normal]
+[19:35:01] [RCON Client /172.19.0.3 #16/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[19:35:01] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[19:35:01] [Server thread/INFO]: [Rcon: The difficulty has been set to Hard]
+[19:35:01] [RCON Client /172.19.0.3 #17/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[19:35:02] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[19:35:02] [Server thread/INFO]: [Rcon: The difficulty has been set to Normal]
+[19:35:02] [RCON Client /172.19.0.3 #18/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[19:35:02] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[19:35:02] [Server thread/INFO]: [Rcon: The difficulty has been set to Easy]
+[19:35:02] [RCON Client /172.19.0.3 #19/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[19:35:02] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[19:35:02] [Server thread/INFO]: [Rcon: The difficulty has been set to Peaceful]
+[19:35:02] [RCON Client /172.19.0.3 #20/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[19:37:49] [Server thread/INFO]: [AudunTheViking: Set the time to 1000]
+[19:37:55] [Server thread/INFO]: [AudunTheViking: Set the time to 6000]
+[19:38:00] [Server thread/INFO]: [AudunTheViking: Set the time to 13000]
+[19:38:06] [Server thread/INFO]: [AudunTheViking: Set the time to 18000]
+[19:40:35] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[19:40:35] [Server thread/INFO]: [Rcon: Set the time to 1000]
+[19:40:35] [RCON Client /172.19.0.3 #21/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[19:40:36] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[19:40:36] [Server thread/INFO]: [Rcon: Set the time to 6000]
+[19:40:36] [RCON Client /172.19.0.3 #22/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[19:40:37] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[19:40:37] [Server thread/INFO]: [Rcon: Set the time to 13000]
+[19:40:37] [RCON Client /172.19.0.3 #23/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[19:40:38] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[19:40:38] [Server thread/INFO]: [Rcon: Set the time to 18000]
+[19:40:38] [RCON Client /172.19.0.3 #24/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[19:40:39] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[19:40:39] [Server thread/INFO]: [Rcon: Set the time to 1000]
+[19:40:39] [RCON Client /172.19.0.3 #25/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[19:43:52] [Server thread/INFO]: [AudunTheViking: Gamerule doDaylightCycle is now set to: false]
+[19:44:16] [Server thread/INFO]: [AudunTheViking: Gamerule doDaylightCycle is now set to: true]
+[19:48:51] [RCON Client /172.19.0.3 #9/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[20:54:38] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[20:54:38] [RCON Client /172.19.0.3 #26/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[20:54:39] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[20:54:39] [Server thread/INFO]: [Rcon: The difficulty has been set to Normal]
+[20:54:39] [RCON Client /172.19.0.3 #27/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[20:54:40] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[20:54:40] [Server thread/INFO]: [Rcon: The difficulty has been set to Easy]
+[20:54:40] [RCON Client /172.19.0.3 #28/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[20:54:42] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[20:54:42] [Server thread/INFO]: [Rcon: Set the time to 1000]
+[20:54:42] [RCON Client /172.19.0.3 #29/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[20:54:43] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[20:54:43] [Server thread/INFO]: [Rcon: Set the time to 6000]
+[20:54:43] [RCON Client /172.19.0.3 #30/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[20:54:43] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[20:54:43] [Server thread/INFO]: [Rcon: Set the time to 13000]
+[20:54:43] [RCON Client /172.19.0.3 #31/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[20:54:43] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[20:54:43] [Server thread/INFO]: [Rcon: Set the time to 18000]
+[20:54:43] [RCON Client /172.19.0.3 #32/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[20:54:44] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[20:54:44] [Server thread/INFO]: [Rcon: Set the time to 1000]
+[20:54:44] [RCON Client /172.19.0.3 #33/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[20:54:56] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[20:54:56] [Server thread/INFO]: [Rcon: The difficulty has been set to Peaceful]
+[20:54:56] [RCON Client /172.19.0.3 #34/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[21:01:22] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[21:01:22] [RCON Client /172.19.0.3 #35/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[21:01:46] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[21:01:46] [Server thread/INFO]: [Rcon: The difficulty has been set to Easy]
+[21:01:46] [RCON Client /172.19.0.3 #36/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[21:03:00] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[21:03:00] [Server thread/INFO]: [Rcon: The difficulty has been set to Hard]
+[21:03:00] [RCON Client /172.19.0.3 #37/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[21:03:20] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[21:03:20] [RCON Client /172.19.0.3 #38/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[21:03:22] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[21:03:22] [Server thread/INFO]: [Rcon: The difficulty has been set to Normal]
+[21:03:22] [RCON Client /172.19.0.3 #39/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[21:03:35] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[21:03:35] [Server thread/INFO]: [Rcon: Set the time to 1000]
+[21:03:35] [RCON Client /172.19.0.3 #40/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[21:03:40] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[21:03:40] [Server thread/INFO]: [Rcon: The difficulty has been set to Easy]
+[21:03:40] [RCON Client /172.19.0.3 #41/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[21:12:40] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[21:12:40] [RCON Client /172.19.0.3 #42/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[21:12:43] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[21:12:43] [Server thread/INFO]: [Rcon: The difficulty has been set to Hard]
+[21:12:43] [RCON Client /172.19.0.3 #43/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[21:12:44] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[21:12:44] [Server thread/INFO]: [Rcon: The difficulty has been set to Normal]
+[21:12:44] [RCON Client /172.19.0.3 #44/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[21:13:36] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[21:13:36] [Server thread/INFO]: [Rcon: Set the time to 1000]
+[21:13:36] [RCON Client /172.19.0.3 #45/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[21:13:37] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[21:13:37] [Server thread/INFO]: [Rcon: Set the time to 6000]
+[21:13:37] [RCON Client /172.19.0.3 #46/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[21:13:38] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[21:13:38] [Server thread/INFO]: [Rcon: Set the time to 13000]
+[21:13:38] [RCON Client /172.19.0.3 #47/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[21:14:01] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[21:14:01] [Server thread/INFO]: [Rcon: The difficulty has been set to Peaceful]
+[21:14:01] [RCON Client /172.19.0.3 #48/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[21:14:11] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[21:14:11] [Server thread/INFO]: [Rcon: The difficulty has been set to Normal]
+[21:14:11] [RCON Client /172.19.0.3 #49/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[21:14:28] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[21:14:28] [Server thread/INFO]: [Rcon: The difficulty has been set to Easy]
+[21:14:28] [RCON Client /172.19.0.3 #50/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[21:14:29] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[21:14:29] [Server thread/INFO]: [Rcon: The difficulty has been set to Normal]
+[21:14:29] [RCON Client /172.19.0.3 #51/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[21:14:29] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[21:14:29] [Server thread/INFO]: [Rcon: The difficulty has been set to Hard]
+[21:14:29] [RCON Client /172.19.0.3 #52/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[21:14:31] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[21:14:31] [Server thread/INFO]: [Rcon: The difficulty has been set to Peaceful]
+[21:14:31] [RCON Client /172.19.0.3 #53/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[21:15:51] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[21:15:51] [Server thread/INFO]: [Rcon: The difficulty has been set to Easy]
+[21:15:51] [RCON Client /172.19.0.3 #54/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[21:15:53] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[21:15:53] [Server thread/INFO]: [Rcon: The difficulty has been set to Hard]
+[21:15:53] [RCON Client /172.19.0.3 #55/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[21:16:04] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[21:16:04] [Server thread/INFO]: [Rcon: Set the time to 6000]
+[21:16:04] [RCON Client /172.19.0.3 #56/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[21:16:04] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[21:16:04] [Server thread/INFO]: [Rcon: The difficulty has been set to Easy]
+[21:16:04] [RCON Client /172.19.0.3 #57/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[21:16:20] [Server thread/INFO]: AudunTheViking was slain by Zombie
+[21:16:42] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[21:16:42] [RCON Client /172.19.0.3 #58/INFO]: Thread RCON Client /172.19.0.3 shutting down
+[21:16:44] [RCON Listener #1/INFO]: Thread RCON Client /172.19.0.3 started
+[21:16:44] [Server thread/INFO]: [Rcon: The difficulty has been set to Normal]
+[21:16:44] [RCON Client /172.19.0.3 #59/INFO]: Thread RCON Client /172.19.0.3 shutting down

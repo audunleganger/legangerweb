@@ -1,25 +1,14 @@
-[21:44:38] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[21:44:39] [ServerMain/INFO]: Loaded 1373 recipes
-[21:44:39] [ServerMain/INFO]: Loaded 1484 advancements
-[21:44:39] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[21:44:39] [Server thread/INFO]: Loading properties
-[21:44:39] [Server thread/INFO]: Default game type: SURVIVAL
-[21:44:39] [Server thread/INFO]: Generating keypair
-[21:44:39] [Server thread/INFO]: Starting Minecraft server on *:6004
-[21:44:39] [Server thread/INFO]: Using epoll channel type
-[21:44:39] [Server thread/INFO]: Preparing level "Midgard"
-[21:44:39] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[21:44:39] [Worker-Main-17/INFO]: Preparing spawn area: 0%
-[21:44:40] [Server thread/INFO]: Time elapsed: 331 ms
-[21:44:40] [Server thread/INFO]: Done (0.467s)! For help, type "help"
-[21:44:40] [Server thread/INFO]: Starting remote control listener
-[21:44:40] [Server thread/INFO]: Thread RCON Listener started
-[21:44:40] [Server thread/INFO]: RCON running on 0.0.0.0:25575
-[21:45:39] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[21:53:49] [User Authenticator #1/INFO]: UUID of player AudunTheViking is 1514962e-456b-4616-8693-badc24157907
-[21:53:49] [Server thread/INFO]: AudunTheViking[/172.17.0.1:41318] logged in with entity id 48 at (-20.5, 64.0, 168.5)
-[21:53:49] [Server thread/INFO]: AudunTheViking joined the game
-[22:01:57] [Server thread/INFO]: AudunTheViking was slain by Husk
-[23:02:48] [Server thread/INFO]: AudunTheViking lost connection: Disconnected
-[23:02:48] [Server thread/INFO]: AudunTheViking left the game
-[23:03:48] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[18:53:18] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[18:53:18] [Server thread/INFO]: [Rcon: Stopping the server]
+[18:53:18] [RCON Client /0:0:0:0:0:0:0:1 #2/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[18:53:18] [Server thread/INFO]: Stopping server
+[18:53:18] [Server thread/INFO]: Saving players
+[18:53:18] [Server thread/INFO]: Saving worlds
+[18:53:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Midgard]'/minecraft:overworld
+[18:53:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Midgard]'/minecraft:the_end
+[18:53:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[Midgard]'/minecraft:the_nether
+[18:53:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (Midgard): All chunks are saved
+[18:53:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:53:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:53:18] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:53:18] [Server thread/INFO]: Thread RCON Listener stopped
