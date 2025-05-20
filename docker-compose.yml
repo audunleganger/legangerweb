@@ -12,7 +12,7 @@ services:
         working_dir: /workspace
         command: sleep infinity
         networks:
-            - devnet
+            - legangerweb-net
 
     frontend:
         # React app in "dev" mode (hot-reload)
@@ -27,7 +27,7 @@ services:
             - CHOKIDAR_USEPOLLING=true
         command: sh -c "[ -d node_modules ] || npm install && npm run dev"
         networks:
-            - devnet
+            - legangerweb-net
 
     nginx:
         # Reverse-proxy container
@@ -39,11 +39,10 @@ services:
             - ./nginx:/etc/nginx/conf.d
         depends_on:
             - frontend
-        command: sleep infinity
         networks:
-            - devnet
+            - legangerweb-net
 
 networks:
-    devnet:
+    legangerweb-net:
         name: legangerweb-net
         driver: bridge

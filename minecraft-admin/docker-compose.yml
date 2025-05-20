@@ -17,9 +17,9 @@ services:
             - ./data:/data
         restart: unless-stopped
         networks:
-            - minecraft-net
+            - legangerweb-net
 
-    backend:
+    mc-backend:
         build: ./backend
         container_name: mc-backend
         volumes:
@@ -32,21 +32,19 @@ services:
             - minecraft
         restart: unless-stopped
         networks:
-            - minecraft-net
+            - legangerweb-net
 
-    frontend:
+    mc-frontend:
         build: ./frontend
         container_name: mc-frontend
-        ports:
-            - "5000:5000"
         volumes:
             - ./frontend:/app
         depends_on:
-            - backend
+            - mc-backend
         restart: unless-stopped
         networks:
-            - minecraft-net
+            - legangerweb-net
 
 networks:
-    minecraft-net:
-        driver: bridge
+    legangerweb-net:
+        external: true
