@@ -20,12 +20,12 @@ services:
             context: ./frontend
             dockerfile: Dockerfile.dev
         volumes:
-            - ./:/app
+            - ./frontend:/app
         expose:
             - "3000"
         environment:
             - CHOKIDAR_USEPOLLING=true
-        command: npm run dev
+        command: sh -c "[ -d node_modules ] || npm install && npm run dev"
         networks:
             - devnet
 
