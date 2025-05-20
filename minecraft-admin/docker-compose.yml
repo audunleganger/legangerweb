@@ -23,7 +23,7 @@ services:
         build: ./backend
         container_name: mc-backend
         volumes:
-            - ./backend:/app
+            - ./backend/src:/app/src
         environment:
             RCON_HOST: minecraft
             RCON_PORT: 25575
@@ -38,7 +38,8 @@ services:
         build: ./frontend
         container_name: mc-frontend
         volumes:
-            - ./frontend:/app
+            - ./frontend/src:/app/src
+            - ./frontend/public:/app/public
         depends_on:
             - mc-backend
         restart: unless-stopped

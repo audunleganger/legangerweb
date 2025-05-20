@@ -1,9 +1,9 @@
 {
     "name": "Legangerweb Dev",
-    "dockerComposeFile": "../docker-compose.yml",
-    "service": "dev",
-    "workspaceFolder": "/workspace",
-    // "forwardPorts": [8080, 8443, 3000, 5000],
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "runArgs": ["--network=legangerweb-net"],
     "customizations": {
         "vscode": {
             "extensions": [

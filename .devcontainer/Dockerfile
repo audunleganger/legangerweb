@@ -1,26 +1,6 @@
-FROM alpine:latest
+FROM mcr.microsoft.com/devcontainers/base:alpine-3.20
 
-RUN apk add --no-cache bash
-
-# Set bash as the default shell
-SHELL ["/bin/bash", "-c"]
-
-# Install dev tools and dependencies
-RUN apk add --no-cache \
-    nginx \
-    curl \
-    nodejs \
-    npm \
-    python3 \
-    py3-pip \
-    nano \
-    vim \
-    git \
-    openssl \
-    certbot \
-    certbot-nginx \
-    net-tools \
-    docker
-
-# Set working directory
-WORKDIR /workspace
+RUN apk update && apk add --no-cache \
+	npm \
+	docker \
+	&& rm -rf /var/cache/apk/*
