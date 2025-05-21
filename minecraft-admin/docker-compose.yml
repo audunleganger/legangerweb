@@ -1,5 +1,3 @@
-version: "3.9"
-
 services:
     minecraft:
         image: itzg/minecraft-server:latest
@@ -40,6 +38,7 @@ services:
         volumes:
             - ./frontend/src:/app/src
             - ./frontend/public:/app/public
+            - ./frontend/index.html:/app/index.html
         depends_on:
             - mc-backend
         restart: unless-stopped
