@@ -1,9 +1,9 @@
 {
     "name": "Legangerweb Dev",
-    "build": {
-        "dockerfile": "Dockerfile"
-    },
-    "runArgs": ["--network=legangerweb-net"],
+    "dockerComposeFile": "./docker-compose.yml",
+    "service": "dev",
+    "workspaceFolder": "/ws/legangerweb",
+    "postStartCommand": "sudo chmod 666 /var/run/docker.sock",
     "customizations": {
         "vscode": {
             "extensions": [

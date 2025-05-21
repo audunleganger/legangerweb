@@ -1,0 +1,15 @@
+services:
+    dev:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        container_name: legangerweb-dev
+        volumes:
+            - ..:/ws/legangerweb:cached
+            - /var/run/docker.sock:/var/run/docker.sock
+        networks:
+            - legangerweb-net
+
+networks:
+    legangerweb-net:
+        external: true
