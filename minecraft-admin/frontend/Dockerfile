@@ -9,5 +9,4 @@ COPY tsconfig.node.json ./
 COPY vite.config.ts ./
 
 
-# CMD ["npm", "run", "dev"]
-CMD ["sleep", "infinity"]
+CMD ["npm", "run", "dev"]

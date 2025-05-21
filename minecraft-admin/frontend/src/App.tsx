@@ -6,14 +6,14 @@ function App() {
     const [command, setCommand] = useState("");
     const [currentDifficulty, setCurrentDifficulty] = useState<string>("");
 
-    useEffect(() => {
-        const socket = io("http://backend:8000");
+    // useEffect(() => {
+    //     const socket = io("http://mc-backend:8000");
 
-        socket.on("difficulty", (difficulty: string) => {
-            console.log("Received difficulty update:", difficulty);
-            setCurrentDifficulty(difficulty);
-        });
-    });
+    //     socket.on("difficulty", (difficulty: string) => {
+    //         console.log("Received difficulty update:", difficulty);
+    //         setCurrentDifficulty(difficulty);
+    //     });
+    // });
 
     const handleSend = async () => {
         const response = await fetch("/api", {
