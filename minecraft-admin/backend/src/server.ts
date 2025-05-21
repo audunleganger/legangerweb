@@ -1,12 +1,10 @@
 import express from "express";
-import cors from "cors";
 import http from "http";
 import { Server } from "socket.io";
 import { sendRconCommand } from "./rconClient";
 import { send } from "process";
 
 const app = express();
-app.use(cors());
 app.use(express.json());
 const PORT = 8000;
 
@@ -26,9 +24,19 @@ const RCON_PORT = process.env.RCON_PORT
 const RCON_PASSWORD = process.env.RCON_PASSWORD || "secretpassword";
 
 let currentDifficulty = "unkown";
+sendRconCommand("difficulty").then((response) => {
+    console.log(`Rcon response: ${response}`);
+    currentDifficulty = response.split(" ")[3].toLowerCase();
+    console.log("emitting difficulty");
+    io.emit("difficulty", currentDifficulty);
+});
 
 app.get("/", (req, res) => {
     res.send("Backend is running");
+});
+
+app.get("/api/difficulty", (req, res) => {
+    res.json({ difficulty: currentDifficulty });
 });
 
 app.post("/api", async (req, res) => {
@@ -53,6 +61,6 @@ app.post("/api", async (req, res) => {
         });
 });
 
-app.listen(PORT, () => {
+server.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });

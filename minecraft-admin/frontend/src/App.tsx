@@ -2,18 +2,29 @@ import "./App.css";
 import { useEffect, useState } from "react";
 import { io } from "socket.io-client";
 
+const getDifficulty = async (): Promise<string> => {
+    const response = await fetch("/api/difficulty");
+    const data = await response.json();
+    return data.difficulty;
+};
+
 function App() {
     const [command, setCommand] = useState("");
     const [currentDifficulty, setCurrentDifficulty] = useState<string>("");
 
-    // useEffect(() => {
-    //     const socket = io("http://mc-backend:8000");
-
-    //     socket.on("difficulty", (difficulty: string) => {
-    //         console.log("Received difficulty update:", difficulty);
-    //         setCurrentDifficulty(difficulty);
-    //     });
-    // });
+    useEffect(() => {
+        getDifficulty().then((difficulty) => {
+            setCurrentDifficulty(difficulty);
+        });
+        const socket = io({ path: "/socket.io" });
+        socket.on("difficulty", (difficulty: string) => {
+            console.log("Received difficulty update:", difficulty);
+            setCurrentDifficulty(difficulty);
+        });
+        return () => {
+            socket.disconnect();
+        };
+    }, []);
 
     const handleSend = async () => {
         const response = await fetch("/api", {
@@ -64,16 +75,28 @@ function App() {
                 <button onClick={handleSend}>Send</button>
             </div>
             <div className="difficulty-buttons">
-                <button onClick={() => sendCommand("difficulty peaceful")}>
+                <button
+                    disabled={currentDifficulty === "peaceful"}
+                    onClick={() => sendCommand("difficulty peaceful")}
+                >
                     Fredelig
                 </button>
-                <button onClick={() => sendCommand("difficulty easy")}>
+                <button
+                    disabled={currentDifficulty === "easy"}
+                    onClick={() => sendCommand("difficulty easy")}
+                >
                     Lett
                 </button>
-                <button onClick={() => sendCommand("difficulty normal")}>
+                <button
+                    disabled={currentDifficulty === "normal"}
+                    onClick={() => sendCommand("difficulty normal")}
+                >
                     Normal
                 </button>
-                <button onClick={() => sendCommand("difficulty hard")}>
+                <button
+                    disabled={currentDifficulty === "hard"}
+                    onClick={() => sendCommand("difficulty hard")}
+                >
                     Vanskelig
                 </button>
             </div>
