@@ -39,6 +39,26 @@ app.get("/api/difficulty", (req, res) => {
     res.json({ difficulty: currentDifficulty });
 });
 
+app.post("/api/difficulty", async (req, res) => {
+    const { difficulty } = req.body.difficulty;
+    console.log(`Received difficulty: ${difficulty}`);
+    if (!difficulty) {
+        return res.status(400).json({ error: "Difficulty is required" });
+    }
+    sendRconCommand(`difficulty ${difficulty}`)
+        .then((response) => {
+            console.log(`Rcon response: ${response}`);
+            currentDifficulty = response.split(" ")[6].toLowerCase();
+            console.log("emitting difficulty change");
+            io.emit("difficulty", currentDifficulty);
+            return res.status(200).json({ message: response });
+        })
+        .catch((error) => {
+            console.error("Error sending command:", error);
+            return res.status(500).json({ error: `${error}` });
+        });
+});
+
 app.post("/api", async (req, res) => {
     const { command } = req.body;
     console.log(`Received command: ${command}`);
