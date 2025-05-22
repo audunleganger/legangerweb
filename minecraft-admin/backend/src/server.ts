@@ -59,6 +59,78 @@ app.post("/api/difficulty", async (req, res) => {
         });
 });
 
+app.post("/api/time", async (req, res) => {
+    const { time } = req.body.time;
+    console.log(`Received time: ${time}`);
+    if (!time) {
+        return res.status(400).json({ error: "Time is required" });
+    }
+    sendRconCommand(`time set ${time}`)
+        .then((response) => {
+            console.log(`Rcon response: ${response}`);
+            return res.status(200).json({ message: response });
+        })
+        .catch((error) => {
+            console.error("Error sending command:", error);
+            return res.status(500).json({ error: `${error}` });
+        });
+});
+
+app.get("/api/gamemode", async (req, res) => {
+    const playerName = req.query.playerName as string;
+    console.log(`Received playerName: ${playerName}`);
+    if (!playerName) {
+        return res.status(400).json({ error: "Player name is required" });
+    }
+    try {
+        const rconResponse = await sendRconCommand(
+            `data get entity ${playerName} playerGameType`
+        );
+        console.log(`Rcon response: ${rconResponse}`);
+        const gameModeIndex = rconResponse.split(": ")[1];
+        let currentGameMode = "";
+        console.log(`Game mode index: ${gameModeIndex}`);
+        switch (gameModeIndex) {
+            case "0":
+                currentGameMode = "survival";
+                break;
+            case "1":
+                currentGameMode = "creative";
+                break;
+            case "2":
+                currentGameMode = "adventure";
+                break;
+            case "3":
+                currentGameMode = "spectator";
+                break;
+        }
+        res.json({ gamemode: currentGameMode });
+    } catch (error) {
+        console.error("Error getting gamemode:", error);
+        return res.status(500).json({ error: `${error}` });
+    }
+});
+
+app.post("/api/gamemode", async (req, res) => {
+    const playerName = req.body.playerName.playerName;
+    const gamemode = req.body.gamemode.gamemode;
+    console.log(`Received playerName: ${playerName}, gamemode: ${gamemode}`);
+    if (!playerName || !gamemode) {
+        return res
+            .status(400)
+            .json({ error: "Player name and gamemode are required" });
+    }
+    sendRconCommand(`gamemode ${gamemode} ${playerName}`)
+        .then((response) => {
+            console.log(`Rcon response: ${response}`);
+            return res.status(200).json({ message: response });
+        })
+        .catch((error) => {
+            console.error("Error sending command:", error);
+            return res.status(500).json({ error: `${error}` });
+        });
+});
+
 app.post("/api", async (req, res) => {
     const { command } = req.body;
     console.log(`Received command: ${command}`);

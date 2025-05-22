@@ -41,19 +41,44 @@ const postTime = async (time: string): Promise<string> => {
 };
 
 const getGameMode = async (playerName: string): Promise<string> => {
+    const response = await fetch(
+        `/api/gamemode?playerName=${encodeURIComponent(playerName)}`,
+        {
+            method: "GET",
+            headers: {
+                "Content-Type": "application/json",
+            },
+        }
+    );
+    const data = await response.json();
+    console.log("Game mode response:", data);
+    if (!response.ok) {
+        alert(`Error: ${data.error}`);
+        return "";
+    }
+    return data.gamemode;
+};
+
+const postGameMode = async (
+    playerName: string,
+    gamemode: string
+): Promise<string> => {
     const response = await fetch("/api/gamemode", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
         },
-        body: JSON.stringify({ playerName }),
+        body: JSON.stringify({
+            playerName: { playerName },
+            gamemode: { gamemode },
+        }),
     });
     const data = await response.json();
     if (!response.ok) {
         alert(`Error: ${data.error}`);
         return "";
     }
-    return data.gamemode;
+    return data.message;
 };
 
 function App() {
@@ -67,6 +92,7 @@ function App() {
             setCurrentDifficulty(difficulty);
         });
         getGameMode(playerName).then((gamemode) => {
+            console.log("Current gamemode:", gamemode);
             setCurrentGameMode(gamemode);
         });
         const socket = io({ path: "/socket.io" });
@@ -99,24 +125,33 @@ function App() {
         setCommand("");
     };
 
-    const sendCommand = async (command: string) => {
-        const response = await fetch("/api", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify({ command: `${command}` }),
-        });
-        const data = await response.json();
-        if (!response.ok) {
-            alert(`Error: ${data.error}`);
-            return;
-        }
-    };
+    // const sendCommand = async (command: string) => {
+    //     const response = await fetch("/api", {
+    //         method: "POST",
+    //         headers: {
+    //             "Content-Type": "application/json",
+    //         },
+    //         body: JSON.stringify({ command: `${command}` }),
+    //     });
+    //     const data = await response.json();
+    //     if (!response.ok) {
+    //         alert(`Error: ${data.error}`);
+    //         return;
+    //     }
+    // };
 
     return (
         <>
-            <h1>Type a command</h1>
+            <h1>MC Admin panel</h1>
+            <div className="card">
+                <span style={{ paddingRight: "1em" }}>Player name</span>
+                <input
+                    type="text"
+                    placeholder="Name"
+                    value={playerName}
+                    onChange={(e) => setPlayerName(e.target.value)}
+                />
+            </div>
             <div className="card">
                 <input
                     type="text"
@@ -132,16 +167,10 @@ function App() {
                 <button onClick={handleSend}>Send</button>
             </div>
             <div className="time-buttons">
-                <button onClick={() => postTime("time set day")}>Morgen</button>
-                <button onClick={() => postTime("time set noon")}>
-                    Middag
-                </button>
-                <button onClick={() => postTime("time set night")}>
-                    Kveld
-                </button>
-                <button onClick={() => postTime("time set midnight")}>
-                    Midnatt
-                </button>
+                <button onClick={() => postTime("day")}>Morgen</button>
+                <button onClick={() => postTime("noon")}>Middag</button>
+                <button onClick={() => postTime("night")}>Kveld</button>
+                <button onClick={() => postTime("midnight")}>Midnatt</button>
             </div>
             <div className="difficulty-buttons">
                 <button
@@ -175,7 +204,7 @@ function App() {
             <div className="gamemode">
                 <button
                     onClick={async () => {
-                        setCurrentGameMode("survival");
+                        postGameMode(playerName, "survival");
                     }}
                 >
                     Survival
@@ -183,7 +212,7 @@ function App() {
                 <button
                     className="gamemode"
                     onClick={async () => {
-                        setCurrentGameMode("creative");
+                        postGameMode(playerName, "creative");
                     }}
                 >
                     Creative
