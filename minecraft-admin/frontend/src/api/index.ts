@@ -1,5 +1,18 @@
-async function apiFetch<T>(url: string, options?: RequestInit): Promise<T> {
+async function apiFetch<T>(url: string, options: RequestInit = {}): Promise<T> {
+    const token = localStorage.getItem("token");
+    options.headers = {
+        ...(options.headers || {}),
+        ...(token ? { Authorization: `Bearer ${token}` } : {}),
+    };
     const response = await fetch(url, options);
+
+    if (response.status === 401) {
+        alert("Unauthorized. Please log in again.");
+        localStorage.removeItem("token"); // Clear token
+        window.location.href = "/login"; // Redirect to login page
+        throw new Error("Unauthorized");
+    }
+
     const data = await response.json();
     if (!response.ok) {
         throw new Error(data.error || "Unknown error");
