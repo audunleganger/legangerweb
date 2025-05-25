@@ -3,10 +3,42 @@ import http from "http";
 import { Server } from "socket.io";
 import { sendRconCommand } from "./rconClient";
 import { send } from "process";
+import commandsRouter from "./routes/commands";
+import {
+    parseDifficulty,
+    parseTime,
+    parsePlayers,
+    buildPlayerObjects,
+} from "./rconUtils";
+import { parse } from "path";
+
+const RCON_HOST = process.env.RCON_HOST || "minecraft";
+const RCON_PORT = process.env.RCON_PORT
+    ? parseInt(process.env.RCON_PORT)
+    : 25575;
+const RCON_PASSWORD = process.env.RCON_PASSWORD || "secretpassword";
+
+type Player = {
+    name: string;
+    gameMode: string;
+};
 
 const app = express();
 app.use(express.json());
 const PORT = 8000;
+
+// Game status variables
+const gameState: {
+    currentPlayers: Player[];
+    worldName: string;
+    currentDifficulty: string;
+    currentTime: string;
+} = {
+    currentPlayers: [],
+    worldName: "unknown",
+    currentDifficulty: "unknown",
+    currentTime: "unknown",
+};
 
 // HTTP server and socket.io server
 const server = http.createServer(app);
@@ -17,119 +49,93 @@ const io = new Server(server, {
     },
 });
 
-const RCON_HOST = process.env.RCON_HOST || "minecraft";
-const RCON_PORT = process.env.RCON_PORT
-    ? parseInt(process.env.RCON_PORT)
-    : 25575;
-const RCON_PASSWORD = process.env.RCON_PASSWORD || "secretpassword";
+io.on("connection", async (socket) => {
+    console.log("A client connected:", socket.id);
 
-let currentDifficulty = "unkown";
-sendRconCommand("difficulty").then((response) => {
-    console.log(`Rcon response: ${response}`);
-    currentDifficulty = response.split(" ")[3].toLowerCase();
-    console.log("emitting difficulty");
-    io.emit("difficulty", currentDifficulty);
+    try {
+        const difficultyResponse = await sendRconCommand("difficulty");
+        gameState.currentDifficulty = parseDifficulty(difficultyResponse);
+    } catch (error) {
+        console.error("Error parsing game state:", error);
+    }
+    try {
+        const timeResponse = await sendRconCommand("time query daytime");
+        gameState.currentTime = parseTime(timeResponse);
+    } catch (error) {
+        console.error("Error parsing game state:", error);
+    }
+    try {
+        const playersResponse = await sendRconCommand("list");
+        const playersNames = parsePlayers(playersResponse);
+        const playerObjects = await buildPlayerObjects(playersNames);
+        gameState.currentPlayers = playerObjects;
+    } catch (error) {
+        console.error("Error parsing players:", error);
+    }
+    socket.emit("connection", gameState);
+
+    socket.on("getDifficulty", async () => {
+        console.log("Client requested difficulty");
+        const response = await sendRconCommand("difficulty");
+        const difficulty = parseDifficulty(response);
+        console.log(`Current difficulty: ${difficulty}`);
+        socket.emit("difficultyUpdate", difficulty);
+    });
+
+    socket.on("getTime", async () => {
+        console.log("Client requested time");
+        const response = await sendRconCommand("time query daytime");
+        const time = parseTime(response);
+        console.log(`Current time: ${time}`);
+        socket.emit("time", time);
+    });
+
+    socket.on("getGamemode", async (playerName) => {
+        const response = await sendRconCommand(
+            `data get entity ${playerName} playerGameType`
+        );
+        console.log(`Rcon response: ${response}`);
+    });
+
+    socket.on("getPlayers", async () => {
+        console.log("Client requested players");
+        const response = await sendRconCommand("list");
+        const playerNames = parsePlayers(response);
+        const players = await buildPlayerObjects(playerNames);
+        gameState.currentPlayers = players;
+        socket.emit("playersUpdate", players);
+    });
+
+    socket.on("disconnect", () => {
+        console.log("A client disconnected:", socket.id);
+    });
 });
+
+// TEMP
+let lastPlayers: Player[] = [];
+setInterval(async () => {
+    try {
+        const response = await sendRconCommand("list");
+        const playerNames = parsePlayers(response);
+        const players = await buildPlayerObjects(playerNames);
+        if (JSON.stringify(players) !== JSON.stringify(lastPlayers)) {
+            lastPlayers = players;
+            gameState.currentPlayers = players;
+            io.emit("playersUpdate", players);
+            console.log(`Updated players: ${players}`);
+        }
+    } catch (error) {
+        console.error("Error updating players:", error);
+    }
+}, 2500);
+
+// TEMP END
 
 app.get("/", (req, res) => {
     res.send("Backend is running");
 });
 
-app.get("/api/difficulty", (req, res) => {
-    res.json({ difficulty: currentDifficulty });
-});
-
-app.post("/api/difficulty", async (req, res) => {
-    const { difficulty } = req.body.difficulty;
-    console.log(`Received difficulty: ${difficulty}`);
-    if (!difficulty) {
-        return res.status(400).json({ error: "Difficulty is required" });
-    }
-    sendRconCommand(`difficulty ${difficulty}`)
-        .then((response) => {
-            console.log(`Rcon response: ${response}`);
-            currentDifficulty = response.split(" ")[6].toLowerCase();
-            console.log("emitting difficulty change");
-            io.emit("difficulty", currentDifficulty);
-            return res.status(200).json({ message: response });
-        })
-        .catch((error) => {
-            console.error("Error sending command:", error);
-            return res.status(500).json({ error: `${error}` });
-        });
-});
-
-app.post("/api/time", async (req, res) => {
-    const { time } = req.body.time;
-    console.log(`Received time: ${time}`);
-    if (!time) {
-        return res.status(400).json({ error: "Time is required" });
-    }
-    sendRconCommand(`time set ${time}`)
-        .then((response) => {
-            console.log(`Rcon response: ${response}`);
-            return res.status(200).json({ message: response });
-        })
-        .catch((error) => {
-            console.error("Error sending command:", error);
-            return res.status(500).json({ error: `${error}` });
-        });
-});
-
-app.get("/api/gamemode", async (req, res) => {
-    const playerName = req.query.playerName as string;
-    console.log(`Received playerName: ${playerName}`);
-    if (!playerName) {
-        return res.status(400).json({ error: "Player name is required" });
-    }
-    try {
-        const rconResponse = await sendRconCommand(
-            `data get entity ${playerName} playerGameType`
-        );
-        console.log(`Rcon response: ${rconResponse}`);
-        const gameModeIndex = rconResponse.split(": ")[1];
-        let currentGameMode = "";
-        console.log(`Game mode index: ${gameModeIndex}`);
-        switch (gameModeIndex) {
-            case "0":
-                currentGameMode = "survival";
-                break;
-            case "1":
-                currentGameMode = "creative";
-                break;
-            case "2":
-                currentGameMode = "adventure";
-                break;
-            case "3":
-                currentGameMode = "spectator";
-                break;
-        }
-        res.json({ gamemode: currentGameMode });
-    } catch (error) {
-        console.error("Error getting gamemode:", error);
-        return res.status(500).json({ error: `${error}` });
-    }
-});
-
-app.post("/api/gamemode", async (req, res) => {
-    const playerName = req.body.playerName.playerName;
-    const gamemode = req.body.gamemode.gamemode;
-    console.log(`Received playerName: ${playerName}, gamemode: ${gamemode}`);
-    if (!playerName || !gamemode) {
-        return res
-            .status(400)
-            .json({ error: "Player name and gamemode are required" });
-    }
-    sendRconCommand(`gamemode ${gamemode} ${playerName}`)
-        .then((response) => {
-            console.log(`Rcon response: ${response}`);
-            return res.status(200).json({ message: response });
-        })
-        .catch((error) => {
-            console.error("Error sending command:", error);
-            return res.status(500).json({ error: `${error}` });
-        });
-});
+app.use("/api", commandsRouter(io));
 
 app.post("/api", async (req, res) => {
     const { command } = req.body;
@@ -140,11 +146,6 @@ app.post("/api", async (req, res) => {
     sendRconCommand(command)
         .then((response) => {
             console.log(`Rcon response: ${response}`);
-            if (response.startsWith("The difficulty has been set to")) {
-                currentDifficulty = response.split(" ")[6].toLowerCase();
-                console.log("emitting difficulty change");
-                io.emit("difficulty", currentDifficulty);
-            }
             return res.status(200).json({ response });
         })
         .catch((error) => {
