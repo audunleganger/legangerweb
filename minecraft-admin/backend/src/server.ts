@@ -64,10 +64,8 @@ setInterval(async () => {
         console.error("Error updating players:", error);
     }
 }, 2500);
-
-console.log("hello world");
-
 // TEMP END
+
 app.get("/", (req, res) => {
     res.send("Backend is running");
 });
