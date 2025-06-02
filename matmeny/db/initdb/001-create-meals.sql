@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS meals (
+    date DATE PRIMARY KEY,
+    meal_name TEXT NOT NULL
+);

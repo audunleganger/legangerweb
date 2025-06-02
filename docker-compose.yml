@@ -124,6 +124,8 @@ services:
             POSTGRES_DB: matmeny
         volumes:
             - ./matmeny/db/data:/var/lib/postgresql/data
+            - ./matmeny/db/initdb/001-create-meals.sql:/docker-entrypoint-initdb.d/001-create-meals.sql
+            - ./matmeny/db/seed/meals-dev.sql:/docker-entrypoint-initdb.d/meals-dev.sql
         restart: unless-stopped
         expose:
             - "5432"

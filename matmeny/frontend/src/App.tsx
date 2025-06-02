@@ -1,11 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-// type Meal = {
-//     name: string;
-//     ingredients?: string[];
-// };
-
 type DateMeal = {
     date: string;
     meal: {
@@ -225,6 +220,7 @@ function App() {
                                     const dateMeal = fetchedDateMeals.find(
                                         (meal) => meal.date === dateString
                                     );
+                                    console.log(dateMeal);
                                     return (
                                         <td
                                             key={dateString}
