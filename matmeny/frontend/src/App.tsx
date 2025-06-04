@@ -1,10 +1,9 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import type { MealRecord, DateMeal } from "./types";
+// import type { DateMeal } from "./types";
+import useMeals from "./hooks/useMeals";
 import {
     getISOWeekNumber,
-    getFirstDateOfWeek,
-    getLastDateOfWeek,
     formatDateLocal,
     getISOWeeksInYear,
     getWeekAndYearOffset,
@@ -24,48 +23,26 @@ const days = [
     "Søndag",
 ];
 
-const currentDate = new Date(); // April 28, 2025
+const currentDate = new Date();
 const currentWeekNum = getISOWeekNumber(currentDate);
 
 function App() {
-    const [fetchedDateMeals, setFetchedDateMeals] = useState<DateMeal[]>([]);
     const [selectedWeekNum, setSelectedWeekNum] = useState(currentWeekNum);
     const [selectedYear, setSelectedYear] = useState(currentDate.getFullYear());
     const [weeksToShow, setWeeksToShow] = useState(2);
 
+    const { meals, loading, error, fetchMeals } = useMeals(
+        selectedWeekNum,
+        selectedYear,
+        weeksToShow
+    );
+
+    if (error) {
+        console.log(error);
+    }
     useEffect(() => {
-        const fetchData = async () => {
-            const startDate = getFirstDateOfWeek(selectedWeekNum, selectedYear);
-            const endDate = getLastDateOfWeek(
-                selectedWeekNum + weeksToShow - 1,
-                selectedYear
-            );
-
-            const res = await fetch(
-                `/api/meals?from=${formatDateLocal(
-                    startDate
-                )}&to=${formatDateLocal(endDate)}`
-            );
-
-            if (!res.ok) {
-                console.error("Failed to fetch meals:", res.statusText);
-                return;
-            }
-            console.log(res.url);
-            const recordsFetched = await res.json();
-            const mealsReturned: DateMeal[] = recordsFetched.map(
-                (meal: MealRecord) => ({
-                    date: meal.date.split("T")[0], // Extract date part
-                    meal: {
-                        name: meal.meal_name,
-                    },
-                })
-            );
-            console.log(mealsReturned);
-            setFetchedDateMeals(mealsReturned);
-        };
-        fetchData();
-    }, [selectedWeekNum, weeksToShow, selectedYear]);
+        fetchMeals();
+    }, [fetchMeals]);
 
     const goToPrevWeek = () => {
         if (selectedWeekNum > 1) {
@@ -92,58 +69,71 @@ function App() {
             <h1>År: {selectedYear}</h1>
             <button onClick={goToPrevWeek}>Forrige</button>
             <button onClick={goToNextWeek}>Neste</button>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Uke</th>
-                        {days.map((day) => (
-                            <th key={day}>{day}</th>
-                        ))}
-                    </tr>
-                </thead>
-                <tbody>
-                    {Array.from({ length: weeksToShow }, (_, weekOffset) => {
-                        const { week, year } = getWeekAndYearOffset(
-                            selectedWeekNum,
-                            selectedYear,
-                            weekOffset
-                        );
-                        const weekDates = getWeekDates(week, year);
-                        return (
-                            <tr key={`${year}-w${week}`}>
-                                <td className="date-cell">{`${week}`}</td>
-                                {weekDates.map((date) => {
-                                    const dateString = formatDateLocal(date);
-                                    const dateMeal = fetchedDateMeals.find(
-                                        (meal) => meal.date === dateString
-                                    );
-                                    console.log(dateMeal);
-                                    return (
-                                        <td
-                                            key={dateString}
-                                            className={
-                                                isCurrentDate(date)
-                                                    ? "current-date"
-                                                    : isDateInPast(date)
-                                                    ? "past-date"
-                                                    : ""
-                                            }
-                                        >
-                                            <span className="date">
-                                                {formatDateToHumanShorthand(
-                                                    date
-                                                )}
-                                            </span>
-                                            <br />
-                                            {dateMeal ? dateMeal.meal.name : ""}
-                                        </td>
-                                    );
-                                })}
-                            </tr>
-                        );
-                    })}
-                </tbody>
-            </table>
+            {loading ? (
+                <h1>Loading</h1>
+            ) : (
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Uke</th>
+                            {days.map((day) => (
+                                <th key={day}>{day}</th>
+                            ))}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {Array.from(
+                            { length: weeksToShow },
+                            (_, weekOffset) => {
+                                const { week, year } = getWeekAndYearOffset(
+                                    selectedWeekNum,
+                                    selectedYear,
+                                    weekOffset
+                                );
+                                const weekDates = getWeekDates(week, year);
+                                return (
+                                    <tr key={`${year}-w${week}`}>
+                                        <td className="date-cell">{`${week}`}</td>
+                                        {weekDates.map((date) => {
+                                            const dateString =
+                                                formatDateLocal(date);
+                                            const dateMeal = meals.find(
+                                                (meal) =>
+                                                    meal.date === dateString
+                                            );
+                                            console.log(dateMeal);
+                                            return (
+                                                <td
+                                                    key={dateString}
+                                                    className={
+                                                        isCurrentDate(date)
+                                                            ? "current-date"
+                                                            : isDateInPast(date)
+                                                            ? "past-date"
+                                                            : ""
+                                                    }
+                                                >
+                                                    <span className="date">
+                                                        {formatDateToHumanShorthand(
+                                                            date
+                                                        )}
+                                                    </span>
+                                                    <br />
+                                                    {dateMeal ? (
+                                                        dateMeal.meal.name
+                                                    ) : (
+                                                        <br></br>
+                                                    )}
+                                                </td>
+                                            );
+                                        })}
+                                    </tr>
+                                );
+                            }
+                        )}
+                    </tbody>
+                </table>
+            )}
             <button
                 disabled={weeksToShow <= 1}
                 onClick={() => {
