@@ -1,4 +1,4 @@
-import type React from "react";
+import { useState } from "react";
 import type { DateMeal } from "../types";
 import {
     formatDateLocal,
@@ -8,6 +8,7 @@ import {
     isDateInPast,
     formatDateToHumanShorthand,
 } from "../utils/dateUtils";
+import type React from "react";
 
 const days = [
     "Mandag",
@@ -24,6 +25,7 @@ type MealTableProps = {
     weeksToShow: number;
     selectedWeekNum: number;
     selectedYear: number;
+    fetchMeals: () => void;
 };
 
 export const MealTable: React.FC<MealTableProps> = ({
@@ -31,7 +33,54 @@ export const MealTable: React.FC<MealTableProps> = ({
     weeksToShow,
     selectedWeekNum,
     selectedYear,
+    fetchMeals,
 }) => {
+    const [editingDate, setEditingDate] = useState<string | null>(null);
+    const [inputValue, setInputValue] = useState("");
+    const [submitting, setSubmitting] = useState(false);
+
+    const handleCellClick = (date: string, currentMeal?: string) => {
+        setEditingDate(date);
+        setInputValue(currentMeal || "");
+    };
+
+    const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+        setInputValue(e.target.value);
+    };
+
+    const handleInputBlur = async (
+        date: string,
+        isUpdate: boolean
+        // refresh: () => void
+    ) => {
+        if (!inputValue.trim()) {
+            setEditingDate(null);
+            return;
+        }
+        setSubmitting(true);
+        try {
+            const method = isUpdate ? "PUT" : "POST";
+            const url = isUpdate ? `/api/meals/${date}` : `/api/meals`;
+            const body = isUpdate
+                ? JSON.stringify({ meal_name: inputValue })
+                : JSON.stringify({ date, meal_name: inputValue });
+            await fetch(url, {
+                method,
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body,
+            });
+            fetchMeals();
+        } catch (error) {
+            console.error("Error saving meal:", error);
+        } finally {
+            setSubmitting(false);
+            setEditingDate(null);
+            setInputValue("");
+        }
+    };
+
     return (
         <table>
             <thead>
@@ -58,6 +107,7 @@ export const MealTable: React.FC<MealTableProps> = ({
                                 const dateMeal = meals.find(
                                     (meal) => meal.date === dateString
                                 );
+                                const isEditing = editingDate === dateString;
                                 console.log(dateMeal);
                                 return (
                                     <td
@@ -69,15 +119,43 @@ export const MealTable: React.FC<MealTableProps> = ({
                                                 ? "past-date"
                                                 : ""
                                         }
+                                        onClick={() =>
+                                            !isEditing &&
+                                            handleCellClick(
+                                                dateString,
+                                                dateMeal?.meal.name
+                                            )
+                                        }
                                     >
                                         <span className="date">
                                             {formatDateToHumanShorthand(date)}
                                         </span>
                                         <br />
-                                        {dateMeal ? (
+                                        {isEditing ? (
+                                            <input
+                                                type="text"
+                                                value={inputValue}
+                                                autoFocus
+                                                disabled={submitting}
+                                                onChange={handleInputChange}
+                                                onBlur={() =>
+                                                    handleInputBlur(
+                                                        dateString,
+                                                        !!dateMeal
+                                                    )
+                                                }
+                                                onKeyDown={(e) => {
+                                                    if (e.key === "Enter") {
+                                                        (
+                                                            e.target as HTMLInputElement
+                                                        ).blur();
+                                                    }
+                                                }}
+                                            />
+                                        ) : dateMeal ? (
                                             dateMeal.meal.name
                                         ) : (
-                                            <br></br>
+                                            <br />
                                         )}
                                     </td>
                                 );

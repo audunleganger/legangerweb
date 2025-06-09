@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-// import type { DateMeal } from "./types";
 import useMeals from "./hooks/useMeals";
 import { useWeekNavigation } from "./hooks/useWeekNavigation";
 import { MealTable } from "./components/mealTable";
@@ -36,6 +35,7 @@ function App() {
                     weeksToShow={weeksToShow}
                     selectedWeekNum={selectedWeekNum}
                     selectedYear={selectedYear}
+                    fetchMeals={fetchMeals}
                 />
             )}
             <button
