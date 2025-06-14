@@ -1,4 +1,5 @@
 import { Router, Request, Response } from "express";
+import { requireAuth } from "../auth";
 import pool from "../db";
 
 const mealsRouter = Router();
@@ -19,7 +20,7 @@ mealsRouter.get("/", async (req: Request, res: Response) => {
     }
 });
 
-mealsRouter.post("/", async (req: Request, res: Response) => {
+mealsRouter.post("/", requireAuth, async (req: Request, res: Response) => {
     const { date, meal_name } = req.body;
     try {
         const query = `
@@ -36,25 +37,29 @@ mealsRouter.post("/", async (req: Request, res: Response) => {
     }
 });
 
-mealsRouter.put("/:date", async (req: Request, res: Response): Promise<any> => {
-    const { date } = req.params;
-    const { meal_name } = req.body;
-    try {
-        const query = `
+mealsRouter.put(
+    "/:date",
+    requireAuth,
+    async (req: Request, res: Response): Promise<any> => {
+        const { date } = req.params;
+        const { meal_name } = req.body;
+        try {
+            const query = `
             UPDATE meals
             SET meal_name = $1
             WHERE date = $2
             RETURNING *;
         `;
-        const result = await pool.query(query, [meal_name, date]);
-        if (result.rowCount === 0) {
-            return res.status(404).json({ error: "Meal not found" });
+            const result = await pool.query(query, [meal_name, date]);
+            if (result.rowCount === 0) {
+                return res.status(404).json({ error: "Meal not found" });
+            }
+            res.json(result.rows[0]);
+        } catch (error) {
+            console.error("Error updating meal:", error);
+            res.status(500).json({ error: "Failed to update meal" });
         }
-        res.json(result.rows[0]);
-    } catch (error) {
-        console.error("Error updating meal:", error);
-        res.status(500).json({ error: "Failed to update meal" });
     }
-});
+);
 
 export default mealsRouter;

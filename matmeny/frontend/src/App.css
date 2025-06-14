@@ -21,10 +21,61 @@ td {
     border: none;
 }
 
+.week-col {
+    min-width: 4rem;
+}
+.nav-buttons {
+    display: flex;
+    margin: 0 auto;
+    max-width: 20rem;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+.week-num {
+    font-weight: bold;
+    background-color: rgba(125, 125, 236, 0.397);
+}
+
 .current-date {
-    background-color: darkgreen;
+    background-color: rgb(70, 129, 70);
 }
 
 .past-date {
-    background-color: darkred;
+    background-color: rgba(116, 69, 69);
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.login-form {
+    display: block;
+    margin-top: 1rem;
+}
+
+.login-form input {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-top: 1rem;
+}
+
+p {
+    margin: 0;
+}
+
+.logout-button {
+    display: block;
+    margin: 1rem auto;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
 }

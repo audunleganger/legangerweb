@@ -3,9 +3,13 @@ import "./App.css";
 import useMeals from "./hooks/useMeals";
 import { useWeekNavigation } from "./hooks/useWeekNavigation";
 import { MealTable } from "./components/mealTable";
+import LoginForm from "./components/loginForm";
 
 function App() {
     const [weeksToShow, setWeeksToShow] = useState(2);
+    const [isLoggedIn, setIsLoggedIn] = useState(
+        !!localStorage.getItem("accessToken")
+    );
     const { selectedWeekNum, selectedYear, goToPrevWeek, goToNextWeek } =
         useWeekNavigation();
 
@@ -24,20 +28,24 @@ function App() {
 
     return (
         <>
-            <h1>År: {selectedYear}</h1>
-            <button onClick={goToPrevWeek}>Forrige</button>
-            <button onClick={goToNextWeek}>Neste</button>
-            {loading ? (
-                <h1>Loading</h1>
-            ) : (
-                <MealTable
-                    meals={meals}
-                    weeksToShow={weeksToShow}
-                    selectedWeekNum={selectedWeekNum}
-                    selectedYear={selectedYear}
-                    fetchMeals={fetchMeals}
-                />
-            )}
+            <h1>Matmeny</h1>
+            <h4>År: {selectedYear}</h4>
+            <section className="nav-buttons">
+                <button onClick={goToPrevWeek}>Forrige</button>
+                <button onClick={goToNextWeek}>Neste</button>
+            </section>
+            <MealTable
+                meals={meals}
+                weeksToShow={weeksToShow}
+                selectedWeekNum={selectedWeekNum}
+                selectedYear={selectedYear}
+                fetchMeals={fetchMeals}
+                loggedInStatus={isLoggedIn}
+            />
+            <div style={{ minHeight: "2em" }}>
+                {loading && <p>Henter måltider...</p>}
+                {error && <p className="error">{error}</p>}
+            </div>
             <button
                 disabled={weeksToShow <= 1}
                 onClick={() => {
@@ -54,6 +62,20 @@ function App() {
             >
                 Flere rader
             </button>
+            {!isLoggedIn ? (
+                <LoginForm onLogin={() => setIsLoggedIn(true)} />
+            ) : (
+                <button
+                    className="logout-button"
+                    onClick={() => {
+                        localStorage.removeItem("accessToken");
+                        localStorage.removeItem("refreshToken");
+                        setIsLoggedIn(false);
+                    }}
+                >
+                    Logg ut
+                </button>
+            )}
         </>
     );
 }

@@ -9,6 +9,7 @@ import {
     formatDateToHumanShorthand,
 } from "../utils/dateUtils";
 import type React from "react";
+import { fetchWithAuth } from "../utils/fetchWithAuth";
 
 const days = [
     "Mandag",
@@ -26,6 +27,7 @@ type MealTableProps = {
     selectedWeekNum: number;
     selectedYear: number;
     fetchMeals: () => void;
+    loggedInStatus: boolean;
 };
 
 export const MealTable: React.FC<MealTableProps> = ({
@@ -34,12 +36,17 @@ export const MealTable: React.FC<MealTableProps> = ({
     selectedWeekNum,
     selectedYear,
     fetchMeals,
+    loggedInStatus,
 }) => {
     const [editingDate, setEditingDate] = useState<string | null>(null);
     const [inputValue, setInputValue] = useState("");
     const [submitting, setSubmitting] = useState(false);
 
     const handleCellClick = (date: string, currentMeal?: string) => {
+        if (!loggedInStatus) {
+            alert("Du må være logget inn for å redigere måltider.");
+            return;
+        }
         setEditingDate(date);
         setInputValue(currentMeal || "");
     };
@@ -56,10 +63,13 @@ export const MealTable: React.FC<MealTableProps> = ({
             const body = isUpdate
                 ? JSON.stringify({ meal_name: inputValue })
                 : JSON.stringify({ date, meal_name: inputValue });
-            await fetch(url, {
+            await fetchWithAuth(url, {
                 method,
                 headers: {
                     "Content-Type": "application/json",
+                    Authorization: `Bearer ${localStorage.getItem(
+                        "accessToken"
+                    )}`,
                 },
                 body,
             });
@@ -79,13 +89,16 @@ export const MealTable: React.FC<MealTableProps> = ({
         return (
             <td
                 key={dateString}
-                className={
+                className={[
                     isCurrentDate(date)
                         ? "current-date"
                         : isDateInPast(date)
                         ? "past-date"
-                        : ""
-                }
+                        : "",
+                    loggedInStatus ? "clickable" : "",
+                ]
+                    .filter(Boolean)
+                    .join(" ")}
                 onClick={() =>
                     !isEditing &&
                     handleCellClick(dateString, dateMeal?.meal.name)
@@ -96,6 +109,7 @@ export const MealTable: React.FC<MealTableProps> = ({
                 {isEditing ? (
                     <input
                         type="text"
+                        className="meal-name-input"
                         autoFocus
                         value={inputValue}
                         disabled={submitting}
@@ -108,7 +122,7 @@ export const MealTable: React.FC<MealTableProps> = ({
                         }}
                     />
                 ) : dateMeal?.meal.name ? (
-                    dateMeal.meal.name
+                    <span className="meal-name-text">{dateMeal.meal.name}</span>
                 ) : (
                     <br />
                 )}
@@ -120,7 +134,7 @@ export const MealTable: React.FC<MealTableProps> = ({
         <table>
             <thead>
                 <tr>
-                    <th>Uke</th>
+                    <th className="week-col week-col-header">Uke</th>
                     {days.map((day) => (
                         <th key={day}>{day}</th>
                     ))}
@@ -136,7 +150,7 @@ export const MealTable: React.FC<MealTableProps> = ({
                     const weekDates = getWeekDates(week, year);
                     return (
                         <tr key={`${year}-w${week}`}>
-                            <td className="date-cell">{`${week}`}</td>
+                            <td className="week-col week-num">{`${week}`}</td>
                             {weekDates.map((date) => {
                                 const dateString = formatDateLocal(date);
                                 const dateMeal = meals.find(
