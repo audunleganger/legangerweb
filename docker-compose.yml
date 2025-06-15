@@ -124,7 +124,7 @@ services:
             POSTGRES_DB: matmeny
         volumes:
             - ./matmeny/db/data:/var/lib/postgresql/data
-            - ./matmeny/db/initdb:/docker-entrypoint-initdb.d
+            - ./matmeny/db/initb:/docker-entrypoint-initdb.d
         restart: unless-stopped
         expose:
             - "5432"
