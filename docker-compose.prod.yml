@@ -124,6 +124,17 @@ services:
         networks:
             - legangerweb-net
 
+    hexus:
+        build:
+            context: ./hexus
+            dockerfile: Dockerfile
+        container_name: hexus
+        restart: unless-stopped
+        expose:
+            - "3000"
+        networks:
+            - legangerweb-net
+
 networks:
     legangerweb-net:
         name: legangerweb-net

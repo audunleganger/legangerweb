@@ -1,0 +1,37 @@
+.song-page {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    min-height: 100vh;
+}
+.song-metadata {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.song-metadata > h5 {
+    margin: 0;
+}
+audio {
+    margin: 1em 0 0 0; 
+}
+
+.lyrics-wrapper {
+    margin: 1em 0;
+}
+
+.comments-wrapper {
+    width: 50%;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.centered-on-page {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
