@@ -10,7 +10,7 @@ services:
             - "443:443"
         volumes:
             - /etc/letsencrypt:/etc/letsencrypt:ro
-
+            - /srv/nginx/html:/srv/nginx/html:ro
         depends_on:
             - frontend
             - matmeny-frontend

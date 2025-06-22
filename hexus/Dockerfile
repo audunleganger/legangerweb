@@ -12,7 +12,7 @@ RUN npm run build
 # --- Production Stage ---
 FROM node:18-alpine
 WORKDIR /app
-RUN npm install -g server
+RUN npm install -g serve
 COPY --from=builder /app/dist ./dist
 
 EXPOSE 3000
