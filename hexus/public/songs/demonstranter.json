@@ -1,65 +1,189 @@
 {
-    "id": "demonstranter",
-    "title": "Demonstranter",
-    "author": "Lars Roar Langslet",
-    "melody": "Marsjkonkurransen, Fred Gilbert 1934",
-    "event": "Blindernrevyen 1961 «Skikk på Bruket»",
-    "year": 1961,
-    "lyrics": [
+    "meta": {
+        "id": "demonstranter",
+        "title": "Demonstranter",
+        "author": "Lars Roar Langslet",
+        "melody": "Marsjkonkurransen, Fred Gilbert 1934",
+        "event": "Blindernrevyen 1961 «Skikk på Bruket»",
+        "year": 1961,
+        "comments": [
+            "Bertrand Russell - 1872-1970, britisk matematiker, filosof og pasi-fist, medstifter av Campaign for Nuclear Disarmament (CND) 1957, ”Nei til Atomvåpen”."
+        ],
+        "start_page": 49,
+        "end_page": 50,
+        "youtube_link": "https://www.youtube.com/watch?v=1yLpMWFBVms",
+        "spotify_link": "https://open.spotify.com/track/746NbVidSEtCgOOrJAlTxy?si=bf4a5a3e60e1485e"
+    },
+    "contents": [
         [
-            "Her kommer vi gutta fra atommarsj",
-            "som gikk ifra Bonn te’ Moskva og tebars",
-            "og delte merker ut langs hele ruta.",
-            "Vi gikk over stier og veier og gater",
-            "og vifta med never og svære plakater.",
-            "Vi gikk så støvla sprakk og svetten spruta.",
-            "Vi gikk og gikk og gikk og gikk og gikk og gikk ",
-            "og gikk og gikk."
+            {
+                "type": "lyric",
+                "text": "Her kommer vi gutta fra atommarsj"
+            },
+            {
+                "type": "lyric",
+                "text": "som gikk ifra Bonn te’ Moskva og tebars"
+            },
+            {
+                "type": "lyric",
+                "text": "og delte merker ut langs hele ruta."
+            },
+            {
+                "type": "lyric",
+                "text": "Vi gikk over stier og veier og gater"
+            },
+            {
+                "type": "lyric",
+                "text": "og vifta med never og svære plakater."
+            },
+            {
+                "type": "lyric",
+                "text": "Vi gikk så støvla sprakk og svetten spruta."
+            },
+            {
+                "type": "lyric",
+                "text": "Vi gikk og gikk og gikk og gikk og gikk og gikk "
+            },
+            {
+                "type": "lyric",
+                "text": "og gikk og gikk."
+            }
         ],
         [
-            "Vi kasta protester til unger og hester",
-            "og tjukke madammer og pol’ti og prester",
-            "i Fürstenberg og Vretsj og Katsjalomba.",
-            "Vi traska og baska i netter og dager",
-            "med verkende bein og med pipende mager",
-            "for vi var ute for å kverke Bomba.",
-            "Vi gikk og gikk og gikk og gikk og gikk og gikk ",
-            "og gikk og gikk."
+            {
+                "type": "lyric",
+                "text": "Vi kasta protester til unger og hester"
+            },
+            {
+                "type": "lyric",
+                "text": "og tjukke madammer og pol’ti og prester"
+            },
+            {
+                "type": "lyric",
+                "text": "i Fürstenberg og Vretsj og Katsjalomba."
+            },
+            {
+                "type": "lyric",
+                "text": "Vi traska og baska i netter og dager"
+            },
+            {
+                "type": "lyric",
+                "text": "med verkende bein og med pipende mager"
+            },
+            {
+                "type": "lyric",
+                "text": "for vi var ute for å kverke Bomba."
+            },
+            {
+                "type": "lyric",
+                "text": "Vi gikk og gikk og gikk og gikk og gikk og gikk "
+            },
+            {
+                "type": "lyric",
+                "text": "og gikk og gikk."
+            }
         ],
         [
-            "Og mens vi marsjerte oss huller i skoa",
-            "bestemte studentene nere i Kroa",
-            "at «vi vil også værra med  på dansen».",
-            "Og alle var ville og gale og yre,",
-            "og en gang pr uke så skifta r’em styre",
-            "med Haugestad og Stang og Nils Roll-Hansen.",
-            "De gikk og gikk og kom og gikk og gikk og kom ",
-            "og kom og gikk."
+            {
+                "type": "lyric",
+                "text": "Og mens vi marsjerte oss huller i skoa"
+            },
+            {
+                "type": "lyric",
+                "text": "bestemte studentene nere i Kroa"
+            },
+            {
+                "type": "lyric",
+                "text": "at «vi vil også værra med  på dansen»."
+            },
+            {
+                "type": "lyric",
+                "text": "Og alle var ville og gale og yre,"
+            },
+            {
+                "type": "lyric",
+                "text": "og en gang pr uke så skifta r’em styre"
+            },
+            {
+                "type": "lyric",
+                "text": "med Haugestad og Stang og Nils Roll-Hansen."
+            },
+            {
+                "type": "lyric",
+                "text": "De gikk og gikk og kom og gikk og gikk og kom "
+            },
+            {
+                "type": "lyric",
+                "text": "og kom og gikk."
+            }
         ],
         [
-            "De gikk og de gikk i alle land,",
-            "og gamle Lord Russell  gikk fra sin forstand,",
-            "så pol’ti måtte komme å få tak i’n.",
-            "Og tusener gikk til Trafalgar Square,",
-            "og da alle sammen var samla der,",
-            "så satte dem seg ende ner på baken.",
-            "Og de satt og satt og satt og satt og satt og ",
-            "satt og satt og satt."
+            {
+                "type": "lyric",
+                "text": "De gikk og de gikk i alle land,"
+            },
+            {
+                "type": "lyric",
+                "text": "og gamle Lord Russell  gikk fra sin forstand,"
+            },
+            {
+                "type": "lyric",
+                "text": "så pol’ti måtte komme å få tak i’n."
+            },
+            {
+                "type": "lyric",
+                "text": "Og tusener gikk til Trafalgar Square,"
+            },
+            {
+                "type": "lyric",
+                "text": "og da alle sammen var samla der,"
+            },
+            {
+                "type": "lyric",
+                "text": "så satte dem seg ende ner på baken."
+            },
+            {
+                "type": "lyric",
+                "text": "Og de satt og satt og satt og satt og satt og "
+            },
+            {
+                "type": "lyric",
+                "text": "satt og satt og satt."
+            }
         ],
         [
-            "Men Krustsjov, den luringen satt og sa:",
-            "«Litt marsjering i Vest er vel og bra.",
-            "Jeg unner mine venner den der gleden!",
-            "Ja, det skal bli marsjer i Washington,",
-            "og Oslo og London og Bern og Bonn",
-            "når jeg sprenger femti megatonn for freden!»",
-            "Og de sprang og sprang og sprang og sprang ",
-            "og sprang og sprang og sprang og sprang."
+            {
+                "type": "lyric",
+                "text": "Men Krustsjov, den luringen satt og sa:"
+            },
+            {
+                "type": "lyric",
+                "text": "«Litt marsjering i Vest er vel og bra."
+            },
+            {
+                "type": "lyric",
+                "text": "Jeg unner mine venner den der gleden!"
+            },
+            {
+                "type": "lyric",
+                "text": "Ja, det skal bli marsjer i Washington,"
+            },
+            {
+                "type": "lyric",
+                "text": "og Oslo og London og Bern og Bonn"
+            },
+            {
+                "type": "lyric",
+                "text": "når jeg sprenger femti megatonn for freden!»"
+            },
+            {
+                "type": "lyric",
+                "text": "Og de sprang og sprang og sprang og sprang "
+            },
+            {
+                "type": "lyric",
+                "text": "og sprang og sprang og sprang og sprang."
+            }
         ]
-    ],
-    "comments": [
-        "Bertrand Russell - 1872-1970, britisk matematiker, filosof og pasi-fist, medstifter av Campaign for Nuclear Disarmament (CND) 1957, ”Nei til Atomvåpen”."
-    ],
-    "start_page": 49,
-    "end_page": 50
+    ]
 }

@@ -1,0 +1,101 @@
+{
+    "meta": {
+        "id": "sang-til-blindern",
+        "title": "Sang til Blindern",
+        "author": "Alf Petter Jacobsen",
+        "melody": "Le chant des Girondins (Par la voix) 1848",
+        "event": "“Blindernrevyen 1932”",
+        "year": 1932,
+        "comments": [],
+        "start_page": 6,
+        "end_page": 6,
+        "youtube_link": "",
+        "spotify_link": ""
+    },
+    "contents": [
+        [
+            {
+                "type": "lyric",
+                "text": "Hjemmet vårt, Blindernkamerater,"
+            },
+            {
+                "type": "lyric",
+                "text": "ligger solbeskinnet, lyst og fritt,"
+            },
+            {
+                "type": "lyric",
+                "text": "hevet over byens mørke gater,"
+            },
+            {
+                "type": "lyric",
+                "text": "opp mot åsen   –   med blikket fritt!"
+            },
+            {
+                "type": "lyric",
+                "text": "Vår unge kamp og glede"
+            },
+            {
+                "type": "lyric",
+                "text": "er født på dette stedet;"
+            },
+            {
+                "type": "lyric",
+                "text": "viljen vokser, motet gror!"
+            },
+            {
+                "type": "lyric",
+                "text": "Blindern er det sted på jord"
+            },
+            {
+                "type": "lyric",
+                "text": "som er verdig et ord"
+            },
+            {
+                "type": "lyric",
+                "text": "som vårt hjem, kamerater!"
+            }
+        ],
+        [
+            {
+                "type": "lyric",
+                "text": "La oss da, Blindernkamerater,"
+            },
+            {
+                "type": "lyric",
+                "text": "bygge hjemmet stort og godt og fritt,"
+            },
+            {
+                "type": "lyric",
+                "text": "slik at Dionys og Alma Mater"
+            },
+            {
+                "type": "lyric",
+                "text": "kjenner hjertet slå i brystet sitt!"
+            },
+            {
+                "type": "lyric",
+                "text": "Og når vi engang slutter"
+            },
+            {
+                "type": "lyric",
+                "text": "skal nye Blinderngutter"
+            },
+            {
+                "type": "lyric",
+                "text": "legge unge viljer til,"
+            },
+            {
+                "type": "lyric",
+                "text": "større krefter, mere ild!"
+            },
+            {
+                "type": "lyric",
+                "text": "De skal nå det vi vil"
+            },
+            {
+                "type": "lyric",
+                "text": "for vårt hjem, kamerater!"
+            }
+        ]
+    ]
+}

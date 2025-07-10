@@ -1,52 +1,137 @@
 {
-    "id": "manuels-calypso",
-    "title": "Manuels Calypso",
-    "author": "Line Laukvik, Karen Ottestad",
-    "melody": "Benjamin Calypso, fra musikalen Joseph and the Amazing Technicolor Dreamcoat, Andrew Lloyd Webber (1974)",
-    "event": "Blindernrevyen 1995 “Vi tagger og bukker”",
-    "year": 1995,
-    "lyrics": [
+    "meta": {
+        "id": "manuels-calypso",
+        "title": "Manuels Calypso",
+        "author": "Line Laukvik, Karen Ottestad",
+        "melody": "Benjamin Calypso, fra musikalen Joseph and the Amazing Technicolor Dreamcoat, Andrew Lloyd Webber (1974)",
+        "event": "Blindernrevyen 1995 “Vi tagger og bukker”",
+        "year": 1995,
+        "comments": [],
+        "start_page": 140,
+        "end_page": 141,
+        "youtube_link": "https://www.youtube.com/watch?v=wypQH0k35BM",
+        "spotify_link": "https://open.spotify.com/track/6MhMvtU5BxMzUQRrIDtKUe?si=817bb4c1f0ff4e35"
+    },
+    "contents": [
         [
-            "Refr.:",
-            "God kveld – God kveld,",
-            "jeg heter Manuel og er visst spesiell.",
-            "Manuel – Manuel –",
-            "jeg er innvandrer, men glad allikevel"
+            {
+                "type": "chorus-header",
+                "text": "Ref."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "God kveld – God kveld,"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "jeg heter Manuel og er visst spesiell."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Manuel – Manuel –"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "jeg er innvandrer, men glad allikevel"
+            }
         ],
         [
-            "Kom til Norge fra Brasil –",
-            "i Oslo ble jeg møtt med utstrakt hånd og smil.",
-            "Folk ropte til meg glade ord",
-            "– skrev glade ting på husveggen der jeg bor."
+            {
+                "type": "lyric",
+                "text": "Kom til Norge fra Brasil –"
+            },
+            {
+                "type": "lyric",
+                "text": "i Oslo ble jeg møtt med utstrakt hånd og smil."
+            },
+            {
+                "type": "lyric",
+                "text": "Folk ropte til meg glade ord"
+            },
+            {
+                "type": "lyric",
+                "text": "– skrev glade ting på husveggen der jeg bor."
+            }
         ],
         [
-            "Har fått jobb som konduktør",
-            "– og alle på den trikk de har så godt humør,",
-            "Når jeg roper ”døra lukke seg”,",
-            "da smiler de og vinker med finger til meg."
+            {
+                "type": "lyric",
+                "text": "Har fått jobb som konduktør"
+            },
+            {
+                "type": "lyric",
+                "text": "– og alle på den trikk de har så godt humør,"
+            },
+            {
+                "type": "lyric",
+                "text": "Når jeg roper ”døra lukke seg”,"
+            },
+            {
+                "type": "lyric",
+                "text": "da smiler de og vinker med finger til meg."
+            }
         ],
         [
-            "Refr.:",
-            "Folk sa – Manuel – du lukter like godt",
-            "som mat du lager selv,",
-            "farvel, javel, dra ut av Norge",
-            "hjem på ferie til deg selv."
+            {
+                "type": "chorus-header",
+                "text": "Ref."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Folk sa – Manuel – du lukter like godt"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "som mat du lager selv,"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "farvel, javel, dra ut av Norge"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "hjem på ferie til deg selv."
+            }
         ],
         [
-            "Skulle med Lada på reparasjon",
-            "– den mann i bomring fikk mine siste 12 kron,",
-            "jeg kikka opp og så en rar ting",
-            "– det stod – Manuel(l) på den bompenge-ring."
+            {
+                "type": "lyric",
+                "text": "Skulle med Lada på reparasjon"
+            },
+            {
+                "type": "lyric",
+                "text": "– den mann i bomring fikk mine siste 12 kron,"
+            },
+            {
+                "type": "lyric",
+                "text": "jeg kikka opp og så en rar ting"
+            },
+            {
+                "type": "lyric",
+                "text": "– det stod – Manuel(l) på den bompenge-ring."
+            }
         ],
         [
-            "Refr.:",
-            "Manuel(l), Manuel(l), står det i hver bomring,",
-            "du kan se det selv.",
-            "Manuel(l), Manuel(l), står det i hver bomring,",
-            "du kan se det selv..."
+            {
+                "type": "chorus-header",
+                "text": "Ref."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Manuel(l), Manuel(l), står det i hver bomring,"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "du kan se det selv."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Manuel(l), Manuel(l), står det i hver bomring,"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "du kan se det selv..."
+            }
         ]
-    ],
-    "comments": [],
-    "start_page": 140,
-    "end_page": 141
+    ]
 }

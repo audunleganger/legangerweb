@@ -1,86 +1,249 @@
 {
-    "id": "blindern-studenterhjem-50-aar",
-    "title": "Blindern Studenterhjem 50 år",
-    "author": "August “Augias” Mauritzen",
-    "melody": "Du skal på en dag i mårå, Alf Prøysen",
-    "event": "Sunget ved festmiddagen i spisesalen 05.09.1975",
-    "year": 1975,
-    "lyrics": [
+    "meta": {
+        "id": "blindern-studenterhjem-50-aar",
+        "title": "Blindern Studenterhjem 50 år",
+        "author": "August “Augias” Mauritzen",
+        "melody": "Du skal på en dag i mårå, Alf Prøysen",
+        "event": "Sunget ved festmiddagen i spisesalen 05.09.1975",
+        "year": 1975,
+        "comments": [],
+        "start_page": 194,
+        "end_page": 196,
+        "youtube_link": "https://www.youtube.com/watch?v=Tqjr49QsMIw",
+        "spotify_link": "https://open.spotify.com/track/5oNK7kztONGVwOW19iGBAW?si=f8977c6c4ec44934"
+    },
+    "contents": [
         [
-            "Så sitter vi igjen til bords her i vårt gamle hjem.",
-            "Og Blindernånden står til rors. Og nå er vi blant dem",
-            "som  mimrer og som minnes sine glade ungdomsår.",
-            "Men først og fremst, naturligvis - studenterhybel’n vår!"
+            {
+                "type": "lyric",
+                "text": "Så sitter vi igjen til bords her i vårt gamle hjem."
+            },
+            {
+                "type": "lyric",
+                "text": "Og Blindernånden står til rors. Og nå er vi blant dem"
+            },
+            {
+                "type": "lyric",
+                "text": "som  mimrer og som minnes sine glade ungdomsår."
+            },
+            {
+                "type": "lyric",
+                "text": "Men først og fremst, naturligvis - studenterhybel’n vår!"
+            }
         ],
         [
-            "Ref:",
-            "For der levde vi det søte liv vi siden aldri fikk.",
-            "Et salig tidsfordriv med sang og drikk!",
-            "Ja, vi pendlet gjennom livet fra revy til bukkefest.",
-            "I smokingen red vi vår høye hest!",
-            "Og da vi måtte fly vår vei fra redet, skjønte vi",
-            "at nye sjeler frydet seg med samme nostalgi!",
-            "Nei - vi etterlot oss intet, bortsett fra en tradisjon.",
-            "Den dyrker de med nedarvet pasjon!"
+            {
+                "type": "chorus-header",
+                "text": "Ref."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "For der levde vi det søte liv vi siden aldri fikk."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Et salig tidsfordriv med sang og drikk!"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Ja, vi pendlet gjennom livet fra revy til bukkefest."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "I smokingen red vi vår høye hest!"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Og da vi måtte fly vår vei fra redet, skjønte vi"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "at nye sjeler frydet seg med samme nostalgi!"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Nei - vi etterlot oss intet, bortsett fra en tradisjon."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Den dyrker de med nedarvet pasjon!"
+            }
         ],
         [
-            "Nå sitter alle sammen her, presis i samme bås.",
-            "Vi kjenner ikke hver i sær, men Blindern kjenner oss.",
-            "For vi er Brukets gutter gjennom 50 fete år.",
-            "Det ser man på vår holdning - og det ser man når vi går!"
+            {
+                "type": "lyric",
+                "text": "Nå sitter alle sammen her, presis i samme bås."
+            },
+            {
+                "type": "lyric",
+                "text": "Vi kjenner ikke hver i sær, men Blindern kjenner oss."
+            },
+            {
+                "type": "lyric",
+                "text": "For vi er Brukets gutter gjennom 50 fete år."
+            },
+            {
+                "type": "lyric",
+                "text": "Det ser man på vår holdning - og det ser man når vi går!"
+            }
         ],
         [
-            "Ref:",
-            "Og hvis vi blir kalt blærete og snobbete og sånn,",
-            "da støtter vi oss til vår Blindernånd!",
-            "For den er da faktisk åpen - frisk og ung i sinn og skinn.",
-            "For har den ikke sluppet Kvinnen inn?"
+            {
+                "type": "chorus-header",
+                "text": "Ref."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Og hvis vi blir kalt blærete og snobbete og sånn,"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "da støtter vi oss til vår Blindernånd!"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "For den er da faktisk åpen - frisk og ung i sinn og skinn."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "For har den ikke sluppet Kvinnen inn?"
+            }
         ],
         [
-            "La alle Evas unge frø få trippe inn så lett",
-            "i Blindernhjemmets mannsmiljø  med håret mannsballett!",
-            "Brukets neste Bukkesamling blir den største vi har sett.",
-            "Da stiller vi med blomstrende buk-ætt!"
+            {
+                "type": "lyric",
+                "text": "La alle Evas unge frø få trippe inn så lett"
+            },
+            {
+                "type": "lyric",
+                "text": "i Blindernhjemmets mannsmiljø  med håret mannsballett!"
+            },
+            {
+                "type": "lyric",
+                "text": "Brukets neste Bukkesamling blir den største vi har sett."
+            },
+            {
+                "type": "lyric",
+                "text": "Da stiller vi med blomstrende buk-ætt!"
+            }
         ],
         [
-            "Og synes dagens nye kull at vi som sitter her",
-            "fortaper oss i tøys og tull som ikke lenger er",
-            "av «almen interesse» - ja, da kan vi bare si",
-            "at om 10-15-20 år - da tuller også de!"
+            {
+                "type": "lyric",
+                "text": "Og synes dagens nye kull at vi som sitter her"
+            },
+            {
+                "type": "lyric",
+                "text": "fortaper oss i tøys og tull som ikke lenger er"
+            },
+            {
+                "type": "lyric",
+                "text": "av «almen interesse» - ja, da kan vi bare si"
+            },
+            {
+                "type": "lyric",
+                "text": "at om 10-15-20 år - da tuller også de!"
+            }
         ],
         [
-            "Ref:",
-            "For da står de her med sønn ved hånd og sier: Det var her",
-            "vi laga deg - i rommet over der…",
-            "Og den unge svarer: Fatter’n, det var i et kvinneår.",
-            "Den gangen da du gikk med kvinnehår!",
-            "Og fatter’n svarer, unge mann, nå er du svært banal!",
-            "Og sønnen flirer: Tenk, du trodde du var radikal!",
-            "Og så ser de på hverandre, og så sier junior:",
-            "Den ekte Blinderngutten er nok mor!"
+            {
+                "type": "chorus-header",
+                "text": "Ref."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "For da står de her med sønn ved hånd og sier: Det var her"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "vi laga deg - i rommet over der…"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Og den unge svarer: Fatter’n, det var i et kvinneår."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Den gangen da du gikk med kvinnehår!"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Og fatter’n svarer, unge mann, nå er du svært banal!"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Og sønnen flirer: Tenk, du trodde du var radikal!"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Og så ser de på hverandre, og så sier junior:"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Den ekte Blinderngutten er nok mor!"
+            }
         ],
         [
-            "Fremdeles er vi guttehjem. Vi koser oss som før.",
-            "Vi skriver nittensøttifem, men dyrker vårt humør!",
-            "Så glem da karrieren og det tapte livets kamp.",
-            "Vi kaster oss i festen ut med feber a la ramp!"
+            {
+                "type": "lyric",
+                "text": "Fremdeles er vi guttehjem. Vi koser oss som før."
+            },
+            {
+                "type": "lyric",
+                "text": "Vi skriver nittensøttifem, men dyrker vårt humør!"
+            },
+            {
+                "type": "lyric",
+                "text": "Så glem da karrieren og det tapte livets kamp."
+            },
+            {
+                "type": "lyric",
+                "text": "Vi kaster oss i festen ut med feber a la ramp!"
+            }
         ],
         [
-            "Ref:",
-            "Hev pokalen, gamle Blindernbror, og takk for at du kom.",
-            "For uten deg var festen nokså tom.",
-            "Det er du som sitter her, ja, det er du som er her nå"
+            {
+                "type": "chorus-header",
+                "text": "Ref."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Hev pokalen, gamle Blindernbror, og takk for at du kom."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "For uten deg var festen nokså tom."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Det er du som sitter her, ja, det er du som er her nå"
+            }
         ],
         [
-            "som er det Blindern vi vil leve på!",
-            "Det overlevde 50 meget innholdsrike år.",
-            "Det formet både livsstilen og omgangstonen vår.",
-            "Så vi deler dette Hjemmet, dette hjemmet deler oss!",
-            "Det binder oss - den nye tid til tross!",
-            "SKÅL!"
+            {
+                "type": "lyric",
+                "text": "som er det Blindern vi vil leve på!"
+            },
+            {
+                "type": "lyric",
+                "text": "Det overlevde 50 meget innholdsrike år."
+            },
+            {
+                "type": "lyric",
+                "text": "Det formet både livsstilen og omgangstonen vår."
+            },
+            {
+                "type": "lyric",
+                "text": "Så vi deler dette Hjemmet, dette hjemmet deler oss!"
+            },
+            {
+                "type": "lyric",
+                "text": "Det binder oss - den nye tid til tross!"
+            },
+            {
+                "type": "lyric",
+                "text": "SKÅL!"
+            }
         ]
-    ],
-    "comments": [],
-    "start_page": 194,
-    "end_page": 196
+    ]
 }

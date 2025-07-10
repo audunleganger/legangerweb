@@ -1,87 +1,235 @@
 {
-    "id": "opposisjonens-makt",
-    "title": "Opposisjonens makt",
-    "author": "Sofie Bang Jensen / Elias Zahl-Pettersen",
-    "melody": "Aerosmith - Don’t wanna miss a thing",
-    "event": "UKA på Blindern  2017 “Full makt”",
-    "year": 2017,
-    "lyrics": [
+    "meta": {
+        "id": "opposisjonens-makt",
+        "title": "Opposisjonens makt",
+        "author": "Sofie Bang Jensen / Elias Zahl-Pettersen",
+        "melody": "Aerosmith - Don’t wanna miss a thing",
+        "event": "UKA på Blindern  2017 “Full makt”",
+        "year": 2017,
+        "comments": [],
+        "start_page": 184,
+        "end_page": 185,
+        "youtube_link": "https://www.youtube.com/watch?v=JkK8g6FMEXE",
+        "spotify_link": "https://open.spotify.com/track/0c1gHntWjKD7QShC8s99sq?si=5e7e92261d16454b"
+    },
+    "contents": [
         [
-            "Jeg blir tårevåt når jeg tenker på den gangen ",
-            "Drakk no drinker med a Ellen",
-            "Hadde debatt samme kvelden "
+            {
+                "type": "lyric",
+                "text": "Jeg blir tårevåt når jeg tenker på den gangen "
+            },
+            {
+                "type": "lyric",
+                "text": "Drakk no drinker med a Ellen"
+            },
+            {
+                "type": "lyric",
+                "text": "Hadde debatt samme kvelden "
+            }
         ],
         [
-            "En svunnen tid, kunne klage hele dagen ",
-            "Dra islamiseringskortet, forever",
-            "Men det går ikke lenger nå, ",
-            "som jeg er i regjering "
+            {
+                "type": "lyric",
+                "text": "En svunnen tid, kunne klage hele dagen "
+            },
+            {
+                "type": "lyric",
+                "text": "Dra islamiseringskortet, forever"
+            },
+            {
+                "type": "lyric",
+                "text": "Men det går ikke lenger nå, "
+            },
+            {
+                "type": "lyric",
+                "text": "som jeg er i regjering "
+            }
         ],
         [
-            "Jeg vil ikke styre mer",
-            "vil heller ikke få kjeft av Per",
-            "for jeg savner tiden",
-            "da jeg var i opposisjon. "
+            {
+                "type": "lyric",
+                "text": "Jeg vil ikke styre mer"
+            },
+            {
+                "type": "lyric",
+                "text": "vil heller ikke få kjeft av Per"
+            },
+            {
+                "type": "lyric",
+                "text": "for jeg savner tiden"
+            },
+            {
+                "type": "lyric",
+                "text": "da jeg var i opposisjon. "
+            }
         ],
         [
-            "Savner å si hva jeg vil",
-            "oljepenger er så chill",
-            "men jeg savner tiden",
-            "da jeg var i opposisjon. "
+            {
+                "type": "lyric",
+                "text": "Savner å si hva jeg vil"
+            },
+            {
+                "type": "lyric",
+                "text": "oljepenger er så chill"
+            },
+            {
+                "type": "lyric",
+                "text": "men jeg savner tiden"
+            },
+            {
+                "type": "lyric",
+                "text": "da jeg var i opposisjon. "
+            }
         ],
         [
-            "Min aller første plan ",
-            "var å få ut Krekar ",
-            "Bompenger er her fortsatt",
-            "Ting ble vanskeligere enn antatt "
+            {
+                "type": "lyric",
+                "text": "Min aller første plan "
+            },
+            {
+                "type": "lyric",
+                "text": "var å få ut Krekar "
+            },
+            {
+                "type": "lyric",
+                "text": "Bompenger er her fortsatt"
+            },
+            {
+                "type": "lyric",
+                "text": "Ting ble vanskeligere enn antatt "
+            }
         ],
         [
-            "Med byråkratkutt ",
-            "skulle eldremunner mettes ",
-            "Men FRPere har store familier, "
+            {
+                "type": "lyric",
+                "text": "Med byråkratkutt "
+            },
+            {
+                "type": "lyric",
+                "text": "skulle eldremunner mettes "
+            },
+            {
+                "type": "lyric",
+                "text": "Men FRPere har store familier, "
+            }
         ],
         [
-            "og de må sysselsettes,",
-            " ja til og med fettern til Bård."
+            {
+                "type": "lyric",
+                "text": "og de må sysselsettes,"
+            },
+            {
+                "type": "lyric",
+                "text": " ja til og med fettern til Bård."
+            }
         ],
         [
-            "Jeg vil ikke styre mer",
-            "vil heller ikke få kjeft av Per ",
-            "for jeg savner tiden",
-            "da jeg var i opposisjon",
-            "Segway er jo gøy i grunn",
-            "Lakrispipa trøkt i munn",
-            "men jeg savner tiden",
-            "da jeg var i opposisjon"
+            {
+                "type": "lyric",
+                "text": "Jeg vil ikke styre mer"
+            },
+            {
+                "type": "lyric",
+                "text": "vil heller ikke få kjeft av Per "
+            },
+            {
+                "type": "lyric",
+                "text": "for jeg savner tiden"
+            },
+            {
+                "type": "lyric",
+                "text": "da jeg var i opposisjon"
+            },
+            {
+                "type": "lyric",
+                "text": "Segway er jo gøy i grunn"
+            },
+            {
+                "type": "lyric",
+                "text": "Lakrispipa trøkt i munn"
+            },
+            {
+                "type": "lyric",
+                "text": "men jeg savner tiden"
+            },
+            {
+                "type": "lyric",
+                "text": "da jeg var i opposisjon"
+            }
         ],
         [
-            "Jonas:",
-            "Ja, nå er det min tur, Siv",
-            "AP har fått helt ny giv",
-            "Rike folk blir rikere, ",
-            "på bekostning av de svakes liv. "
+            {
+                "type": "italic underline",
+                "text": "Jonas:"
+            },
+            {
+                "type": "lyric",
+                "text": "Ja, nå er det min tur, Siv"
+            },
+            {
+                "type": "lyric",
+                "text": "AP har fått helt ny giv"
+            },
+            {
+                "type": "lyric",
+                "text": "Rike folk blir rikere, "
+            },
+            {
+                "type": "lyric",
+                "text": "på bekostning av de svakes liv. "
+            }
         ],
         [
-            "Ska’kke klage, har vært veldig greit, ",
-            "å sitte i opposisjon",
-            "Ikke fikse no’n problemer, ",
-            "bare disse din visjon – Det er digg!"
+            {
+                "type": "lyric",
+                "text": "Ska’kke klage, har vært veldig greit, "
+            },
+            {
+                "type": "lyric",
+                "text": "å sitte i opposisjon"
+            },
+            {
+                "type": "lyric",
+                "text": "Ikke fikse no’n problemer, "
+            },
+            {
+                "type": "lyric",
+                "text": "bare disse din visjon – Det er digg!"
+            }
         ],
         [
-            "Digg å være sinnsykt rik.",
-            "Hvorfor gidder jeg å stresse slik",
-            "når det beste er å være i opposisjon"
+            {
+                "type": "lyric",
+                "text": "Digg å være sinnsykt rik."
+            },
+            {
+                "type": "lyric",
+                "text": "Hvorfor gidder jeg å stresse slik"
+            },
+            {
+                "type": "lyric",
+                "text": "når det beste er å være i opposisjon"
+            }
         ],
         [
-            "Sitter der med KRF",
-            "De er kristne og hater fest ",
-            "Nei, da velger jeg heller opposisjon "
+            {
+                "type": "lyric",
+                "text": "Sitter der med KRF"
+            },
+            {
+                "type": "lyric",
+                "text": "De er kristne og hater fest "
+            },
+            {
+                "type": "lyric",
+                "text": "Nei, da velger jeg heller opposisjon "
+            }
         ],
         [
-            "Vi elsker opposisjon."
+            {
+                "type": "lyric",
+                "text": "Vi elsker opposisjon."
+            }
         ]
-    ],
-    "comments": [],
-    "start_page": 184,
-    "end_page": 185
+    ]
 }

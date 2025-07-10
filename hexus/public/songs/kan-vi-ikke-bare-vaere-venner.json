@@ -1,81 +1,205 @@
 {
-    "id": "kan-vi-ikke-bare-vaere-venner",
-    "title": "Kan vi ikke bare være venner",
-    "author": "Mathias Tjøtta Odden og Jon Steinmo Hernæs",
-    "melody": "Mathias Tjøtta Odden og Jon Steinmo Hernæs",
-    "event": "Julemøtet 2014",
-    "year": 2014,
-    "lyrics": [
+    "meta": {
+        "id": "kan-vi-ikke-bare-vaere-venner",
+        "title": "Kan vi ikke bare være venner?",
+        "author": "Mathias Tjøtta Odden og Jon Steinmo Hernæs",
+        "melody": "Mathias Tjøtta Odden og Jon Steinmo Hernæs",
+        "event": "Julemøtet 2014",
+        "year": 2014,
+        "comments": [],
+        "start_page": 208,
+        "end_page": 209,
+        "youtube_link": "",
+        "spotify_link": ""
+    },
+    "contents": [
         [
-            "Det ringer inn til friminutt, alene går en liten gutt.",
-            "Han gleder seg til dagens slutt, så han kan vende hjem."
+            {
+                "type": "lyric",
+                "text": "Det ringer inn til friminutt, alene går en liten gutt."
+            },
+            {
+                "type": "lyric",
+                "text": "Han gleder seg til dagens slutt, så han kan vende hjem."
+            }
         ],
         [
-            "Men venner hjem har’n aldri hatt, allikevel det hender at",
-            "han drømmer søtt når det blir natt, om ei hand å holde i."
+            {
+                "type": "lyric",
+                "text": "Men venner hjem har’n aldri hatt, allikevel det hender at"
+            },
+            {
+                "type": "lyric",
+                "text": "han drømmer søtt når det blir natt, om ei hand å holde i."
+            }
         ],
         [
-            "Men så våkner han til sist, og alt er enda trist.",
-            "For i skolegården, der venter ingen."
+            {
+                "type": "lyric",
+                "text": "Men så våkner han til sist, og alt er enda trist."
+            },
+            {
+                "type": "lyric",
+                "text": "For i skolegården, der venter ingen."
+            }
         ],
         [
-            "Kan vi ikke bare være venner?",
-            "Kan vi ikke bare holde hender?",
-            "Gi en klem, og få to tilbake?",
-            "Kanskje vi kan bake en kake?"
+            {
+                "type": "lyric",
+                "text": "Kan vi ikke bare være venner?"
+            },
+            {
+                "type": "lyric",
+                "text": "Kan vi ikke bare holde hender?"
+            },
+            {
+                "type": "lyric",
+                "text": "Gi en klem, og få to tilbake?"
+            },
+            {
+                "type": "lyric",
+                "text": "Kanskje vi kan bake en kake?"
+            }
         ],
         [
-            "Han gikk så elegant forbi, og fanget hennes blikk fordi",
-            "to hjerter møttes plutselig og sammen slår som ett."
+            {
+                "type": "lyric",
+                "text": "Han gikk så elegant forbi, og fanget hennes blikk fordi"
+            },
+            {
+                "type": "lyric",
+                "text": "to hjerter møttes plutselig og sammen slår som ett."
+            }
         ],
         [
-            "De giftet seg en sommerdag, men likevel kom dommedag",
-            "da far ga mor slag på slag og ble borte i en bil."
+            {
+                "type": "lyric",
+                "text": "De giftet seg en sommerdag, men likevel kom dommedag"
+            },
+            {
+                "type": "lyric",
+                "text": "da far ga mor slag på slag og ble borte i en bil."
+            }
         ],
         [
-            "Og hun gråter seg i søvn, og forbanner mannens løgn",
-            "før hun skriver med tårer i en dagbok:"
+            {
+                "type": "lyric",
+                "text": "Og hun gråter seg i søvn, og forbanner mannens løgn"
+            },
+            {
+                "type": "lyric",
+                "text": "før hun skriver med tårer i en dagbok:"
+            }
         ],
         [
-            "Kan vi ikke bare være venner?",
-            "Kan vi ikke bare holde hender?",
-            "Gi en klem, og få to tilbake?",
-            "Kanskje kan vi bake en kake?"
+            {
+                "type": "lyric",
+                "text": "Kan vi ikke bare være venner?"
+            },
+            {
+                "type": "lyric",
+                "text": "Kan vi ikke bare holde hender?"
+            },
+            {
+                "type": "lyric",
+                "text": "Gi en klem, og få to tilbake?"
+            },
+            {
+                "type": "lyric",
+                "text": "Kanskje kan vi bake en kake?"
+            }
         ],
         [
-            "Der lyder en alarm på ny i natten over Gaza by.",
-            "Ingen sted å finne ly for hun og han i kveld.",
-            " ",
-            "De samles rundt et avlangt bord og sier mange fine ord",
-            "om krig og fred, om sør og nord. Men håndtrykk glemmes fort."
+            {
+                "type": "lyric",
+                "text": "Der lyder en alarm på ny i natten over Gaza by."
+            },
+            {
+                "type": "lyric",
+                "text": "Ingen sted å finne ly for hun og han i kveld."
+            },
+            {
+                "type": "lyric",
+                "text": " "
+            },
+            {
+                "type": "lyric",
+                "text": "De samles rundt et avlangt bord og sier mange fine ord"
+            },
+            {
+                "type": "lyric",
+                "text": "om krig og fred, om sør og nord. Men håndtrykk glemmes fort."
+            }
         ],
         [
-            "Og så vinker de fra trappen med en hånd på den røde knappen.",
-            "Og døden flyr ned mot Gaza by."
+            {
+                "type": "lyric",
+                "text": "Og så vinker de fra trappen med en hånd på den røde knappen."
+            },
+            {
+                "type": "lyric",
+                "text": "Og døden flyr ned mot Gaza by."
+            }
         ],
         [
-            "Kan vi ikke bare være venner?",
-            "Kan vi ikke bare holde hender?",
-            "Gi en klem, og få to tilbake?",
-            "Kanskje kan vi bake en kake?"
+            {
+                "type": "lyric",
+                "text": "Kan vi ikke bare være venner?"
+            },
+            {
+                "type": "lyric",
+                "text": "Kan vi ikke bare holde hender?"
+            },
+            {
+                "type": "lyric",
+                "text": "Gi en klem, og få to tilbake?"
+            },
+            {
+                "type": "lyric",
+                "text": "Kanskje kan vi bake en kake?"
+            }
         ],
         [
-            "Og kaken den skal pyntes opp med masse glasur og nonstop.",
-            "Svart og gul, rød og orange   -  bak med meg, dette er vår sjans’",
-            "Og kaken er nesten ferdig nå,",
-            "men helt på toppen,  så skal det stå (med sukker på):"
+            {
+                "type": "lyric",
+                "text": "Og kaken den skal pyntes opp med masse glasur og nonstop."
+            },
+            {
+                "type": "lyric",
+                "text": "Svart og gul, rød og orange   -  bak med meg, dette er vår sjans’"
+            },
+            {
+                "type": "lyric",
+                "text": "Og kaken er nesten ferdig nå,"
+            },
+            {
+                "type": "lyric",
+                "text": "men helt på toppen,  så skal det stå (med sukker på):"
+            }
         ],
         [
-            "Kan vi ikke bare være venner?",
-            "Kan vi ikke bare holde hender?",
-            "Gi en klem, og få to tilbake?",
-            "Kanskje kan vi bake en kake?"
+            {
+                "type": "lyric",
+                "text": "Kan vi ikke bare være venner?"
+            },
+            {
+                "type": "lyric",
+                "text": "Kan vi ikke bare holde hender?"
+            },
+            {
+                "type": "lyric",
+                "text": "Gi en klem, og få to tilbake?"
+            },
+            {
+                "type": "lyric",
+                "text": "Kanskje kan vi bake en kake?"
+            }
         ],
         [
-            "Det ringer ut til friminutt, alene går en liten gutt…"
+            {
+                "type": "lyric",
+                "text": "Det ringer ut til friminutt, alene går en liten gutt…"
+            }
         ]
-    ],
-    "comments": [],
-    "start_page": 208,
-    "end_page": 209
+    ]
 }

@@ -1,112 +1,345 @@
 {
-    "id": "student-i-svinepels",
-    "title": "Student i svinepels",
-    "author": "August “Augias” Mauritzen / Tor Torsvik",
-    "melody": "She’s my girl, Tom Lehrer",
-    "event": "Blindernrevyen 1963 “Vi bukker igjen”",
-    "year": 1963,
-    "lyrics": [
+    "meta": {
+        "id": "student-i-svinepels",
+        "title": "Student i svinepels",
+        "author": "August “Augias” Mauritzen / Tor Torsvik",
+        "melody": "She’s my girl, Tom Lehrer",
+        "event": "Blindernrevyen 1963 “Vi bukker igjen”",
+        "year": 1963,
+        "comments": [
+            "Der ”her” står i kursiv, peker sangeren rundt på flekker og rifter på smokingen sin."
+        ],
+        "start_page": 53,
+        "end_page": 55,
+        "youtube_link": "https://www.youtube.com/watch?v=VwJlmLkmK0k",
+        "spotify_link": "https://open.spotify.com/track/0waD2okYWqdXtivT6BmYAZ?si=42449a65857048cb"
+    },
+    "contents": [
         [
-            "Snobb går på fest",
-            "i blazer og vest",
-            "jeg har min galla",
-            "og vet De factum est",
-            "at i dette supre plagg",
-            "der kan jeg tone flagg",
-            "D’ er min schmoking",
-            "ja, min schmoking."
+            {
+                "type": "lyric",
+                "text": "Snobb går på fest"
+            },
+            {
+                "type": "lyric",
+                "text": "i blazer og vest"
+            },
+            {
+                "type": "lyric",
+                "text": "jeg har min galla"
+            },
+            {
+                "type": "lyric",
+                "text": "og vet De factum est"
+            },
+            {
+                "type": "lyric",
+                "text": "at i dette supre plagg"
+            },
+            {
+                "type": "lyric",
+                "text": "der kan jeg tone flagg"
+            },
+            {
+                "type": "lyric",
+                "text": "D’ er min schmoking"
+            },
+            {
+                "type": "lyric",
+                "text": "ja, min schmoking."
+            }
         ],
         [
-            "Jeg fikk den av fatter’n",
-            "som lønn for borgerbrev,",
-            "men gammer’n sku’ vite",
-            "alt det skumle jeg bedrev,",
-            "og satte over styr",
-            "fra Blom til Geitemyr",
-            "I min schmoking",
-            "I min schmoking",
-            "I min schmoking",
-            "min galla."
+            {
+                "type": "lyric",
+                "text": "Jeg fikk den av fatter’n"
+            },
+            {
+                "type": "lyric",
+                "text": "som lønn for borgerbrev,"
+            },
+            {
+                "type": "lyric",
+                "text": "men gammer’n sku’ vite"
+            },
+            {
+                "type": "lyric",
+                "text": "alt det skumle jeg bedrev,"
+            },
+            {
+                "type": "lyric",
+                "text": "og satte over styr"
+            },
+            {
+                "type": "lyric",
+                "text": "fra Blom til Geitemyr"
+            },
+            {
+                "type": "lyric",
+                "text": "I min schmoking"
+            },
+            {
+                "type": "lyric",
+                "text": "I min schmoking"
+            },
+            {
+                "type": "lyric",
+                "text": "I min schmoking"
+            },
+            {
+                "type": "lyric",
+                "text": "min galla."
+            }
         ],
         [
-            "Et plagg jeg var et syn i",
-            "og stilte som et lyn i",
-            "et plagg jeg dro te’ by’n i",
-            "men sjelden hadde gryn i",
-            "et plagg som tåler spy De",
-            "og følgelig revy, De, – ",
-            "Her",
-            "."
+            {
+                "type": "lyric",
+                "text": "Et plagg jeg var et syn i"
+            },
+            {
+                "type": "lyric",
+                "text": "og stilte som et lyn i"
+            },
+            {
+                "type": "lyric",
+                "text": "et plagg jeg dro te’ by’n i"
+            },
+            {
+                "type": "lyric",
+                "text": "men sjelden hadde gryn i"
+            },
+            {
+                "type": "lyric",
+                "text": "et plagg som tåler spy De"
+            },
+            {
+                "type": "lyric no-line-break",
+                "text": "og følgelig revy, De, – "
+            },
+            {
+                "type": "lyric italic",
+                "text": "Her."
+            }
         ],
         [
-            "Så når jeg ser meg selv i speilet",
-            "ser jeg ungdommen igjen",
-            "her",
-            " ser jeg de tapte år",
-            "og ",
-            "her",
-            " en gammel venn",
-            "på venstre silkeslag",
-            "eksamens siste dag",
-            "min venn – jaja men",
-            "på min schmoking",
-            "Min galla."
+            {
+                "type": "lyric",
+                "text": "Så når jeg ser meg selv i speilet"
+            },
+            {
+                "type": "lyric",
+                "text": "ser jeg ungdommen igjen"
+            },
+            { "type": "lyric italic no-line-break", "text": "her" },
+            { "type": "lyric", "text": " ser jeg de tapte år" },
+            {
+                "type": "lyric no-line-break",
+                "text": "og "
+            },
+            {
+                "type": "lyric italic no-line-break",
+                "text": "her"
+            },
+            {
+                "type": "lyric",
+                "text": " en gammel venn"
+            },
+            {
+                "type": "lyric",
+                "text": "på venstre silkeslag"
+            },
+            {
+                "type": "lyric",
+                "text": "eksamens siste dag"
+            },
+            {
+                "type": "lyric",
+                "text": "min venn – jaja men"
+            },
+            {
+                "type": "lyric",
+                "text": "på min schmoking"
+            },
+            {
+                "type": "lyric",
+                "text": "Min galla."
+            }
         ],
         [
-            "Her",
-            " er et ball",
-            "og ",
-            "her",
-            " er et fall",
-            "fra betjeningsfløyens høyder",
-            "under siste bukkanal",
-            "Og denne røde flekk",
-            "er ganske enkelt – blekk",
-            "på min schmoking",
-            "ja min schmoking."
+            {
+                "type": "lyric italic no-line-break",
+                "text": "Her"
+            },
+            {
+                "type": "lyric",
+                "text": " er et ball"
+            },
+            {
+                "type": "lyric no-line-break",
+                "text": "og "
+            },
+            {
+                "type": "lyric italic no-line-break",
+                "text": "her"
+            },
+            {
+                "type": "lyric",
+                "text": " er et fall"
+            },
+            {
+                "type": "lyric",
+                "text": "fra betjeningsfløyens høyder"
+            },
+            {
+                "type": "lyric",
+                "text": "under siste bukkanal"
+            },
+            {
+                "type": "lyric",
+                "text": "Og denne røde flekk"
+            },
+            {
+                "type": "lyric",
+                "text": "er ganske enkelt – blekk"
+            },
+            {
+                "type": "lyric",
+                "text": "på min schmoking"
+            },
+            {
+                "type": "lyric",
+                "text": "ja min schmoking."
+            }
         ],
         [
-            "l ryggen har jeg alltid hatt",
-            "betydningsfulle menn",
-            "et fotavtrykk av vertskapet",
-            "i Rosekjelleren",
-            "De mangler pietet",
-            "når ingen av Dem vet",
-            "At det er min schmoking",
-            "ja min schmoking",
-            "ja min schmoking",
-            "Min galla."
+            {
+                "type": "lyric",
+                "text": "l ryggen har jeg alltid hatt"
+            },
+            {
+                "type": "lyric",
+                "text": "betydningsfulle menn"
+            },
+            {
+                "type": "lyric",
+                "text": "et fotavtrykk av vertskapet"
+            },
+            {
+                "type": "lyric",
+                "text": "i Rosekjelleren"
+            },
+            {
+                "type": "lyric",
+                "text": "De mangler pietet"
+            },
+            {
+                "type": "lyric",
+                "text": "når ingen av Dem vet"
+            },
+            {
+                "type": "lyric",
+                "text": "At det er min schmoking"
+            },
+            {
+                "type": "lyric",
+                "text": "ja min schmoking"
+            },
+            {
+                "type": "lyric",
+                "text": "ja min schmoking"
+            },
+            {
+                "type": "lyric",
+                "text": "Min galla."
+            }
         ],
         [
-            "Her",
-            " sitter grisefesten",
-            "og ",
-            "her",
-            " den triste resten",
-            "av stripa’s ville westen",
-            "et spark fra pol’tihesten",
-            "og ",
-            "her",
-            " –– promilletesten",
-            "mitt møte med arresten – ",
-            "her",
-            "."
+            {
+                "type": "lyric italic no-line-break",
+                "text": "Her"
+            },
+            {
+                "type": "lyric",
+                "text": " sitter grisefesten"
+            },
+            {
+                "type": "lyric no-line-break",
+                "text": "og "
+            },
+            {
+                "type": "lyric italic no-line-break",
+                "text": "her"
+            },
+            {
+                "type": "lyric",
+                "text": " den triste resten"
+            },
+            {
+                "type": "lyric",
+                "text": "av stripa’s ville westen"
+            },
+            {
+                "type": "lyric",
+                "text": "et spark fra pol’tihesten"
+            },
+            {
+                "type": "lyric",
+                "text": "og "
+            },
+            {
+                "type": "lyric italic no-line-break",
+                "text": "her"
+            },
+            {
+                "type": "lyric",
+                "text": " -- promilletesten"
+            },
+            {
+                "type": "lyric no-line-break",
+                "text": "mitt møte med arresten – "
+            },
+            {
+                "type": "lyric italic",
+                "text": "her."
+            }
         ],
         [
-            "Så når jeg ser meg selv i speilet",
-            "ser jeg gult og rødt og grønt",
-            "et farverikt studenterliv",
-            "men jaggu var det skjønt",
-            "til frokost som til kvelds",
-            "student i svinepels",
-            "så men – ja, ja men",
-            "det er min schmoking",
-            "Min galla."
+            {
+                "type": "lyric",
+                "text": "Så når jeg ser meg selv i speilet"
+            },
+            {
+                "type": "lyric",
+                "text": "ser jeg gult og rødt og grønt"
+            },
+            {
+                "type": "lyric",
+                "text": "et farverikt studenterliv"
+            },
+            {
+                "type": "lyric",
+                "text": "men jaggu var det skjønt"
+            },
+            {
+                "type": "lyric",
+                "text": "til frokost som til kvelds"
+            },
+            {
+                "type": "lyric",
+                "text": "student i svinepels"
+            },
+            {
+                "type": "lyric",
+                "text": "så men – ja, ja men"
+            },
+            {
+                "type": "lyric",
+                "text": "det er min schmoking"
+            },
+            {
+                "type": "lyric",
+                "text": "Min galla."
+            }
         ]
-    ],
-    "comments": [
-        "Der ”her” står i kursiv, peker sangeren rundt på flekker og rifter på smokingen sin."
-    ],
-    "start_page": 53,
-    "end_page": 55
+    ]
 }

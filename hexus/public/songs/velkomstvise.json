@@ -1,55 +1,155 @@
 {
-    "id": "velkomstvise",
-    "title": "Velkomstvise",
-    "author": "Hans Petter Graver og Jørgen Ludvigsen",
-    "melody": "Hovedøen, W. Kierulf",
-    "event": "GRISE-revyen 1977 «SCENE-SPREKK»",
-    "year": 1977,
-    "lyrics": [
+    "meta": {
+        "id": "velkomstvise",
+        "title": "Velkomstvise",
+        "author": "Hans Petter Graver og Jørgen Ludvigsen",
+        "melody": "Hovedøen, W. Kierulf",
+        "event": "GRISE-revyen 1977 «SCENE-SPREKK»",
+        "year": 1977,
+        "comments": [],
+        "start_page": 197,
+        "end_page": 198,
+        "youtube_link": "https://www.youtube.com/watch?v=voNhjOQ7iDo",
+        "spotify_link": "https://open.spotify.com/track/3LefgpRgBfgFjUSWqfYIx7?si=41f552f9570446ca"
+    },
+    "contents": [
         [
-            "BRUKET vårt er et vidunderlig sted, tenk  så mye som skjer.",
-            "Ball og revyer og bukkefest,  -  enda ønsker folk seg mer…",
-            "Vårt revystyre – er helt passé  –",
-            "hva gjør VI med det?",
-            " ",
-            "JO:",
-            "Vi kaster de gamle sjefene, -  ja, nå skal alle vekk,",
-            "Så stokker vi om på rollene - i nattens «SCENE-SPREKK»",
-            "Vi blåser i om alt går galt, - det gjør det likevel…",
-            "Vi lager no’n  griserier på scenen,  –",
-            "det gjør vi såmenn !"
+            {
+                "type": "lyric",
+                "text": "BRUKET vårt er et vidunderlig sted, tenk  så mye som skjer."
+            },
+            {
+                "type": "lyric",
+                "text": "Ball og revyer og bukkefest,  -  enda ønsker folk seg mer…"
+            },
+            {
+                "type": "lyric",
+                "text": "Vårt revystyre – er helt passé  –"
+            },
+            {
+                "type": "lyric",
+                "text": "hva gjør VI med det?"
+            },
+            {
+                "type": "lyric",
+                "text": " "
+            },
+            {
+                "type": "lyric",
+                "text": "JO:"
+            },
+            {
+                "type": "lyric",
+                "text": "Vi kaster de gamle sjefene, -  ja, nå skal alle vekk,"
+            },
+            {
+                "type": "lyric",
+                "text": "Så stokker vi om på rollene - i nattens «SCENE-SPREKK»"
+            },
+            {
+                "type": "lyric",
+                "text": "Vi blåser i om alt går galt, - det gjør det likevel…"
+            },
+            {
+                "type": "lyric",
+                "text": "Vi lager no’n  griserier på scenen,  –"
+            },
+            {
+                "type": "lyric",
+                "text": "det gjør vi såmenn !"
+            }
         ],
         [
-            "Først må vi ha en ansvarlig her,en som vil spille allting selv…",
-            "En som er skrekkelig PR-kåt, (her er vi i samme båt)…",
-            "Og finansminister’n vår er klar –",
-            "det må  bli Bernt Bahr!"
+            {
+                "type": "lyric",
+                "text": "Først må vi ha en ansvarlig her,en som vil spille allting selv…"
+            },
+            {
+                "type": "lyric",
+                "text": "En som er skrekkelig PR-kåt, (her er vi i samme båt)…"
+            },
+            {
+                "type": "lyric",
+                "text": "Og finansminister’n vår er klar –"
+            },
+            {
+                "type": "lyric",
+                "text": "det må  bli Bernt Bahr!"
+            }
         ],
         [
-            "MEN",
-            "hvem skal vi ha i PR(kåt) - departementet, da?",
-            "Ja, hvem kan EROBRE scenen -  ved å sprade til og fra?",
-            "Talenter er her nok av  –  bare vent, så skal du se…",
-            "No’n tar allting VELDIG  alvorlig,  –",
-            "vi blåser i det !"
+            {
+                "type": "lyric",
+                "text": "MEN"
+            },
+            {
+                "type": "lyric",
+                "text": "hvem skal vi ha i PR(kåt) - departementet, da?"
+            },
+            {
+                "type": "lyric",
+                "text": "Ja, hvem kan EROBRE scenen -  ved å sprade til og fra?"
+            },
+            {
+                "type": "lyric",
+                "text": "Talenter er her nok av  –  bare vent, så skal du se…"
+            },
+            {
+                "type": "lyric",
+                "text": "No’n tar allting VELDIG  alvorlig,  –"
+            },
+            {
+                "type": "lyric",
+                "text": "vi blåser i det !"
+            }
         ],
         [
-            "Revyen skal spilles med ny taktikk –",
-            "intet-nummer-uten  brølere og klikk...",
-            "Orkesteret vårt spiller jo alt for høyt  –",
-            "dere hører ei en døyt...",
-            "Alt kan skje , det er vårt motto nå, sprøyt skal dere få,"
+            {
+                "type": "lyric",
+                "text": "Revyen skal spilles med ny taktikk –"
+            },
+            {
+                "type": "lyric",
+                "text": "intet-nummer-uten  brølere og klikk..."
+            },
+            {
+                "type": "lyric",
+                "text": "Orkesteret vårt spiller jo alt for høyt  –"
+            },
+            {
+                "type": "lyric",
+                "text": "dere hører ei en døyt..."
+            },
+            {
+                "type": "lyric",
+                "text": "Alt kan skje , det er vårt motto nå, sprøyt skal dere få,"
+            }
         ],
         [
-            "OG",
-            "alle på scenen kan beholde rollen -  til de dør,",
-            "mens publikum,  helt feilaktig, tror de har hørt dette før.",
-            "Billetter til i morgen  -  skal vi selge på auksjon...",
-            "Revyball ? - det blir det om no’n da’r...",
-            "- for en snau million!!!"
+            {
+                "type": "lyric",
+                "text": "OG"
+            },
+            {
+                "type": "lyric",
+                "text": "alle på scenen kan beholde rollen -  til de dør,"
+            },
+            {
+                "type": "lyric",
+                "text": "mens publikum,  helt feilaktig, tror de har hørt dette før."
+            },
+            {
+                "type": "lyric",
+                "text": "Billetter til i morgen  -  skal vi selge på auksjon..."
+            },
+            {
+                "type": "lyric",
+                "text": "Revyball ? - det blir det om no’n da’r..."
+            },
+            {
+                "type": "lyric",
+                "text": "- for en snau million!!!"
+            }
         ]
-    ],
-    "comments": [],
-    "start_page": 197,
-    "end_page": 198
+    ]
 }

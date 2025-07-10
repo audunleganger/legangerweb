@@ -1,0 +1,139 @@
+{
+    "meta": {
+        "id": "john-lennon",
+        "title": "John Lennon",
+        "author": "Jørgen Ludvigsen",
+        "melody": "Watching the wheels, John Lennon",
+        "event": "Blindernrevyen 1981 ”Vi gjør det – q.e.d.”",
+        "year": 1981,
+        "comments": [],
+        "start_page": 115,
+        "end_page": 116,
+        "youtube_link": "",
+        "spotify_link": ""
+    },
+    "contents": [
+        [
+            {
+                "type": "lyric",
+                "text": "Jeg ble født i «Blitzen», min hjemby var ruiner,"
+            },
+            {
+                "type": "lyric",
+                "text": "hele barndommen var fylt av krig,"
+            },
+            {
+                "type": "lyric",
+                "text": "av savn og såre minner."
+            },
+            {
+                "type": "lyric",
+                "text": "Du forstår vel at det preget meg som ung og "
+            },
+            {
+                "type": "lyric",
+                "text": "moden mann, "
+            },
+            {
+                "type": "lyric",
+                "text": "nå er MIN kamp brutt – men DU må kjempe "
+            },
+            {
+                "type": "lyric",
+                "text": "videre det du kan!"
+            }
+        ],
+        [
+            {
+                "type": "lyric",
+                "text": "Min musikk vil leve – lengre enn et liv,"
+            },
+            {
+                "type": "lyric",
+                "text": "mange lo av min sit-in- protest og sa jeg var naiv."
+            },
+            {
+                "type": "lyric",
+                "text": "Men en dag kanskje mine fans vil styre og få makt"
+            },
+            {
+                "type": "lyric",
+                "text": "til å rett’ opp det som store menn i dag har "
+            },
+            {
+                "type": "lyric",
+                "text": "ødelagt."
+            }
+        ],
+        [
+            {
+                "type": "chorus-header",
+                "text": "Ref."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Seksti-åra er forbi, det er’ke råd"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "å kreve neutronbombe-stopp."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Dagens krav fra Kreml og Hvite Hus er: la oss få"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "flere midler til å ruste OPP."
+            }
+        ],
+        [
+            {
+                "type": "lyric",
+                "text": "Stadig flere spør seg, hvor skal dette ende?"
+            },
+            {
+                "type": "lyric",
+                "text": "Din kamp skal vare evig, la ditt hjerte brenne."
+            },
+            {
+                "type": "lyric",
+                "text": "Skal framtida i fred forbli en drøm, en illusjon?"
+            },
+            {
+                "type": "lyric",
+                "text": "Skal Store Bror få undertrykke all opposisjon?"
+            }
+        ],
+        [
+            {
+                "type": "chorus-header",
+                "text": "Ref."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Du må aldri la deg kue til å bli konform:"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Stå fram og kjemp med mine fans."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Legg geværet ned og nekt å trekk’ i uniform,"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "«’cause we must give peace a chance,"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "’cause we must give peace a chance,"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "’cause we MUST give peace a chance»! "
+            }
+        ]
+    ]
+}

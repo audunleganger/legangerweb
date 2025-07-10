@@ -1,71 +1,213 @@
 {
-    "id": "vektersangen",
-    "title": "Vektersangen",
-    "author": "Siri Trygsland / Eivind Almhjell / Chris Kåring",
-    "melody": "YMCA, Village People",
-    "event": "UKA på Blindern 2005 “Discorevy Channel”",
-    "year": 2005,
-    "lyrics": [
+    "meta": {
+        "id": "vektersangen",
+        "title": "Vektersangen",
+        "author": "Siri Trygsland / Eivind Almhjell / Chris Kåring",
+        "melody": "YMCA, Village People",
+        "event": "UKA på Blindern 2005 “Discorevy Channel”",
+        "year": 2005,
+        "comments": [],
+        "start_page": 150,
+        "end_page": 151,
+        "youtube_link": "https://www.youtube.com/watch?v=gj2LOqSugfw",
+        "spotify_link": "https://open.spotify.com/track/54OR1VDpfkBuOY5zZjhZAY?si=6cf0c4b28d7c4961"
+    },
+    "contents": [
         [
-            "Vekter: Ikke dum som du tror, jeg er",
-            "Vekter: Jeg har blitt ganske stor, se her",
-            "Vekter: Hvis du trenger en fyr, så er",
-            "Jeg torpedo for deg."
+            {
+                "type": "lyric",
+                "text": "Vekter: Ikke dum som du tror, jeg er"
+            },
+            {
+                "type": "lyric",
+                "text": "Vekter: Jeg har blitt ganske stor, se her"
+            },
+            {
+                "type": "lyric",
+                "text": "Vekter: Hvis du trenger en fyr, så er"
+            },
+            {
+                "type": "lyric",
+                "text": "Jeg torpedo for deg."
+            }
         ],
         [
-            "Boler: Jeg må komme i form, jeg er",
-            "Boler: Anaboler og sånn, for du",
-            "Stoler: På mann i uniform, jeg kan",
-            "Banke opp det meste"
+            {
+                "type": "lyric",
+                "text": "Boler: Jeg må komme i form, jeg er"
+            },
+            {
+                "type": "lyric",
+                "text": "Boler: Anaboler og sånn, for du"
+            },
+            {
+                "type": "lyric",
+                "text": "Stoler: På mann i uniform, jeg kan"
+            },
+            {
+                "type": "lyric",
+                "text": "Banke opp det meste"
+            }
         ],
         [
-            "Refr.:",
-            "Men er jeg flink nok blir",
-            "JEG POLITI",
-            "For innerst inne er",
-            "JEG POLITI",
-            "Legge håndjern på deg",
-            "Si at: Du blir med meg",
-            "Ellers får du litt pepperspray",
-            "Men er jeg flink nok blir",
-            "JEG POLITI",
-            "For innerst inne er",
-            "JEG POLITI",
-            "Arrestere deg nå",
-            "Og det tenner du på",
-            "Jeg har makta, og jeg er rå"
+            {
+                "type": "chorus-header",
+                "text": "Ref."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Men er jeg flink nok blir"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "JEG POLITI"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "For innerst inne er"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "JEG POLITI"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Legge håndjern på deg"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Si at: Du blir med meg"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Ellers får du litt pepperspray"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Men er jeg flink nok blir"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "JEG POLITI"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "For innerst inne er"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "JEG POLITI"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Arrestere deg nå"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Og det tenner du på"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Jeg har makta, og jeg er rå"
+            }
         ],
         [
-            "Gønner: Gjerne en mp3, trenger",
-            "Gønner: Fordi vi liker det, jenter",
-            "Stønner: Hvis de bare får se, det er",
-            "Lyden vi vil høre"
+            {
+                "type": "lyric",
+                "text": "Gønner: Gjerne en mp3, trenger"
+            },
+            {
+                "type": "lyric",
+                "text": "Gønner: Fordi vi liker det, jenter"
+            },
+            {
+                "type": "lyric",
+                "text": "Stønner: Hvis de bare får se, det er"
+            },
+            {
+                "type": "lyric",
+                "text": "Lyden vi vil høre"
+            }
         ],
         [
-            "Gutta: Alle ser opp til oss, vi er",
-            "Gutta: Det er jeg som er boss, vi har",
-            "Kutta: ække redd for å sloss, når du",
-            "Nasker i butikken"
+            {
+                "type": "lyric",
+                "text": "Gutta: Alle ser opp til oss, vi er"
+            },
+            {
+                "type": "lyric",
+                "text": "Gutta: Det er jeg som er boss, vi har"
+            },
+            {
+                "type": "lyric",
+                "text": "Kutta: ække redd for å sloss, når du"
+            },
+            {
+                "type": "lyric",
+                "text": "Nasker i butikken"
+            }
         ],
         [
-            "Refr.:",
-            ":/:Men er jeg flink nok blir",
-            "JEG POLITI",
-            "For innerst inne er",
-            "JEG POLITI",
-            "Legge håndjern på deg",
-            "Si at: Du blir med meg",
-            "Ellers får du litt pepperspray",
-            "Men er jeg flink nok blir",
-            "JEG POLITI",
-            "For innerst inne er",
-            "JEG POLITI",
-            "Arrestere deg nå",
-            "Og det tenner du på",
-            "Jeg har makta, og jeg er rå:/:"
+            {
+                "type": "chorus-header",
+                "text": "Ref."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": ":/:Men er jeg flink nok blir"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "JEG POLITI"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "For innerst inne er"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "JEG POLITI"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Legge håndjern på deg"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Si at: Du blir med meg"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Ellers får du litt pepperspray"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Men er jeg flink nok blir"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "JEG POLITI"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "For innerst inne er"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "JEG POLITI"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Arrestere deg nå"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Og det tenner du på"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Jeg har makta, og jeg er rå:/:"
+            }
         ]
-    ],
-    "comments": [],
-    "start_page": 150,
-    "end_page": 151
+    ]
 }

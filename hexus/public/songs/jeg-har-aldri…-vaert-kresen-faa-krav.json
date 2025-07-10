@@ -1,97 +1,293 @@
 {
-    "id": "jeg-har-aldri…-vaert-kresen-faa-krav",
-    "title": "Jeg har aldri… vært kresen (Få krav)",
-    "author": "Helge Svendsen",
-    "melody": "A whole new world, Aladdin",
-    "event": "UKA på Blindern 2015 “Jeg har aldri...”",
-    "year": 2015,
-    "lyrics": [
+    "meta": {
+        "id": "jeg-har-aldri…-vaert-kresen-faa-krav",
+        "title": "Jeg har aldri… vært kresen (Få krav)",
+        "author": "Helge Svendsen",
+        "melody": "A whole new world, Aladdin",
+        "event": "UKA på Blindern 2015 “Jeg har aldri...”",
+        "year": 2015,
+        "comments": [],
+        "start_page": 172,
+        "end_page": 174,
+        "youtube_link": "https://www.youtube.com/watch?v=xYjFxFFdyyk",
+        "spotify_link": "https://open.spotify.com/track/5VIfacsWytkcgr7aTt8Tql?si=310f81455e204674"
+    },
+    "contents": [
         [
-            "Mann:",
-            "Livet mitt er litt tomt",
-            "Jeg har aldri hatt dame",
-            "Ikke at jeg er veldig kresen",
-            "Men jeg har jo krav",
-            "Mine krav de er få",
-            "Helst skal hun være liten",
-            "Sprettræv, blond, fra kultureliten",
-            "Hun studerer jus",
-            "Jeg har få krav….",
-            "...men tar jo ikke hva som helst",
-            "For når hun ser meg så",
-            "Vil hun forstå",
-            "At jeg er sykt sexy"
+            {
+                "type": "italic underline",
+                "text": "Mann:"
+            },
+            {
+                "type": "lyric",
+                "text": "Livet mitt er litt tomt"
+            },
+            {
+                "type": "lyric",
+                "text": "Jeg har aldri hatt dame"
+            },
+            {
+                "type": "lyric",
+                "text": "Ikke at jeg er veldig kresen"
+            },
+            {
+                "type": "lyric",
+                "text": "Men jeg har jo krav"
+            },
+            {
+                "type": "lyric",
+                "text": "Mine krav de er få"
+            },
+            {
+                "type": "lyric",
+                "text": "Helst skal hun være liten"
+            },
+            {
+                "type": "lyric",
+                "text": "Sprettræv, blond, fra kultureliten"
+            },
+            {
+                "type": "lyric",
+                "text": "Hun studerer jus"
+            },
+            {
+                "type": "lyric",
+                "text": "Jeg har få krav…."
+            },
+            {
+                "type": "lyric",
+                "text": "...men tar jo ikke hva som helst"
+            },
+            {
+                "type": "lyric",
+                "text": "For når hun ser meg så"
+            },
+            {
+                "type": "lyric",
+                "text": "Vil hun forstå"
+            },
+            {
+                "type": "lyric",
+                "text": "At jeg er sykt sexy"
+            }
         ],
         [
-            "Kvinne:",
-            "Jeg har få krav….",
-            "...men tar jo ikke hva som helst",
-            "For når han ser meg så",
-            "Vil han forstå",
-            "At jeg er sykt deilig og unik"
+            {
+                "type": "italic underline",
+                "text": "Kvinne:"
+            },
+            {
+                "type": "lyric",
+                "text": "Jeg har få krav…."
+            },
+            {
+                "type": "lyric",
+                "text": "...men tar jo ikke hva som helst"
+            },
+            {
+                "type": "lyric",
+                "text": "For når han ser meg så"
+            },
+            {
+                "type": "lyric",
+                "text": "Vil han forstå"
+            },
+            {
+                "type": "lyric",
+                "text": "At jeg er sykt deilig og unik"
+            }
         ],
         [
-            "Mann:",
-            "Hun lager middag hver dag helt naken"
+            {
+                "type": "italic underline",
+                "text": "Mann:"
+            },
+            {
+                "type": "lyric",
+                "text": "Hun lager middag hver dag helt naken"
+            }
         ],
         [
-            "Kvinne:",
-            "Han er to meter høy",
-            "Huden hans er som fløyel",
-            "Kroppen til Ryan Gosling funker",
-            "Rompe støpt i stål",
-            "Jeg har få krav"
+            {
+                "type": "italic underline",
+                "text": "Kvinne:"
+            },
+            {
+                "type": "lyric",
+                "text": "Han er to meter høy"
+            },
+            {
+                "type": "lyric",
+                "text": "Huden hans er som fløyel"
+            },
+            {
+                "type": "lyric",
+                "text": "Kroppen til Ryan Gosling funker"
+            },
+            {
+                "type": "lyric",
+                "text": "Rompe støpt i stål"
+            },
+            {
+                "type": "lyric",
+                "text": "Jeg har få krav"
+            }
         ],
         [
-            "Mann:",
-            "Hun har reist verden rundt",
-            "Kvinne:",
-            "Han er belest og spiser sunt"
+            {
+                "type": "italic underline",
+                "text": "Mann:"
+            },
+            {
+                "type": "lyric",
+                "text": "Hun har reist verden rundt"
+            },
+            {
+                "type": "italic underline",
+                "text": "Kvinne:"
+            },
+            {
+                "type": "lyric",
+                "text": "Han er belest og spiser sunt"
+            }
         ],
         [
-            "Mann:",
-            "Hun har en tvillingsøster",
-            "Kvinne:",
-            "Han har en vingård vi",
-            "kan drikke i",
-            "Og han elsker Sex in the City"
+            {
+                "type": "italic underline",
+                "text": "Mann:"
+            },
+            {
+                "type": "lyric",
+                "text": "Hun har en tvillingsøster"
+            },
+            {
+                "type": "italic underline",
+                "text": "Kvinne:"
+            },
+            {
+                "type": "lyric",
+                "text": "Han har en vingård vi"
+            },
+            {
+                "type": "lyric",
+                "text": "kan drikke i"
+            },
+            {
+                "type": "lyric",
+                "text": "Og han elsker Sex in the City"
+            }
         ],
         [
-            "Mann:",
-            "Jeg har få krav",
-            "Kvinne:",
-            "Frokost hver dag på sengen"
+            {
+                "type": "italic underline",
+                "text": "Mann:"
+            },
+            {
+                "type": "lyric",
+                "text": "Jeg har få krav"
+            },
+            {
+                "type": "italic underline",
+                "text": "Kvinne:"
+            },
+            {
+                "type": "lyric",
+                "text": "Frokost hver dag på sengen"
+            }
         ],
         [
-            "Mann:",
-            "Hun lar meg spille TV-spill",
-            "Kvinne:",
-            "Han kan Kama Sutra",
-            "Begge:"
+            {
+                "type": "italic underline",
+                "text": "Mann:"
+            },
+            {
+                "type": "lyric",
+                "text": "Hun lar meg spille TV-spill"
+            },
+            {
+                "type": "italic underline",
+                "text": "Kvinne:"
+            },
+            {
+                "type": "lyric",
+                "text": "Han kan Kama Sutra"
+            }
         ],
         [
-            "Du går med flotte klær",
-            "Er hjemmekjær",
-            "Finnes du der ute, mon tro?"
+            {
+                "type": "italic underline",
+                "text": "Begge:"
+            },
+            {
+                "type": "lyric",
+                "text": "Du går med flotte klær"
+            },
+            {
+                "type": "lyric",
+                "text": "Er hjemmekjær"
+            },
+            {
+                "type": "lyric",
+                "text": "Finnes du der ute, mon tro?"
+            }
         ],
         [
-            "Mann:",
-            "Jeg har få krav",
-            "Kvinne:",
-            "Jeg har få krav",
-            "Mann:",
-            "Fortjener det",
-            "Kvinne:",
-            "Fortjener det",
-            "Mann:",
-            "Men finnes du?",
-            "Kvinne:",
-            "Men finnes du?",
-            "Begge:",
-            "Det må du jo"
+            {
+                "type": "italic underline",
+                "text": "Mann:"
+            },
+            {
+                "type": "lyric",
+                "text": "Jeg har få krav"
+            },
+            {
+                "type": "italic underline",
+                "text": "Kvinne:"
+            },
+            {
+                "type": "lyric",
+                "text": "Jeg har få krav"
+            },
+            {
+                "type": "italic underline",
+                "text": "Mann:"
+            },
+            {
+                "type": "lyric",
+                "text": "Fortjener det"
+            },
+            {
+                "type": "italic underline",
+                "text": "Kvinne:"
+            },
+            {
+                "type": "lyric",
+                "text": "Fortjener det"
+            },
+            {
+                "type": "italic underline",
+                "text": "Mann:"
+            },
+            {
+                "type": "lyric",
+                "text": "Men finnes du?"
+            },
+            {
+                "type": "italic underline",
+                "text": "Kvinne:"
+            },
+            {
+                "type": "lyric",
+                "text": "Men finnes du?"
+            },
+            {
+                "type": "italic underline",
+                "text": "Begge:"
+            },
+            {
+                "type": "lyric",
+                "text": "Det må du jo"
+            }
         ]
-    ],
-    "comments": [],
-    "start_page": 172,
-    "end_page": 174
+    ]
 }

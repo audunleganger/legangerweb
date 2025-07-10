@@ -1,0 +1,461 @@
+{
+    "meta": {
+        "id": "politisk-musical",
+        "title": "Politisk musical",
+        "author": "Ingvild K. Jørstad Aurebekk",
+        "melody": "Diverse",
+        "event": "UKA på Blindern 2005 ”Discorevy Channel”",
+        "year": 2005,
+        "comments": [],
+        "start_page": 152,
+        "end_page": 155,
+        "youtube_link": "",
+        "spotify_link": ""
+    },
+    "contents": [
+        [
+            {
+                "type": "lyric",
+                "text": "Valgvake (mel:Akerselva):"
+            },
+            {
+                "type": "lyric",
+                "text": "Vi skal nå servere deg en full partimeny"
+            },
+            {
+                "type": "lyric",
+                "text": "Vi skal snakke litt om det som angår bygd og by."
+            },
+            {
+                "type": "lyric",
+                "text": "Vi laget oss en musikal, så du kan lett forstå"
+            },
+            {
+                "type": "lyric",
+                "text": "hvilket parti som er best for deg å stemme på."
+            }
+        ],
+        [
+            {
+                "type": "lyric",
+                "text": "HØYRE (Om eg var ein rik mann, Fra Spelle-"
+            },
+            {
+                "type": "lyric",
+                "text": "mann på taket):"
+            },
+            {
+                "type": "lyric",
+                "text": "Jeg er rik og velbygd, hadde alle gjort som meg"
+            },
+            {
+                "type": "lyric",
+                "text": "så ville ingen gått på trygd. (Kor: Stem Høyre!)"
+            },
+            {
+                "type": "lyric",
+                "text": "Småfolk klager om og om igjen,"
+            },
+            {
+                "type": "lyric",
+                "text": "Høyre er din beste venn. (Kor: Venn)"
+            },
+            {
+                "type": "lyric",
+                "text": "Slipp det tunge slitet, "
+            },
+            {
+                "type": "lyric",
+                "text": "barna bør gå på privatskole "
+            },
+            {
+                "type": "lyric",
+                "text": "og bo på internat. (Kor: Redd barna!)"
+            },
+            {
+                "type": "lyric",
+                "text": "Disiplin og et skattefritak,"
+            },
+            {
+                "type": "lyric",
+                "text": "der har du jo løsningen på alt (Kor: Hva?!?!)"
+            },
+            {
+                "type": "lyric",
+                "text": "Vi elsker Oslo, Bergen, Asker-og-Bærum, "
+            },
+            {
+                "type": "lyric",
+                "text": "rosa skjorter med stiv snipp (Kor: “Vær hip”)"
+            },
+            {
+                "type": "lyric",
+                "text": "Årsinntekt på femhundre-tusen, minst."
+            },
+            {
+                "type": "lyric",
+                "text": "Privatiserer alt fra Kongen til Kvitfjell"
+            },
+            {
+                "type": "lyric",
+                "text": "Kakse-aksje gir gevinst (Kor: “Så fint”)"
+            },
+            {
+                "type": "lyric",
+                "text": "Himmelen er blå, velkommen opp."
+            }
+        ],
+        [
+            {
+                "type": "lyric",
+                "text": "VENSTRE (Tomorrow, fra Annie):"
+            },
+            {
+                "type": "lyric",
+                "text": "Vi var aller først, vi var størst,"
+            },
+            {
+                "type": "lyric",
+                "text": "Men så kom jo alle disse andre."
+            },
+            {
+                "type": "lyric",
+                "text": "Vi ble små (Kor: Whåå)"
+            },
+            {
+                "type": "lyric",
+                "text": "Du vet ikke hva vi mener (Kor: Nei!)"
+            },
+            {
+                "type": "lyric",
+                "text": "Likevel er vi med og regjerer"
+            },
+            {
+                "type": "lyric",
+                "text": "så som så.  (Kor: Sponheim - gå!)"
+            },
+            {
+                "type": "lyric",
+                "text": "Vi kan si både ja (Kor: nei!) "
+            },
+            {
+                "type": "lyric",
+                "text": "og nei (Kor: ja!) til Bryssel."
+            },
+            {
+                "type": "lyric",
+                "text": "Og vi vingler i vei, så stem på meg."
+            },
+            {
+                "type": "lyric",
+                "text": "Til venstre (Kor: ja) til venstre (Kor: ja) -"
+            },
+            {
+                "type": "lyric",
+                "text": "gi oss en med venstre,"
+            },
+            {
+                "type": "lyric",
+                "text": "Vi venter bare på deg (Kor: sukk!) "
+            },
+            {
+                "type": "lyric",
+                "text": "Til venstre, til venstre - gi oss en med venstre,"
+            },
+            {
+                "type": "lyric",
+                "text": "Vi venter bare på deg."
+            }
+        ],
+        [
+            {
+                "type": "lyric",
+                "text": "KRISTELIG FOLKEPARTI (Oh, happy day)"
+            },
+            {
+                "type": "lyric",
+                "text": "Stem KrF (Kor: Stem Bondevik)"
+            },
+            {
+                "type": "lyric",
+                "text": "Stem KrF (Kor: Stem bondesnik)"
+            },
+            {
+                "type": "lyric",
+                "text": "Vi velger deg (Kor: selv om du er….)"
+            },
+            {
+                "type": "lyric",
+                "text": "Du velger meg (Kor: ...fra fylker fjern og nær)"
+            },
+            {
+                "type": "lyric",
+                "text": "Jeg er så grei (Kor: avholds og sær)"
+            },
+            {
+                "type": "lyric",
+                "text": "Du vet at enden er nær (Kor: snart dommedag)"
+            },
+            {
+                "type": "lyric",
+                "text": "Enden er nær "
+            },
+            {
+                "type": "lyric",
+                "text": "(Kor: da er vi der:"
+            },
+            {
+                "type": "lyric",
+                "text": "La-la-la-la-la-la-la-la-la , "
+            },
+            {
+                "type": "lyric",
+                "text": "La det swinge, la det rock’ n’ roll!"
+            },
+            {
+                "type": "lyric",
+                "text": "La-la-la-la-la        ... Mister all kontroll!"
+            },
+            {
+                "type": "lyric",
+                "text": "La-la-la-la-la-la-la ...Fa-fa-fa-fantasia!"
+            },
+            {
+                "type": "lyric",
+                "text": "La-la-la-la-la         ...Valgerd er så bra!)"
+            }
+        ],
+        [
+            {
+                "type": "lyric",
+                "text": "SENTERPARTIET (Gøy på landet)"
+            },
+            {
+                "type": "lyric",
+                "text": "Stem på sentrum, kjærlig sentrum,"
+            },
+            {
+                "type": "lyric",
+                "text": "Sånt no’ ha’kke de i byen"
+            },
+            {
+                "type": "lyric",
+                "text": "(Kor: Jo, det har vi det, så!)"
+            },
+            {
+                "type": "lyric",
+                "text": "Kua rauter, geita brauter,"
+            },
+            {
+                "type": "lyric",
+                "text": "Kom til bondekjærlighet."
+            },
+            {
+                "type": "lyric",
+                "text": "(Kor: Nei, det vil vi ikke  -  det så!)"
+            },
+            {
+                "type": "lyric",
+                "text": "Smak på fisken (Kor: Æsj!)"
+            },
+            {
+                "type": "lyric",
+                "text": "Lekkerbisken (Kor: Huff!)"
+            },
+            {
+                "type": "lyric",
+                "text": "Litt subsidier må til (Kor: 15 milliarder)"
+            },
+            {
+                "type": "lyric",
+                "text": "Glem Europa, gøy på landet,"
+            },
+            {
+                "type": "lyric",
+                "text": "Vi er for føydalsamfunn!"
+            },
+            {
+                "type": "lyric",
+                "text": "(Kor: Inga-Inga-Berit - "
+            },
+            {
+                "type": "lyric",
+                "text": "meld deg på Farmen, bondetøs!)"
+            }
+        ],
+        [
+            {
+                "type": "lyric",
+                "text": "SOSIALISTISK VENSTREPARTI"
+            },
+            {
+                "type": "lyric",
+                "text": "(I will follow him, fra Sisters Act)"
+            },
+            {
+                "type": "lyric",
+                "text": "Vi pjatter og jatter om skatter."
+            },
+            {
+                "type": "lyric",
+                "text": "For avgifter og skatter, vi skatter er skatter"
+            },
+            {
+                "type": "lyric",
+                "text": "Som gjør at alle slipper de glipper om stripper"
+            },
+            {
+                "type": "lyric",
+                "text": "alt vekk fra de prinsipper som vipper deg over."
+            },
+            {
+                "type": "lyric",
+                "text": "Barnehagemann (Kor: Det er han, det er han)"
+            },
+            {
+                "type": "lyric",
+                "text": "Det kan bli så mye billig’re (Kor: Tusenlapp) "
+            },
+            {
+                "type": "lyric",
+                "text": "Tar vi 70% fra deg (Kor: Oh-oh)"
+            },
+            {
+                "type": "lyric",
+                "text": "så får du det gratis fra meg (Kor:Ja!)"
+            },
+            {
+                "type": "lyric",
+                "text": "Regnskapet blir så flott,"
+            },
+            {
+                "type": "lyric",
+                "text": "Dum,dum,dum,dum,dum…"
+            }
+        ],
+        [
+            {
+                "type": "lyric",
+                "text": "KOMMUNISTENE (mel: Russlands nasjonalsang)"
+            },
+            {
+                "type": "lyric",
+                "text": "Vi står her i flokk og vår fane er rød."
+            }
+        ],
+        [
+            {
+                "type": "lyric",
+                "text": "Hvem i helvete mente at Lenin var død?"
+            },
+            {
+                "type": "lyric",
+                "text": "Vi vil lage en leir, der de rike har reir,"
+            },
+            {
+                "type": "lyric",
+                "text": "I Sibir skal den stå, der vil frostnatta rå."
+            },
+            {
+                "type": "lyric",
+                "text": "For Mao ble bare misforstått,"
+            },
+            {
+                "type": "lyric",
+                "text": "Som Castro, Stalin, Khrusjtsjov og Pol Pot."
+            },
+            {
+                "type": "lyric",
+                "text": "Så sterke menn, sterke menn, sterke menn."
+            },
+            {
+                "type": "lyric",
+                "text": "Vi vil ha væpna revolusjon."
+            },
+            {
+                "type": "lyric",
+                "text": "Slå med ljå og gå til rød aksjon."
+            },
+            {
+                "type": "lyric",
+                "text": "Vær ikke trist  - bli en kommunist."
+            }
+        ],
+        [
+            {
+                "type": "lyric",
+                "text": "ARBEIDERPARTIET "
+            },
+            {
+                "type": "lyric",
+                "text": "(Mel: Blame it on the boogie)"
+            },
+            {
+                "type": "lyric",
+                "text": "Her kommer APe-gjengen,"
+            },
+            {
+                "type": "lyric",
+                "text": "så stem på oss og Schengen."
+            },
+            {
+                "type": "lyric",
+                "text": "Vi er de aller største, ja, tenk det."
+            },
+            {
+                "type": "lyric",
+                "text": "Vi er opposisjonen "
+            },
+            {
+                "type": "lyric",
+                "text": "som trener munnmosjonen"
+            },
+            {
+                "type": "lyric",
+                "text": "mot ikke-sosialisters heg’moni."
+            },
+            {
+                "type": "lyric",
+                "text": "Vi skylder på SV, og særlig FrP,"
+            },
+            {
+                "type": "lyric",
+                "text": "Venstre, hva er det?"
+            },
+            {
+                "type": "lyric",
+                "text": "Men vi hater Høyre."
+            },
+            {
+                "type": "lyric",
+                "text": "Vi skylder på RV, vi skylder på SP,"
+            },
+            {
+                "type": "lyric",
+                "text": "KrF, hva er det?"
+            },
+            {
+                "type": "lyric",
+                "text": "Men vi hater Høyre."
+            }
+        ],
+        [
+            {
+                "type": "lyric",
+                "text": "Stem på meg, stem på meg,"
+            },
+            {
+                "type": "lyric",
+                "text": "Han er slem og jeg er grei!"
+            },
+            {
+                "type": "lyric",
+                "text": "Stem på meg, stem på meg,"
+            },
+            {
+                "type": "lyric",
+                "text": "Hun er slem og jeg er grei!"
+            }
+        ]
+    ]
+}

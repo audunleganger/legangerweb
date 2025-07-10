@@ -1,69 +1,205 @@
 {
-    "id": "folkesjel-paa-vandring",
-    "title": "Folkesjel på vandring",
-    "author": "August “Augias” Mauritzen",
-    "melody": "Trumman (Ulla Sjöblom) Originalmelodi: \"Das Leibregiment (Die Trommel)\", K. Tucholsky og W.R. Heymann (1924)",
-    "event": "Blindernrevyen 1965 “Kom i orden”",
-    "year": 1965,
-    "lyrics": [
+    "meta": {
+        "id": "folkesjel-paa-vandring",
+        "title": "Folkesjel på vandring",
+        "author": "August “Augias” Mauritzen",
+        "melody": "Trumman (Ulla Sjöblom) Originalmelodi: \"Das Leibregiment (Die Trommel)\", K. Tucholsky og W.R. Heymann (1924)",
+        "event": "Blindernrevyen 1965 “Kom i orden”",
+        "year": 1965,
+        "comments": [
+            "Under OL på skøyter i Innsbruck 1964 beordret overdommer Sven Låftman at isen skulle vannes før landsmannen Jonny Nilssonskulle gå 10.000 m. J.N. vant OL-gullet foran de norske favorittene “Kupper’n” og Maier."
+        ],
+        "start_page": 58,
+        "end_page": 59,
+        "youtube_link": "https://www.youtube.com/watch?v=MTr3xPlSPi4",
+        "spotify_link": "https://open.spotify.com/track/3odSlALTUnmpGMLqPXANzR?si=969a2c054d464cc4"
+    },
+    "contents": [
         [
-            "Vi er den norske folkesjelen,",
-            "den dorske, norske folkesjelen!",
-            "Heia Norge! Heia Norge!",
-            "Intet land har en folkesjel som vårt!"
+            {
+                "type": "lyric",
+                "text": "Vi er den norske folkesjelen,"
+            },
+            {
+                "type": "lyric",
+                "text": "den dorske, norske folkesjelen!"
+            },
+            {
+                "type": "lyric",
+                "text": "Heia Norge! Heia Norge!"
+            },
+            {
+                "type": "lyric",
+                "text": "Intet land har en folkesjel som vårt!"
+            }
         ],
         [
-            "Vi har aldri vært en sjel i rask forandring,",
-            "men allikevel en folkesjel på vandring!",
-            "Heia Norge, Heia Norge, Heia Norge!",
-            "Og i ryggen har vi hytter, hus og borge",
-            "der vi stamper oss frem,",
-            "der vi tramper oss frem",
-            "over Svinesund til Göteborg!"
+            {
+                "type": "lyric",
+                "text": "Vi har aldri vært en sjel i rask forandring,"
+            },
+            {
+                "type": "lyric",
+                "text": "men allikevel en folkesjel på vandring!"
+            },
+            {
+                "type": "lyric",
+                "text": "Heia Norge, Heia Norge, Heia Norge!"
+            },
+            {
+                "type": "lyric",
+                "text": "Og i ryggen har vi hytter, hus og borge"
+            },
+            {
+                "type": "lyric",
+                "text": "der vi stamper oss frem,"
+            },
+            {
+                "type": "lyric",
+                "text": "der vi tramper oss frem"
+            },
+            {
+                "type": "lyric",
+                "text": "over Svinesund til Göteborg!"
+            }
         ],
         [
-            "Der står den norske folkesjelen",
-            "og der den svenske folkesjelen.",
-            "Jævla svenske! Jævla svenske!",
-            "Har’ke sett sånn en hoven folkesjel!",
-            "Vi er faen ikke kommet for å lære!",
-            "Vi er kommet for å banke deg, din blære!",
-            "Heia Norge, Heia Norge, Heia Norge!",
-            "Hvorfor liker ikke svenska folket Norge?",
-            "Vi er sterkest og best!",
-            "Svenske, bli ved din lest!",
-            "Det er stort å ha en sjel til gjest!"
+            {
+                "type": "lyric",
+                "text": "Der står den norske folkesjelen"
+            },
+            {
+                "type": "lyric",
+                "text": "og der den svenske folkesjelen."
+            },
+            {
+                "type": "lyric",
+                "text": "Jævla svenske! Jævla svenske!"
+            },
+            {
+                "type": "lyric",
+                "text": "Har’ke sett sånn en hoven folkesjel!"
+            },
+            {
+                "type": "lyric",
+                "text": "Vi er faen ikke kommet for å lære!"
+            },
+            {
+                "type": "lyric",
+                "text": "Vi er kommet for å banke deg, din blære!"
+            },
+            {
+                "type": "lyric",
+                "text": "Heia Norge, Heia Norge, Heia Norge!"
+            },
+            {
+                "type": "lyric",
+                "text": "Hvorfor liker ikke svenska folket Norge?"
+            },
+            {
+                "type": "lyric",
+                "text": "Vi er sterkest og best!"
+            },
+            {
+                "type": "lyric",
+                "text": "Svenske, bli ved din lest!"
+            },
+            {
+                "type": "lyric",
+                "text": "Det er stort å ha en sjel til gjest!"
+            }
         ],
         [
-            "Vi er den norske folkesjelen,",
-            "den sportsbevisste folkesjelen!",
-            "Ut med Låftmann! Ut med Jonny!",
-            "Heia Norge – ja, seieren er vår!",
-            "Alle vet jo at en folkesjel kan seire.",
-            "Alle vet jo at en folkesjel kan feire!",
-            "Opp med lerka, opp med trekker’n, opp med koppen.",
-            "Det er stort å føle seieren på kroppen!",
-            "Syn’s den sjelfulle sjel,",
-            "syn’s den helfulle sjel,",
-            "syn’s den evigfulle folkesjel!"
+            {
+                "type": "lyric",
+                "text": "Vi er den norske folkesjelen,"
+            },
+            {
+                "type": "lyric",
+                "text": "den sportsbevisste folkesjelen!"
+            },
+            {
+                "type": "lyric",
+                "text": "Ut med Låftmann! Ut med Jonny!"
+            },
+            {
+                "type": "lyric",
+                "text": "Heia Norge – ja, seieren er vår!"
+            },
+            {
+                "type": "lyric",
+                "text": "Alle vet jo at en folkesjel kan seire."
+            },
+            {
+                "type": "lyric",
+                "text": "Alle vet jo at en folkesjel kan feire!"
+            },
+            {
+                "type": "lyric",
+                "text": "Opp med lerka, opp med trekker’n, opp med koppen."
+            },
+            {
+                "type": "lyric",
+                "text": "Det er stort å føle seieren på kroppen!"
+            },
+            {
+                "type": "lyric",
+                "text": "Syn’s den sjelfulle sjel,"
+            },
+            {
+                "type": "lyric",
+                "text": "syn’s den helfulle sjel,"
+            },
+            {
+                "type": "lyric",
+                "text": "syn’s den evigfulle folkesjel!"
+            }
         ],
         [
-            "Vi er den norske folkesjelen,",
-            "den velstandsmette folkesjelen.",
-            "Ut med boka! Inn med TV!",
-            "Ut med skia og inn med Sportsrevy’n!",
-            "Tunge løft får ingen folkesjelen med på!",
-            "Folkesjelen har det best når den kan SE PÅ –",
-            "Heia Norge, Heia Norge, Heia Norge!",
-            "Folkesjelen sover godt på svenska torget!",
-            "Før den stamper seg frem,",
-            "før den tramper seg frem",
-            "over Svinesund og hjem igjen."
+            {
+                "type": "lyric",
+                "text": "Vi er den norske folkesjelen,"
+            },
+            {
+                "type": "lyric",
+                "text": "den velstandsmette folkesjelen."
+            },
+            {
+                "type": "lyric",
+                "text": "Ut med boka! Inn med TV!"
+            },
+            {
+                "type": "lyric",
+                "text": "Ut med skia og inn med Sportsrevy’n!"
+            },
+            {
+                "type": "lyric",
+                "text": "Tunge løft får ingen folkesjelen med på!"
+            },
+            {
+                "type": "lyric",
+                "text": "Folkesjelen har det best når den kan SE PÅ –"
+            },
+            {
+                "type": "lyric",
+                "text": "Heia Norge, Heia Norge, Heia Norge!"
+            },
+            {
+                "type": "lyric",
+                "text": "Folkesjelen sover godt på svenska torget!"
+            },
+            {
+                "type": "lyric",
+                "text": "Før den stamper seg frem,"
+            },
+            {
+                "type": "lyric",
+                "text": "før den tramper seg frem"
+            },
+            {
+                "type": "lyric",
+                "text": "over Svinesund og hjem igjen."
+            }
         ]
-    ],
-    "comments": [
-        "Under OL på skøyter i Innsbruck 1964 beordret overdommer Sven Låftman at isen skulle vannes før landsmannen Jonny Nilssonskulle gå 10.000 m. J.N. vant OL-gullet foran de norske favorittene “Kupper’n” og Maier."
-    ],
-    "start-page": 59,
-    "end-page": 59
+    ]
 }

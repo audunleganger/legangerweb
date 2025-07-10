@@ -1,0 +1,89 @@
+{
+    "meta": {
+        "id": "luta-lat",
+        "title": "Luta lat",
+        "author": "Arne Langeland",
+        "melody": "Lazybones, H. «Hoagy»  Carmichael (1933)",
+        "event": "Julemøtet 1950",
+        "year": 1950,
+        "comments": [],
+        "start_page": 191,
+        "end_page": 191,
+        "youtube_link": "",
+        "spotify_link": ""
+    },
+    "contents": [
+        [
+            {
+                "type": "lyric",
+                "text": "Luta lat, en pike og litt mat,"
+            },
+            {
+                "type": "lyric",
+                "text": "en skyggefull og rolig plett er alt."
+            },
+            {
+                "type": "lyric",
+                "text": "La fluene få surre med,"
+            },
+            {
+                "type": "lyric",
+                "text": "bare vi får være i fred."
+            }
+        ],
+        [
+            {
+                "type": "lyric",
+                "text": "Rusle rundt som en fillebunt"
+            },
+            {
+                "type": "lyric",
+                "text": "i dongeri og gummisko, vi to."
+            },
+            {
+                "type": "lyric",
+                "text": "Det eneste vi enda har"
+            },
+            {
+                "type": "lyric",
+                "text": "er en gammel, snill gitar."
+            }
+        ],
+        [
+            {
+                "type": "lyric",
+                "text": "Vi har ikke penger, men penger det trenger"
+            },
+            {
+                "type": "lyric",
+                "text": "man kun for å skaffe seg fler."
+            },
+            {
+                "type": "lyric",
+                "text": "Vi synger på gaten for hyggen og maten,"
+            },
+            {
+                "type": "lyric",
+                "text": "da trenger  vi slett ikke mer."
+            }
+        ],
+        [
+            {
+                "type": "lyric",
+                "text": "Luta lat, en pike og litt mat,"
+            },
+            {
+                "type": "lyric",
+                "text": "en skyggefull og rolig plett er alt."
+            },
+            {
+                "type": "lyric",
+                "text": "La fluene få surre med,"
+            },
+            {
+                "type": "lyric",
+                "text": "bare vi får være i fred."
+            }
+        ]
+    ]
+}

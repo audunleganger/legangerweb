@@ -1,51 +1,139 @@
 {
-    "id": "blaatt-til-lyst",
-    "title": "Blått til lyst",
-    "author": "August “Augias” Mauritzen",
-    "melody": "Let’s do it, Cole Porter",
-    "event": "Blindernrevyen 1958  “Skål m’Adam”",
-    "year": 1958,
-    "lyrics": [
+    "meta": {
+        "id": "blaatt-til-lyst",
+        "title": "Blått til lyst",
+        "author": "August “Augias” Mauritzen",
+        "melody": "Let’s do it, Cole Porter",
+        "event": "Blindernrevyen 1958  “Skål m’Adam”",
+        "year": 1958,
+        "comments": [
+            "DKSF = Den Konservative Studenter-Forening.",
+            "”Minerva”, grunnlagt 1924, er tidsskriftet for DKSF.",
+            "Høyre hadde sitt kurssted på Reistad i Buskerud i perioden 1954-87"
+        ],
+        "start_page": 39,
+        "end_page": 40,
+        "youtube_link": "https://www.youtube.com/watch?v=z8NtdS98IRI",
+        "spotify_link": "https://open.spotify.com/track/5dsv7YoyEUjMdMGeZMHzKD?si=5b190fbf9cbb4c4b"
+    },
+    "contents": [
         [
-            "Blå frakke, blå jakke,",
-            "Edenhatt sånn passe på skakke,",
-            "sånn er vi  –  vi, DKSF!",
-            "Vi kler oss om morran’n, om kvelden,",
-            "kler oss endog propert om – til middag,",
-            "det gjør vi, vi – DKSF!",
-            "I blenda-hvit skjorte, sko sorte  –",
-            "pusset blanke av mor",
-            "går vi med skritt forte",
-            "til vårt City-kontor …",
-            "Der har vi style – og et speil, ser De,",
-            "sjekker opp at vi er fullt verdig",
-            "vår urbane",
-            "blå fane: DKSF!"
+            {
+                "type": "lyric",
+                "text": "Blå frakke, blå jakke,"
+            },
+            {
+                "type": "lyric",
+                "text": "Edenhatt sånn passe på skakke,"
+            },
+            {
+                "type": "lyric",
+                "text": "sånn er vi  –  vi, DKSF!"
+            },
+            {
+                "type": "lyric",
+                "text": "Vi kler oss om morran’n, om kvelden,"
+            },
+            {
+                "type": "lyric",
+                "text": "kler oss endog propert om – til middag,"
+            },
+            {
+                "type": "lyric",
+                "text": "det gjør vi, vi – DKSF!"
+            },
+            {
+                "type": "lyric",
+                "text": "I blenda-hvit skjorte, sko sorte  –"
+            },
+            {
+                "type": "lyric",
+                "text": "pusset blanke av mor"
+            },
+            {
+                "type": "lyric",
+                "text": "går vi med skritt forte"
+            },
+            {
+                "type": "lyric",
+                "text": "til vårt City-kontor …"
+            },
+            {
+                "type": "lyric",
+                "text": "Der har vi style – og et speil, ser De,"
+            },
+            {
+                "type": "lyric",
+                "text": "sjekker opp at vi er fullt verdig"
+            },
+            {
+                "type": "lyric",
+                "text": "vår urbane"
+            },
+            {
+                "type": "lyric",
+                "text": "blå fane: DKSF!"
+            }
         ],
         [
-            "I bilen, i stilen",
-            "søker vi mot freden – og hvilen",
-            "på Reistad, vi – DKSF!",
-            "Vi kjører Mercedes 300",
-            "når vi ikke vandrer Frognerveien,",
-            "der går vi – vi DKSF!",
-            "I vår avis   – ikke glis!   – skriver",
-            "vi om alvorlige ting,",
-            "for vi ser perspektiver",
-            "i vår Minerva-ring!"
+            {
+                "type": "lyric",
+                "text": "I bilen, i stilen"
+            },
+            {
+                "type": "lyric",
+                "text": "søker vi mot freden – og hvilen"
+            },
+            {
+                "type": "lyric",
+                "text": "på Reistad, vi – DKSF!"
+            },
+            {
+                "type": "lyric",
+                "text": "Vi kjører Mercedes 300"
+            },
+            {
+                "type": "lyric",
+                "text": "når vi ikke vandrer Frognerveien,"
+            },
+            {
+                "type": "lyric",
+                "text": "der går vi – vi DKSF!"
+            },
+            {
+                "type": "lyric",
+                "text": "I vår avis   – ikke glis!   – skriver"
+            },
+            {
+                "type": "lyric",
+                "text": "vi om alvorlige ting,"
+            },
+            {
+                "type": "lyric",
+                "text": "for vi ser perspektiver"
+            },
+            {
+                "type": "lyric",
+                "text": "i vår Minerva-ring!"
+            }
         ],
         [
-            "Så vi er på høyde, blå-øyde,",
-            "vi er kort og godt så fornøyde",
-            "med farven",
-            "og arven; DKSF!"
+            {
+                "type": "lyric",
+                "text": "Så vi er på høyde, blå-øyde,"
+            },
+            {
+                "type": "lyric",
+                "text": "vi er kort og godt så fornøyde"
+            },
+            {
+                "type": "lyric",
+                "text": "med farven"
+            },
+            {
+                "type": "lyric",
+                "text": "og arven; DKSF!"
+            }
         ]
-    ],
-    "comments": [
-        "DKSF = Den Konservative Studenter-Forening.",
-        "”Minerva”, grunnlagt 1924, er tidsskriftet for DKSF.",
-        "Høyre hadde sitt kurssted på Reistad i Buskerud i perioden 1954-87"
-    ],
-    "start_page": 39,
-    "end_page": 40
+    ]
 }

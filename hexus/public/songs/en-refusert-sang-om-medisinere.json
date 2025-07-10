@@ -1,49 +1,137 @@
 {
-    "id": "en-refusert-sang-om-medisinere",
-    "title": "En refusert sang om medisinere",
-    "author": "To mistenkelige personer",
-    "melody": "Gangdøra heime, M. L. Widnes / E. Olson",
-    "event": "Julemøtet 1958",
-    "year": 1958,
-    "lyrics": [
+    "meta": {
+        "id": "en-refusert-sang-om-medisinere",
+        "title": "En refusert sang om medisinere",
+        "author": "To mistenkelige personer",
+        "melody": "Gangdøra heime, M. L. Widnes / E. Olson",
+        "event": "Julemøtet 1958",
+        "year": 1958,
+        "comments": [],
+        "start_page": 192,
+        "end_page": 193,
+        "youtube_link": "https://www.youtube.com/watch?v=tMLuaUR3XsI",
+        "spotify_link": "https://open.spotify.com/track/3n4pvK77CEwgWglnZuGLQN?si=d1ab1f0d3eb5455f"
+    },
+    "contents": [
         [
-            "De synger om legen, om kallet og plikta",
-            "med studentikost temperament.",
-            "Men når hendte det at et menneske dikta",
-            "om beinranglet vårses en sang?",
-            "Men det vet vi visst, at om det kunne tale,",
-            "så kom det for dagen så mang en skandale,",
-            "Tralalalalalalala."
+            {
+                "type": "lyric",
+                "text": "De synger om legen, om kallet og plikta"
+            },
+            {
+                "type": "lyric",
+                "text": "med studentikost temperament."
+            },
+            {
+                "type": "lyric",
+                "text": "Men når hendte det at et menneske dikta"
+            },
+            {
+                "type": "lyric",
+                "text": "om beinranglet vårses en sang?"
+            },
+            {
+                "type": "lyric",
+                "text": "Men det vet vi visst, at om det kunne tale,"
+            },
+            {
+                "type": "lyric",
+                "text": "så kom det for dagen så mang en skandale,"
+            },
+            {
+                "type": "lyric",
+                "text": "Tralalalalalalala."
+            }
         ],
         [
-            "Det står der og stirrer men øyne så hule",
-            "og kan ikke få fram et ord...",
-            "og ser på studenter som like å …drive",
-            "med de søte studinene... dank.",
-            "Det ser anatomer som skjærer og stikker",
-            "i oppspretta buker og avskårne... armer,",
-            "Tralalalalalalala."
+            {
+                "type": "lyric",
+                "text": "Det står der og stirrer men øyne så hule"
+            },
+            {
+                "type": "lyric",
+                "text": "og kan ikke få fram et ord..."
+            },
+            {
+                "type": "lyric",
+                "text": "og ser på studenter som like å …drive"
+            },
+            {
+                "type": "lyric",
+                "text": "med de søte studinene... dank."
+            },
+            {
+                "type": "lyric",
+                "text": "Det ser anatomer som skjærer og stikker"
+            },
+            {
+                "type": "lyric",
+                "text": "i oppspretta buker og avskårne... armer,"
+            },
+            {
+                "type": "lyric",
+                "text": "Tralalalalalalala."
+            }
         ],
         [
-            "Det har sett adskillige gutter som dompa,",
-            "det gjentar seg år efter år  -",
-            "at proffen til trøst tar hver enkelt i... handa,",
-            "og klappper dem på deres... kinn.",
-            "Så legger han sammen sin oppgavebunke",
-            "og låser seg inn hos seg selv for å... forske,",
-            "Tralalalalalalala."
+            {
+                "type": "lyric",
+                "text": "Det har sett adskillige gutter som dompa,"
+            },
+            {
+                "type": "lyric",
+                "text": "det gjentar seg år efter år  -"
+            },
+            {
+                "type": "lyric",
+                "text": "at proffen til trøst tar hver enkelt i... handa,"
+            },
+            {
+                "type": "lyric",
+                "text": "og klappper dem på deres... kinn."
+            },
+            {
+                "type": "lyric",
+                "text": "Så legger han sammen sin oppgavebunke"
+            },
+            {
+                "type": "lyric",
+                "text": "og låser seg inn hos seg selv for å... forske,"
+            },
+            {
+                "type": "lyric",
+                "text": "Tralalalalalalala."
+            }
         ],
         [
-            "Men beinranglet ergrer seg over den kløna",
-            "som bare kan tørr teori  -",
-            "som bare kan stikke to fingre i... øra",
-            "og ikke har noe på si’.",
-            "Det tenker: «Ja, la bare fyren få sitte,",
-            "han får seg nok også med tiden e... ksamen»,",
-            "Tralalalalalalala."
+            {
+                "type": "lyric",
+                "text": "Men beinranglet ergrer seg over den kløna"
+            },
+            {
+                "type": "lyric",
+                "text": "som bare kan tørr teori  -"
+            },
+            {
+                "type": "lyric",
+                "text": "som bare kan stikke to fingre i... øra"
+            },
+            {
+                "type": "lyric",
+                "text": "og ikke har noe på si’."
+            },
+            {
+                "type": "lyric",
+                "text": "Det tenker: «Ja, la bare fyren få sitte,"
+            },
+            {
+                "type": "lyric",
+                "text": "han får seg nok også med tiden e... ksamen»,"
+            },
+            {
+                "type": "lyric",
+                "text": "Tralalalalalalala."
+            }
         ]
-    ],
-    "comments": [],
-    "start_page": 192,
-    "end_page": 193
+    ]
 }

@@ -1,81 +1,225 @@
 {
-    "id": "en-ballade-om-magnus-falsen",
-    "title": "En ballade om Magnus Falsen",
-    "author": "Georg Apenes",
-    "melody": "Lykkeliten, Frimann Dahl Clasen",
-    "event": "Blindernrevyen 1967 ”Sludd i luften”",
-    "year": 1967,
-    "lyrics": [
+    "meta": {
+        "id": "en-ballade-om-magnus-falsen",
+        "title": "En ballade om Magnus Falsen",
+        "author": "Georg Apenes",
+        "melody": "Lykkeliten, Frimann Dahl Clasen",
+        "event": "Blindernrevyen 1967 ”Sludd i luften”",
+        "year": 1967,
+        "comments": [
+            "”En ballade om Magnus Falsen”,med antydning av hvorledes han, om han hadde levet i dag, ville kunne bevares for morgendagens Norge. Verkets intensjon er å påpeke det utilstrekkelige i at han bare lever i våre sinn.",
+            "Christian Magnus Falsen (1782 - 1830) ledende politiker blant Eidsvoldsmennene våren 1814.",
+            "Carl August Fleischer (1936- ),professor i rettsvitenskap ved  UiO 1969 - 2006, lærebokforfatter, først kjent fra forhandlingene om fordelingen av kontinentalsokkelen i Nordsjøen 1963-67."
+        ],
+        "start_page": 70,
+        "end_page": 72,
+        "youtube_link": "https://www.youtube.com/watch?v=BGoe1nPdZjg",
+        "spotify_link": "https://open.spotify.com/track/5T9tcVXHDVW24GkxNsfGQu?si=080a2805e3ae4662"
+    },
+    "contents": [
         [
-            "Da Magnus Falsen kom til verden, ",
-            "da var vårt Norge så som så.",
-            "Det var rent ille med velferden; ",
-            "det er så rart å tenke på.",
-            "Og som et folk av husmannsbønder, ",
-            "vi saknet verdens gods og gull:",
-            "For helt utrolig lave lønner ",
-            "lå vi og grov i Norges muld."
+            {
+                "type": "lyric",
+                "text": "Da Magnus Falsen kom til verden, "
+            },
+            {
+                "type": "lyric",
+                "text": "da var vårt Norge så som så."
+            },
+            {
+                "type": "lyric",
+                "text": "Det var rent ille med velferden; "
+            },
+            {
+                "type": "lyric",
+                "text": "det er så rart å tenke på."
+            },
+            {
+                "type": "lyric",
+                "text": "Og som et folk av husmannsbønder, "
+            },
+            {
+                "type": "lyric",
+                "text": "vi saknet verdens gods og gull:"
+            },
+            {
+                "type": "lyric",
+                "text": "For helt utrolig lave lønner "
+            },
+            {
+                "type": "lyric",
+                "text": "lå vi og grov i Norges muld."
+            }
         ],
         [
-            "Da Magnus Falsen kom på skolen, ",
-            "så ble han lært et fremmed språk.",
-            "Han levet lenge før parolen: ",
-            "– ”Vekk med hver rest av danske-åk!”",
-            "Og uten lærebok-normaler ",
-            "(- ja, bare tro det den som vil)",
-            "skrev han en Grunnlov, og holdt taler. ",
-            "D’er jamen rart han fikk det til."
+            {
+                "type": "lyric",
+                "text": "Da Magnus Falsen kom på skolen, "
+            },
+            {
+                "type": "lyric",
+                "text": "så ble han lært et fremmed språk."
+            },
+            {
+                "type": "lyric",
+                "text": "Han levet lenge før parolen: "
+            },
+            {
+                "type": "lyric",
+                "text": "– ”Vekk med hver rest av danske-åk!”"
+            },
+            {
+                "type": "lyric",
+                "text": "Og uten lærebok-normaler "
+            },
+            {
+                "type": "lyric",
+                "text": "(- ja, bare tro det den som vil)"
+            },
+            {
+                "type": "lyric",
+                "text": "skrev han en Grunnlov, og holdt taler. "
+            },
+            {
+                "type": "lyric",
+                "text": "D’er jamen rart han fikk det til."
+            }
         ],
         [
-            "Tenk, i det attende århundre ",
-            "slo man sin neste ihjel per hånd.",
-            "Slik nøysomhet må man beundre; ",
-            "hva ante de om megatonn?"
+            {
+                "type": "lyric",
+                "text": "Tenk, i det attende århundre "
+            },
+            {
+                "type": "lyric",
+                "text": "slo man sin neste ihjel per hånd."
+            },
+            {
+                "type": "lyric",
+                "text": "Slik nøysomhet må man beundre; "
+            },
+            {
+                "type": "lyric",
+                "text": "hva ante de om megatonn?"
+            },
+            {
+                "type": "lyric",
+                "text": "Med strutsefjær og røde kapper "
+            },
+            {
+                "type": "lyric",
+                "text": "dro man i krig i all slags vær."
+            },
+            {
+                "type": "lyric",
+                "text": "De kunne ikke trykke knapper, "
+            },
+            {
+                "type": "lyric",
+                "text": "man led visst svært som militær."
+            }
         ],
         [
-            "Med strutsefjær og røde kapper ",
-            "dro man i krig i all slags vær.",
-            "De kunne ikke trykke knapper, ",
-            "man led visst svært som militær."
+            {
+                "type": "lyric",
+                "text": "Akk, i rokokkotids-idyllen, "
+            },
+            {
+                "type": "lyric",
+                "text": "led Norges åndsliv av sensur."
+            },
+            {
+                "type": "lyric",
+                "text": "Kun Goethe’s «Werther» sto i hyllen "
+            },
+            {
+                "type": "lyric",
+                "text": "som Falsens håndbok i amour."
+            },
+            {
+                "type": "lyric",
+                "text": "Vår sympati er med fru Falsen; "
+            },
+            {
+                "type": "lyric",
+                "text": "hun skulle levet nå til dags."
+            },
+            {
+                "type": "lyric",
+                "text": "Hun hadde falt Bjerkmann om halsen, "
+            },
+            {
+                "type": "lyric",
+                "text": "om Magnus lest’ et kurs fra Pax."
+            }
         ],
         [
-            "Akk, i rokokkotids-idyllen, ",
-            "led Norges åndsliv av sensur.",
-            "Kun Goethe’s «Werther» sto i hyllen ",
-            "som Falsens håndbok i amour.",
-            "Vår sympati er med fru Falsen; ",
-            "hun skulle levet nå til dags.",
-            "Hun hadde falt Bjerkmann om halsen, ",
-            "om Magnus lest’ et kurs fra Pax."
+            {
+                "type": "lyric",
+                "text": "Men nå er Magnus Falsen borte, "
+            },
+            {
+                "type": "lyric",
+                "text": "og det er trist å tenke på."
+            },
+            {
+                "type": "lyric",
+                "text": "Tenk på hvor godt han kunne gjort det "
+            },
+            {
+                "type": "lyric",
+                "text": "om bar’ han hadde levet nå!"
+            },
+            {
+                "type": "lyric",
+                "text": "Men han er altså død, dessverre, "
+            },
+            {
+                "type": "lyric",
+                "text": "det kunne vi ha gjort no’ med."
+            },
+            {
+                "type": "lyric",
+                "text": "For slik en høyst kapabel herre "
+            },
+            {
+                "type": "lyric",
+                "text": "vil bli av dem man fryser ned."
+            }
         ],
         [
-            "Men nå er Magnus Falsen borte, ",
-            "og det er trist å tenke på.",
-            "Tenk på hvor godt han kunne gjort det ",
-            "om bar’ han hadde levet nå!",
-            "Men han er altså død, dessverre, ",
-            "det kunne vi ha gjort no’ med.",
-            "For slik en høyst kapabel herre ",
-            "vil bli av dem man fryser ned."
-        ],
-        [
-            "Befridd fra timelige plager -  ",
-            "vår hederskronte Grunnlovs-far",
-            "sku’ fått losjii på fryselager ",
-            "og så fikk hele Norge svar"
-        ],
-        [
-            "hver gang de lærde sukker oppgitt ",
-            "og Grunnlovstolkning gjør dem trett.",
-            "Man kunne bare tint ham opp litt ",
-            "og hørt om Fleischer kan ha rett!"
+            {
+                "type": "lyric",
+                "text": "Befridd fra timelige plager -  "
+            },
+            {
+                "type": "lyric",
+                "text": "vår hederskronte Grunnlovs-far"
+            },
+            {
+                "type": "lyric",
+                "text": "sku’ fått losjii på fryselager "
+            },
+            {
+                "type": "lyric",
+                "text": "og så fikk hele Norge svar"
+            },
+            {
+                "type": "lyric",
+                "text": "hver gang de lærde sukker oppgitt "
+            },
+            {
+                "type": "lyric",
+                "text": "og Grunnlovstolkning gjør dem trett."
+            },
+            {
+                "type": "lyric",
+                "text": "Man kunne bare tint ham opp litt "
+            },
+            {
+                "type": "lyric",
+                "text": "og hørt om Fleischer kan ha rett!"
+            }
         ]
-    ],
-    "comments": [
-        "”En ballade om Magnus Falsen”,med antydning av hvorledes han, om han hadde levet i dag, ville kunne bevares for morgendagens Norge. Verkets intensjon er å påpeke det utilstrekkelige i at han bare lever i våre sinn.",
-        "Christian Magnus Falsen (1782 - 1830) ledende politiker blant Eidsvoldsmennene våren 1814.",
-        "Carl August Fleischer (1936- ),professor i rettsvitenskap ved  UiO 1969 - 2006, lærebokforfatter, først kjent fra forhandlingene om fordelingen av kontinentalsokkelen i Nordsjøen 1963-67."
-    ],
-    "start_page": 70,
-    "end_page": 72
+    ]
 }

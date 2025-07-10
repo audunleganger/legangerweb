@@ -1,57 +1,151 @@
 {
-    "id": "store-lille-blindern",
-    "title": "Store lille Blindern",
-    "author": "August “Augias” Mauritzen",
-    "melody": "",
-    "event": "Blindernrevyen 1965 “Kom i orden”",
-    "year": 1965,
-    "lyrics": [
+    "meta": {
+        "id": "store-lille-blindern",
+        "title": "Store lille Blindern",
+        "author": "August “Augias” Mauritzen",
+        "melody": "",
+        "event": "Blindernrevyen 1965 “Kom i orden”",
+        "year": 1965,
+        "comments": [
+            "Universitetet ønsket å ekspropriere Bruket og bygge Institutt for preklinisk medisin. Det endte med et kompromiss, UiO fikk Brukets idrettsplass til parkeringsplass."
+        ],
+        "start_page": 66,
+        "end_page": 67,
+        "youtube_link": "https://www.youtube.com/watch?v=ed17BUp5VSk",
+        "spotify_link": "https://open.spotify.com/track/5a7vB00H8V5WBcwT0AWdl6?si=d4775a4ff2cc4566"
+    },
+    "contents": [
         [
-            "Store lille Blindern,  - takk for hva du er!",
-            "Takk fra alle oss som sitter her.",
-            "Store lille Blindern, - takk for hva du er for hver især!"
+            {
+                "type": "lyric",
+                "text": "Store lille Blindern,  - takk for hva du er!"
+            },
+            {
+                "type": "lyric",
+                "text": "Takk fra alle oss som sitter her."
+            },
+            {
+                "type": "lyric",
+                "text": "Store lille Blindern, - takk for hva du er for hver især!"
+            }
         ],
         [
-            "Store lille Blindern, - takk for hva du var!",
-            "Takk for tradisjonene du har.",
-            "Store lille Blindern, - takk for hva du var for sønn og far!"
+            {
+                "type": "lyric",
+                "text": "Store lille Blindern, - takk for hva du var!"
+            },
+            {
+                "type": "lyric",
+                "text": "Takk for tradisjonene du har."
+            },
+            {
+                "type": "lyric",
+                "text": "Store lille Blindern, - takk for hva du var for sønn og far!"
+            }
         ],
         [
-            "Ingen kan forstå det, hvis de ikke har",
-            "levet Blinderns frie liv.",
-            "Levet som studenter, levet opp til menn -",
-            "levet om og om og om igjen!",
-            "Store lille Blindern, - takk for alt du ga,",
-            "bare vi vet hvor du tok det fra.",
-            "Store lille Blindern, - det du står for, det kan ingen ta!"
+            {
+                "type": "lyric",
+                "text": "Ingen kan forstå det, hvis de ikke har"
+            },
+            {
+                "type": "lyric",
+                "text": "levet Blinderns frie liv."
+            },
+            {
+                "type": "lyric",
+                "text": "Levet som studenter, levet opp til menn -"
+            },
+            {
+                "type": "lyric",
+                "text": "levet om og om og om igjen!"
+            },
+            {
+                "type": "lyric",
+                "text": "Store lille Blindern, - takk for alt du ga,"
+            },
+            {
+                "type": "lyric",
+                "text": "bare vi vet hvor du tok det fra."
+            },
+            {
+                "type": "lyric",
+                "text": "Store lille Blindern, - det du står for, det kan ingen ta!"
+            }
         ],
         [
-            "Statens klamme hender klør og kroer seg -",
-            "sterke menn begjærer deg!",
-            "Ikke det du skaper, ikke ditt miljø.",
-            "Nei, tomten din. Det andre kan få dø!",
-            "Store lille Blindern, - du kan aldri dø.",
-            "Ikke du, og ikke ditt miljø.",
-            "Store lille Blindern, - livet selv kan aldri si adjø!"
+            {
+                "type": "lyric",
+                "text": "Statens klamme hender klør og kroer seg -"
+            },
+            {
+                "type": "lyric",
+                "text": "sterke menn begjærer deg!"
+            },
+            {
+                "type": "lyric",
+                "text": "Ikke det du skaper, ikke ditt miljø."
+            },
+            {
+                "type": "lyric",
+                "text": "Nei, tomten din. Det andre kan få dø!"
+            },
+            {
+                "type": "lyric",
+                "text": "Store lille Blindern, - du kan aldri dø."
+            },
+            {
+                "type": "lyric",
+                "text": "Ikke du, og ikke ditt miljø."
+            },
+            {
+                "type": "lyric",
+                "text": "Store lille Blindern, - livet selv kan aldri si adjø!"
+            }
         ],
         [
-            "Store lille Blindern, - du har evig liv",
-            "sett i det forgangnes perspektiv.",
-            "Unnskyld, kjære Blindern, kjærligheten gjør meg så naiv!"
+            {
+                "type": "lyric",
+                "text": "Store lille Blindern, - du har evig liv"
+            },
+            {
+                "type": "lyric",
+                "text": "sett i det forgangnes perspektiv."
+            },
+            {
+                "type": "lyric",
+                "text": "Unnskyld, kjære Blindern, kjærligheten gjør meg så naiv!"
+            }
         ],
         [
-            "Samfunnsånden krever ingenting av deg  -",
-            "bare at du viker vei!",
-            "Ikke bare delvis, der er null pardon.",
-            "Gi plass for noe større - i betong…",
-            "Store lille Blindern, - takk for hva du er!",
-            "Takk fra alle mann og hver især.",
-            "Store lille Blindern, - takk fra alle oss som sitter her!"
+            {
+                "type": "lyric",
+                "text": "Samfunnsånden krever ingenting av deg  -"
+            },
+            {
+                "type": "lyric",
+                "text": "bare at du viker vei!"
+            },
+            {
+                "type": "lyric",
+                "text": "Ikke bare delvis, der er null pardon."
+            },
+            {
+                "type": "lyric",
+                "text": "Gi plass for noe større - i betong…"
+            },
+            {
+                "type": "lyric",
+                "text": "Store lille Blindern, - takk for hva du er!"
+            },
+            {
+                "type": "lyric",
+                "text": "Takk fra alle mann og hver især."
+            },
+            {
+                "type": "lyric",
+                "text": "Store lille Blindern, - takk fra alle oss som sitter her!"
+            }
         ]
-    ],
-    "comments": [
-        "Universitetet ønsket å ekspropriere Bruket og bygge Institutt for preklinisk medisin. Det endte med et kompromiss, UiO fikk Brukets idrettsplass til parkeringsplass."
-    ],
-    "start_page": 66,
-    "end_page": 67
+    ]
 }

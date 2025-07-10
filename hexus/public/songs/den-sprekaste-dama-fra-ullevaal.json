@@ -1,51 +1,127 @@
 {
-    "id": "den-sprekaste-dama-fra-ullevaal",
-    "title": "Den sprekaste dama fra Ullevål",
-    "author": "Knut Mørkved",
-    "melody": "Radetski-marsj, Johann Strauss Sr.",
-    "event": "Blindernrevyen 1961 ”Skikk på bruket”",
-    "year": 1961,
-    "lyrics": [
+    "meta": {
+        "id": "den-sprekaste-dama-fra-ullevaal",
+        "title": "Den sprekaste dama fra Ullevål",
+        "author": "Knut Mørkved",
+        "melody": "Radetski-marsj, Johann Strauss Sr.",
+        "event": "Blindernrevyen 1961 ”Skikk på bruket”",
+        "year": 1961,
+        "comments": [
+            "Sykepleier-elevene fra Søsterhjemmet på Ullevål sykehus ble stadig bedt til danseaftener på Bruket."
+        ],
+        "start_page": 45,
+        "end_page": 46,
+        "youtube_link": "https://www.youtube.com/watch?v=w0AkbgSpWdk",
+        "spotify_link": "https://open.spotify.com/track/1ngFOi0A8RTKAcJF0O4WQo?si=f80a9d879496410b"
+    },
+    "contents": [
         [
-            "Ja, eg var visst på veg bort til Vinderen,",
-            "då dei tok meg til «peiskveld» på Blinderen.",
-            "Dei var fire mann, hadde øl i eit spann,",
-            "og de i hadde brendevin, ekte Gordon’s gin..."
+            {
+                "type": "lyric",
+                "text": "Ja, eg var visst på veg bort til Vinderen,"
+            },
+            {
+                "type": "lyric",
+                "text": "då dei tok meg til «peiskveld» på Blinderen."
+            },
+            {
+                "type": "lyric",
+                "text": "Dei var fire mann, hadde øl i eit spann,"
+            },
+            {
+                "type": "lyric",
+                "text": "og de i hadde brendevin, ekte Gordon’s gin..."
+            }
         ],
         [
-            "Og gutane var visst i kvinnfolkbeit,",
-            "og litt sprit, det er jaggu det beste eg veit.",
-            "Så du må veta det, eg vart med,",
-            "og sidan har eg altså vori her."
+            {
+                "type": "lyric",
+                "text": "Og gutane var visst i kvinnfolkbeit,"
+            },
+            {
+                "type": "lyric",
+                "text": "og litt sprit, det er jaggu det beste eg veit."
+            },
+            {
+                "type": "lyric",
+                "text": "Så du må veta det, eg vart med,"
+            },
+            {
+                "type": "lyric",
+                "text": "og sidan har eg altså vori her."
+            }
         ],
         [
-            "(Og korkje eg eller gutane ha angra på det, ",
-            "for – )"
+            {
+                "type": "lyric",
+                "text": "(Og korkje eg eller gutane ha angra på det, "
+            },
+            {
+                "type": "lyric",
+                "text": "for – )"
+            }
         ],
         [
-            "Eg er sprekaste dama frå Ullevål",
-            "når eg glefser i mannfolk og brukar vold.",
-            "Eg triver og river i øret og håret, magan og låret,",
-            "hovud og kropp, ja eg eter dei opp..."
+            {
+                "type": "lyric",
+                "text": "Eg er sprekaste dama frå Ullevål"
+            },
+            {
+                "type": "lyric",
+                "text": "når eg glefser i mannfolk og brukar vold."
+            },
+            {
+                "type": "lyric",
+                "text": "Eg triver og river i øret og håret, magan og låret,"
+            },
+            {
+                "type": "lyric",
+                "text": "hovud og kropp, ja eg eter dei opp..."
+            }
         ],
         [
-            "Eg har barskaste beina i heile by’n,",
-            "ja, det høgre er kjend i frå Voss til Stryn.",
-            "Skal eg ta han ut, vil du sjå han gut, ?",
-            "(...det var denna som fekk dyrlægen heime til ",
-            "å døy av slag...),",
-            "for han var ein stakkars fyr, berre vant til kyr."
+            {
+                "type": "lyric",
+                "text": "Eg har barskaste beina i heile by’n,"
+            },
+            {
+                "type": "lyric",
+                "text": "ja, det høgre er kjend i frå Voss til Stryn."
+            },
+            {
+                "type": "lyric",
+                "text": "Skal eg ta han ut, vil du sjå han gut, ?"
+            },
+            {
+                "type": "lyric",
+                "text": "(...det var denna som fekk dyrlægen heime til "
+            },
+            {
+                "type": "lyric",
+                "text": "å døy av slag...),"
+            },
+            {
+                "type": "lyric",
+                "text": "for han var ein stakkars fyr, berre vant til kyr."
+            }
         ],
         [
-            "Og får eg ikkje nok av min sprit-rasjon,",
-            "ja, da kjøper eg skokrem på moderasjon",
-            "er studentikos, et ansjos.",
-            "Å, kor eg trives her på Blinderen!"
+            {
+                "type": "lyric",
+                "text": "Og får eg ikkje nok av min sprit-rasjon,"
+            },
+            {
+                "type": "lyric",
+                "text": "ja, da kjøper eg skokrem på moderasjon"
+            },
+            {
+                "type": "lyric",
+                "text": "er studentikos, et ansjos."
+            },
+            {
+                "type": "lyric",
+                "text": "Å, kor eg trives her på Blinderen!"
+            }
         ]
-    ],
-    "comments": [
-        "Sykepleier-elevene fra Søsterhjemmet på Ullevål sykehus ble stadig bedt til danseaftener på Bruket."
-    ],
-    "start_page": 45,
-    "end_page": 46
+    ]
 }

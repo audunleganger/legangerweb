@@ -5,114 +5,177 @@ import { Footer } from "./components/Footer";
 import { DarkModeButton } from "./components/DarkModeButton";
 import useSongs from "./hooks/useSongs";
 import { useDarkMode } from "./context/DarkModeContext";
+import { Song } from "./types/song";
+import { setStoredSortMethod } from "./utils/sortStorage";
+import { Line } from "./types/song";
+
+// START EXTRACT
+type SortMethod =
+    | "title asc"
+    | "title desc"
+    | "year asc"
+    | "year desc"
+    | "page asc"
+    | "page desc";
+
+const sortSongs = (songs: Song[], method: SortMethod) => {
+    switch (method) {
+        case "title asc":
+            return songs.sort((a, b) =>
+                a.meta.title.localeCompare(b.meta.title, "nb")
+            );
+        case "title desc":
+            return songs.sort((a, b) =>
+                b.meta.title.localeCompare(a.meta.title, "nb")
+            );
+        case "year asc":
+            return songs.sort((a, b) => a.meta.year - b.meta.year);
+        case "year desc":
+            return songs.sort((a, b) => b.meta.year - a.meta.year);
+        case "page asc":
+            return songs.sort((a, b) => a.meta.start_page - b.meta.start_page);
+        case "page desc":
+            return songs.sort((a, b) => b.meta.start_page - a.meta.start_page);
+        default:
+            return songs;
+    }
+};
+// END EXTRACT
 
 const App = () => {
     const [searchTerm, setSearchTerm] = useState("");
-    const [titleSearch, setTitleSearch] = useState(true);
-    const [textSearch, setTextSearch] = useState(false);
+    const [textSearch, setTextSearch] = useState(true);
     const [currentSort, setCurrentSort] = useState("title asc");
     const { darkMode } = useDarkMode();
-    const { songs, setSongs, loading } = useSongs();
+    const { songs, loading } = useSongs();
+    const [sortedSongs, setSortedSongs] = useState<Song[]>([]);
 
     // Load song objects from each song files. Path: ../public/songs/{songId}.json
     useEffect(() => {
-        document.title = "Hexus";
+        document.title = "HEXUS";
 
         const handleBeforeUnload = () => {
             localStorage.removeItem("songs");
         };
 
         window.addEventListener("beforeunload", handleBeforeUnload);
+        const savedSortMethod = localStorage.getItem("sortMethod");
+        if (savedSortMethod) {
+            setCurrentSort(savedSortMethod);
+        } else {
+            setCurrentSort("title asc");
+        }
 
         return () => {
             window.removeEventListener("beforeunload", handleBeforeUnload);
         };
     }, []);
 
+    useEffect(() => {
+        if (songs.length > 0) {
+            const sorted = sortSongs([...songs], currentSort as SortMethod);
+            setSortedSongs(sorted);
+        }
+    }, [songs, currentSort]);
+
     const handleUpdate = (e: ChangeEvent<HTMLInputElement>) => {
         setSearchTerm(e.target.value);
-    };
-
-    const handleTitleSearchToggle = (e: ChangeEvent<HTMLInputElement>) => {
-        setTitleSearch(e.target.checked);
     };
 
     const handleTextSearchToggle = (e: ChangeEvent<HTMLInputElement>) => {
         setTextSearch(e.target.checked);
     };
-
-    const handleSortTitleToggle = () => {
-        if (currentSort === "title asc") {
-            const sortedSongs = songs.sort((a, b) =>
-                b.title.localeCompare(a.title, "nb")
-            );
-            setSongs(sortedSongs);
-            setCurrentSort("title desc");
-        } else {
-            const sortedSongs = songs.sort((a, b) =>
-                a.title.localeCompare(b.title, "nb")
-            );
-            setSongs(sortedSongs);
-            setCurrentSort("title asc");
+    /*
+    const updateSort = (newSort: SortMethod) => {
+        setCurrentSort(newSort);
+        localStorage.setItem("sortMethod", newSort);
+        const sortedSongs = sortSongs([...songs], newSort);
+        setSongs(sortedSongs);
+        setSortedSongs(() => sortedSongs);
+        console.log(sortedSongs);
+    };
+*/
+    const handleHeaderToggle = (headerText: string) => {
+        let newSort: SortMethod;
+        switch (headerText) {
+            case "Tittel":
+                if (currentSort === "title asc") {
+                    newSort = "title desc";
+                } else {
+                    newSort = "title asc";
+                }
+                break;
+            case "År":
+                if (currentSort === "year asc") {
+                    newSort = "year desc";
+                } else {
+                    newSort = "year asc";
+                }
+                break;
+            case "Side":
+                if (currentSort === "page asc") {
+                    newSort = "page desc";
+                } else {
+                    newSort = "page asc";
+                }
+                break;
+            default:
+                newSort = "title asc"; // Default sort if no match
+                break;
         }
+        setCurrentSort(newSort);
+        setStoredSortMethod(newSort);
+    };
+    /*
+    const handleSortTitleToggle = () => {
+        updateSort(currentSort === "title asc" ? "title desc" : "title asc");
     };
     const handleSortYearToggle = () => {
-        if (currentSort === "year asc") {
-            const sortedSongs = songs.sort((a, b) => b.year - a.year);
-            setSongs(sortedSongs);
-            setCurrentSort("year desc");
-        } else {
-            const sortedSongs = songs.sort((a, b) => a.year - b.year);
-            setSongs(sortedSongs);
-            setCurrentSort("year asc");
-        }
+        updateSort(currentSort === "year asc" ? "year desc" : "year asc");
     };
     const handleSortPageToggle = () => {
-        if (currentSort === "page asc") {
-            const sortedSongs = songs.sort(
-                (a, b) => b.start_page - a.start_page
-            );
-            setSongs(sortedSongs);
-            setCurrentSort("page desc");
-        } else {
-            const sortedSongs = songs.sort(
-                (a, b) => a.start_page - b.start_page
-            );
-            setSongs(sortedSongs);
-            setCurrentSort("page asc");
-        }
+        updateSort(currentSort === "page asc" ? "page desc" : "page asc");
+    };
+*/
+    const flattenSongText = (song: Song): string => {
+        // const verses = song.contents;
+        // const flattenedLines = verses
+        //     .flat(Infinity)
+        //     .filter(
+        //         (line): line is Line =>
+        //             !Array.isArray(line) &&
+        //             typeof line === "object" &&
+        //             "text" in line
+        //     )
+        //     .map((line) => line.text)
+        //     .filter(Boolean);
+        // return flattenedLines.join(" ");
+        return song.contents
+            .flat()
+            .map((line: Line) => line.text)
+            .filter(Boolean)
+            .join(" ");
     };
 
-    const filteredSongs = songs.filter((song) => {
-        const fullLyricsString = textSearch
-            ? song.lyrics.flat(Infinity).join(" ")
-            : "";
-        const matchingTitles = song.title
+    const filteredSongs = sortedSongs.filter((song) => {
+        const fullLyricsString = flattenSongText(song);
+        const matchingTitles = song.meta.title
             .toLowerCase()
             .includes(searchTerm.toLowerCase());
         const matchingLyrics = fullLyricsString
             .toLowerCase()
             .includes(searchTerm.toLowerCase());
 
-        return (
-            (titleSearch && matchingTitles) || (textSearch && matchingLyrics)
-        );
+        return matchingTitles || (textSearch && matchingLyrics);
     });
 
     return (
         <div className="centered">
-            <h1>Hexus</h1>
+            <h1>HEXUS</h1>
             <DarkModeButton />
             <section>
                 <label htmlFor="searchField">Søk: </label>
                 <input type="text" id="searchField" onChange={handleUpdate} />
-                <input
-                    type="checkbox"
-                    id="titleCheckbox"
-                    checked={titleSearch}
-                    onChange={handleTitleSearchToggle}
-                />
-                <label htmlFor="titleCheckbox">Tittelsøk</label>
                 <input
                     type="checkbox"
                     id="lyricsCheckbox"
@@ -124,38 +187,61 @@ const App = () => {
             {loading ? (
                 <p>Loading...</p>
             ) : filteredSongs.length > 0 ? (
-                <section className="centered">
+                <section className="content-area centered">
                     <table className={`${darkMode}`}>
                         <thead>
                             <tr>
-                                <th onClick={handleSortTitleToggle}>Tittel</th>
-                                <th onClick={handleSortYearToggle}>År</th>
-                                <th onClick={handleSortPageToggle}>Side</th>
-                                <th>Forfatter</th>
+                                <th
+                                    onClick={() => {
+                                        handleHeaderToggle("Tittel");
+                                    }}
+                                >
+                                    Tittel
+                                </th>
+                                <th
+                                    onClick={() => {
+                                        handleHeaderToggle("År");
+                                    }}
+                                >
+                                    År
+                                </th>
+                                <th
+                                    onClick={() => {
+                                        handleHeaderToggle("Side");
+                                    }}
+                                >
+                                    Side
+                                </th>
+                                <th>Tekst</th>
                                 <th>Melodi</th>
                                 <th>Arrangement</th>
                             </tr>
                         </thead>
                         <tbody>
                             {filteredSongs.map((song) => (
-                                <tr key={song.id}>
+                                <tr key={song.meta.id}>
                                     <td>
-                                        <Link to={`/songs/${song.id}`}>
-                                            {song.title}
+                                        <Link
+                                            to={`/songs/${song.meta.id}`}
+                                            onClick={() =>
+                                                window.scrollTo(0, 0)
+                                            }
+                                        >
+                                            {song.meta.title}
                                         </Link>
                                     </td>
-                                    <td>{song.year}</td>
-                                    <td>{song.start_page}</td>
-                                    <td>{song.author}</td>
-                                    <td>{song.melody}</td>
-                                    <td>{song.event}</td>
+                                    <td>{song.meta.year}</td>
+                                    <td>{song.meta.start_page}</td>
+                                    <td>{song.meta.author}</td>
+                                    <td>{song.meta.melody}</td>
+                                    <td>{song.meta.event}</td>
                                 </tr>
                             ))}
                         </tbody>
                     </table>
                 </section>
             ) : (
-                <p className="no-matches">Ingen treff</p>
+                <p className="content-area no-matches">Ingen treff</p>
             )}
             <Footer />
         </div>

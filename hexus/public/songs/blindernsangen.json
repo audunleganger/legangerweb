@@ -1,62 +1,183 @@
 {
-    "id": "blindernsangen",
-    "title": "Blindernsangen",
-    "author": "Ingvild K. Jørstad Aurebekk / Kyrre Isaksen",
-    "melody": "Ich hab’ mein Herz in Heidelberg verloren, Friedrich R Vesely (1925)",
-    "event": "UKA på Blindern 2005 ”Discorevy Channel”",
-    "year": 2005,
-    "lyrics": [
+    "meta": {
+        "id": "blindernsangen",
+        "title": "Blindernsangen",
+        "author": "Ingvild K. Jørstad Aurebekk / Kyrre Isaksen",
+        "melody": "Ich hab’ mein Herz in Heidelberg verloren, Friedrich R Vesely (1925)",
+        "event": "UKA på Blindern 2005 ”Discorevy Channel”",
+        "year": 2005,
+        "comments": [],
+        "start_page": 148,
+        "end_page": 149,
+        "youtube_link": "https://www.youtube.com/watch?v=haHgpmXshY0",
+        "spotify_link": "https://open.spotify.com/track/4S66yMcYTq6ie5BHDXCLtU?si=ab1364c4944d4e89"
+    },
+    "contents": [
         [
-            "Det var en deilig aften, jeg var knapt 19 år.",
-            "Hun hadde røde lepper og blondt og vakkert hår.",
-            "Pygminen var så deilig,",
-            "og jeg var mer enn klar.",
-            "Ja, da visste jeg, ja, da visste jeg",
-            "hvorhen, hvorhen det bar:"
+            {
+                "type": "lyric",
+                "text": "Det var en deilig aften, jeg var knapt 19 år."
+            },
+            {
+                "type": "lyric",
+                "text": "Hun hadde røde lepper og blondt og vakkert hår."
+            },
+            {
+                "type": "lyric",
+                "text": "Pygminen var så deilig,"
+            },
+            {
+                "type": "lyric",
+                "text": "og jeg var mer enn klar."
+            },
+            {
+                "type": "lyric",
+                "text": "Ja, da visste jeg, ja, da visste jeg"
+            },
+            {
+                "type": "lyric",
+                "text": "hvorhen, hvorhen det bar:"
+            }
         ],
         [
-            "Refr:",
-            "På Blinderen så mistet hun sin uskyld",
-            "den gang en fuktig sommerkveld.",
-            "Jeg var fortapt, og hun preget av flatfyll,",
-            "et fåret smil, så gikk det av seg selv.",
-            "Den neste morgen var alt bare smerte",
-            "og skallebank, da gav hun meg en klem!",
-            "Ja, det var da jeg gav henne mitt hjerte",
-            "på Blinderen Studenterhjem."
+            {
+                "type": "chorus-header",
+                "text": "Ref."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "På Blinderen så mistet hun sin uskyld"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "den gang en fuktig sommerkveld."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Jeg var fortapt, og hun preget av flatfyll,"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "et fåret smil, så gikk det av seg selv."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Den neste morgen var alt bare smerte"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "og skallebank, da gav hun meg en klem!"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Ja, det var da jeg gav henne mitt hjerte"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "på Blinderen Studenterhjem."
+            }
         ],
         [
-            "Alt jeg har nå er minner om sølecup og drank,",
-            "om velferd, vestalinner, revy og hjertebank.",
-            "Og nå vil jeg tilbake,",
-            "forkvaklet er jeg klar.",
-            "For jeg vender hjem  - til mitt Blinderen..",
-            "Ja, det er alt jeg har:"
+            {
+                "type": "lyric",
+                "text": "Alt jeg har nå er minner om sølecup og drank,"
+            },
+            {
+                "type": "lyric",
+                "text": "om velferd, vestalinner, revy og hjertebank."
+            },
+            {
+                "type": "lyric",
+                "text": "Og nå vil jeg tilbake,"
+            },
+            {
+                "type": "lyric",
+                "text": "forkvaklet er jeg klar."
+            },
+            {
+                "type": "lyric",
+                "text": "For jeg vender hjem  - til mitt Blinderen.."
+            },
+            {
+                "type": "lyric",
+                "text": "Ja, det er alt jeg har:"
+            }
         ],
         [
-            "Refr:",
-            "Ja, hjertet mitt er Blinderens, alene.",
-            "Jeg burde aldri flyttet ut!",
-            "Min storhetstid var Bruket å betjene,",
-            "Studenterhjem har gjort meg til en stut.",
-            "Ja, det var her jeg drakk meg full og skålte",
-            "på grisefyll  -  i gallauniform.",
-            "På Blinderen sto sjelen min og strålte",
-            "for det tok hjertet mitt med storm."
+            {
+                "type": "chorus-header",
+                "text": "Ref."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Ja, hjertet mitt er Blinderens, alene."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Jeg burde aldri flyttet ut!"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Min storhetstid var Bruket å betjene,"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Studenterhjem har gjort meg til en stut."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Ja, det var her jeg drakk meg full og skålte"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "på grisefyll  -  i gallauniform."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "På Blinderen sto sjelen min og strålte"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "for det tok hjertet mitt med storm."
+            }
         ],
         [
-            "Refr:",
-            "Ja, hjertet mitt er Blinderens alene",
-            "Med all sin prakt og tradisjon.",
-            "Jeg er fortapt i hele fenomenet:",
-            "Studenterhjem med stil og suggesjon.",
-            "Her var det ball og nydelige kvinner",
-            "Som alltid kom, og aldri dro avsted.",
-            "På Blinderen, så ble jeg til en vinner,",
-            "for der fant hjertet mitt sin fred."
+            {
+                "type": "chorus-header",
+                "text": "Ref."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Ja, hjertet mitt er Blinderens alene"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Med all sin prakt og tradisjon."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Jeg er fortapt i hele fenomenet:"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Studenterhjem med stil og suggesjon."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Her var det ball og nydelige kvinner"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Som alltid kom, og aldri dro avsted."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "På Blinderen, så ble jeg til en vinner,"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "for der fant hjertet mitt sin fred."
+            }
         ]
-    ],
-    "comments": [],
-    "start_page": 148,
-    "end_page": 149
+    ]
 }

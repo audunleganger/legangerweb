@@ -1,41 +1,123 @@
 {
-    "id": "de-glade-tyveaarene-aapningsvise",
-    "title": "De glade tyveårene (åpningsvise)",
-    "author": "Pjokken Eide/ Petter Hangeland",
-    "melody": "The Charleston, James P. Johnson (1923)",
-    "event": "Blindernrevyen 1969 «Fall oss om halsen»",
-    "year": 1969,
-    "lyrics": [
+    "meta": {
+        "id": "de-glade-tyveaarene-aapningsvise",
+        "title": "De glade tyveårene (åpningsvise)",
+        "author": "Pjokken Eide/ Petter Hangeland",
+        "melody": "The Charleston, James P. Johnson (1923)",
+        "event": "Blindernrevyen 1969 «Fall oss om halsen»",
+        "year": 1969,
+        "comments": [],
+        "start_page": 73,
+        "end_page": 73,
+        "youtube_link": "https://www.youtube.com/watch?v=Hv-EGeLEnko",
+        "spotify_link": "https://open.spotify.com/track/5HPsMYpuJ0NpGMosae6Lxa?si=ccf6734bde2446b8"
+    },
+    "contents": [
         [
-            "Revy,",
-            "rævva,",
-            "rimord, og rivaler.",
-            "Rumba,",
-            "rytme",
-            "rimer – på doa-doa-doa.",
-            "Sing-sing,",
-            "soft-ice,",
-            "striptease og sigarer.",
-            "Og så blir det moll,",
-            "og så blir det Tott,",
-            "og så blir det Knoll",
-            "og så går det trått.",
-            "Hjem langt",
-            "mot nord,",
-            "hjemme hos min morbror.",
-            "Men det",
-            "var da",
-            "voldsomt  -   til sentimentalitet!",
-            "Skuff-skuff",
-            "skuvadeguveduff",
-            "fall oss",
-            "om halsen i",
-            "aften,",
-            "når du er her på vår",
-            "revy."
+            {
+                "type": "lyric",
+                "text": "Revy,"
+            },
+            {
+                "type": "lyric",
+                "text": "rævva,"
+            },
+            {
+                "type": "lyric",
+                "text": "rimord, og rivaler."
+            },
+            {
+                "type": "lyric",
+                "text": "Rumba,"
+            },
+            {
+                "type": "lyric",
+                "text": "rytme"
+            },
+            {
+                "type": "lyric",
+                "text": "rimer – på doa-doa-doa."
+            },
+            {
+                "type": "lyric",
+                "text": "Sing-sing,"
+            },
+            {
+                "type": "lyric",
+                "text": "soft-ice,"
+            },
+            {
+                "type": "lyric",
+                "text": "striptease og sigarer."
+            },
+            {
+                "type": "lyric",
+                "text": "Og så blir det moll,"
+            },
+            {
+                "type": "lyric",
+                "text": "og så blir det Tott,"
+            },
+            {
+                "type": "lyric",
+                "text": "og så blir det Knoll"
+            },
+            {
+                "type": "lyric",
+                "text": "og så går det trått."
+            },
+            {
+                "type": "lyric",
+                "text": "Hjem langt"
+            },
+            {
+                "type": "lyric",
+                "text": "mot nord,"
+            },
+            {
+                "type": "lyric",
+                "text": "hjemme hos min morbror."
+            },
+            {
+                "type": "lyric",
+                "text": "Men det"
+            },
+            {
+                "type": "lyric",
+                "text": "var da"
+            },
+            {
+                "type": "lyric",
+                "text": "voldsomt  -  til sentimentalitet!"
+            },
+            {
+                "type": "lyric",
+                "text": "Skuff-skuff"
+            },
+            {
+                "type": "lyric",
+                "text": "skuvadeguveduff"
+            },
+            {
+                "type": "lyric",
+                "text": "fall oss"
+            },
+            {
+                "type": "lyric",
+                "text": "om halsen i"
+            },
+            {
+                "type": "lyric",
+                "text": "aften,"
+            },
+            {
+                "type": "lyric",
+                "text": "når du er her på vår"
+            },
+            {
+                "type": "lyric",
+                "text": "revy."
+            }
         ]
-    ],
-    "comments": [],
-    "start_page": 73,
-    "end_page": 73
+    ]
 }

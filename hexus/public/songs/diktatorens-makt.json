@@ -1,70 +1,207 @@
 {
-    "id": "diktatorens-makt",
-    "title": "Diktatorens makt",
-    "author": "Elias Zahl-Pettersen / Siri Skotvedt",
-    "melody": "Some Die Young, Laleh",
-    "event": "UKA på Blindern  2017 “Full makt”",
-    "year": 2017,
-    "lyrics": [
+    "meta": {
+        "id": "diktatorens-makt",
+        "title": "Diktatorens makt",
+        "author": "Elias Zahl-Pettersen / Siri Skotvedt",
+        "melody": "Some Die Young, Laleh",
+        "event": "UKA på Blindern  2017 “Full makt”",
+        "year": 2017,
+        "comments": [],
+        "start_page": 180,
+        "end_page": 181,
+        "youtube_link": "https://www.youtube.com/watch?v=cmQ_SGgc1C0",
+        "spotify_link": "https://open.spotify.com/track/76gKHzNJP5iohtbgKmNuRK?si=880a4a6db4c3443b"
+    },
+    "contents": [
         [
-            "Da fledsplis-vinner ble bestemt",
-            "Så ble jeg forbigått, ydmyket og glemt, ",
-            "skulle gått til meg."
+            {
+                "type": "lyric",
+                "text": "Da fledsplis-vinner ble bestemt"
+            },
+            {
+                "type": "lyric",
+                "text": "Så ble jeg forbigått, ydmyket og glemt, "
+            },
+            {
+                "type": "lyric",
+                "text": "skulle gått til meg."
+            }
         ],
         [
-            "Og igjen så blir jeg mobbet",
-            "Av Søl- Kolea, Søl- Kolea ",
-            "Plesidenten der vant fledsplis i 2000",
-            "Men hva het han?",
-            "Hva het han? "
+            {
+                "type": "lyric",
+                "text": "Og igjen så blir jeg mobbet"
+            },
+            {
+                "type": "lyric",
+                "text": "Av Søl- Kolea, Søl- Kolea "
+            },
+            {
+                "type": "lyric",
+                "text": "Plesidenten der vant fledsplis i 2000"
+            },
+            {
+                "type": "lyric",
+                "text": "Men hva het han?"
+            },
+            {
+                "type": "lyric",
+                "text": "Hva het han? "
+            }
         ],
         [
-            "Kim, Kim Dae-jung!",
-            "Nå er det jaktsesong ",
-            "Og du blir penetrert med min batong ",
-            "Jeg er – Kim Jong-un",
-            "Og jeg lovet min far å knuse",
-            "Kim Dae-jung",
-            "Min rare kroppsfasong ",
-            "Asymmetrisk, men  fortsatt ganske fjong ",
-            "jeg er – Kim Jong- un ",
-            "og jeg lovet min far å knuse ",
-            "Kim Dae-jung"
+            {
+                "type": "lyric",
+                "text": "Kim, Kim Dae-jung!"
+            },
+            {
+                "type": "lyric",
+                "text": "Nå er det jaktsesong "
+            },
+            {
+                "type": "lyric",
+                "text": "Og du blir penetrert med min batong "
+            },
+            {
+                "type": "lyric",
+                "text": "Jeg er – Kim Jong-un"
+            },
+            {
+                "type": "lyric",
+                "text": "Og jeg lovet min far å knuse"
+            },
+            {
+                "type": "lyric",
+                "text": "Kim Dae-jung"
+            },
+            {
+                "type": "lyric",
+                "text": "Min rare kroppsfasong "
+            },
+            {
+                "type": "lyric",
+                "text": "Asymmetrisk, men  fortsatt ganske fjong "
+            },
+            {
+                "type": "lyric",
+                "text": "jeg er – Kim Jong- un "
+            },
+            {
+                "type": "lyric",
+                "text": "og jeg lovet min far å knuse "
+            },
+            {
+                "type": "lyric",
+                "text": "Kim Dae-jung"
+            }
         ],
         [
-            "Min far blir sammenlignet med Adolf ",
-            "Slo fortsatt elleve hole-in-ones ",
-            "første gang han spilte golf"
+            {
+                "type": "lyric",
+                "text": "Min far blir sammenlignet med Adolf "
+            },
+            {
+                "type": "lyric",
+                "text": "Slo fortsatt elleve hole-in-ones "
+            },
+            {
+                "type": "lyric",
+                "text": "første gang han spilte golf"
+            },
+            {
+                "type": "lyric",
+                "text": "For en helt han er, "
+            },
+            {
+                "type": "lyric",
+                "text": "han er hamburger’ns oppfinner "
+            },
+            {
+                "type": "lyric",
+                "text": "Peker på ting, peker på ting "
+            },
+            {
+                "type": "lyric",
+                "text": "Jeg kan aldri leve opp til pappas rykte"
+            },
+            {
+                "type": "lyric",
+                "text": "For hva kan jeg?"
+            },
+            {
+                "type": "lyric",
+                "text": "Hva kan jeg? "
+            },
+            {
+                "type": "lyric",
+                "text": " "
+            },
+            {
+                "type": "lyric",
+                "text": "Kim, Kim Jong-Un"
+            },
+            {
+                "type": "lyric",
+                "text": "Jeg er jo god på bunn"
+            },
+            {
+                "type": "lyric",
+                "text": "og har plass til tolv marie-kjeks i munn"
+            },
+            {
+                "type": "lyric",
+                "text": "Jeg er Kim Jong-Un "
+            },
+            {
+                "type": "lyric",
+                "text": "og Søl-Kolea skal brenne"
+            },
+            {
+                "type": "lyric",
+                "text": "som Aalesund. "
+            },
+            {
+                "type": "lyric",
+                "text": "For jeg er god og rund"
+            },
+            {
+                "type": "lyric",
+                "text": "Men spiser fisk, er fortsatt ganske sunn"
+            },
+            {
+                "type": "lyric",
+                "text": "Jeg er – Kim Jong-Un"
+            },
+            {
+                "type": "lyric",
+                "text": "De sier at jeg er en slemming"
+            },
+            {
+                "type": "lyric",
+                "text": "Uten grunn."
+            }
         ],
         [
-            "For en helt han er, ",
-            "han er hamburger’ns oppfinner ",
-            "Peker på ting, peker på ting ",
-            "Jeg kan aldri leve opp til pappas rykte",
-            "For hva kan jeg?",
-            "Hva kan jeg? ",
-            " ",
-            "Kim, Kim Jong-Un",
-            "Jeg er jo god på bunn",
-            "og har plass til tolv marie-kjeks i munn",
-            "Jeg er Kim Jong-Un ",
-            "og Søl-Kolea skal brenne",
-            "som Aalesund. ",
-            "For jeg er god og rund",
-            "Men spiser fisk, er fortsatt ganske sunn",
-            "Jeg er – Kim Jong-Un",
-            "De sier at jeg er en slemming",
-            "Uten grunn."
-        ],
-        [
-            "Har jobbet nå en stund",
-            "Skrev planer mens jeg satt og spiste hund.",
-            "Har bygd et fint samfunn",
-            "Som fortjener en pris på grunn av  ",
-            "han Kim Jong-Un."
+            {
+                "type": "lyric",
+                "text": "Har jobbet nå en stund"
+            },
+            {
+                "type": "lyric",
+                "text": "Skrev planer mens jeg satt og spiste hund."
+            },
+            {
+                "type": "lyric",
+                "text": "Har bygd et fint samfunn"
+            },
+            {
+                "type": "lyric",
+                "text": "Som fortjener en pris på grunn av  "
+            },
+            {
+                "type": "lyric",
+                "text": "han Kim Jong-Un."
+            }
         ]
-    ],
-    "comments": [],
-    "start_page": 180,
-    "end_page": 181
+    ]
 }

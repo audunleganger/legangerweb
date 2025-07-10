@@ -1,49 +1,205 @@
 {
-    "id": "du-og-jeg-ari-og-martha",
-    "title": "Du og Jeg (Ari og Märtha)",
-    "author": "Ingvild K. Jørstad Aurebekk",
-    "melody": "Ingvild K. Jørstad Aurebekk",
-    "event": "UKA på Blindern 2003 ”Døden holder lupen mens liket passerer i revy”",
-    "year": 2003,
-    "lyrics": [
+    "meta": {
+        "id": "du-og-jeg-ari-og-martha",
+        "title": "Du og jeg (Ari og Märtha)",
+        "author": "Ingvild K. Jørstad Aurebekk",
+        "melody": "Ingvild K. Jørstad Aurebekk",
+        "event": "UKA på Blindern 2003 ”Døden holder lupen mens liket passerer i revy”",
+        "year": 2003,
+        "comments": [],
+        "start_page": 146,
+        "end_page": 147,
+        "youtube_link": "",
+        "spotify_link": ""
+    },
+    "contents": [
         [
-            "Han: Du og jeg har en himmel sammen.",
-            "Hun: Du og jeg holder alltid liv i flammen",
-            "Begge: Amor og Venus vinker langs vår vei"
+            {
+                "type": "italic underline no-line-break",
+                "text": "Han:"
+            },
+            {
+                "type": "lyric",
+                "text": "\tDu og jeg har en himmel sammen."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "Hun:"
+            },
+            {
+                "type": "lyric",
+                "text": "\tDu og jeg holder alltid liv i flammen"
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "Begge:"
+            },
+            {
+                "type": "lyric",
+                "text": "\tAmor og Venus vinker langs vår vei"
+            }
         ],
         [
-            "Han: Dine smil er bensin på bålet",
-            "Hun: Det er du som har fått meg til å stråle!",
-            "Begge: Solen står høyt, så lenge jeg har deg!",
-            "Nå er vi her, nå er vi sammen.",
-            "Alle kan se oss, og alle glor!",
-            "Og alle kan høre når jeg hvisker ømt:",
-            "Han: Store ord",
-            "Hun: Store ord, store ord."
+            {
+                "type": "italic underline no-line-break",
+                "text": "Han:"
+            },
+            {
+                "type": "lyric",
+                "text": "\tDine smil er bensin på bålet"
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "Hun:"
+            },
+            {
+                "type": "lyric",
+                "text": "\tDet er du som har fått meg til å stråle!"
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "Begge:"
+            },
+            {
+                "type": "lyric",
+                "text": "\tSolen står høyt, så lenge jeg har deg!"
+            },
+            {
+                "type": "lyric",
+                "text": "\t\tNå er vi her, nå er vi sammen."
+            },
+            {
+                "type": "lyric",
+                "text": "\t\tAlle kan se oss, og alle glor!"
+            },
+            {
+                "type": "lyric",
+                "text": "\t\tOg alle kan høre når jeg hvisker ømt:"
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "Han:"
+            },
+            {
+                "type": "lyric",
+                "text": "\tStore ord"
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "Hun:"
+            },
+            {
+                "type": "lyric",
+                "text": "\tStore ord, store ord."
+            }
         ],
         [
-            "(avstanden øker mellom dem)",
-            "Han: Du og jeg deler evig lykke.",
-            "Hun: Kjærlighet lar seg aldri undertrykke!",
-            "Begge: Bare et blikk fra deg gir alle svar.",
-            "Han: Du og jeg (Hun: du og jeg...)",
-            "Du kan best forstå meg…",
-            "Du og jeg (Hun: du og jeg...)",
-            "Ikke syng i kjeften på meg!",
-            "Jeg er din helt...",
-            "Hun: ... og jeg din superstar!"
+            {
+                "type": "instruction",
+                "text": "(avstanden øker mellom dem)"
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "Han:"
+            },
+            {
+                "type": "lyric",
+                "text": "\tDu og jeg deler evig lykke."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "Hun:"
+            },
+            {
+                "type": "lyric",
+                "text": "\tKjærlighet lar seg aldri undertrykke!"
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "Begge:"
+            },
+            {
+                "type": "lyric",
+                "text": "\tBare et blikk fra deg gir alle svar."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "Han:"
+            },
+            {
+                "type": "lyric",
+                "text": "\tDu og jeg (Hun: du og jeg...)"
+            },
+            {
+                "type": "lyric",
+                "text": "\t\tDu kan best forstå meg…"
+            },
+            {
+                "type": "lyric",
+                "text": "\t\tDu og jeg (Hun: du og jeg...)"
+            },
+            {
+                "type": "lyric",
+                "text": "\t\tIkke syng i kjeften på meg!"
+            },
+            {
+                "type": "lyric",
+                "text": "\t\tJeg er din helt..."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "Hun:"
+            },
+            {
+                "type": "lyric",
+                "text": "\t... og jeg din superstar!"
+            }
         ],
         [
-            "Begge: Natt blir til dag, drømmen får vinger",
-            "Hele min sjel åpenbarer seg.",
-            "Det alle kan høre når jeg hvisker ømt.",
-            "Det trengs ikke glitter og gods eller gull.",
-            "Han: Bare deg",
-            "Hun: Bare meg",
-            "Begge: Bare meg. Bare vi to har - det vi to har."
+            {
+                "type": "italic underline no-line-break",
+                "text": "Begge:"
+            },
+            {
+                "type": "lyric",
+                "text": "\tNatt blir til dag, drømmen får vinger"
+            },
+            {
+                "type": "lyric",
+                "text": "\t\tHele min sjel åpenbarer seg."
+            },
+            {
+                "type": "lyric",
+                "text": "\t\tDet alle kan høre når jeg hvisker ømt."
+            },
+            {
+                "type": "lyric",
+                "text": "\t\tDet trengs ikke glitter og gods eller gull."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "Han:"
+            },
+            {
+                "type": "lyric",
+                "text": "\tBare deg"
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "Hun:"
+            },
+            {
+                "type": "lyric",
+                "text": "\tBare meg"
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "Begge:"
+            },
+            {
+                "type": "lyric",
+                "text": "\tBare meg. Bare vi to har - det vi to har."
+            }
         ]
-    ],
-    "comments": [],
-    "start_page": 146,
-    "end_page": 147
+    ]
 }

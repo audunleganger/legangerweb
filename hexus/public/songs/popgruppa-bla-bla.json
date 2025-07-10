@@ -1,73 +1,221 @@
 {
-    "id": "popgruppa-bla-bla",
-    "title": "Popgruppa BLA-BLA",
-    "author": "Mats M. Stensrud",
-    "melody": "Fernando, Anderson/Ulvæus",
-    "event": "Blindernrevyen 1977 ”Scene-strekk”",
-    "year": 1977,
-    "lyrics": [
+    "meta": {
+        "id": "popgruppa-bla-bla",
+        "title": "Popgruppa BLA-BLA",
+        "author": "Mats M. Stensrud",
+        "melody": "Fernando, Anderson/Ulvæus",
+        "event": "Blindernrevyen 1977 ”Scene-strekk”",
+        "year": 1977,
+        "comments": [],
+        "start_page": 98,
+        "end_page": 99,
+        "youtube_link": "https://www.youtube.com/watch?v=40Z5cWP4IqQ",
+        "spotify_link": "https://open.spotify.com/track/4BM8yJ0PzBi2ZewpMTOxtx?si=fbe432dc161a492c"
+    },
+    "contents": [
         [
-            "Hele salen som beruset!",
-            "Folk har kjempet for å få billett ",
-            "til scene-festen vår.",
-            "Kan du høre jubelbruset?",
-            "Vi har drømt om slike kvelder ",
-            "siden vi var åtte år.",
-            "Det er Anni-Frid og Bjørn ",
-            "og Benny og Agnetha",
-            "folk vil ha og får!"
+            {
+                "type": "lyric",
+                "text": "Hele salen som beruset!"
+            },
+            {
+                "type": "lyric",
+                "text": "Folk har kjempet for å få billett "
+            },
+            {
+                "type": "lyric",
+                "text": "til scene-festen vår."
+            },
+            {
+                "type": "lyric",
+                "text": "Kan du høre jubelbruset?"
+            },
+            {
+                "type": "lyric",
+                "text": "Vi har drømt om slike kvelder "
+            },
+            {
+                "type": "lyric",
+                "text": "siden vi var åtte år."
+            },
+            {
+                "type": "lyric",
+                "text": "Det er Anni-Frid og Bjørn "
+            },
+            {
+                "type": "lyric",
+                "text": "og Benny og Agnetha"
+            },
+            {
+                "type": "lyric",
+                "text": "folk vil ha og får!"
+            }
         ],
         [
-            "Her er ABBA, jadda, vær-så-god, ",
-            "på TV og i radio.",
-            "Synger bla-bla-bla om WATERLOO",
-            "og om vår venn FERNANDO.",
-            "Ingen har så høye plattå-sko!",
-            "Ta “sov-i-ro-o”",
-            "Vi vil synge om og om igjen - ",
-            "for deg tar vi dacapo,",
-            "MAMA MIA  - om og om igjen -",
-            "for deg og for din nabo."
+            {
+                "type": "lyric",
+                "text": "Her er ABBA, jadda, vær-så-god, "
+            },
+            {
+                "type": "lyric",
+                "text": "på TV og i radio."
+            },
+            {
+                "type": "lyric",
+                "text": "Synger bla-bla-bla om WATERLOO"
+            },
+            {
+                "type": "lyric",
+                "text": "og om vår venn FERNANDO."
+            },
+            {
+                "type": "lyric",
+                "text": "Ingen har så høye plattå-sko!"
+            },
+            {
+                "type": "lyric",
+                "text": "Ta “sov-i-ro-o”"
+            },
+            {
+                "type": "lyric",
+                "text": "Vi vil synge om og om igjen - "
+            },
+            {
+                "type": "lyric",
+                "text": "for deg tar vi dacapo,"
+            },
+            {
+                "type": "lyric",
+                "text": "MAMA MIA  - om og om igjen -"
+            },
+            {
+                "type": "lyric",
+                "text": "for deg og for din nabo."
+            }
         ],
         [
-            "Hele kloden er beseiret!",
-            "Våre plater topper listene ",
-            "i alle verdens land.",
-            "Hvert et dansegulv beleiret!"
+            {
+                "type": "lyric",
+                "text": "Hele kloden er beseiret!"
+            },
+            {
+                "type": "lyric",
+                "text": "Våre plater topper listene "
+            },
+            {
+                "type": "lyric",
+                "text": "i alle verdens land."
+            },
+            {
+                "type": "lyric",
+                "text": "Hvert et dansegulv beleiret!"
+            }
         ],
         [
-            "Det er vår musikk som setter ",
-            "tidens ungdommer i brann.",
-            "Ja, med Anni-Frid og Bjørn ",
-            "og Benny og Agnetha",
-            "går de fra forstand!"
+            {
+                "type": "lyric",
+                "text": "Det er vår musikk som setter "
+            },
+            {
+                "type": "lyric",
+                "text": "tidens ungdommer i brann."
+            },
+            {
+                "type": "lyric",
+                "text": "Ja, med Anni-Frid og Bjørn "
+            },
+            {
+                "type": "lyric",
+                "text": "og Benny og Agnetha"
+            },
+            {
+                "type": "lyric",
+                "text": "går de fra forstand!"
+            }
         ],
         [
-            "Stones og Beatles har’ke mer å si, ",
-            "de andre, de kan gi opp.",
-            "Vi tok rotta på dem i Grand Prix,",
-            "Og nå er vi  - sukkertopp!",
-            "Vi vil satse all vår energi",
-            "Med hyl og kro-opp.",
-            "Inn av øre - ut av nesebor ",
-            "med tusen watts gitarlarm.",
-            "Våre låter bare gror og gror ",
-            "i munn og svelg - og blindtarm!"
+            {
+                "type": "lyric",
+                "text": "Stones og Beatles har’ke mer å si, "
+            },
+            {
+                "type": "lyric",
+                "text": "de andre, de kan gi opp."
+            },
+            {
+                "type": "lyric",
+                "text": "Vi tok rotta på dem i Grand Prix,"
+            },
+            {
+                "type": "lyric",
+                "text": "Og nå er vi  - sukkertopp!"
+            },
+            {
+                "type": "lyric",
+                "text": "Vi vil satse all vår energi"
+            },
+            {
+                "type": "lyric",
+                "text": "Med hyl og kro-opp."
+            },
+            {
+                "type": "lyric",
+                "text": "Inn av øre - ut av nesebor "
+            },
+            {
+                "type": "lyric",
+                "text": "med tusen watts gitarlarm."
+            },
+            {
+                "type": "lyric",
+                "text": "Våre låter bare gror og gror "
+            },
+            {
+                "type": "lyric",
+                "text": "i munn og svelg - og blindtarm!"
+            }
         ],
         [
-            "Sugar - honey - baby -candy - love -",
-            "Vårt budskap i musikken.",
-            "“Søta bror og sexy søster” - show,",
-            "vårt redskap er mimikken.",
-            "Vrikke-vrikk og dikke-dikk, wow-wow,",
-            "Vi har know-ho-ow !",
-            "S.O.S. her kommer DANCING QUEEN",
-            "Musikk med høy potens, ja!",
-            "MONEY, MONEY, - å vi håver inn!",
-            "Så kul at vara SVENSKA!"
+            {
+                "type": "lyric",
+                "text": "Sugar - honey - baby -candy - love -"
+            },
+            {
+                "type": "lyric",
+                "text": "Vårt budskap i musikken."
+            },
+            {
+                "type": "lyric",
+                "text": "“Søta bror og sexy søster” - show,"
+            },
+            {
+                "type": "lyric",
+                "text": "vårt redskap er mimikken."
+            },
+            {
+                "type": "lyric",
+                "text": "Vrikke-vrikk og dikke-dikk, wow-wow,"
+            },
+            {
+                "type": "lyric",
+                "text": "Vi har know-ho-ow !"
+            },
+            {
+                "type": "lyric",
+                "text": "S.O.S. her kommer DANCING QUEEN"
+            },
+            {
+                "type": "lyric",
+                "text": "Musikk med høy potens, ja!"
+            },
+            {
+                "type": "lyric",
+                "text": "MONEY, MONEY, - å vi håver inn!"
+            },
+            {
+                "type": "lyric",
+                "text": "Så kul at vara SVENSKA!"
+            }
         ]
-    ],
-    "comments": [],
-    "start_page": 98,
-    "end_page": 99
+    ]
 }

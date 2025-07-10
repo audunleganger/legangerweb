@@ -1,39 +1,103 @@
 {
-    "id": "takk-for-naa",
-    "title": "Takk for nå",
-    "author": "Olve Sørensen",
-    "melody": "Misty, Erroll Garner (1954)",
-    "event": "Blindernrevyen 1975 “Rampefeber”",
-    "year": 1975,
-    "lyrics": [
+    "meta": {
+        "id": "takk-for-naa",
+        "title": "Takk for nå",
+        "author": "Olve Sørensen",
+        "melody": "Misty, Erroll Garner (1954)",
+        "event": "Blindernrevyen 1975 “Rampefeber”",
+        "year": 1975,
+        "comments": [],
+        "start_page": 95,
+        "end_page": 95,
+        "youtube_link": "https://www.youtube.com/watch?v=DkC9bCuahC8",
+        "spotify_link": "https://open.spotify.com/track/4uxsv9PjV3Yeyn51RdWvGJ?si=f7dcd3fc4bd34fde"
+    },
+    "contents": [
         [
-            "Takk for nå.",
-            "Det var alt kjære venner,",
-            "og hva så?",
-            "Kanskje syn’s du du kjenner oss nå,",
-            "og kanskje har vi",
-            "kunnet bidra med vår fantasi."
+            {
+                "type": "lyric",
+                "text": "Takk for nå."
+            },
+            {
+                "type": "lyric",
+                "text": "Det var alt kjære venner,"
+            },
+            {
+                "type": "lyric",
+                "text": "og hva så?"
+            },
+            {
+                "type": "lyric",
+                "text": "Kanskje syn’s du du kjenner oss nå,"
+            },
+            {
+                "type": "lyric",
+                "text": "og kanskje har vi"
+            },
+            {
+                "type": "lyric",
+                "text": "kunnet bidra med vår fantasi."
+            }
         ],
         [
-            "Takk for nå.",
-            "Lyset slukkes på scenen,",
-            "og hva så?",
-            "Du har sluttet å le, men",
-            "husk på:",
-            "The show must go on!",
-            "Vår revy er livet på lån."
+            {
+                "type": "lyric",
+                "text": "Takk for nå."
+            },
+            {
+                "type": "lyric",
+                "text": "Lyset slukkes på scenen,"
+            },
+            {
+                "type": "lyric",
+                "text": "og hva så?"
+            },
+            {
+                "type": "lyric",
+                "text": "Du har sluttet å le, men"
+            },
+            {
+                "type": "lyric",
+                "text": "husk på:"
+            },
+            {
+                "type": "lyric",
+                "text": "The show must go on!"
+            },
+            {
+                "type": "lyric",
+                "text": "Vår revy er livet på lån."
+            }
         ],
         [
-            "Takk for nå.",
-            "Det var moro forresten,",
-            "og hva så?",
-            "La oss fortsette festen",
-            "for nå",
-            "er Blinderen ditt.",
-            "Så ta for deg med god appetitt."
+            {
+                "type": "lyric",
+                "text": "Takk for nå."
+            },
+            {
+                "type": "lyric",
+                "text": "Det var moro forresten,"
+            },
+            {
+                "type": "lyric",
+                "text": "og hva så?"
+            },
+            {
+                "type": "lyric",
+                "text": "La oss fortsette festen"
+            },
+            {
+                "type": "lyric",
+                "text": "for nå"
+            },
+            {
+                "type": "lyric",
+                "text": "er Blinderen ditt."
+            },
+            {
+                "type": "lyric",
+                "text": "Så ta for deg med god appetitt."
+            }
         ]
-    ],
-    "comments": [],
-    "start_page": 95,
-    "end_page": 95
+    ]
 }

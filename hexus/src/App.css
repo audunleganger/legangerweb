@@ -1,6 +1,5 @@
 :root {
     font-family: "Helvetica", "Arial";
-    font-weight: lighter;
     font-size: 14px;
     line-height: 1.428571429;
     color: #333;
@@ -9,8 +8,11 @@
 .centered {
     display: flex;
     flex-flow: column;
-    justify-content: center;
     align-items: center;
+}
+
+.content-area {
+    min-height: 74vh;
 }
 a {
     text-decoration: none;
@@ -30,10 +32,11 @@ table {
 }
 .no-matches {
     display: block;
-    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 th:nth-child(1),
@@ -53,6 +56,10 @@ td:nth-child(2) {
 th:nth-child(3),
 td:nth-child(3) {
     width: 2.5em;
+}
+
+tr:nth-child(2n) {
+    background-color: rgb(236, 236, 236);
 }
 .dark-mode * tr:nth-child(2n) {
     background-color: #333;

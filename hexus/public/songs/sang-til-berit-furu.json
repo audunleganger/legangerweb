@@ -1,96 +1,298 @@
 {
-    "id": "sang-til-berit-furu",
-    "title": "Sang til Berit Furu",
-    "author": "Jørgen Ludvigsen",
-    "melody": "Hello, Dolly, Jerry Herman (1964)",
-    "event": "Sunget ved avdukning av Berit Furus maleri",
-    "year": 2015,
-    "lyrics": [
+    "meta": {
+        "id": "sang-til-berit-furu",
+        "title": "Sang til Berit Furu",
+        "author": "Jørgen Ludvigsen",
+        "melody": "Hello, Dolly, Jerry Herman (1964)",
+        "event": "Sunget ved avdukning av Berit Furus maleri",
+        "year": 2015,
+        "comments": [
+            "Berit Furu (1935-), Blinderns Forretningsfører/Husmor1972-81 ble høsten 2015, etter initiativ av 66 GBere portrettert av kunstneren Hans Normann Dahl.    ",
+            "Etter avdukingen av maleriet  i Musikksalongen, ble sangen sunget ved den etterfølgende festen i peisestuen, 24.10.15"
+        ],
+        "start_page": 210,
+        "end_page": 212,
+        "youtube_link": "https://www.youtube.com/watch?v=Kx2AYFvwxKY",
+        "spotify_link": "https://open.spotify.com/track/6l780OKjouvZXgcWWJqzBI?si=053d3fc85bc044ce"
+    },
+    "contents": [
         [
-            " - - - Nå, BERIT , kan du sjå, BERIT:",
-            "vi vil atter gjerne hylle «husets mor» !",
-            "I sytti-to, BERIT, kan du tro, BERIT,",
-            "var vi spent på hvem som skulle holde Brukets «ror».",
-            "En vestavind: fru FURU, du virvlet inn, fru FURU, ",
-            "sta, bevisst og seig som fjellFURUer flest",
-            "og…",
-            "hjertevarm; BERIT, strakte-ut-en arm; BERIT.",
-            "Du holdt styr på mangt et krek, macho-sjåvinist ",
-            "ble blek",
-            "når du syn’s de var no’n nek ",
-            "og skrek!"
+            {
+                "type": "lyric",
+                "text": " - - - Nå, BERIT , kan du sjå, BERIT:"
+            },
+            {
+                "type": "lyric",
+                "text": "vi vil atter gjerne hylle «husets mor» !"
+            },
+            {
+                "type": "lyric",
+                "text": "I sytti-to, BERIT, kan du tro, BERIT,"
+            },
+            {
+                "type": "lyric",
+                "text": "var vi spent på hvem som skulle holde Brukets «ror»."
+            },
+            {
+                "type": "lyric",
+                "text": "En vestavind: fru FURU, du virvlet inn, fru FURU, "
+            },
+            {
+                "type": "lyric",
+                "text": "sta, bevisst og seig som fjellFURUer flest"
+            },
+            {
+                "type": "lyric",
+                "text": "og…"
+            },
+            {
+                "type": "lyric",
+                "text": "hjertevarm; BERIT, strakte-ut-en arm; BERIT."
+            },
+            {
+                "type": "lyric",
+                "text": "Du holdt styr på mangt et krek, macho-sjåvinist "
+            },
+            {
+                "type": "lyric",
+                "text": "ble blek"
+            },
+            {
+                "type": "lyric",
+                "text": "når du syn’s de var no’n nek "
+            },
+            {
+                "type": "lyric",
+                "text": "og skrek!"
+            }
         ],
         [
-            "Du brant for oss, BERIT, ville slåss, BERIT,",
-            "mot alt forfall, rot og naboens ekspansjon.",
-            "Du ble fort tent, BERIT, fikk fram talent, BERIT.",
-            "«Me får øks’ han te’»,  sa du hver gang, …og gjorde det.",
-            "Vår veteran, BERIT,  «Brukoman» , BERIT,",
-            "Det er lenge siden 1972",
-            "da",
-            "du kom hit, BERIT,  faktisk «har du blitt» , BERIT,",
-            "Ni år – det var sikkert nok, her har du stor venneflokk,",
-            "kjære Høyhet, du fikk Bukk",
-            "til takk."
+            {
+                "type": "lyric",
+                "text": "Du brant for oss, BERIT, ville slåss, BERIT,"
+            },
+            {
+                "type": "lyric",
+                "text": "mot alt forfall, rot og naboens ekspansjon."
+            },
+            {
+                "type": "lyric",
+                "text": "Du ble fort tent, BERIT, fikk fram talent, BERIT."
+            },
+            {
+                "type": "lyric",
+                "text": "«Me får øks’ han te’»,  sa du hver gang, …og gjorde det."
+            },
+            {
+                "type": "lyric",
+                "text": "Vår veteran, BERIT,  «Brukoman» , BERIT,"
+            },
+            {
+                "type": "lyric",
+                "text": "Det er lenge siden 1972"
+            },
+            {
+                "type": "lyric",
+                "text": "da"
+            },
+            {
+                "type": "lyric",
+                "text": "du kom hit, BERIT,  faktisk «har du blitt» , BERIT,"
+            },
+            {
+                "type": "lyric",
+                "text": "Ni år – det var sikkert nok, her har du stor venneflokk,"
+            },
+            {
+                "type": "lyric",
+                "text": "kjære Høyhet, du fikk Bukk"
+            },
+            {
+                "type": "lyric",
+                "text": "til takk."
+            }
         ],
         [
-            "Tenk, i ni år, BERIT, ...var det i går? ..., BERIT,",
-            "Var du helt utvilsomt Brukets  «flagellant»:",
-            "Du hadde tid, BERIT, til å gi, BERIT, ",
-            "du var alltid engasjert, og vi ble svært godt vant…",
-            "Fire/halv-fem, BERIT, går andre hjem, BERIT,",
-            "fra en jobb som krever full restitusjon…",
-            "men",
-            "DU fikk Blindern-ånd, knyttet – sterke – Blindern-bånd.",
-            "Selv ved midnatt kunne du ordne mere øl i bu,",
-            "sist fra fest , ja det var DU",
-            "hver gang!"
+            {
+                "type": "lyric",
+                "text": "Tenk, i ni år, BERIT, ...var det i går? ..., BERIT,"
+            },
+            {
+                "type": "lyric",
+                "text": "Var du helt utvilsomt Brukets  «flagellant»:"
+            },
+            {
+                "type": "lyric",
+                "text": "Du hadde tid, BERIT, til å gi, BERIT, "
+            },
+            {
+                "type": "lyric",
+                "text": "du var alltid engasjert, og vi ble svært godt vant…"
+            },
+            {
+                "type": "lyric",
+                "text": "Fire/halv-fem, BERIT, går andre hjem, BERIT,"
+            },
+            {
+                "type": "lyric",
+                "text": "fra en jobb som krever full restitusjon…"
+            },
+            {
+                "type": "lyric",
+                "text": "men"
+            },
+            {
+                "type": "lyric",
+                "text": "DU fikk Blindern-ånd, knyttet – sterke – Blindern-bånd."
+            },
+            {
+                "type": "lyric",
+                "text": "Selv ved midnatt kunne du ordne mere øl i bu,"
+            },
+            {
+                "type": "lyric",
+                "text": "sist fra fest , ja det var DU"
+            },
+            {
+                "type": "lyric",
+                "text": "hver gang!"
+            }
         ],
         [
-            "Din kondisjon, BERIT, var av stål, BERIT,",
-            "da du sluttet,  dro du straks mot nye mål.",
-            "Du ble student (!), BERIT, og ditt talent, BERIT,",
-            "gjorde deg til ingeniør  - og sjef i Ullevål…",
-            "I Hageby’n, BERIT, spartes «gryn», BERIT,",
-            "«en-øk» ble din nye spesialitet",
-            "og",
-            "du  fikk ryddet opp, effektiv fra bunn- til- topp.",
-            "Ildsjeler går sjelden lei, vi er glad vi kjenner deg.",
-            "Voss er stedet, saken den",
-            "er grei!"
+            {
+                "type": "lyric",
+                "text": "Din kondisjon, BERIT, var av stål, BERIT,"
+            },
+            {
+                "type": "lyric",
+                "text": "da du sluttet,  dro du straks mot nye mål."
+            },
+            {
+                "type": "lyric",
+                "text": "Du ble student (!), BERIT, og ditt talent, BERIT,"
+            },
+            {
+                "type": "lyric",
+                "text": "gjorde deg til ingeniør  - og sjef i Ullevål…"
+            },
+            {
+                "type": "lyric",
+                "text": "I Hageby’n, BERIT, spartes «gryn», BERIT,"
+            },
+            {
+                "type": "lyric",
+                "text": "«en-øk» ble din nye spesialitet"
+            },
+            {
+                "type": "lyric",
+                "text": "og"
+            },
+            {
+                "type": "lyric",
+                "text": "du  fikk ryddet opp, effektiv fra bunn- til- topp."
+            },
+            {
+                "type": "lyric",
+                "text": "Ildsjeler går sjelden lei, vi er glad vi kjenner deg."
+            },
+            {
+                "type": "lyric",
+                "text": "Voss er stedet, saken den"
+            },
+            {
+                "type": "lyric",
+                "text": "er grei!"
+            }
         ],
         [
-            "I tjue  fem, (dvs.2005) ,BERIT, dro du hjem, BERIT,",
-            "og du inviterte oss til Vossa-lag…",
-            "I din regi, BERIT, fikk vi tid, BERIT,",
-            "til å feire med deg, 40 timer, natt og dag !",
-            "Nå trår vi  til, BERIT, vær så snill, BERIT ,",
-            "slå ut håret, la deg hylle, nok en gang !"
+            {
+                "type": "lyric",
+                "text": "I tjue  fem, (dvs.2005) ,BERIT, dro du hjem, BERIT,"
+            },
+            {
+                "type": "lyric",
+                "text": "og du inviterte oss til Vossa-lag…"
+            },
+            {
+                "type": "lyric",
+                "text": "I din regi, BERIT, fikk vi tid, BERIT,"
+            },
+            {
+                "type": "lyric",
+                "text": "til å feire med deg, 40 timer, natt og dag !"
+            },
+            {
+                "type": "lyric",
+                "text": "Nå trår vi  til, BERIT, vær så snill, BERIT ,"
+            },
+            {
+                "type": "lyric",
+                "text": "slå ut håret, la deg hylle, nok en gang !"
+            }
         ],
         [
-            "For",
-            "DU har tatt ut alt, kjempa hardt da livet smalt.",
-            "Ildsjeler går aldri  lei,  vi er glad vi kjenner deg:",
-            "La oss strø noen roser på",
-            "din vei!"
+            {
+                "type": "lyric",
+                "text": "For"
+            },
+            {
+                "type": "lyric",
+                "text": "DU har tatt ut alt, kjempa hardt da livet smalt."
+            },
+            {
+                "type": "lyric",
+                "text": "Ildsjeler går aldri  lei,  vi er glad vi kjenner deg:"
+            },
+            {
+                "type": "lyric",
+                "text": "La oss strø noen roser på"
+            },
+            {
+                "type": "lyric",
+                "text": "din vei!"
+            }
         ],
         [
-            "I mai i år, BERIT, var det i går, BERIT ??",
-            "strødde vi noen flere roser på din vei.",
-            "En ny idé, BERIT, - «vokste te’», BERIT:",
-            "«Ho bør sann’lig portretteres her  –  til evig tid»",
-            "Vi sa til  Dahl, BERIT :  «Gå og mal BERIT,  ",
-            "La ho få sin plass ved Ida og ved Hex»",
-            "Så nå er bildet klart – det er åpenbart:",
-            "Kunstneren ser karakter, kan man ønske seg noe mer?",
-            "BERIT, TAKK for alt du alltid så –",
-            "og ser!!"
+            {
+                "type": "lyric",
+                "text": "I mai i år, BERIT, var det i går, BERIT ??"
+            },
+            {
+                "type": "lyric",
+                "text": "strødde vi noen flere roser på din vei."
+            },
+            {
+                "type": "lyric",
+                "text": "En ny idé, BERIT, - «vokste te’», BERIT:"
+            },
+            {
+                "type": "lyric",
+                "text": "«Ho bør sann’lig portretteres her  –  til evig tid»"
+            },
+            {
+                "type": "lyric",
+                "text": "Vi sa til  Dahl, BERIT :  «Gå og mal BERIT,  "
+            },
+            {
+                "type": "lyric",
+                "text": "La ho få sin plass ved Ida og ved Hex»"
+            },
+            {
+                "type": "lyric",
+                "text": "Så nå er bildet klart – det er åpenbart:"
+            },
+            {
+                "type": "lyric",
+                "text": "Kunstneren ser karakter, kan man ønske seg noe mer?"
+            },
+            {
+                "type": "lyric",
+                "text": "BERIT, TAKK for alt du alltid så –"
+            },
+            {
+                "type": "lyric",
+                "text": "og ser!!"
+            }
         ]
-    ],
-    "comments": [
-        "Berit Furu (1935-), Blinderns Forretningsfører/Husmor1972-81 ble høsten 2015, etter initiativ av 66 GBere portrettert av kunstneren Hans Normann Dahl.    ",
-        "Etter avdukingen av maleriet  i Musikksalongen, ble sangen sunget ved den etterfølgende festen i peisestuen, 24.10.15"
-    ],
-    "start_page": 210,
-    "end_page": 212
+    ]
 }

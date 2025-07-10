@@ -1,0 +1,161 @@
+{
+    "meta": {
+        "id": "studenterhjemmets-unge-piker",
+        "title": "Studenterhjemmets unge piker",
+        "author": "Nina Johansen / Jorun Solgård",
+        "melody": "A.B. Johannessen / Lars Kristiansen / G. Overskeid",
+        "event": "Blindernrevyen 1983 “Revysert”",
+        "year": 1983,
+        "comments": [],
+        "start_page": 123,
+        "end_page": 124,
+        "youtube_link": "",
+        "spotify_link": ""
+    },
+    "contents": [
+        [
+            {
+                "type": "lyric",
+                "text": "Her har du Studenterhjemmets piker,"
+            },
+            {
+                "type": "lyric",
+                "text": "jentene som alle gutter liker."
+            },
+            {
+                "type": "lyric",
+                "text": "Det hender at vi leser, vi fester så det freser,"
+            },
+            {
+                "type": "lyric",
+                "text": "men tømmermenn er ukjent folk for oss."
+            },
+            {
+                "type": "lyric",
+                "text": "Nei, for vi er sportye og kjekke,"
+            },
+            {
+                "type": "lyric",
+                "text": "mulig stor’ i kjeften og litt frekke. "
+            }
+        ],
+        [
+            {
+                "type": "chorus-header",
+                "text": "Ref."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Vi gjør det kun for Hjemmet"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "og Hjemmet er vårt slott,"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "for alle her står sammen "
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "i tørt og i vått, i tørt og i vått."
+            }
+        ],
+        [
+            {
+                "type": "lyric",
+                "text": "I seks-og-sytti kom den første frøken, "
+            },
+            {
+                "type": "lyric",
+                "text": "og guttene fikk svaret på sin søken."
+            },
+            {
+                "type": "lyric",
+                "text": "Behov det har de alle, det merket vi på ballet."
+            },
+            {
+                "type": "lyric",
+                "text": "Men jentene sa: «Stopp, vent nå litt»."
+            },
+            {
+                "type": "lyric",
+                "text": "Vi piker må ta vare på vårt rykte,"
+            },
+            {
+                "type": "lyric",
+                "text": "slik at ingen gutter oss skal frykte. "
+            }
+        ],
+        [
+            {
+                "type": "chorus-header",
+                "text": "Ref."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Vi gjør det kun for Hjemmet"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Og Hjemmet er vårt slott."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "For alle her står sammen "
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "i tørt og i vått, i tørt og i vått. "
+            }
+        ],
+        [
+            {
+                "type": "lyric",
+                "text": "Flere jenter kom, vi er blitt mange, "
+            },
+            {
+                "type": "lyric",
+                "text": "og noen har av gutta latt seg fange."
+            },
+            {
+                "type": "lyric",
+                "text": "Til kirken har det gått, fra dette gule «slott»,"
+            },
+            {
+                "type": "lyric",
+                "text": "og det. er ganske artig, synes vi."
+            },
+            {
+                "type": "lyric",
+                "text": "Men vi vil ikke lenger være snille."
+            },
+            {
+                "type": "lyric",
+                "text": "Nå vil vi jenter velte hele spillet: "
+            }
+        ],
+        [
+            {
+                "type": "chorus-header",
+                "text": "Ref."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "For dette guttehjemmet"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "det er en saga blott."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Jentene er kommet - "
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "og vi blir her for godt."
+            }
+        ]
+    ]
+}

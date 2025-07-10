@@ -1,53 +1,209 @@
 {
-    "id": "taper-idyll-kongen-og-hippien",
-    "title": "Taper-idyll (kongen og hippien)",
-    "author": "Pjokken Eide",
-    "melody": "Tellef Kvifte",
-    "event": "Blindernrevyen 1971 ”Hairlig”",
-    "year": 1971,
-    "lyrics": [
+    "meta": {
+        "id": "taper-idyll-kongen-og-hippien",
+        "title": "Taper-idyll (kongen og hippien)",
+        "author": "Pjokken Eide",
+        "melody": "Tellef Kvifte",
+        "event": "Blindernrevyen 1971 ”Hairlig”",
+        "year": 1971,
+        "comments": [
+            "Hippiebevegelsen startet i California i 1965 og spredte seg raskt til Europa.",
+            "Med slagordet: ”Make love, not war”, protesterte hippiene mot forbruks-samfunnet, krig og borgerlige konvensjoner gjennom fargerik klesdrakt, langt hår, rockemusikk og omfattende bruk av narkotika. ",
+            "De første hippiene slo seg ned i Slottsparken allerede i 1966, og fortsatte å bruke Slottsparken som møteplass frem til langt ut i 80-åra."
+        ],
+        "start_page": 78,
+        "end_page": 79,
+        "youtube_link": "",
+        "spotify_link": ""
+    },
+    "contents": [
         [
-            "K: Jeg går en tur i parken min, som ligger rundt mitt slott.",
-            "H: Jeg tar en tur i parken med en groovy pipe pot.",
-            "K: Kontakten med naturen er en ekte men’skerett.",
-            "H: Gud sign vår konge god som gir oss denne freda plett.",
-            "Begge: For her har vi gått sammen i mange, mange år.",
-            "    Vi møtes hist ved stammen både sommer, høst og vår.",
-            "    Og det har vi til felles; vi har ingenting å si.",
-            "    Når tapte slag skal telles - ja da først teller vi."
+            {
+                "type": "italic underline no-line-break",
+                "text": "K:"
+            },
+            {
+                "type": "lyric",
+                "text": " Jeg går en tur i parken min, som ligger rundt mitt slott."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "H:"
+            },
+            {
+                "type": "lyric",
+                "text": " Jeg tar en tur i parken med en groovy pipe pot."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "K:"
+            },
+            {
+                "type": "lyric",
+                "text": " Kontakten med naturen er en ekte men’skerett."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "H:"
+            },
+            {
+                "type": "lyric",
+                "text": " Gud sign vår konge god som gir oss denne freda plett."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "Begge:"
+            },
+            {
+                "type": "lyric",
+                "text": " For her har vi gått sammen i mange, mange år."
+            },
+            {
+                "type": "lyric",
+                "text": "    Vi møtes hist ved stammen både sommer, høst og vår."
+            },
+            {
+                "type": "lyric",
+                "text": "    Og det har vi til felles; vi har ingenting å si."
+            },
+            {
+                "type": "lyric",
+                "text": "    Når tapte slag skal telles - ja da først teller vi."
+            }
         ],
         [
-            "H: Her har jeg funnet hjemmet mitt...",
-            "K:                                                 ... og her er også mitt.",
-            "H:  Husholdningen er enkel...",
-            "K:                                        ...kan’ke si det samme, gitt.",
-            "     Hver fredag har jeg statsråd, jeg og Borten prater dritt.",
-            "H: Problemene i verden løser jeg imens med shit.",
-            "B: Med det som vi har evnet -  er vi blitt kastet av.",
-            "    Vi strekker ikke til, vi, -  ikk’ engang til nære krav.",
-            "    Men har du fancy antrekk og sansen for natur ",
-            "    er også du velkommen hit:  til tapernes kultur."
+            {
+                "type": "italic underline no-line-break",
+                "text": "H:"
+            },
+            {
+                "type": "lyric",
+                "text": " Her har jeg funnet hjemmet mitt..."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "K:"
+            },
+            {
+                "type": "lyric",
+                "text": "                                                 ... og her er også mitt."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "H:"
+            },
+            {
+                "type": "lyric",
+                "text": "  Husholdningen er enkel..."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "K:"
+            },
+            {
+                "type": "lyric",
+                "text": "                                        ...kan’ke si det samme, gitt."
+            },
+            {
+                "type": "lyric",
+                "text": "     Hver fredag har jeg statsråd, jeg og Borten prater dritt."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "H:"
+            },
+            {
+                "type": "lyric",
+                "text": " Problemene i verden løser jeg imens med shit."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "B:"
+            },
+            {
+                "type": "lyric",
+                "text": " Med det som vi har evnet -  er vi blitt kastet av."
+            },
+            {
+                "type": "lyric",
+                "text": "    Vi strekker ikke til, vi, -  ikk’ engang til nære krav."
+            },
+            {
+                "type": "lyric",
+                "text": "    Men har du fancy antrekk og sansen for natur "
+            },
+            {
+                "type": "lyric",
+                "text": "    er også du velkommen hit:  til tapernes kultur."
+            }
         ],
         [
-            "H: Problemet mitt er hjemmet, - det er under all kritikk.",
-            "K: Problemet mitt er at jeg ikke makter politikk.",
-            "    Om lasten er forskjellig…",
-            "H:                                  … så er summen dog konstant.",
-            "K: For jeg er glad i portvin…",
-            "H:                                      …mens jeg tenner på iblant."
+            {
+                "type": "italic underline no-line-break",
+                "text": "H:"
+            },
+            {
+                "type": "lyric",
+                "text": " Problemet mitt er hjemmet, - det er under all kritikk."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "K:"
+            },
+            {
+                "type": "lyric",
+                "text": " Problemet mitt er at jeg ikke makter politikk."
+            },
+            {
+                "type": "lyric",
+                "text": "    Om lasten er forskjellig…"
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "H:"
+            },
+            {
+                "type": "lyric",
+                "text": "                                  … så er summen dog konstant."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "K:"
+            },
+            {
+                "type": "lyric",
+                "text": " For jeg er glad i portvin…"
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "H:"
+            },
+            {
+                "type": "lyric",
+                "text": "                                      …mens jeg tenner på iblant."
+            }
         ],
         [
-            "B: Så møtes vi i parken og nyter felles trøst, ",
-            "    og prater litt om været - og ellers fast og løst.",
-            "    Og slik går dag og måned og er et godt bevis",
-            "    på vennskap mellom nordmenn på det klasseløse vis."
+            {
+                "type": "italic underline no-line-break",
+                "text": "B:"
+            },
+            {
+                "type": "lyric",
+                "text": " Så møtes vi i parken og nyter felles trøst, "
+            },
+            {
+                "type": "lyric",
+                "text": "    og prater litt om været - og ellers fast og løst."
+            },
+            {
+                "type": "lyric",
+                "text": "    Og slik går dag og måned og er et godt bevis"
+            },
+            {
+                "type": "lyric",
+                "text": "    på vennskap mellom nordmenn på det klasseløse vis."
+            }
         ]
-    ],
-    "comments": [
-        "Hippiebevegelsen startet i California i 1965 og spredte seg raskt til Europa.",
-        "Med slagordet: ”Make love, not war”, protesterte hippiene mot forbruks-samfunnet, krig og borgerlige konvensjoner gjennom fargerik klesdrakt, langt hår, rockemusikk og omfattende bruk av narkotika. ",
-        "De første hippiene slo seg ned i Slottsparken allerede i 1966, og fortsatte å bruke Slottsparken som møteplass frem til langt ut i 80-åra."
-    ],
-    "start_page": 78,
-    "end_page": 79
+    ]
 }

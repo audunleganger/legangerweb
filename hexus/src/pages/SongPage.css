@@ -14,7 +14,11 @@
     margin: 0;
 }
 audio {
-    margin: 1em 0 0 0; 
+    margin: 1em 0 0 0;
+}
+.song-title {
+    text-align: center;
+    justify-content: center;
 }
 
 .lyrics-wrapper {
@@ -23,8 +27,11 @@ audio {
 
 .comments-wrapper {
     width: 50%;
-    font-size: 0.8em;
     text-align: center;
+}
+
+.comments-wrapper > p {
+    font-size: 0.9rem;
 }
 
 .centered-on-page {
@@ -35,3 +42,38 @@ audio {
     height: 100vh;
 }
 
+p {
+    font-size: 1.2rem;
+    white-space: pre-wrap;
+}
+
+.italic {
+    font-style: italic;
+}
+.underline {
+    text-decoration: underline;
+}
+
+.instruction {
+    font-style: italic;
+}
+
+.chorus-header {
+    font-style: italic;
+    text-decoration: underline;
+}
+.melody-header {
+    font-style: italic;
+}
+
+.address {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .song-page {
+        margin-top: 3rem;
+        padding: 0 1rem;
+    }
+}

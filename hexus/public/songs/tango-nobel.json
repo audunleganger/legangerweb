@@ -1,75 +1,272 @@
 {
-    "id": "tango-nobel",
-    "title": "Tango Nobel",
-    "author": "Jørgen Ludvigsen",
-    "melody": "Tango Kapital, Vømmøl Spellmannslag",
-    "event": "Blindernrevyen 1975 ”Rampefeber”",
-    "year": 1975,
-    "lyrics": [
+    "meta": {
+        "id": "tango-nobel",
+        "title": "Tango Nobel",
+        "author": "Jørgen Ludvigsen",
+        "melody": "Tango Kapital, Vømmøl Spellmannslag",
+        "event": "Blindernrevyen 1975 ”Rampefeber”",
+        "year": 1975,
+        "comments": [
+            "(Fredsprisvinner (1974) Eisaku Sato danset tango med Nobelkomi-teens leder, Aase Lionæs)",
+            "Chiang Ching (leder av Firerbanden), Ian Smith, Idi Amin, Ky, Franco og Kjell Laugerud Garcia var diverse diktatorer på 70-tallet."
+        ],
+        "start_page": 93,
+        "end_page": 94,
+        "youtube_link": "https://www.youtube.com/watch?v=PTHoTlyd548",
+        "spotify_link": "https://open.spotify.com/track/1kCi65l0xJrOM8KQ4Sebpl?si=29c0d34268a44b97"
+    },
+    "contents": [
         [
-            "S: Jeg heter Sato, kjære deg, ",
-            "     du heter visstnok Aase?",
-            "     Du vil vel gjerne kjenne meg, ",
-            "     det skal gå greit, det skal jeg påse…",
-            "L:  Men kjære, kall meg Lionæs. ",
-            "     jeg kjenner Dem slett ikke.",
-            "     Sett ikke opp et ydmykt fjes,",
-            "     av Deres sake får jeg hikke…",
-            "S: Jeg har min hær av gode venner med idéen,",
-            "     de sa: nå skal vi lure hele komitéen. ",
-            "     En Fredspris er jo nettopp hva du trenger.",
-            "     En større statsmann er jo oft’ i beit for penger."
+            {
+                "type": "italic underline no-line-break",
+                "text": "S:"
+            },
+            {
+                "type": "lyric",
+                "text": "\tJeg heter Sato, kjære deg, "
+            },
+            {
+                "type": "lyric",
+                "text": "\tdu heter visstnok Aase?"
+            },
+            {
+                "type": "lyric",
+                "text": "\tDu vil vel gjerne kjenne meg, "
+            },
+            {
+                "type": "lyric",
+                "text": "\tdet skal gå greit, det skal jeg påse…"
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "L:"
+            },
+            {
+                "type": "lyric",
+                "text": "\tMen kjære, kall meg Lionæs. "
+            },
+            {
+                "type": "lyric",
+                "text": "\tjeg kjenner Dem slett ikke."
+            },
+            {
+                "type": "lyric",
+                "text": "\tSett ikke opp et ydmykt fjes,"
+            },
+            {
+                "type": "lyric",
+                "text": "\tav Deres sake får jeg hikke…"
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "S:"
+            },
+            {
+                "type": "lyric",
+                "text": "\tJeg har min hær av gode venner med idéen,"
+            },
+            {
+                "type": "lyric",
+                "text": "\tde sa: nå skal vi lure hele komitéen. "
+            },
+            {
+                "type": "lyric",
+                "text": "\tEn Fredspris er jo nettopp hva du trenger."
+            },
+            {
+                "type": "lyric",
+                "text": "\tEn større statsmann er jo oft’ i beit for penger."
+            }
         ],
         [
-            "L: Jeg sa til Ingvaldsen: du Bernt, ",
-            "     vi må jo se å velge,",
-            "     og valget kan jo godt bli fjernt, ",
-            "     da blir det lettere å svelge.",
-            "S:  Men hvor fortreffelig jeg var, ",
-            "     se, det forsto Partiet.",
-            "     Vi sendte verden rundt no’n brev, ",
-            "     og jeg var lur - og bare tiet.",
-            "L:  Men De skjønner da vel hvorfor De fikk prisen?",
-            "     Komitéen var jo ganske enkelt brisen,",
-            "     vi satt igjen med hele tredve kandidater,",
-            "     og jeg blir veldig sur når alle bare prater!"
+            {
+                "type": "italic underline no-line-break",
+                "text": "L:"
+            },
+            {
+                "type": "lyric",
+                "text": "\tJeg sa til Ingvaldsen: du Bernt, "
+            },
+            {
+                "type": "lyric",
+                "text": "\tvi må jo se å velge,"
+            },
+            {
+                "type": "lyric",
+                "text": "\tog valget kan jo godt bli fjernt, "
+            },
+            {
+                "type": "lyric",
+                "text": "\tda blir det lettere å svelge."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "S:"
+            },
+            {
+                "type": "lyric",
+                "text": "\tMen hvor fortreffelig jeg var, "
+            },
+            {
+                "type": "lyric",
+                "text": "\tse, det forsto Partiet."
+            },
+            {
+                "type": "lyric",
+                "text": "\tVi sendte verden rundt no’n brev, "
+            },
+            {
+                "type": "lyric",
+                "text": "\tog jeg var lur - og bare tiet."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "L:"
+            },
+            {
+                "type": "lyric",
+                "text": "\tMen De skjønner da vel hvorfor De fikk prisen?"
+            },
+            {
+                "type": "lyric",
+                "text": "\tKomitéen var jo ganske enkelt brisen,"
+            },
+            {
+                "type": "lyric",
+                "text": "\tvi satt igjen med hele tredve kandidater,"
+            },
+            {
+                "type": "lyric",
+                "text": "\tog jeg blir veldig sur når alle bare prater!"
+            }
         ],
         [
-            "L: Vi har Chiang Ching og Ian Smith, "
+            {
+                "type": "italic underline no-line-break",
+                "text": "L:"
+            },
+            {
+                "type": "lyric",
+                "text": "\tVi har Chiang Ching og Ian Smith, "
+            },
+            {
+                "type": "lyric",
+                "text": "\tAmin og Ky var sterke."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "S:"
+            },
+            {
+                "type": "lyric",
+                "text": "\tSå fulgte Franco, ja, og Kjell, "
+            },
+            {
+                "type": "lyric",
+                "text": "\tGuatemala bør man merke."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "L:"
+            },
+            {
+                "type": "lyric",
+                "text": "\tSom De nå skjønner, Eisaku, "
+            },
+            {
+                "type": "lyric",
+                "text": "\tSå bør De ikke skryte. "
+            },
+            {
+                "type": "lyric",
+                "text": "\tDe hadde flaks, det kan De tru, "
+            },
+            {
+                "type": "lyric",
+                "text": "\tDe må ei hem’ligheten bryte:"
+            },
+            {
+                "type": "lyric",
+                "text": "\tVi har gjort valget særdeles demokratisk,"
+            },
+            {
+                "type": "lyric",
+                "text": "\tNå er det helt rettferdig, systematisk:"
+            },
+            {
+                "type": "lyric",
+                "text": "\tVi putter alle forslag i en kjempetrommel"
+            },
+            {
+                "type": "lyric",
+                "text": "\tog trekker ut; det sparer oss for mye sommel."
+            }
         ],
         [
-            "     Amin og Ky var sterke.",
-            "S:  Så fulgte Franco, ja, og Kjell, ",
-            "     Guatemala bør man merke.",
-            "L:  Som De nå skjønner, Eisaku, ",
-            "     Så bør De ikke skryte. ",
-            "     De hadde flaks, det kan De tru, ",
-            "     De må ei hem’ligheten bryte:",
-            "     Vi har gjort valget særdeles demokratisk,",
-            "     Nå er det helt rettferdig, systematisk:",
-            "     Vi putter alle forslag i en kjempetrommel",
-            "     og trekker ut; det sparer oss for mye sommel."
-        ],
-        [
-            "L:  Og valget, nå som før, ",
-            "     ja, det blir grundig feiret. ",
-            "     Vi løfter stemningen no’n hakk",
-            "     og Tostrupkjeller’n blir beleiret.",
-            "S:  Nå skjønner faktisk også jeg",
-            "     hvem Fredsprisen skal tjene.",
-            "     Kriteriet er jo veldig greit: ",
-            "     man plukker ut de pene!",
-            "L:  Som De nå skjønner har vi ingen store kvaler",
-            "     Vi sitter ei i ukevis og baler… ",
-            "     Hvem som vinner, se det er ett fett,",
-            "     Er vi brisne, så velger vi rett...",
-            "     Uansett!"
+            {
+                "type": "italic underline no-line-break",
+                "text": "L:"
+            },
+            {
+                "type": "lyric",
+                "text": "\tOg valget, nå som før, "
+            },
+            {
+                "type": "lyric",
+                "text": "\tja, det blir grundig feiret. "
+            },
+            {
+                "type": "lyric",
+                "text": "\tVi løfter stemningen no’n hakk"
+            },
+            {
+                "type": "lyric",
+                "text": "\tog Tostrupkjeller’n blir beleiret."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "S:"
+            },
+            {
+                "type": "lyric",
+                "text": "\tNå skjønner faktisk også jeg"
+            },
+            {
+                "type": "lyric",
+                "text": "\thvem Fredsprisen skal tjene."
+            },
+            {
+                "type": "lyric",
+                "text": "\tKriteriet er jo veldig greit: "
+            },
+            {
+                "type": "lyric",
+                "text": "\tman plukker ut de pene!"
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "L:"
+            },
+            {
+                "type": "lyric",
+                "text": "\tSom De nå skjønner har vi ingen store kvaler"
+            },
+            {
+                "type": "lyric",
+                "text": "\tVi sitter ei i ukevis og baler… "
+            },
+            {
+                "type": "lyric",
+                "text": "\tHvem som vinner, se det er ett fett,"
+            },
+            {
+                "type": "lyric",
+                "text": "\tEr vi brisne, så velger vi rett..."
+            },
+            {
+                "type": "lyric",
+                "text": "\tUansett!"
+            }
         ]
-    ],
-    "comments": [
-        "(Fredsprisvinner (1974) Eisaku Sato danset tango med Nobelkomi-teens leder, Aase Lionæs)",
-        "Chiang Ching (leder av Firerbanden), Ian Smith, Idi Amin, Ky, Franco og Kjell Laugerud Garcia var diverse diktatorer på 70-tallet."
-    ],
-    "start_page": 93,
-    "end_page": 94
+    ]
 }

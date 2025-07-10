@@ -1,71 +1,221 @@
 {
-    "id": "her-staar-jeg-i-min-ungdoms-prakt",
-    "title": "Her står jeg i min ungdoms prakt",
-    "author": "Wilhelm “Beppo” Swensen",
-    "melody": "My happiness, Betty P. Blasco (1948)",
-    "event": "Blindernrevyen 1950  ”Ha det lurt”",
-    "year": 1950,
-    "mp3": "/mp3/her-staar-jeg-i-min-ungdoms-prakt.mp3",
-    "lyrics": [
+    "meta": {
+        "id": "her-staar-jeg-i-min-ungdoms-prakt",
+        "title": "Her står jeg i min ungdoms prakt",
+        "author": "Wilhelm “Beppo” Swensen",
+        "melody": "My happiness, Betty P. Blasco (1948)",
+        "event": "Blindernrevyen 1950  ”Ha det lurt”",
+        "year": 1950,
+        "comments": [
+            "Revysjef 1950, Gunnar K. Lien, botid: 1938-40, 1945-50. Bartender i 1938-revyen og Blæstsjef i 1939-revyen. 12 år etter at han først kom som pygmé, ble han Revysjef som eneste med revystatus fra før krigen. Han har mye av æren for at Blindernrevyen gjenoppstod Revyorkesteret i 1950 fikk navnet: «Vodkakosakkenes Fyllharmoniske Trallalaika-orkester»"
+        ],
+        "start_page": 19,
+        "end_page": 20,
+        "youtube_link": "https://www.youtube.com/watch?v=5m1i-ZGoBkk",
+        "spotify_link": "https://open.spotify.com/track/3OP9yEwdPPRPE9Bbx6nNb9?si=2a366724d2a748a0"
+    },
+    "contents": [
         [
-            "Her står jeg i min ungdoms prakt –",
-            "kledd i Blinderns enkle drakt –",
-            "et praktisk, godt studentantrekk –",
-            "sydd hos Widén.",
-            "Og jeg studerer medisin,",
-            "samt Cointreau og edel vin,",
-            "små cocktails med en dash av gin –",
-            "her har De meg.",
-            "Jeg bor spartansk – javel –",
-            "men jeg herdes på kropp og på sjel –",
-            "og faller tiden lang",
-            "sklir jeg i Buicken min ned til Grand.",
-            "Der har jeg så fra klokka 3",
-            "noen drinks på chambre séparée,",
-            "så mye kvinns som det skal te’",
-            "for mannens fred."
+            {
+                "type": "lyric",
+                "text": "Her står jeg i min ungdoms prakt –"
+            },
+            {
+                "type": "lyric",
+                "text": "kledd i Blinderns enkle drakt –"
+            },
+            {
+                "type": "lyric",
+                "text": "et praktisk, godt studentantrekk –"
+            },
+            {
+                "type": "lyric",
+                "text": "sydd hos Widén."
+            },
+            {
+                "type": "lyric",
+                "text": "Og jeg studerer medisin,"
+            },
+            {
+                "type": "lyric",
+                "text": "samt Cointreau og edel vin,"
+            },
+            {
+                "type": "lyric",
+                "text": "små cocktails med en dash av gin –"
+            },
+            {
+                "type": "lyric",
+                "text": "her har De meg."
+            },
+            {
+                "type": "lyric",
+                "text": "Jeg bor spartansk – javel –"
+            },
+            {
+                "type": "lyric",
+                "text": "men jeg herdes på kropp og på sjel –"
+            },
+            {
+                "type": "lyric",
+                "text": "og faller tiden lang"
+            },
+            {
+                "type": "lyric",
+                "text": "sklir jeg i Buicken min ned til Grand."
+            },
+            {
+                "type": "lyric",
+                "text": "Der har jeg så fra klokka 3"
+            },
+            {
+                "type": "lyric",
+                "text": "noen drinks på chambre séparée,"
+            },
+            {
+                "type": "lyric",
+                "text": "så mye kvinns som det skal te’"
+            },
+            {
+                "type": "lyric",
+                "text": "for mannens fred."
+            }
         ],
         [
-            "l Universitas – på prent,",
-            "ja – der sto det noe sånt – omtrent –",
-            "at Blindern var et tilholdssted",
-            "for bare snobb.",
-            "Professor Jansen ble så sinna, så –",
-            "han svarte bladet comme il faut",
-            "at «Sånt no går da ikke an –",
-            "Nei – vet De hva!»",
-            "Vår husfar ga saken syn –",
-            "«Gutta her har’ke opphav med gryn,",
-            "for i gjennomsnitt det er",
-            "snaut en halv million bakom hver!»",
-            "Og – kjære Universitas;",
-            "kom hit når lørdagsmidda’n tas",
-            "med pottit, sild og vann i glass –",
-            "og plenty plass!"
+            {
+                "type": "lyric",
+                "text": "l Universitas – på prent,"
+            },
+            {
+                "type": "lyric",
+                "text": "ja – der sto det noe sånt – omtrent –"
+            },
+            {
+                "type": "lyric",
+                "text": "at Blindern var et tilholdssted"
+            },
+            {
+                "type": "lyric",
+                "text": "for bare snobb."
+            },
+            {
+                "type": "lyric",
+                "text": "Professor Jansen ble så sinna, så –"
+            },
+            {
+                "type": "lyric",
+                "text": "han svarte bladet comme il faut"
+            },
+            {
+                "type": "lyric",
+                "text": "at «Sånt no går da ikke an –"
+            },
+            {
+                "type": "lyric",
+                "text": "Nei – vet De hva!»"
+            },
+            {
+                "type": "lyric",
+                "text": "Vår husfar ga saken syn –"
+            },
+            {
+                "type": "lyric",
+                "text": "«Gutta her har’ke opphav med gryn,"
+            },
+            {
+                "type": "lyric",
+                "text": "for i gjennomsnitt det er"
+            },
+            {
+                "type": "lyric",
+                "text": "snaut en halv million bakom hver!»"
+            },
+            {
+                "type": "lyric",
+                "text": "Og – kjære Universitas;"
+            },
+            {
+                "type": "lyric",
+                "text": "kom hit når lørdagsmidda’n tas"
+            },
+            {
+                "type": "lyric",
+                "text": "med pottit, sild og vann i glass –"
+            },
+            {
+                "type": "lyric",
+                "text": "og plenty plass!"
+            }
         ],
         [
-            "Nei – Blindern er’ke stedet nå",
-            "som våre fedre bodde på –",
-            "snart er det blitt en almen skikk",
-            "å bruke trikk.",
-            "På veggen har vi Munch – og no’ –",
-            "men vi har’ke Michelangelo –",
-            "det viser jo at vi kan bo",
-            "som andre folk.",
-            "Og sport er jeg gått inn for nå –",
-            "ja, tenk nå klarer jeg nesten å gå",
-            "bort til Vindern, men da må jeg ha",
-            "en bil – og fire, fem mann til å ta",
-            "imot meg når jeg kommer hjem",
-            "klar til å bære pjolter’n frem –",
-            "og stakkars lille husmor da –",
-            "hvis den er varm. ",
-            " "
+            {
+                "type": "lyric",
+                "text": "Nei – Blindern er’ke stedet nå"
+            },
+            {
+                "type": "lyric",
+                "text": "som våre fedre bodde på –"
+            },
+            {
+                "type": "lyric",
+                "text": "snart er det blitt en almen skikk"
+            },
+            {
+                "type": "lyric",
+                "text": "å bruke trikk."
+            },
+            {
+                "type": "lyric",
+                "text": "På veggen har vi Munch – og no’ –"
+            },
+            {
+                "type": "lyric",
+                "text": "men vi har’ke Michelangelo –"
+            },
+            {
+                "type": "lyric",
+                "text": "det viser jo at vi kan bo"
+            },
+            {
+                "type": "lyric",
+                "text": "som andre folk."
+            },
+            {
+                "type": "lyric",
+                "text": "Og sport er jeg gått inn for nå –"
+            },
+            {
+                "type": "lyric",
+                "text": "ja, tenk nå klarer jeg nesten å gå"
+            },
+            {
+                "type": "lyric",
+                "text": "bort til Vindern, men da må jeg ha"
+            },
+            {
+                "type": "lyric",
+                "text": "en bil – og fire, fem mann til å ta"
+            },
+            {
+                "type": "lyric",
+                "text": "imot meg når jeg kommer hjem"
+            },
+            {
+                "type": "lyric",
+                "text": "klar til å bære pjolter’n frem –"
+            },
+            {
+                "type": "lyric",
+                "text": "og stakkars lille husmor da –"
+            },
+            {
+                "type": "lyric",
+                "text": "hvis den er varm. "
+            },
+            {
+                "type": "lyric",
+                "text": " "
+            }
         ]
-    ],
-    "comments": [
-        "Revysjef 1950, Gunnar K. Lien, botid: 1938-40, 1945-50. Bartender i 1938-revyen og Blæstsjef i 1939-revyen. 12 år etter at han først kom som pygmé, ble han Revysjef som eneste med revystatus fra før krigen. Han har mye av æren for at Blindernrevyen gjenoppstod Revyorkesteret i 1950 fikk navnet: «Vodkakosakkenes Fyllharmoniske Trallalaika-orkester»"
-    ],
-    "start_page": 19,
-    "end_page": 20
+    ]
 }

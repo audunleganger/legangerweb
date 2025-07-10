@@ -1,80 +1,201 @@
 {
-    "id": "blinderngutter",
-    "title": "Blinderngutter",
-    "author": "Petter Binde, Rune Asbjørnsen, Claus Koren, Trond A. Aas",
-    "melody": "Together again, for the first time!, Ron Kramer, Neely Plumb (1968)",
-    "event": "Griserevyen 1991 ”Sprut Litt”",
-    "year": 1991,
-    "lyrics": [
+    "meta": {
+        "id": "blinderngutter",
+        "title": "Blinderngutter",
+        "author": "Petter Binde, Rune Asbjørnsen, Claus Koren, Trond A. Aas",
+        "melody": "Together again, for the first time!, Ron Kramer, Neely Plumb (1968)",
+        "event": "Griserevyen 1991 ”Sprut Litt”",
+        "year": 1991,
+        "comments": [
+            "Sangen er basert på ”Harrygutter” skrevet av Rune Dahl-Bjørnsen, fra Blindernrevyen 1991: ”Sprøyt Light”."
+        ],
+        "start_page": 201,
+        "end_page": 202,
+        "youtube_link": "https://www.youtube.com/watch?v=ou8-CfZ1S8k",
+        "spotify_link": "https://open.spotify.com/track/0CLTJXxNZBaHtStVoqmSRR?si=e10a36daa2b74e5e"
+    },
+    "contents": [
         [
-            "Vi er ekte Blinderngutter - med smoking sko,",
-            "så smoking som sko kan bli,",
-            "og så svarte som kull",
-            "nei, det er’kke no tull. "
+            {
+                "type": "lyric",
+                "text": "Vi er ekte Blinderngutter - med smoking sko,"
+            },
+            {
+                "type": "lyric",
+                "text": "så smoking som sko kan bli,"
+            },
+            {
+                "type": "lyric",
+                "text": "og så svarte som kull"
+            },
+            {
+                "type": "lyric",
+                "text": "nei, det er’kke no tull. "
+            }
         ],
         [
-            "Champis drikkes hele dagen,",
-            "både her og ute i hagen.",
-            "Og vi tar en spray - en skikkelig sprut",
-            "med en hel flaske Brut."
+            {
+                "type": "lyric",
+                "text": "Champis drikkes hele dagen,"
+            },
+            {
+                "type": "lyric",
+                "text": "både her og ute i hagen."
+            },
+            {
+                "type": "lyric",
+                "text": "Og vi tar en spray - en skikkelig sprut"
+            },
+            {
+                "type": "lyric",
+                "text": "med en hel flaske Brut."
+            }
         ],
         [
-            "Volkswagen Transporter har vi- selvfølgelig,",
-            "med egen sjåfør og alt,",
-            "og med barskap både foran og bak."
+            {
+                "type": "lyric",
+                "text": "Volkswagen Transporter har vi- selvfølgelig,"
+            },
+            {
+                "type": "lyric",
+                "text": "med egen sjåfør og alt,"
+            },
+            {
+                "type": "lyric",
+                "text": "og med barskap både foran og bak."
+            }
         ],
         [
-            "- ",
-            "Dobbel Whisky! - dobbel Whisky!"
+            {
+                "type": "lyric",
+                "text": "- "
+            },
+            {
+                "type": "lyric",
+                "text": "Dobbel Whisky! - dobbel Whisky!"
+            }
         ],
         [
-            "Alle jenters øyne blinker,",
-            "almuen står der og vinker.",
-            "Så når vi skal stavre oss hjem,",
-            "kan de hjelpe oss frem."
+            {
+                "type": "lyric",
+                "text": "Alle jenters øyne blinker,"
+            },
+            {
+                "type": "lyric",
+                "text": "almuen står der og vinker."
+            },
+            {
+                "type": "lyric",
+                "text": "Så når vi skal stavre oss hjem,"
+            },
+            {
+                "type": "lyric",
+                "text": "kan de hjelpe oss frem."
+            }
         ],
         [
-            "Det dufter sex og Boss og Cointreaux av oss,",
-            "og damer kommer hit helt i fra Moss.",
-            "Vi sjekker damer helt herifra til Mo,",
-            "ja, alt går bra har man smoking nok sko."
+            {
+                "type": "lyric",
+                "text": "Det dufter sex og Boss og Cointreaux av oss,"
+            },
+            {
+                "type": "lyric",
+                "text": "og damer kommer hit helt i fra Moss."
+            },
+            {
+                "type": "lyric",
+                "text": "Vi sjekker damer helt herifra til Mo,"
+            },
+            {
+                "type": "lyric",
+                "text": "ja, alt går bra har man smoking nok sko."
+            }
         ],
         [
-            "- ",
-            "Våre sko er mye mer smoking enn deres!",
-            "- ",
-            "Ja, det er faktisk mulig!"
+            {
+                "type": "lyric",
+                "text": "- "
+            },
+            {
+                "type": "lyric",
+                "text": "Våre sko er mye mer smoking enn deres!"
+            },
+            {
+                "type": "lyric",
+                "text": "- "
+            },
+            {
+                "type": "lyric",
+                "text": "Ja, det er faktisk mulig!"
+            }
         ],
         [
-            "Penga sitter løst, så alle kan se det selv",
-            "at Paps har vært snill i kveld.",
-            "Ja, her kan du tydelig se vår profil."
+            {
+                "type": "lyric",
+                "text": "Penga sitter løst, så alle kan se det selv"
+            },
+            {
+                "type": "lyric",
+                "text": "at Paps har vært snill i kveld."
+            },
+            {
+                "type": "lyric",
+                "text": "Ja, her kan du tydelig se vår profil."
+            }
         ],
         [
-            "- Ja, aristokratisk, uten tvil."
+            {
+                "type": "lyric",
+                "text": "- Ja, aristokratisk, uten tvil."
+            }
         ],
         [
-            "Kneppet skjorte opp til haken,",
-            "nei, det finnes ikke maken.",
-            "Hvem kan stå imot vår Blindern stil?"
+            {
+                "type": "lyric",
+                "text": "Kneppet skjorte opp til haken,"
+            },
+            {
+                "type": "lyric",
+                "text": "nei, det finnes ikke maken."
+            },
+            {
+                "type": "lyric",
+                "text": "Hvem kan stå imot vår Blindern stil?"
+            }
         ],
         [
-            "- ",
-            "Nei, ikke hu, og ikke hu!"
+            {
+                "type": "lyric",
+                "text": "- "
+            },
+            {
+                "type": "lyric",
+                "text": "Nei, ikke hu, og ikke hu!"
+            }
         ],
         [
-            "Vi er så deilig at du vi’kke tru.",
-            "Så gjennomført bra,",
-            "ja, vi er gode å ha. "
+            {
+                "type": "lyric",
+                "text": "Vi er så deilig at du vi’kke tru."
+            },
+            {
+                "type": "lyric",
+                "text": "Så gjennomført bra,"
+            },
+            {
+                "type": "lyric",
+                "text": "ja, vi er gode å ha. "
+            }
         ],
         [
-            "- Åhh Blindern, åhh smoking, åhh så videre...",
-            " "
+            {
+                "type": "lyric",
+                "text": "- Åhh Blindern, åhh smoking, åhh så videre..."
+            },
+            {
+                "type": "lyric",
+                "text": " "
+            }
         ]
-    ],
-    "comments": [
-        "Sangen er basert på ”Harrygutter” skrevet av Rune Dahl-Bjørnsen, fra Blindernrevyen 1991: ”Sprøyt Light”."
-    ],
-    "start_page": 201,
-    "end_page": 202
+    ]
 }

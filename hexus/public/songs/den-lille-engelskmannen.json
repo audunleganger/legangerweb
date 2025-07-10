@@ -1,65 +1,187 @@
 {
-    "id": "den-lille-engelskmannen",
-    "title": "Den lille engelskmannen",
-    "author": "Bernt Middelthon / Lasse Espelid",
-    "melody": "The Englishman with his usual bloody cold, Paddy Roberts",
-    "event": "Blindernrevyen 1963 “Vi bukker igjen”",
-    "year": 1963,
-    "lyrics": [
+    "meta": {
+        "id": "den-lille-engelskmannen",
+        "title": "Den lille engelskmannen",
+        "author": "Bernt Middelthon / Lasse Espelid",
+        "melody": "The Englishman with his usual bloody cold, Paddy Roberts",
+        "event": "Blindernrevyen 1963 “Vi bukker igjen”",
+        "year": 1963,
+        "comments": [
+            " I 1962/63 la Frankrikes president Charles de Gaulle ned veto mot britenes søknad om medlemsskap i EEC (“EU”). Han gjentok dette i 1967. Først i 1973 slapp britene inn."
+        ],
+        "start_page": 58,
+        "end_page": 59,
+        "youtube_link": "https://www.youtube.com/watch?v=YDY3T_cpNJ8",
+        "spotify_link": "https://open.spotify.com/track/0oMqab5sBFTZYiIPBv6ez5?si=e6751ed06ab84fe0"
+    },
+    "contents": [
         [
-            "De kjenner meg nok sikkert på habitten,",
-            "De møter meg i Londons travle by.",
-            "I storbyens kvarterer går jeg rundt og spankulerer",
-            "med min bowler og min paraply.",
-            "Og dagene kan miste koloritten",
-            "og solen kan forsvinne bak en sky.",
-            "Når tåken ligger tett og tung om Tårn og Parlament",
-            "og uvær er på vei ifra et urolig kontinent.",
-            "Han kan den gamle kunst å søke ly –",
-            "en engelskmann med sin hatt og paraply."
+            {
+                "type": "lyric",
+                "text": "De kjenner meg nok sikkert på habitten,"
+            },
+            {
+                "type": "lyric",
+                "text": "De møter meg i Londons travle by."
+            },
+            {
+                "type": "lyric",
+                "text": "I storbyens kvarterer går jeg rundt og spankulerer"
+            },
+            {
+                "type": "lyric",
+                "text": "med min bowler og min paraply."
+            },
+            {
+                "type": "lyric",
+                "text": "Og dagene kan miste koloritten"
+            },
+            {
+                "type": "lyric",
+                "text": "og solen kan forsvinne bak en sky."
+            },
+            {
+                "type": "lyric",
+                "text": "Når tåken ligger tett og tung om Tårn og Parlament"
+            },
+            {
+                "type": "lyric",
+                "text": "og uvær er på vei ifra et urolig kontinent."
+            },
+            {
+                "type": "lyric",
+                "text": "Han kan den gamle kunst å søke ly –"
+            },
+            {
+                "type": "lyric",
+                "text": "en engelskmann med sin hatt og paraply."
+            }
         ],
         [
-            "Men været her om dagen ga ham troen",
-            "på undere som enda kunne skje",
-            "for tenk Dem at det hendte at man kom til Kontinentet",
-            "uten å ta våpen med.",
-            "De store skulle samle seg til selskap.",
-            "De gamle vise menn var dratt av sted,",
-            "og rundt omkring i saler, ved border og i bar",
-            "satt sendemenn og kanslere i glitter og “gloire”",
-            "og lenger ned ved fellesbordet satt",
-            "en engelskmann med sin paraply og hatt."
+            {
+                "type": "lyric",
+                "text": "Men været her om dagen ga ham troen"
+            },
+            {
+                "type": "lyric",
+                "text": "på undere som enda kunne skje"
+            },
+            {
+                "type": "lyric",
+                "text": "for tenk Dem at det hendte at man kom til Kontinentet"
+            },
+            {
+                "type": "lyric",
+                "text": "uten å ta våpen med."
+            },
+            {
+                "type": "lyric",
+                "text": "De store skulle samle seg til selskap."
+            },
+            {
+                "type": "lyric",
+                "text": "De gamle vise menn var dratt av sted,"
+            },
+            {
+                "type": "lyric",
+                "text": "og rundt omkring i saler, ved border og i bar"
+            },
+            {
+                "type": "lyric",
+                "text": "satt sendemenn og kanslere i glitter og “gloire”"
+            },
+            {
+                "type": "lyric",
+                "text": "og lenger ned ved fellesbordet satt"
+            },
+            {
+                "type": "lyric",
+                "text": "en engelskmann med sin paraply og hatt."
+            }
         ],
         [
-            "Det vrimlet i de store korridorer",
-            "med folk ifra den store felles-stand",
-            "man satte seg på plassene og alle hevet glassene"
+            {
+                "type": "lyric",
+                "text": "Det vrimlet i de store korridorer"
+            },
+            {
+                "type": "lyric",
+                "text": "med folk ifra den store felles-stand"
+            },
+            {
+                "type": "lyric",
+                "text": "man satte seg på plassene og alle hevet glassene"
+            },
+            {
+                "type": "lyric",
+                "text": "for alles felles fedreland."
+            },
+            {
+                "type": "lyric",
+                "text": "Men De vil ganske sikkert være enig"
+            },
+            {
+                "type": "lyric",
+                "text": "det føles ganske merkelig når man –"
+            },
+            {
+                "type": "lyric",
+                "text": "når flaskene er trukket opp og maten er servert"
+            },
+            {
+                "type": "lyric",
+                "text": "- får vite at man slettes ikke er blitt invitert"
+            },
+            {
+                "type": "lyric",
+                "text": "- da skjønner De nok ganske sikkert at"
+            },
+            {
+                "type": "lyric",
+                "text": "da griper man til sin paraply og hatt"
+            }
         ],
         [
-            "for alles felles fedreland.",
-            "Men De vil ganske sikkert være enig",
-            "det føles ganske merkelig når man –",
-            "når flaskene er trukket opp og maten er servert",
-            "- får vite at man slettes ikke er blitt invitert",
-            "- da skjønner De nok ganske sikkert at",
-            "da griper man til sin paraply og hatt"
-        ],
-        [
-            "De treffer meg i Londons travle gater,",
-            "jeg liker å få være litt i fred.",
-            "De treffer meg i sub’en, ned i pub’en i og Club’en,",
-            "i min stue med min toast og the.",
-            "Men jeg vil være våken ned ved Dover",
-            "og hvis jeg nok en gang skal måtte se",
-            "at på den andre siden av en tåkete kanal",
-            "regjerer og marsjerer en for mektig general.",
-            "Da vet De hvem som viser seg på ny.",
-            "En engelskmann med sin hatt og paraply."
+            {
+                "type": "lyric",
+                "text": "De treffer meg i Londons travle gater,"
+            },
+            {
+                "type": "lyric",
+                "text": "jeg liker å få være litt i fred."
+            },
+            {
+                "type": "lyric",
+                "text": "De treffer meg i sub’en, ned i pub’en i og Club’en,"
+            },
+            {
+                "type": "lyric",
+                "text": "i min stue med min toast og the."
+            },
+            {
+                "type": "lyric",
+                "text": "Men jeg vil være våken ned ved Dover"
+            },
+            {
+                "type": "lyric",
+                "text": "og hvis jeg nok en gang skal måtte se"
+            },
+            {
+                "type": "lyric",
+                "text": "at på den andre siden av en tåkete kanal"
+            },
+            {
+                "type": "lyric",
+                "text": "regjerer og marsjerer en for mektig general."
+            },
+            {
+                "type": "lyric",
+                "text": "Da vet De hvem som viser seg på ny."
+            },
+            {
+                "type": "lyric",
+                "text": "En engelskmann med sin hatt og paraply."
+            }
         ]
-    ],
-    "comments": [
-        " I 1962/63 la Frankrikes president Charles de Gaulle ned veto mot britenes søknad om medlemsskap i EEC (“EU”). Han gjentok dette i 1967. Først i 1973 slapp britene inn."
-    ],
-    "start_page": 58,
-    "end_page": 59
+    ]
 }

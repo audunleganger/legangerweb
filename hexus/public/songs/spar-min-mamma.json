@@ -1,103 +1,327 @@
 {
-    "id": "spar-min-mamma",
-    "title": "Spar min mamma",
-    "author": "Ellen Marie Garåsen og Eirik Skarsbø",
-    "melody": "Don’t tell mama, fra musikalen Cabaret, Kander/Ebb",
-    "event": "UKA på Blindern 2009 “Makabaret”",
-    "year": 2009,
-    "lyrics": [
+    "meta": {
+        "id": "spar-min-mamma",
+        "title": "Spar min mamma",
+        "author": "Ellen Marie Garåsen og Eirik Skarsbø",
+        "melody": "Don’t tell mama, fra musikalen Cabaret, Kander/Ebb",
+        "event": "UKA på Blindern 2009 “Makabaret”",
+        "year": 2009,
+        "comments": [],
+        "start_page": 158,
+        "end_page": 160,
+        "youtube_link": "https://www.youtube.com/watch?v=4aw9u1rtDBs",
+        "spotify_link": "https://open.spotify.com/track/6Yok1fL2qRl6DMSBk57WOG?si=d5c834a6f50b427e"
+    },
+    "contents": [
         [
-            "Mamma tror jeg bor i et kloster",
-            "et fredet lite kloster oppå Blinderen et sted",
-            "Mamma har nok ikke hørt et mukk om",
-            "et par sorte blondetruser",
-            "og en tvilsom Cabaret…",
-            " ",
-            "Så please Sir, hvis De støter på min mamma,",
-            "vær så snill og ikke røp meg",
-            "og vær ikke indiskret ",
-            " ",
-            "HYSJ DA! Spar min mamma!",
-            "FYSJ DA! Spar min mamma!",
-            "Spar min mamma, hva du så enn gjør",
-            "Gjorde du no’ ille, ",
-            "Ville jeg ti’ stille ",
-            "skjule det som skjules bør!",
-            " ",
-            "Min mamma tror jeg holder alt jeg lovet",
-            "Men si meg, ærlig talt - syns De jeg opptrer vovet?",
-            "La oss bli kamerater",
-            "Hold munn, for min mater",
-            "hun vil syns min dans er ekvivokk!",
-            "Bare løp til pappa og fortell",
-            "for pappa kommer hit hver kveld ",
-            "Men spar min mamma for et sjokk!"
+            {
+                "type": "lyric",
+                "text": "Mamma tror jeg bor i et kloster"
+            },
+            {
+                "type": "lyric",
+                "text": "et fredet lite kloster oppå Blinderen et sted"
+            },
+            {
+                "type": "lyric",
+                "text": "Mamma har nok ikke hørt et mukk om"
+            },
+            {
+                "type": "lyric",
+                "text": "et par sorte blondetruser"
+            },
+            {
+                "type": "lyric",
+                "text": "og en tvilsom Cabaret…"
+            },
+            {
+                "type": "lyric",
+                "text": " "
+            },
+            {
+                "type": "lyric",
+                "text": "Så please Sir, hvis De støter på min mamma,"
+            },
+            {
+                "type": "lyric",
+                "text": "vær så snill og ikke røp meg"
+            },
+            {
+                "type": "lyric",
+                "text": "og vær ikke indiskret "
+            },
+            {
+                "type": "lyric",
+                "text": " "
+            },
+            {
+                "type": "lyric",
+                "text": "HYSJ DA! Spar min mamma!"
+            },
+            {
+                "type": "lyric",
+                "text": "FYSJ DA! Spar min mamma!"
+            },
+            {
+                "type": "lyric",
+                "text": "Spar min mamma, hva du så enn gjør"
+            },
+            {
+                "type": "lyric",
+                "text": "Gjorde du no’ ille, "
+            },
+            {
+                "type": "lyric",
+                "text": "Ville jeg ti’ stille "
+            },
+            {
+                "type": "lyric",
+                "text": "skjule det som skjules bør!"
+            },
+            {
+                "type": "lyric",
+                "text": " "
+            },
+            {
+                "type": "lyric",
+                "text": "Min mamma tror jeg holder alt jeg lovet"
+            },
+            {
+                "type": "lyric",
+                "text": "Men si meg, ærlig talt - syns De jeg opptrer vovet?"
+            },
+            {
+                "type": "lyric",
+                "text": "La oss bli kamerater"
+            },
+            {
+                "type": "lyric",
+                "text": "Hold munn, for min mater"
+            },
+            {
+                "type": "lyric",
+                "text": "hun vil syns min dans er ekvivokk!"
+            },
+            {
+                "type": "lyric",
+                "text": "Bare løp til pappa og fortell"
+            },
+            {
+                "type": "lyric",
+                "text": "for pappa kommer hit hver kveld "
+            },
+            {
+                "type": "lyric",
+                "text": "Men spar min mamma for et sjokk!"
+            }
         ],
         [
-            "Jentene:",
-            "Mamma tror jeg tar master i historie",
-            "går i foldeskjørt og glorie",
-            "som en dydig mademoiselle"
+            {
+                "type": "lyric",
+                "text": "Jentene:"
+            },
+            {
+                "type": "lyric",
+                "text": "Mamma tror jeg tar master i historie"
+            },
+            {
+                "type": "lyric",
+                "text": "går i foldeskjørt og glorie"
+            },
+            {
+                "type": "lyric",
+                "text": "som en dydig mademoiselle"
+            }
         ],
         [
-            "Guttene:",
-            "Mamma har nok ikke hørt et mukk om",
-            "at jeg strøk en gang i ex.phil.",
-            "for allting ble for trivielt"
+            {
+                "type": "lyric",
+                "text": "Guttene:"
+            },
+            {
+                "type": "lyric",
+                "text": "Mamma har nok ikke hørt et mukk om"
+            },
+            {
+                "type": "lyric",
+                "text": "at jeg strøk en gang i ex.phil."
+            },
+            {
+                "type": "lyric",
+                "text": "for allting ble for trivielt"
+            }
         ],
         [
-            "Jentene: ",
-            "Så please Sir, hvis De støter på min mamma"
+            {
+                "type": "lyric",
+                "text": "Jentene: "
+            },
+            {
+                "type": "lyric",
+                "text": "Så please Sir, hvis De støter på min mamma"
+            }
         ],
         [
-            "Guttene:",
-            "Vær så snill å ikke røp meg"
+            {
+                "type": "lyric",
+                "text": "Guttene:"
+            },
+            {
+                "type": "lyric",
+                "text": "Vær så snill å ikke røp meg"
+            }
         ],
         [
-            "Alle:",
-            "Gjort er gjort allikevel…"
+            {
+                "type": "lyric",
+                "text": "Alle:"
+            },
+            {
+                "type": "lyric",
+                "text": "Gjort er gjort allikevel…"
+            }
         ],
         [
-            "Alle:",
-            "Så HYSJ da! Spar min mamma",
-            "FYSJ da! Spar min mamma",
-            "Spar min mamma, hva du så enn gjør!",
-            "Gjorde du no’ ille",
-            "ville jeg ti stille",
-            "Skjule det som skjules bør!",
-            " ",
-            "Så spar min kjære mamma ",
-            "for den skrekken"
-        ],
-        [
-            "for bann på hun vil snurpe ",
-            "sammen pengesekken",
-            " ",
-            "La oss bli kamerater, ",
-            "HOLD MUNN for min mater",
-            "selv om jeg er ren og dydig nok",
-            " ",
-            "Guttene:",
-            "Fortell min onkel - den er fin! ",
-            "For han er impressarioen min, ",
-            "men spar min mamma for et sjokk!",
-            " ",
-            "Jentene:",
-            "Bare løp til farmor og fortell,",
-            "hun jobber her som callgirl selv!",
-            "Men spar min mamma for et sjokk",
-            " ",
-            "Fortell min broder om min skam, ",
-            "for sladrer han på meg, ",
-            "sladrer jeg på ham!",
-            "Men spar min mamma, bitte",
-            "spar min mamma, please, Sir!",
-            "Spar min mamma for et sjokk!",
-            " ",
-            "Hysj…"
+            {
+                "type": "lyric",
+                "text": "Alle:"
+            },
+            {
+                "type": "lyric",
+                "text": "Så HYSJ da! Spar min mamma"
+            },
+            {
+                "type": "lyric",
+                "text": "FYSJ da! Spar min mamma"
+            },
+            {
+                "type": "lyric",
+                "text": "Spar min mamma, hva du så enn gjør!"
+            },
+            {
+                "type": "lyric",
+                "text": "Gjorde du no’ ille"
+            },
+            {
+                "type": "lyric",
+                "text": "ville jeg ti stille"
+            },
+            {
+                "type": "lyric",
+                "text": "Skjule det som skjules bør!"
+            },
+            {
+                "type": "lyric",
+                "text": " "
+            },
+            {
+                "type": "lyric",
+                "text": "Så spar min kjære mamma "
+            },
+            {
+                "type": "lyric",
+                "text": "for den skrekken"
+            },
+            {
+                "type": "lyric",
+                "text": "for bann på hun vil snurpe "
+            },
+            {
+                "type": "lyric",
+                "text": "sammen pengesekken"
+            },
+            {
+                "type": "lyric",
+                "text": " "
+            },
+            {
+                "type": "lyric",
+                "text": "La oss bli kamerater, "
+            },
+            {
+                "type": "lyric",
+                "text": "HOLD MUNN for min mater"
+            },
+            {
+                "type": "lyric",
+                "text": "selv om jeg er ren og dydig nok"
+            },
+            {
+                "type": "lyric",
+                "text": " "
+            },
+            {
+                "type": "lyric",
+                "text": "Guttene:"
+            },
+            {
+                "type": "lyric",
+                "text": "Fortell min onkel - den er fin! "
+            },
+            {
+                "type": "lyric",
+                "text": "For han er impressarioen min, "
+            },
+            {
+                "type": "lyric",
+                "text": "men spar min mamma for et sjokk!"
+            },
+            {
+                "type": "lyric",
+                "text": " "
+            },
+            {
+                "type": "lyric",
+                "text": "Jentene:"
+            },
+            {
+                "type": "lyric",
+                "text": "Bare løp til farmor og fortell,"
+            },
+            {
+                "type": "lyric",
+                "text": "hun jobber her som callgirl selv!"
+            },
+            {
+                "type": "lyric",
+                "text": "Men spar min mamma for et sjokk"
+            },
+            {
+                "type": "lyric",
+                "text": " "
+            },
+            {
+                "type": "lyric",
+                "text": "Fortell min broder om min skam, "
+            },
+            {
+                "type": "lyric",
+                "text": "for sladrer han på meg, "
+            },
+            {
+                "type": "lyric",
+                "text": "sladrer jeg på ham!"
+            },
+            {
+                "type": "lyric",
+                "text": "Men spar min mamma, bitte"
+            },
+            {
+                "type": "lyric",
+                "text": "spar min mamma, please, Sir!"
+            },
+            {
+                "type": "lyric",
+                "text": "Spar min mamma for et sjokk!"
+            },
+            {
+                "type": "lyric",
+                "text": " "
+            },
+            {
+                "type": "lyric",
+                "text": "Hysj…"
+            }
         ]
-    ],
-    "comments": [],
-    "start_page": 158,
-    "end_page": 160
+    ]
 }

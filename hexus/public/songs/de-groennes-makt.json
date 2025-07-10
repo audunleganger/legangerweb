@@ -1,68 +1,183 @@
 {
-    "id": "de-groennes-makt",
-    "title": "De grønnes makt",
-    "author": "Siri Skotvedt / Simen Buodd / Helene Brygmann",
-    "melody": "Colors of the Wind, Pocahontas",
-    "event": "UKA på Blindern 2017 “Full makt”",
-    "year": 2017,
-    "lyrics": [
+    "meta": {
+        "id": "de-groennes-makt",
+        "title": "De grønnes makt",
+        "author": "Siri Skotvedt / Simen Buodd / Helene Brygmann",
+        "melody": "Colors of the Wind, Pocahontas",
+        "event": "UKA på Blindern 2017 “Full makt”",
+        "year": 2017,
+        "comments": [],
+        "start_page": 182,
+        "end_page": 183,
+        "youtube_link": "https://www.youtube.com/watch?v=hcmpj5HPue0",
+        "spotify_link": "https://open.spotify.com/track/1O841LULHXexH8W7fqtctA?si=baaaec2d6ca14368"
+    },
+    "contents": [
         [
-            "For deg er jeg en av de grønne,",
-            "av de blokkuavhengige,",
-            "Eller var det det det het?",
-            "Men man kan spørre seg",
-            "om «den grønne» her er meg?",
-            "Det er så mange ting du ikke vet,",
-            "ikke vet.."
+            {
+                "type": "lyric",
+                "text": "For deg er jeg en av de grønne,"
+            },
+            {
+                "type": "lyric",
+                "text": "av de blokkuavhengige,"
+            },
+            {
+                "type": "lyric",
+                "text": "Eller var det det det het?"
+            },
+            {
+                "type": "lyric",
+                "text": "Men man kan spørre seg"
+            },
+            {
+                "type": "lyric",
+                "text": "om «den grønne» her er meg?"
+            },
+            {
+                "type": "lyric",
+                "text": "Det er så mange ting du ikke vet,"
+            },
+            {
+                "type": "lyric",
+                "text": "ikke vet.."
+            }
         ],
         [
-            "Du tror du eier jorden som du trår på,",
-            "at du kan avle laks i hver en havn",
-            "Men jeg vet at hver fisk og hvert et vesen",
-            "har et liv, har en mening, har et navn."
+            {
+                "type": "lyric",
+                "text": "Du tror du eier jorden som du trår på,"
+            },
+            {
+                "type": "lyric",
+                "text": "at du kan avle laks i hver en havn"
+            },
+            {
+                "type": "lyric",
+                "text": "Men jeg vet at hver fisk og hvert et vesen"
+            },
+            {
+                "type": "lyric",
+                "text": "har et liv, har en mening, har et navn."
+            }
         ],
         [
-            "Du tror du er et menneske som bryr deg",
-            "men papp og plast skal kastes hver for seg,",
-            "All søpla di har skapt et søppelkaos",
-            "det er dere som har skylda, ikke jeg"
+            {
+                "type": "lyric",
+                "text": "Du tror du er et menneske som bryr deg"
+            },
+            {
+                "type": "lyric",
+                "text": "men papp og plast skal kastes hver for seg,"
+            },
+            {
+                "type": "lyric",
+                "text": "All søpla di har skapt et søppelkaos"
+            },
+            {
+                "type": "lyric",
+                "text": "det er dere som har skylda, ikke jeg"
+            }
         ],
         [
-            "Jeg kjemper for at ulver hyler natten lang,",
-            "jeg kjemper for et Norge uten bil",
-            "med t-bane fra Hammerfest til Hamburg",
-            "jeg vil male hele Stortinget i grønt",
-            "jeg vil male hele Stortinget i grønt"
+            {
+                "type": "lyric",
+                "text": "Jeg kjemper for at ulver hyler natten lang,"
+            },
+            {
+                "type": "lyric",
+                "text": "jeg kjemper for et Norge uten bil"
+            },
+            {
+                "type": "lyric",
+                "text": "med t-bane fra Hammerfest til Hamburg"
+            },
+            {
+                "type": "lyric",
+                "text": "jeg vil male hele Stortinget i grønt"
+            },
+            {
+                "type": "lyric",
+                "text": "jeg vil male hele Stortinget i grønt"
+            }
         ],
         [
-            "Kom løp langs skjulte gater gjennom Oslo,",
-            "og smak organisk rawfood på din vei,",
-            "men hvis du er litt sliten, ta en taxi",
-            "for det er vanskelig å sykle, det synes jeg"
+            {
+                "type": "lyric",
+                "text": "Kom løp langs skjulte gater gjennom Oslo,"
+            },
+            {
+                "type": "lyric",
+                "text": "og smak organisk rawfood på din vei,"
+            },
+            {
+                "type": "lyric",
+                "text": "men hvis du er litt sliten, ta en taxi"
+            },
+            {
+                "type": "lyric",
+                "text": "for det er vanskelig å sykle, det synes jeg"
+            }
         ],
         [
-            "Med PETA og Bellona står vi sammen,",
-            "Med Høyre og med SV er jeg venn,",
-            "Men senterparti-bøndene er dumme,",
-            "for de dreper  alle dyr som er igjen"
+            {
+                "type": "lyric",
+                "text": "Med PETA og Bellona står vi sammen,"
+            },
+            {
+                "type": "lyric",
+                "text": "Med Høyre og med SV er jeg venn,"
+            },
+            {
+                "type": "lyric",
+                "text": "Men senterparti-bøndene er dumme,"
+            },
+            {
+                "type": "lyric",
+                "text": "for de dreper  alle dyr som er igjen"
+            }
         ],
         [
-            "Hvor myk kan en ulvepels bli",
-            "hvis du feller dem, får du aldri se..."
+            {
+                "type": "lyric",
+                "text": "Hvor myk kan en ulvepels bli"
+            },
+            {
+                "type": "lyric",
+                "text": "hvis du feller dem, får du aldri se..."
+            }
         ],
         [
-            "Du får aldri høre ulver hyle natten lang,",
-            "eller leke med dem på din skolevei",
-            "Vi må gjemme alle ulvene i skogen,",
-            "vi må male alle ulvene i grønt"
+            {
+                "type": "lyric",
+                "text": "Du får aldri høre ulver hyle natten lang,"
+            },
+            {
+                "type": "lyric",
+                "text": "eller leke med dem på din skolevei"
+            },
+            {
+                "type": "lyric",
+                "text": "Vi må gjemme alle ulvene i skogen,"
+            },
+            {
+                "type": "lyric",
+                "text": "vi må male alle ulvene i grønt"
+            }
         ],
         [
-            "du kan drømme alt du vil,",
-            "det skjer ingen ting inntil",
-            "du maler hele verden din i grønt..."
+            {
+                "type": "lyric",
+                "text": "du kan drømme alt du vil,"
+            },
+            {
+                "type": "lyric",
+                "text": "det skjer ingen ting inntil"
+            },
+            {
+                "type": "lyric",
+                "text": "du maler hele verden din i grønt..."
+            }
         ]
-    ],
-    "comments": [],
-    "start_page": 182,
-    "end_page": 183
+    ]
 }

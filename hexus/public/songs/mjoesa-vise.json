@@ -1,73 +1,221 @@
 {
-    "id": "mjoesa-vise",
-    "title": "Mjøsa-vise",
-    "author": "Roar Solheim / Espen Huldt-Nystrøm",
-    "melody": "Så seiler vi på Mjøsa, Ulf Peder Olrog / Alf Prøysen",
-    "event": "Blindernrevyen 1977 ”Scene-strekk”",
-    "year": 1977,
-    "lyrics": [
+    "meta": {
+        "id": "mjoesa-vise",
+        "title": "Mjøsa-vise",
+        "author": "Roar Solheim / Espen Huldt-Nystrøm",
+        "melody": "Så seiler vi på Mjøsa, Ulf Peder Olrog / Alf Prøysen",
+        "event": "Blindernrevyen 1977 ”Scene-strekk”",
+        "year": 1977,
+        "comments": [],
+        "start_page": 96,
+        "end_page": 97,
+        "youtube_link": "https://www.youtube.com/watch?v=SrUDX_CdCEc",
+        "spotify_link": "https://open.spotify.com/track/4xdKDHuqlHzHMIXfAPvvpP?si=f383095bc5b54c73"
+    },
+    "contents": [
         [
-            "Norges største innsjø: Mjøsa er dens navn.",
-            "Den volder mange sorger, er snart til intet gavn.",
-            "For Mjøsa dør bort - i alger og lort.",
-            "Det er snart ingenting man kan få gjort ",
-            "med vann som lukter råttent, og fisk som har fått sopp.",
-            "Vi kan snart gå på vannet fra Nes til Stangelandet.",
-            "Å svømme er umulig blant kloakk og plankebord.",
-            "Det vi får ut av springen - er rester fra en lunsj i fjor."
+            {
+                "type": "lyric",
+                "text": "Norges største innsjø: Mjøsa er dens navn."
+            },
+            {
+                "type": "lyric",
+                "text": "Den volder mange sorger, er snart til intet gavn."
+            },
+            {
+                "type": "lyric",
+                "text": "For Mjøsa dør bort - i alger og lort."
+            },
+            {
+                "type": "lyric",
+                "text": "Det er snart ingenting man kan få gjort "
+            },
+            {
+                "type": "lyric",
+                "text": "med vann som lukter råttent, og fisk som har fått sopp."
+            },
+            {
+                "type": "lyric",
+                "text": "Vi kan snart gå på vannet fra Nes til Stangelandet."
+            },
+            {
+                "type": "lyric",
+                "text": "Å svømme er umulig blant kloakk og plankebord."
+            },
+            {
+                "type": "lyric",
+                "text": "Det vi får ut av springen - er rester fra en lunsj i fjor."
+            }
         ],
         [
-            "Så ser vi på en papirsekk som driver seigt forbi.",
-            "«Få perlehvite laken i fra Gjøvik Renseri».",
-            "Og natta sig imot oss og alt er fred og ro.",
-            "Og kanskje vil det hende at lykken vil seg vende.",
-            "Men hvis no’n millioner går til spille uten grunn",
-            "blir miljøminister’n droppa. Men det blir sør for ",
-            "Minnesund."
+            {
+                "type": "lyric",
+                "text": "Så ser vi på en papirsekk som driver seigt forbi."
+            },
+            {
+                "type": "lyric",
+                "text": "«Få perlehvite laken i fra Gjøvik Renseri»."
+            },
+            {
+                "type": "lyric",
+                "text": "Og natta sig imot oss og alt er fred og ro."
+            },
+            {
+                "type": "lyric",
+                "text": "Og kanskje vil det hende at lykken vil seg vende."
+            },
+            {
+                "type": "lyric",
+                "text": "Men hvis no’n millioner går til spille uten grunn"
+            },
+            {
+                "type": "lyric",
+                "text": "blir miljøminister’n droppa. Men det blir sør for "
+            },
+            {
+                "type": "lyric",
+                "text": "Minnesund."
+            }
         ],
         [
-            "Ved strandkanten i Hamar har vi et institutt.",
-            "Blant prøverør og flasker det forskes uavbrutt.",
-            "Problemer vi har, men prøver å gi svar,",
-            "og hver gang ut på vannspeilet vi drar.",
-            "Så crosser vi på Mjøsa i NIVA’s forskningsbåt.",
-            "Hver dag vi får beviser på alt hva bønder spiser,",
-            "og det er ikke lite, nei det er’ke til å tru.",
-            "Det skal bli gøy å se hvem som får infarkt i søtti-sju."
+            {
+                "type": "lyric",
+                "text": "Ved strandkanten i Hamar har vi et institutt."
+            },
+            {
+                "type": "lyric",
+                "text": "Blant prøverør og flasker det forskes uavbrutt."
+            },
+            {
+                "type": "lyric",
+                "text": "Problemer vi har, men prøver å gi svar,"
+            },
+            {
+                "type": "lyric",
+                "text": "og hver gang ut på vannspeilet vi drar."
+            },
+            {
+                "type": "lyric",
+                "text": "Så crosser vi på Mjøsa i NIVA’s forskningsbåt."
+            },
+            {
+                "type": "lyric",
+                "text": "Hver dag vi får beviser på alt hva bønder spiser,"
+            },
+            {
+                "type": "lyric",
+                "text": "og det er ikke lite, nei det er’ke til å tru."
+            },
+            {
+                "type": "lyric",
+                "text": "Det skal bli gøy å se hvem som får infarkt i søtti-sju."
+            }
         ],
         [
-            "Og forskningsbåten vår er ny,",
-            "den gamle, den sprang lekk.",
-            "Den varte et par år, så etsa halve skroget vekk.",
-            "Så seile’ vi på Mjøsa i en sprukken holk.",
-            "Du kjenner oss på moten, vi legg’ ut ifra Toten.",
-            "– Litt synd med den naturen, vi tror nok at den glapp.",
-            "Men den får vi på fjernsyn, så vinker vi farvel til Kapp."
+            {
+                "type": "lyric",
+                "text": "Og forskningsbåten vår er ny,"
+            },
+            {
+                "type": "lyric",
+                "text": "den gamle, den sprang lekk."
+            },
+            {
+                "type": "lyric",
+                "text": "Den varte et par år, så etsa halve skroget vekk."
+            },
+            {
+                "type": "lyric",
+                "text": "Så seile’ vi på Mjøsa i en sprukken holk."
+            },
+            {
+                "type": "lyric",
+                "text": "Du kjenner oss på moten, vi legg’ ut ifra Toten."
+            },
+            {
+                "type": "lyric",
+                "text": "– Litt synd med den naturen, vi tror nok at den glapp."
+            },
+            {
+                "type": "lyric",
+                "text": "Men den får vi på fjernsyn, så vinker vi farvel til Kapp."
+            }
         ],
         [
-            "Norges største innsjø, den heter Mjøsa, den,",
-            "og har voldt mange sorger, men snart er den ",
-            "grodd igjen.",
-            "Den vrien var lur, vi hever vårt glass.",
-            "Det blir en jævla fin parkeringsplass!",
-            "(– Eller skal vi lage golfbane, du?)  (– Yes, swing it!)",
-            "Så rusler vi på Mjøsa med pjolter og sigar.",
-            "Prosjektet skal bli billig. Naturen hjelper villig,",
-            "bare vi først hjelper den litt. Jeg skal si deg at vi har",
-            "en klar og planlagt hensikt med hvert et lite skritt ",
-            "vi tar."
+            {
+                "type": "lyric",
+                "text": "Norges største innsjø, den heter Mjøsa, den,"
+            },
+            {
+                "type": "lyric",
+                "text": "og har voldt mange sorger, men snart er den "
+            },
+            {
+                "type": "lyric",
+                "text": "grodd igjen."
+            },
+            {
+                "type": "lyric",
+                "text": "Den vrien var lur, vi hever vårt glass."
+            },
+            {
+                "type": "lyric",
+                "text": "Det blir en jævla fin parkeringsplass!"
+            },
+            {
+                "type": "lyric",
+                "text": "(– Eller skal vi lage golfbane, du?)  (– Yes, swing it!)"
+            },
+            {
+                "type": "lyric",
+                "text": "Så rusler vi på Mjøsa med pjolter og sigar."
+            },
+            {
+                "type": "lyric",
+                "text": "Prosjektet skal bli billig. Naturen hjelper villig,"
+            },
+            {
+                "type": "lyric",
+                "text": "bare vi først hjelper den litt. Jeg skal si deg at vi har"
+            },
+            {
+                "type": "lyric",
+                "text": "en klar og planlagt hensikt med hvert et lite skritt "
+            },
+            {
+                "type": "lyric",
+                "text": "vi tar."
+            }
         ],
         [
-            "Det blomstrer blått og dufter godt",
-            "som vestens blomsterfang!",
-            "I slike tider må man faktisk ha deodorant.",
-            "Så rusler vi rundt Mjøsa med pjolter og sigar.",
-            "La slam og alger strømme, oppfylle våre drømme.",
-            "Nu må jeg blæren tømme! – Ja, saken den er klar:",
-            "Den gamle sannhet gjelder – at alle monner drar."
+            {
+                "type": "lyric",
+                "text": "Det blomstrer blått og dufter godt"
+            },
+            {
+                "type": "lyric",
+                "text": "som vestens blomsterfang!"
+            },
+            {
+                "type": "lyric",
+                "text": "I slike tider må man faktisk ha deodorant."
+            },
+            {
+                "type": "lyric",
+                "text": "Så rusler vi rundt Mjøsa med pjolter og sigar."
+            },
+            {
+                "type": "lyric",
+                "text": "La slam og alger strømme, oppfylle våre drømme."
+            },
+            {
+                "type": "lyric",
+                "text": "Nu må jeg blæren tømme! – Ja, saken den er klar:"
+            },
+            {
+                "type": "lyric",
+                "text": "Den gamle sannhet gjelder – at alle monner drar."
+            }
         ]
-    ],
-    "comments": [],
-    "start_page": 96,
-    "end_page": 97
+    ]
 }

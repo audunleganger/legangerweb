@@ -1,0 +1,137 @@
+{
+    "meta": {
+        "id": "manuels-calypso",
+        "title": "Manuels Calypso",
+        "author": "Line Laukvik, Karen Ottestad",
+        "melody": "Benjamin Calypso, fra musikalen Joseph and the Amazing Technicolor Dreamcoat, Andrew Lloyd Webber (1974)",
+        "event": "Blindernrevyen 1995 “Vi tagger og bukker”",
+        "year": 1995,
+        "comments": [],
+        "start_page": 140,
+        "end_page": 141,
+        "youtube_link": "",
+        "spotify_link": ""
+    },
+    "contents": [
+        [
+            {
+                "type": "chorus-header",
+                "text": "Ref."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "God kveld – God kveld,"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "jeg heter Manuel og er visst spesiell."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Manuel – Manuel –"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "jeg er innvandrer, men glad allikevel"
+            }
+        ],
+        [
+            {
+                "type": "lyric",
+                "text": "Kom til Norge fra Brasil –"
+            },
+            {
+                "type": "lyric",
+                "text": "i Oslo ble jeg møtt med utstrakt hånd og smil."
+            },
+            {
+                "type": "lyric",
+                "text": "Folk ropte til meg glade ord"
+            },
+            {
+                "type": "lyric",
+                "text": "– skrev glade ting på husveggen der jeg bor."
+            }
+        ],
+        [
+            {
+                "type": "lyric",
+                "text": "Har fått jobb som konduktør"
+            },
+            {
+                "type": "lyric",
+                "text": "– og alle på den trikk de har så godt humør,"
+            },
+            {
+                "type": "lyric",
+                "text": "Når jeg roper ”døra lukke seg”,"
+            },
+            {
+                "type": "lyric",
+                "text": "da smiler de og vinker med finger til meg."
+            }
+        ],
+        [
+            {
+                "type": "chorus-header",
+                "text": "Ref."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Folk sa – Manuel – du lukter like godt"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "som mat du lager selv,"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "farvel, javel, dra ut av Norge"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "hjem på ferie til deg selv."
+            }
+        ],
+        [
+            {
+                "type": "lyric",
+                "text": "Skulle med Lada på reparasjon"
+            },
+            {
+                "type": "lyric",
+                "text": "– den mann i bomring fikk mine siste 12 kron,"
+            },
+            {
+                "type": "lyric",
+                "text": "jeg kikka opp og så en rar ting"
+            },
+            {
+                "type": "lyric",
+                "text": "– det stod – Manuel(l) på den bompenge-ring."
+            }
+        ],
+        [
+            {
+                "type": "chorus-header",
+                "text": "Ref."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Manuel(l), Manuel(l), står det i hver bomring,"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "du kan se det selv."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Manuel(l), Manuel(l), står det i hver bomring,"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "du kan se det selv..."
+            }
+        ]
+    ]
+}

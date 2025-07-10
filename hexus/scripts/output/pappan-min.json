@@ -1,0 +1,283 @@
+{
+    "meta": {
+        "id": "pappan-min",
+        "title": "Pappa’n min",
+        "author": "Alf P. “Pegasus” Jacobsen",
+        "melody": "La fortune, Régor (1932)",
+        "event": "“Blindernrevyen 1932”",
+        "year": 1932,
+        "comments": [
+            "En fremtids-visjon fra 1932. Etter bare 7 år hadde jo ingen Blinderngutter rukket å få en sønn som kunne beskrive farens blinderntid og blindernvaner."
+        ],
+        "start_page": 10,
+        "end_page": 11,
+        "youtube_link": "",
+        "spotify_link": ""
+    },
+    "contents": [
+        [
+            {
+                "type": "lyric",
+                "text": "Min pappa er en herre,"
+            },
+            {
+                "type": "lyric",
+                "text": "men mamma syn’s dessverre"
+            },
+            {
+                "type": "lyric",
+                "text": "at det er vanskelig å bo i hus med ham,"
+            },
+            {
+                "type": "lyric",
+                "text": "for aldri om du aner"
+            },
+            {
+                "type": "lyric",
+                "text": "hvor mange rare vaner"
+            },
+            {
+                "type": "lyric",
+                "text": "min pappa har, ja stakkars far,"
+            },
+            {
+                "type": "lyric",
+                "text": "skjønt det er ingen skam."
+            }
+        ],
+        [
+            {
+                "type": "chorus-header",
+                "text": "Ref."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "For min far, han har bodd på Blindern"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "og den dag idag tror pappa at han er student."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Nu bor paps med min mor på Vindern"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "og nu skal De høre hvad forleden dag er hendt:"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Tenk, i teatret vilde mor ha far med sig"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "og se «En Folkefiende»! Pappa han sa nei,"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "for min far han har bodd på Blindern"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "så av folkefiender har han pappa nok fra før!"
+            }
+        ],
+        [
+            {
+                "type": "lyric",
+                "text": "Men hør litt på mig, dere!"
+            },
+            {
+                "type": "lyric",
+                "text": "Far skulde sig barbere"
+            },
+            {
+                "type": "lyric",
+                "text": "og barbervannet hasses det holdt under null,"
+            },
+            {
+                "type": "lyric",
+                "text": "men mor blev bare klappa"
+            },
+            {
+                "type": "lyric",
+                "text": "på kinnet ømt av pappa,"
+            },
+            {
+                "type": "lyric",
+                "text": "ja pappan min, ja stakkars far, så god og rar han var."
+            }
+        ],
+        [
+            {
+                "type": "chorus-header",
+                "text": "Ref."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "For min far, han har bodd på Blindern"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "og den dag idag tror pappa at han er student."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Nu bor paps med min mor på Vindern"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "og nu skal De høre hvad forleden dag er hendt:"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Vi skulde ha et selskap klokken åtte, De,"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "men pappa jaget alle damer klokken ti,"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "for min far han har bodd på Blindern,"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "så av damer har han pappa mer enn nok fra før!"
+            }
+        ],
+        [
+            {
+                "type": "lyric",
+                "text": "Jeg tror’ke pappa greide"
+            },
+            {
+                "type": "lyric",
+                "text": "å streve og arbeide"
+            },
+            {
+                "type": "lyric",
+                "text": "hvis ikke mamma stadig spilte grammofon."
+            },
+            {
+                "type": "lyric",
+                "text": "Kun mammas middagsklokke"
+            },
+            {
+                "type": "lyric",
+                "text": "kan ham fra strevet rokke,"
+            },
+            {
+                "type": "lyric",
+                "text": "og pappan min, han tøfler inn i røkejakken sin."
+            }
+        ],
+        [
+            {
+                "type": "chorus-header",
+                "text": "Ref."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "For min far, han har bodd på Blindern"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "og den dag idag tror pappa at han er student."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Nu bor paps med min mor på Vindern"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "og nu skal De høre hvad forleden dag er hendt:"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Her en sommerdag da det var deilig vær"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "satte far sig på veranda’n uten klær,"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "for min far, han har bodd på Blindern,"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "så min pappa, han er vant til sol og vind fra før!"
+            }
+        ],
+        [
+            {
+                "type": "lyric",
+                "text": "Min pappa er en skøier!"
+            },
+            {
+                "type": "lyric",
+                "text": "Tenk, før han går og køier"
+            },
+            {
+                "type": "lyric",
+                "text": "så lusker han på tærne som han var en tyv."
+            },
+            {
+                "type": "lyric",
+                "text": "Og tenk Dem: Morgenbladet"
+            },
+            {
+                "type": "lyric",
+                "text": "grep han forsiktig, la det"
+            },
+            {
+                "type": "lyric",
+                "text": "i lommen sin, så redd i sinn,"
+            },
+            {
+                "type": "lyric",
+                "text": "for tenk om mor kom inn!"
+            }
+        ],
+        [
+            {
+                "type": "chorus-header",
+                "text": "Ref."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "For min far, han har bodd på Blindern"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "og den dag idag tror pappa at han er student."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Nu bor paps med min mor på Vindern"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "og nu skal De høre hvad forleden dag er hendt:"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "En natt min paps var søvnløs, så hjalp mamma til"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "for hun hentet frem geværet – og gav ild!"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "For min far, han har bodd på Blindern,"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "så min pappa, han er vant til slike ting fra før!"
+            }
+        ]
+    ]
+}

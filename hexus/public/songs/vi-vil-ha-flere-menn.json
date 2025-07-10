@@ -1,46 +1,125 @@
 {
-    "id": "vi-vil-ha-flere-menn",
-    "title": "Vi vil ha flere menn",
-    "author": "Anonym",
-    "melody": "Milord, Marguerite Monnot / Edith Piaf",
-    "event": "Pigefaarsamlingen 1996",
-    "year": 1996,
-    "lyrics": [
+    "meta": {
+        "id": "vi-vil-ha-flere-menn",
+        "title": "Vi vil ha flere menn",
+        "author": "Anonym",
+        "melody": "Milord, Marguerite Monnot / Edith Piaf",
+        "event": "Pigefaarsamlingen 1996",
+        "year": 1996,
+        "comments": [],
+        "start_page": 207,
+        "end_page": 207,
+        "youtube_link": "https://www.youtube.com/watch?v=nZcdI1u_9o8",
+        "spotify_link": "https://open.spotify.com/track/18efeGygYyi4nx3haDMdAa?si=47feadd46eb1429a"
+    },
+    "contents": [
         [
-            "Vi vil ha flere menn, som vi kan ta med hjem,                                                                                                        ",
-            "vi vil ha store, sterke, velformede menn.                                                                                                               ",
-            "Vi vil ha menn med stil, ",
-            "vi vil ha menn med smil,                                                                                                   ",
-            "som vi kan kose med og gjøre som vi vil.                                                                                            ",
-            "Na,na,na,na,na..."
+            {
+                "type": "lyric",
+                "text": "Vi vil ha flere menn, som vi kan ta med hjem,"
+            },
+            {
+                "type": "lyric",
+                "text": "vi vil ha store, sterke, velformede menn."
+            },
+            {
+                "type": "lyric",
+                "text": "Vi vil ha menn med stil,"
+            },
+            {
+                "type": "lyric",
+                "text": "vi vil ha menn med smil,"
+            },
+            {
+                "type": "lyric",
+                "text": "som vi kan kose med og gjøre som vi vil."
+            },
+            {
+                "type": "lyric",
+                "text": "Na,na,na,na,na..."
+            }
         ],
         [
-            "Vi vil ha menn med gryn, ",
-            "som tar oss med på by’n,                                                                                              ",
-            "som ikke furter om vi flørter med en fyr..                                                                                                            ",
-            "Som er litt elegant og kanskje nonchalant ,                                                                                                                    ",
-            "vi vil ha menn med stå som får det til å gå!                                                                                            ",
-            "Na,na,na,na,na..."
+            {
+                "type": "lyric",
+                "text": "Vi vil ha menn med gryn, "
+            },
+            {
+                "type": "lyric",
+                "text": "som tar oss med på by’n,"
+            },
+            {
+                "type": "lyric",
+                "text": "som ikke furter om vi flørter med en fyr.."
+            },
+            {
+                "type": "lyric",
+                "text": "Som er litt elegant og kanskje nonchalant,"
+            },
+            {
+                "type": "lyric",
+                "text": "vi vil ha menn med stå som får det til å gå!"
+            },
+            {
+                "type": "lyric",
+                "text": "Na,na,na,na,na..."
+            }
         ],
         [
-            "Vi vil ha menn som knar ",
-            "og går med rumpa bar,                                                                                                          ",
-            "som har et kjempejern og gjerne vil bli far.                                                                                                           ",
-            "Som går med hodet opp og rider i galopp                                                                                                                            ",
-            "og som er lommekjent og alltid like tent.                                                                                              ",
-            "Na,na,na,na,na..."
+            {
+                "type": "lyric",
+                "text": "Vi vil ha menn som knar"
+            },
+            {
+                "type": "lyric",
+                "text": "og går med rumpa bar,"
+            },
+            {
+                "type": "lyric",
+                "text": "som har et kjempejern og gjerne vil bli far."
+            },
+            {
+                "type": "lyric",
+                "text": "Som går med hodet opp og rider i galopp"
+            },
+            {
+                "type": "lyric",
+                "text": "og som er lommekjent og alltid like tent."
+            },
+            {
+                "type": "lyric",
+                "text": "Na,na,na,na,na..."
+            }
         ],
         [
-            "Og når jeg våkner opp, jeg ser en sliten kropp.                                                                                                       ",
-            "Og når jeg ser på deg: ",
-            "«Hva faen gikk av meg?»                                                                                                      ",
-            "Jeg hører sukk og stønn, ",
-            "nå skal jeg ha din sønn,                                                                                                    ",
-            "- og hvis du bare vil: jeg tar deg en gang til!                                                                                            ",
-            "Na,na,na,na,na..."
+            {
+                "type": "lyric",
+                "text": "Og når jeg våkner opp, jeg ser en sliten kropp."
+            },
+            {
+                "type": "lyric",
+                "text": "Og når jeg ser på deg:"
+            },
+            {
+                "type": "lyric",
+                "text": "«Hva faen gikk av meg?»"
+            },
+            {
+                "type": "lyric",
+                "text": "Jeg hører sukk og stønn,"
+            },
+            {
+                "type": "lyric",
+                "text": "nå skal jeg ha din sønn,"
+            },
+            {
+                "type": "lyric",
+                "text": "- og hvis du bare vil: jeg tar deg en gang til!"
+            },
+            {
+                "type": "lyric",
+                "text": "Na,na,na,na,na..."
+            }
         ]
-    ],
-    "comments": [],
-    "start_page": 207,
-    "end_page": 207
+    ]
 }

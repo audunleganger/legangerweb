@@ -1,61 +1,173 @@
 {
-    "id": "geilo-broedrene",
-    "title": "Geilo-brødrene",
-    "author": "Jørgen Ludvigsen",
-    "melody": "La bande à Bonnot, Joe Dassin",
-    "event": "Blindernrevyen 1983 ”Revysert”",
-    "year": 1983,
-    "lyrics": [
+    "meta": {
+        "id": "geilo-broedrene",
+        "title": "Geilo-brødrene",
+        "author": "Jørgen Ludvigsen",
+        "melody": "La bande à Bonnot, Joe Dassin",
+        "event": "Blindernrevyen 1983 ”Revysert”",
+        "year": 1983,
+        "comments": [
+            "Levi Fragell (1939-) Generalsekretær i Human-Etisk Forbund 1979-90.",
+            "Andreas Aarflot (1928-)Biskop i Oslo 1978-98.",
+            "Helge Hognestad (1940-) omstridt teolog."
+        ],
+        "start_page": 119,
+        "end_page": 120,
+        "youtube_link": "https://www.youtube.com/watch?v=BKXsLIcTyTk",
+        "spotify_link": "https://open.spotify.com/track/67GTQyFNy4NyofVJ2KaC61?si=14c953d07e894a80"
+    },
+    "contents": [
         [
-            "Vi møtes hvert år her på Geilo, – ",
-            "på dagsorden står dogmer og tro.",
-            "Vi har ganske meget å drøfte",
-            "om det som er vesentlig – om skjærsild og hor –",
-            "Moralen sklir ut – nå må vi si fra",
-            "for Skriften forteller oss om hvordan – og hva –",
-            "Vi innpoder frykt, holder vår posisjon:",
-            "Vi er INDREMISJON."
+            {
+                "type": "lyric",
+                "text": "Vi møtes hvert år her på Geilo, – "
+            },
+            {
+                "type": "lyric",
+                "text": "på dagsorden står dogmer og tro."
+            },
+            {
+                "type": "lyric",
+                "text": "Vi har ganske meget å drøfte"
+            },
+            {
+                "type": "lyric",
+                "text": "om det som er vesentlig – om skjærsild og hor –"
+            },
+            {
+                "type": "lyric",
+                "text": "Moralen sklir ut – nå må vi si fra"
+            },
+            {
+                "type": "lyric",
+                "text": "for Skriften forteller oss om hvordan – og hva –"
+            },
+            {
+                "type": "lyric",
+                "text": "Vi innpoder frykt, holder vår posisjon:"
+            },
+            {
+                "type": "lyric",
+                "text": "Vi er INDREMISJON."
+            }
         ],
         [
-            "Vi tror fullt og fast på demoner, ",
-            "Satans makt – den vokser i dag.",
-            "Vi må bygge opp bastioner",
-            "i paragraf femti-fem A, der spør de om fag.",
-            "l tillegg spør VI litt om legning og tvil,",
-            "et yrkesforbud er noe Hauglin gjør det til.",
-            "Da Einarson søkte – som kateket",
-            "sa vi: nei  – (for vi vet !!!)"
+            {
+                "type": "lyric",
+                "text": "Vi tror fullt og fast på demoner, "
+            },
+            {
+                "type": "lyric",
+                "text": "Satans makt – den vokser i dag."
+            },
+            {
+                "type": "lyric",
+                "text": "Vi må bygge opp bastioner"
+            },
+            {
+                "type": "lyric",
+                "text": "i paragraf femti-fem A, der spør de om fag."
+            },
+            {
+                "type": "lyric",
+                "text": "l tillegg spør VI litt om legning og tvil,"
+            },
+            {
+                "type": "lyric",
+                "text": "et yrkesforbud er noe Hauglin gjør det til."
+            },
+            {
+                "type": "lyric",
+                "text": "Da Einarson søkte – som kateket"
+            },
+            {
+                "type": "lyric",
+                "text": "sa vi: nei  – (for vi vet !!!)"
+            }
         ],
         [
-            "«Kom dans med oss, Gud» sier tåpen.",
-            "Vi hater vranglære, vår sti, den er smal.",
-            "Vi må jo la barna få dåpen,",
-            "skulle de dø før den – er skjebnen fatal:",
-            "De ender et sted – våre brødre vet vel ",
-            "hvorhen – him’len er stengt...",
-            "Med gifte foreldre er alt såre vel,",
-            "syn’s du – kravet er strengt?"
+            {
+                "type": "lyric",
+                "text": "«Kom dans med oss, Gud» sier tåpen."
+            },
+            {
+                "type": "lyric",
+                "text": "Vi hater vranglære, vår sti, den er smal."
+            },
+            {
+                "type": "lyric",
+                "text": "Vi må jo la barna få dåpen,"
+            },
+            {
+                "type": "lyric",
+                "text": "skulle de dø før den – er skjebnen fatal:"
+            },
+            {
+                "type": "lyric",
+                "text": "De ender et sted – våre brødre vet vel "
+            },
+            {
+                "type": "lyric",
+                "text": "hvorhen – him’len er stengt..."
+            },
+            {
+                "type": "lyric",
+                "text": "Med gifte foreldre er alt såre vel,"
+            },
+            {
+                "type": "lyric",
+                "text": "syn’s du – kravet er strengt?"
+            }
         ],
         [
-            "Vårt møte gir næring til striden",
-            "med våre dødsfiender, husk Levi Fragell!",
-            "Frafalne kan vi ei tåle,",
-            "Human-etikk? – humbug, javel.",
-            "Vi må legge ny og klar strategi",
-            "nå må snart Aarflot la Hognestad svi...",
-            "Han er ikke dum, han er bare litt sprø,",
-            "og så – er han jo rød !!",
-            "Han gjør svart til hvitt, å ja.",
-            "Han må vi bli kvitt, å ja.",
-            "Vi møtes hvert år her på Geilo",
-            "for å kjempe for den RETTE tro."
+            {
+                "type": "lyric",
+                "text": "Vårt møte gir næring til striden"
+            },
+            {
+                "type": "lyric",
+                "text": "med våre dødsfiender, husk Levi Fragell!"
+            },
+            {
+                "type": "lyric",
+                "text": "Frafalne kan vi ei tåle,"
+            },
+            {
+                "type": "lyric",
+                "text": "Human-etikk? – humbug, javel."
+            },
+            {
+                "type": "lyric",
+                "text": "Vi må legge ny og klar strategi"
+            },
+            {
+                "type": "lyric",
+                "text": "nå må snart Aarflot la Hognestad svi..."
+            },
+            {
+                "type": "lyric",
+                "text": "Han er ikke dum, han er bare litt sprø,"
+            },
+            {
+                "type": "lyric",
+                "text": "og så – er han jo rød !!"
+            },
+            {
+                "type": "lyric",
+                "text": "Han gjør svart til hvitt, å ja."
+            },
+            {
+                "type": "lyric",
+                "text": "Han må vi bli kvitt, å ja."
+            },
+            {
+                "type": "lyric",
+                "text": "Vi møtes hvert år her på Geilo"
+            },
+            {
+                "type": "lyric",
+                "text": "for å kjempe for den RETTE tro."
+            }
         ]
-    ],
-    "comments": [
-        "Levi Fragell (1939-) Generalsekretær i Human-Etisk Forbund 1979-90.",
-        "Andreas Aarflot (1928-)Biskop i Oslo 1978-98.",
-        "Helge Hognestad (1940-) omstridt teolog."
-    ],
-    "start_page": 119,
-    "end_page": 120
+    ]
 }
