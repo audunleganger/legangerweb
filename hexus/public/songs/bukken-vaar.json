@@ -1,21 +1,35 @@
 {
-    "id": "bukken-vaar",
-    "title": "Bukken vår",
-    "author": "Alf P. Jacobsen",
-    "melody": "«Blåmann, blåmann, BUKKEN min»",
-    "event": "Den V Store Boksamling 1934",
-    "year": 1934,
-    "lyrics": [
+    "meta": {
+        "id": "bukken-vaar",
+        "title": "Bukken vår",
+        "author": "Alf P. Jacobsen",
+        "melody": "«Blåmann, blåmann, BUKKEN min»",
+        "event": "Den V Store Boksamling 1934",
+        "year": 1934,
+        "comments": ["Den V Store Boksamling fant sted 17. mars 1934."],
+        "start_page": 2,
+        "end_page": 2,
+        "youtube_link": "https://www.youtube.com/watch?v=f1nbNhiHW8A",
+        "spotify_link": "https://open.spotify.com/track/7g5CprCnluBawunUhIVoR1?si=a57a77c41b954783"
+    },
+    "contents": [
         [
-            ":/: HØY-vær-dige Bukken vår!",
-            "tenk at hele hjorden går",
-            "dig til klove nok en gang,",
-            "vi Dig hylder med denne sang! :/:"
+            {
+                "type": "lyric",
+                "text": ":/: HØY-vær-dige Bukken vår!"
+            },
+            {
+                "type": "lyric",
+                "text": "tenk at hele hjorden går"
+            },
+            {
+                "type": "lyric",
+                "text": "dig til klove nok en gang,"
+            },
+            {
+                "type": "lyric",
+                "text": "vi Dig hylder med denne sang! :/:"
+            }
         ]
-    ],
-    "comments": [
-        "Den V Store Boksamling fant sted 17. mars 1934."
-    ],
-    "start_page": 2,
-    "end_page": 2
+    ]
 }

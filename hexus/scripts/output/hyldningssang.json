@@ -1,0 +1,96 @@
+{
+    "meta": {
+        "id": "hyldningssang",
+        "title": "Hyldningssang",
+        "author": "Alf Petter Jacobsen (“Alf Pegasus”)",
+        "melody": "Kamerater, hæv nu glasset, Axel Brinchmann (1912)",
+        "event": "Den IV Store Boksamling 1932",
+        "year": 1932,
+        "comments": [
+            "Den IV Store Boksamling fant sted 12. mai 1932.",
+            "Opprinnelig melodi: “Strömt herbei, ihr Völkerscharen” (Rheinlied, 1868)"
+        ],
+        "start_page": 1,
+        "end_page": 1,
+        "youtube_link": "",
+        "spotify_link": ""
+    },
+    "contents": [
+        [
+            {
+                "type": "address",
+                "text": "Til Hans Majestet Bukken:"
+            },
+            {
+                "type": "lyric",
+                "text": "Ædel, rik og gyllen skinner’n"
+            },
+            {
+                "type": "lyric",
+                "text": "over hjord og hyrder ned!"
+            },
+            {
+                "type": "lyric",
+                "text": "Skjønn og klok og synsk og blind er’n,"
+            },
+            {
+                "type": "lyric",
+                "text": "Blindernlægrets Majestet!"
+            },
+            {
+                "type": "lyric",
+                "text": "Han er ikke feit om baken,"
+            },
+            {
+                "type": "lyric",
+                "text": "tryneblid som andres Griis!"
+            },
+            {
+                "type": "lyric",
+                "text": ":/:Nei, vår Bukk har skjegg på haken,"
+            },
+            {
+                "type": "lyric",
+                "text": "Bukk skje lov og takk og priis! :/:"
+            }
+        ],
+        [
+            {
+                "type": "address",
+                "text": "Til den dekorerte:"
+            },
+            {
+                "type": "lyric",
+                "text": "Ædle (Høy/Hel/Halv-)het, du er vorden"
+            },
+            {
+                "type": "lyric",
+                "text": "viis og skjønn. I Bukkens ånd"
+            },
+            {
+                "type": "lyric",
+                "text": "har du skilt dig ut fra hjorden."
+            },
+            {
+                "type": "lyric",
+                "text": "Nyskapt gled du fra hans hånd"
+            },
+            {
+                "type": "lyric",
+                "text": "ned til oss. O hvilket skue"
+            },
+            {
+                "type": "lyric",
+                "text": "er vårt sinn til fryd og lyst:"
+            },
+            {
+                "type": "lyric",
+                "text": ":/: Griller har du fått i hue,"
+            },
+            {
+                "type": "lyric",
+                "text": "Bukken på ditt stolte bryst! :/:"
+            }
+        ]
+    ]
+}

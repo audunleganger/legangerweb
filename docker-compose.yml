@@ -148,9 +148,10 @@ services:
             - ./hexus/src:/app/src
             - ./hexus/public:/app/public
             - ./hexus/index.html:/app/index.html
+        network_mode: host
+        # networks:
+        #     - legangerweb-net
         restart: unless-stopped
-        networks:
-            - legangerweb-net
 
 networks:
     legangerweb-net:

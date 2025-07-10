@@ -30,11 +30,11 @@ const useSongs = () => {
                     );
                 }
                 songObjects.sort((a, b) =>
-                    a.title.localeCompare(b.title, "nb")
+                    a.meta.title.localeCompare(b.meta.title, "nb")
                 );
                 localStorage.setItem("songs", JSON.stringify(songObjects));
                 songObjects.sort((a, b) =>
-                    a.title.localeCompare(b.title, "nb")
+                    a.meta.title.localeCompare(b.meta.title, "nb")
                 );
                 setSongs(songObjects);
                 setLoading(false);

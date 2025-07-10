@@ -1,71 +1,192 @@
 {
-    "id": "den-gule-mann",
-    "title": "Den gule mann",
-    "author": "Anders Helseth",
-    "melody": "Cleopatra, fra musikalen Salad Days, Slade/Reynolds (1954)",
-    "event": "Blindernrevyen 1965 “Kom i orden”",
-    "year": 1965,
-    "lyrics": [
+    "meta": {
+        "id": "den-gule-mann",
+        "title": "Den gule mann",
+        "author": "Anders Helseth",
+        "melody": "Cleopatra, fra musikalen Salad Days, Slade/Reynolds (1954)",
+        "event": "Blindernrevyen 1965 “Kom i orden”",
+        "year": 1965,
+        "comments": [
+            "En tidlig kommentar til endringene i forholdet mellom stormaktene etter at koloniveldet går i oppløsning og verden ikke lenger kan dikteres fra London og Washington.",
+            "Tittelen er skrevet på en tid der politisk korrekthet ikke var viktig."
+        ],
+        "start_page": 60,
+        "end_page": 61,
+        "youtube_link": "https://www.youtube.com/watch?v=GfnCdwYCTSc",
+        "spotify_link": "https://open.spotify.com/track/1BQzbQ6E6rUB9lCod6POXy?si=ca10be9571054912"
+    },
+    "contents": [
         [
-            "Fra gammel tid et mektig land",
-            "et lett-vunnet bytte for den hvite mann",
-            "Han kom med våpen i hånden og stjal mine skatter",
-            "Han tvang meg i kne med sine stolte fregatter,",
-            "men han gav meg noe å tenke på:",
-            "«Den som har makt kan diktere de små!»"
+            {
+                "type": "lyric",
+                "text": "Fra gammel tid et mektig land"
+            },
+            {
+                "type": "lyric",
+                "text": "et lett-vunnet bytte for den hvite mann"
+            },
+            {
+                "type": "lyric",
+                "text": "Han kom med våpen i hånden og stjal mine skatter"
+            },
+            {
+                "type": "lyric",
+                "text": "Han tvang meg i kne med sine stolte fregatter,"
+            },
+            {
+                "type": "lyric",
+                "text": "men han gav meg noe å tenke på:"
+            },
+            {
+                "type": "lyric",
+                "text": "«Den som har makt kan diktere de små!»"
+            }
         ],
         [
-            "Rollen byttes, nye mennesker skal benyttes.",
-            "Nye grupper skal beskyttes, av de nye sterke menn.",
-            "Erobringsfaner svingte briter og germaner",
-            "Men rollen byttes, veteraner – ",
-            "nå marsjerer gule mann."
+            {
+                "type": "lyric",
+                "text": "Rollen byttes, nye mennesker skal benyttes."
+            },
+            {
+                "type": "lyric",
+                "text": "Nye grupper skal beskyttes, av de nye sterke menn."
+            },
+            {
+                "type": "lyric",
+                "text": "Erobringsfaner svingte briter og germaner"
+            },
+            {
+                "type": "lyric",
+                "text": "Men rollen byttes, veteraner – "
+            },
+            {
+                "type": "lyric",
+                "text": "nå marsjerer gule mann."
+            }
         ],
         [
-            "Jeg tenner ild hvorhen jeg vil",
-            "i Vietnam – Manilla – Stanleyville.",
-            "Min kulihånd drar sceneteppet",
-            "opp for jakt på den sibirske steppe.",
-            "Fra Stalins rike høres steppehunden skrike",
-            "Don-kosakkene må vike for Østens nye sterke mann.",
-            "Tavaritsj Nikite:  bare bjeffe – ikke bite",
-            "Kamerat – det er for lite for å stanse gule mann."
+            {
+                "type": "lyric",
+                "text": "Jeg tenner ild hvorhen jeg vil"
+            },
+            {
+                "type": "lyric",
+                "text": "i Vietnam – Manilla – Stanleyville."
+            },
+            {
+                "type": "lyric",
+                "text": "Min kulihånd drar sceneteppet"
+            },
+            {
+                "type": "lyric",
+                "text": "opp for jakt på den sibirske steppe."
+            },
+            {
+                "type": "lyric",
+                "text": "Fra Stalins rike høres steppehunden skrike"
+            },
+            {
+                "type": "lyric",
+                "text": "Don-kosakkene må vike for Østens nye sterke mann."
+            },
+            {
+                "type": "lyric",
+                "text": "Tavaritsj Nikite:  bare bjeffe – ikke bite"
+            },
+            {
+                "type": "lyric",
+                "text": "Kamerat – det er for lite for å stanse gule mann."
+            }
         ],
         [
-            "Du skal være snill og blid. Missionary was telling me",
-            "Han talte pent om freden i by og grend",
-            "Om «Forenede Nasjoner» av fredelige menn."
+            {
+                "type": "lyric",
+                "text": "Du skal være snill og blid. Missionary was telling me"
+            },
+            {
+                "type": "lyric",
+                "text": "Han talte pent om freden i by og grend"
+            },
+            {
+                "type": "lyric",
+                "text": "Om «Forenede Nasjoner» av fredelige menn."
+            }
         ],
         [
-            "Fredsduen kurret full av vakre ord",
-            "– men de bad meg ikke sitte ved deres bord!"
+            {
+                "type": "lyric",
+                "text": "Fredsduen kurret full av vakre ord"
+            },
+            {
+                "type": "lyric",
+                "text": "– men de bad meg ikke sitte ved deres bord!"
+            }
         ],
         [
-            "Rollen byttes, nye menn’sker skal benyttes",
-            "nye grupper skal beskyttes, av de nye sterke menn.",
-            "Erobringsfaner svingte brite og germaner",
-            "men rollen byttes, veteraner – ",
-            "nå marsjerer gule mann."
+            {
+                "type": "lyric",
+                "text": "Rollen byttes, nye menn’sker skal benyttes"
+            },
+            {
+                "type": "lyric",
+                "text": "nye grupper skal beskyttes, av de nye sterke menn."
+            },
+            {
+                "type": "lyric",
+                "text": "Erobringsfaner svingte brite og germaner"
+            },
+            {
+                "type": "lyric",
+                "text": "men rollen byttes, veteraner – "
+            },
+            {
+                "type": "lyric",
+                "text": "nå marsjerer gule mann."
+            }
         ],
         [
-            "Et lite stikk her, og et lite stikk der",
-            "en skyggekrig med usynlig hær.",
-            "Mitt nådestøt i siste fase",
-            "blir et Stalingrad for den hvite rase."
+            {
+                "type": "lyric",
+                "text": "Et lite stikk her, og et lite stikk der"
+            },
+            {
+                "type": "lyric",
+                "text": "en skyggekrig med usynlig hær."
+            },
+            {
+                "type": "lyric",
+                "text": "Mitt nådestøt i siste fase"
+            },
+            {
+                "type": "lyric",
+                "text": "blir et Stalingrad for den hvite rase."
+            }
         ],
         [
-            "Amerikaner – Østens siste mohikaner",
-            "Det er slutt på Kiplings aner, – nå marsjerer ",
-            "gule mann.",
-            "Goodbye, Yankee – brite, bare bjeffe – ikke bite",
-            "Kamerat – det er for lite :/: for å stanse gule ",
-            "mann :/:"
+            {
+                "type": "lyric",
+                "text": "Amerikaner – Østens siste mohikaner"
+            },
+            {
+                "type": "lyric",
+                "text": "Det er slutt på Kiplings aner, – nå marsjerer "
+            },
+            {
+                "type": "lyric",
+                "text": "gule mann."
+            },
+            {
+                "type": "lyric",
+                "text": "Goodbye, Yankee – brite, bare bjeffe – ikke bite"
+            },
+            {
+                "type": "lyric",
+                "text": "Kamerat – det er for lite :/: for å stanse gule "
+            },
+            {
+                "type": "lyric",
+                "text": "mann :/:"
+            }
         ]
-    ],
-    "comments": [
-        "En tidlig kommentar til endringene i forholdet mellom stormaktene etter at koloniveldet går i oppløsning og verden ikke lenger kan dikteres fra London og Washington.",
-        "Tittelen er skrevet på en tid der politisk korrekthet ikke var viktig."
-    ],
-    "start_page": 60,
-    "end_page": 61
+    ]
 }

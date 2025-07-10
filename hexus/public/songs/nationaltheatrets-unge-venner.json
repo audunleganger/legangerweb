@@ -1,84 +1,259 @@
 {
-    "id": "nationaltheatrets-unge-venner",
-    "title": "Nationaltheatrets Unge Venner",
-    "author": "Anders Helseth / August “Augias” Mauritzen",
-    "melody": "Kansas City, fra musikalen Oklahoma, Rodgers/Hammerstein (1943)",
-    "event": "Blindernrevyen  1958 “Skål m’Adam”",
-    "year": 1958,
-    "lyrics": [
+    "meta": {
+        "id": "nationaltheatrets-unge-venner",
+        "title": "Nationaltheatrets Unge Venner",
+        "author": "Anders Helseth / August “Augias” Mauritzen",
+        "melody": "Kansas City, fra musikalen Oklahoma, Rodgers/Hammerstein (1943)",
+        "event": "Blindernrevyen  1958 “Skål m’Adam”",
+        "year": 1958,
+        "comments": [
+            "Hartmanns privatskole, Asker (1904-67)Einar Sissener (1897-1968), Aase Bye,(1904-91)Wenche (Foss, 1917 - 2011),  Lars (Nordrum, 1921-73) og Per (Aabel, 1902-99),  legendariske skuespillere."
+        ],
+        "start_page": 36,
+        "end_page": 38,
+        "youtube_link": "https://www.youtube.com/watch?v=45uKl0IYuM0",
+        "spotify_link": "https://open.spotify.com/track/6gnfJ5EetG7MtU7Ra4Q9aM?si=ec78912961f84b3d"
+    },
+    "contents": [
         [
-            "Vi inntar lørdagsdrinken vår på «Buen» –",
-            "på søndag går vi helst på «The dansant»,",
-            "og blir kan hende noget stinn på druen,",
-            "det blir man lett av Bristol’s traktement!",
-            "Men da vi strøk på Hartmann bestemte vi oss for",
-            "å lære det vi aldri lærte der –",
-            "og det var ikke lite. Det gjør dog intet når",
-            "vår læreanstalt ligger oss så nær!",
-            "Hvor da?",
-            "Jo – her !"
+            {
+                "type": "lyric",
+                "text": "Vi inntar lørdagsdrinken vår på «Buen» –"
+            },
+            {
+                "type": "lyric",
+                "text": "på søndag går vi helst på «The dansant»,"
+            },
+            {
+                "type": "lyric",
+                "text": "og blir kan hende noget stinn på druen,"
+            },
+            {
+                "type": "lyric",
+                "text": "det blir man lett av Bristol’s traktement!"
+            },
+            {
+                "type": "lyric",
+                "text": "Men da vi strøk på Hartmann bestemte vi oss for"
+            },
+            {
+                "type": "lyric",
+                "text": "å lære det vi aldri lærte der –"
+            },
+            {
+                "type": "lyric",
+                "text": "og det var ikke lite. Det gjør dog intet når"
+            },
+            {
+                "type": "lyric",
+                "text": "vår læreanstalt ligger oss så nær!"
+            },
+            {
+                "type": "lyric",
+                "text": "Hvor da?"
+            },
+            {
+                "type": "lyric",
+                "text": "Jo – her !"
+            }
         ],
         [
-            "Ref.:",
-            "I Nationaltheatrets Unge Venner",
-            "har vi fått utløst all den trang vi har",
-            "til å få frigjort ånden fra vanetankens makt,",
-            "til å få elevert vår passiar!",
-            "Vi – Nationaltheatrets Unge Venner",
-            "er dus med både Wenche, Lars og – Per.",
-            "Når vi sitter i orkester og klapper gjengen frem",
-            "da føler vi oss opptatt og anerkjent av dem",
-            "som setter dør’n til Shakespeare’s mysterier på klem –",
-            "de",
-            "smiler, for de kjenner oss igjen, hei, hei",
-            "vi – Nationaltheatrets Unge Menn!"
+            {
+                "type": "chorus-header",
+                "text": "Ref."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "I Nationaltheatrets Unge Venner"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "har vi fått utløst all den trang vi har"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "til å få frigjort ånden fra vanetankens makt,"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "til å få elevert vår passiar!"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Vi – Nationaltheatrets Unge Venner"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "er dus med både Wenche, Lars og – Per."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Når vi sitter i orkester og klapper gjengen frem"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "da føler vi oss opptatt og anerkjent av dem"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "som setter dør’n til Shakespeare’s mysterier på klem –"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "de"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "smiler, for de kjenner oss igjen, hei, hei"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "vi – Nationaltheatrets Unge Menn!"
+            }
         ],
         [
-            "Med innstuderte dansetrinn vi stepper",
-            "på kunstens trange, tornefulle vei –",
-            "på Nationaltheatrets bløte tepper;",
-            "de er som konstruert for deg – og meg.",
-            "Så står vi på balkongen, og dveler litt abstrakt,",
-            "det er storartet hva diktere får sagt;",
-            "der må jo være dybde bak sådan stemmeprakt",
-            "som Einar Sisseners – i første akt.",
-            "Hva sa han ?  –",
-            "Aner ikke."
+            {
+                "type": "lyric",
+                "text": "Med innstuderte dansetrinn vi stepper"
+            },
+            {
+                "type": "lyric",
+                "text": "på kunstens trange, tornefulle vei –"
+            },
+            {
+                "type": "lyric",
+                "text": "på Nationaltheatrets bløte tepper;"
+            },
+            {
+                "type": "lyric",
+                "text": "de er som konstruert for deg – og meg."
+            },
+            {
+                "type": "lyric",
+                "text": "Så står vi på balkongen, og dveler litt abstrakt,"
+            },
+            {
+                "type": "lyric",
+                "text": "det er storartet hva diktere får sagt;"
+            },
+            {
+                "type": "lyric",
+                "text": "der må jo være dybde bak sådan stemmeprakt"
+            },
+            {
+                "type": "lyric",
+                "text": "som Einar Sisseners – i første akt."
+            },
+            {
+                "type": "lyric",
+                "text": "Hva sa han ?  –"
+            },
+            {
+                "type": "lyric",
+                "text": "Aner ikke."
+            }
         ],
         [
-            "Ref.:",
-            "Vi – Nationaltheatrets Unge Venner",
-            "har nøkkelen til musenes gemakk.",
-            "Vi ser oss om i glede på tung krystall og plysj,",
-            "mens garderåbedamen tar vår frakk.",
-            "Med elegance a la «Jean de France»",
-            "gjør vi kompliment for Aase Bye,",
-            "for mamsen var i salen da hun hadde sin debut;",
-            "men mamsen er’ke mamsen mer – for hun ",
-            "giftet seg på ny,",
-            "for mamsen er teater-int’ressert som bare fy –",
-            "unnfanget er vi i Thalia’s garn",
-            "vi – scenekunstens ektefødte barn."
+            {
+                "type": "chorus-header",
+                "text": "Ref."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Vi – Nationaltheatrets Unge Venner"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "har nøkkelen til musenes gemakk."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Vi ser oss om i glede på tung krystall og plysj,"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "mens garderåbedamen tar vår frakk."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Med elegance a la «Jean de France»"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "gjør vi kompliment for Aase Bye,"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "for mamsen var i salen da hun hadde sin debut;"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "men mamsen er’ke mamsen mer – for hun "
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "giftet seg på ny,"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "for mamsen er teater-int’ressert som bare fy –"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "unnfanget er vi i Thalia’s garn"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "vi – scenekunstens ektefødte barn."
+            }
         ],
         [
-            "Vi – Nationaltheatrets Unge Venner,",
-            "vi flørter gjerne med Ophelia, titt, titt.",
-            "«To be or not to be, that is the question», ikke sant?",
-            "Som litteraten Henrik Ibsen sa...",
-            "I «En fallit» – der føler vi oss hjemme,"
+            {
+                "type": "lyric",
+                "text": "Vi – Nationaltheatrets Unge Venner,"
+            },
+            {
+                "type": "lyric",
+                "text": "vi flørter gjerne med Ophelia, titt, titt."
+            },
+            {
+                "type": "lyric",
+                "text": "«To be or not to be, that is the question», ikke sant?"
+            },
+            {
+                "type": "lyric",
+                "text": "Som litteraten Henrik Ibsen sa..."
+            },
+            {
+                "type": "lyric",
+                "text": "I «En fallit» – der føler vi oss hjemme,"
+            }
         ],
         [
-            "for pappa’n vår har 4 skip på land!",
-            "Vi viser vår deltagelse som ingen andre kan",
-            "når Ekdal går fra sin forstand – og skyter Hedvigs and,",
-            "vi gråter salte tårer over Solveigs sang – til Brand,",
-            "vi kjenner våre dikterverk igjen,",
-            "vi – Nationaltheatrets Unge Menn."
+            {
+                "type": "lyric",
+                "text": "for pappa’n vår har 4 skip på land!"
+            },
+            {
+                "type": "lyric",
+                "text": "Vi viser vår deltagelse som ingen andre kan"
+            },
+            {
+                "type": "lyric",
+                "text": "når Ekdal går fra sin forstand – og skyter Hedvigs and,"
+            },
+            {
+                "type": "lyric",
+                "text": "vi gråter salte tårer over Solveigs sang – til Brand,"
+            },
+            {
+                "type": "lyric",
+                "text": "vi kjenner våre dikterverk igjen,"
+            },
+            {
+                "type": "lyric",
+                "text": "vi – Nationaltheatrets Unge Menn."
+            }
         ]
-    ],
-    "comments": [
-        "Hartmanns privatskole, Asker (1904-67)Einar Sissener (1897-1968), Aase Bye,(1904-91)Wenche (Foss, 1917 - 2011),  Lars (Nordrum, 1921-73) og Per (Aabel, 1902-99),  legendariske skuespillere."
-    ],
-    "start_page": 36,
-    "end_page": 38
+    ]
 }

@@ -14,7 +14,7 @@
     margin: 0;
 }
 audio {
-    margin: 1em 0 0 0; 
+    margin: 1em 0 0 0;
 }
 
 .lyrics-wrapper {
@@ -35,3 +35,12 @@ audio {
     height: 100vh;
 }
 
+.lyric,
+.address {
+    font-size: 1.2rem;
+}
+
+.address {
+    font-style: italic;
+    text-decoration: underline;
+}

@@ -1,0 +1,197 @@
+{
+    "meta": {
+        "id": "blinderns-charm",
+        "title": "Blinderns charm",
+        "author": "Alf P. Jacobsen",
+        "melody": "G. Sellers / E. Rousseau, Marie-Marie, fra revyen «Sex Appeal» Paris 1932",
+        "event": "Blindernrevyen 1932",
+        "year": 1932,
+        "comments": [""],
+        "start_page": 10,
+        "end_page": 11,
+        "youtube_link": "https://www.youtube.com/watch?v=UNRhXU9k5Fk",
+        "spotify_link": "https://open.spotify.com/track/6bkYO70zSJqokb55ktZDo7?si=aba81ffd10e64109"
+    },
+    "contents": [
+        [
+            {
+                "type": "lyric",
+                "text": "Mange steder her på jorden har en festlig charm,"
+            },
+            {
+                "type": "lyric",
+                "text": "Riviera’n, Honolulu, Dovrehallen selv."
+            },
+            {
+                "type": "lyric",
+                "text": "Ingen dog av disse steder gjør om hjertet varm"
+            },
+            {
+                "type": "lyric",
+                "text": "slik som kjære gamle blindern, morgen, middag, kveld."
+            }
+        ],
+        [
+            {
+                "type": "chorus-header",
+                "text": "Ref."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Dets charm er stor når vekkerklokken slår,"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "og jeg må pusje mig inn for å dusje mig - Proh!"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Og når jeg blek og trett til frokostbordet går,"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "øinene lukker jeg, vakkert bukker jeg, også sukker jeg, akk!"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Montro om Ida merket no’ ida’?"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "det blir verst for henne, selv for henne gjør det visst nag."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Ja, Blinderns charm er stor når vekkerklokken slår"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "og jeg må pusje mig inn for å dusje mig - Proh!"
+            }
+        ],
+        [
+            {
+                "type": "lyric",
+                "text": "Når jeg sitter trett og oppgitt over proffens prat,"
+            },
+            {
+                "type": "lyric",
+                "text": "har jeg dog en trøst i lommen; Idas skolemat."
+            },
+            {
+                "type": "lyric",
+                "text": "har jeg dog en trøst i lommen; Idas skolemat."
+            },
+            {
+                "type": "lyric",
+                "text": "Hvad gjør det om jeg studerer medisin, ja, juss"
+            },
+            {
+                "type": "lyric",
+                "text": "når jeg klokken 2 om midda’n sitter i min buss."
+            }
+        ],
+        [
+            {
+                "type": "chorus-header",
+                "text": "Ref."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Thi Blinderns charm er stor, når middagsklokken slår"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "og jeg må vise mig frem for å spise mig mett."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Og klokken ti på tre fra middagsbordet jeg går"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "inn for å slenge mig ned for å menge mig"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "med en gjeng av mig, ah!"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Ja, kaffe og kaker og et godt humør,"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "det er vår eleksir, vår glede og vår likør."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Ja, Blinderns charm er stor når middagsklokken slår"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "og jeg må vise mig frem for å spise mig mett."
+            }
+        ],
+        [
+            {
+                "type": "lyric",
+                "text": "Efter dagens strev så må vi ha litt fest og spøk,"
+            },
+            {
+                "type": "lyric",
+                "text": "derfor drar vi flokkevis til byens glade strøk."
+            },
+            {
+                "type": "lyric",
+                "text": "Gjennem Villaveien drar vi, hevet høit på tå!"
+            },
+            {
+                "type": "lyric",
+                "text": "Yderst sjelden tar vi med oss gjerder eller så."
+            }
+        ],
+        [
+            {
+                "type": "chorus-header",
+                "text": "Ref."
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Thi Blinderns charm er størst når nattetimen slår"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "og man må trulle mig hjem for å lulle mig, Byss!"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Og nå jeg full og festlig natteleiet når"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "kan jeg ikke fryde mig, for jeg må hytte mig,"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "så de ikke skyter mig, Bang!"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Og blir det stille med all bråk og sang"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "kan du være sikker på d’ er liv på en annen gang!"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "Ja, Blinderns charm er størst når nattetimen slår"
+            },
+            {
+                "type": "chorus-lyric",
+                "text": "og man må trulle mig hjem for å lulle mig, Byss!"
+            }
+        ]
+    ]
+}

@@ -44,13 +44,13 @@ const App = () => {
     const handleSortTitleToggle = () => {
         if (currentSort === "title asc") {
             const sortedSongs = songs.sort((a, b) =>
-                b.title.localeCompare(a.title, "nb")
+                b.meta.title.localeCompare(a.meta.title, "nb")
             );
             setSongs(sortedSongs);
             setCurrentSort("title desc");
         } else {
             const sortedSongs = songs.sort((a, b) =>
-                a.title.localeCompare(b.title, "nb")
+                a.meta.title.localeCompare(b.meta.title, "nb")
             );
             setSongs(sortedSongs);
             setCurrentSort("title asc");
@@ -58,11 +58,11 @@ const App = () => {
     };
     const handleSortYearToggle = () => {
         if (currentSort === "year asc") {
-            const sortedSongs = songs.sort((a, b) => b.year - a.year);
+            const sortedSongs = songs.sort((a, b) => b.meta.year - a.meta.year);
             setSongs(sortedSongs);
             setCurrentSort("year desc");
         } else {
-            const sortedSongs = songs.sort((a, b) => a.year - b.year);
+            const sortedSongs = songs.sort((a, b) => a.meta.year - b.meta.year);
             setSongs(sortedSongs);
             setCurrentSort("year asc");
         }
@@ -70,13 +70,13 @@ const App = () => {
     const handleSortPageToggle = () => {
         if (currentSort === "page asc") {
             const sortedSongs = songs.sort(
-                (a, b) => b.start_page - a.start_page
+                (a, b) => b.meta.start_page - a.meta.start_page
             );
             setSongs(sortedSongs);
             setCurrentSort("page desc");
         } else {
             const sortedSongs = songs.sort(
-                (a, b) => a.start_page - b.start_page
+                (a, b) => a.meta.start_page - b.meta.start_page
             );
             setSongs(sortedSongs);
             setCurrentSort("page asc");
@@ -85,9 +85,9 @@ const App = () => {
 
     const filteredSongs = songs.filter((song) => {
         const fullLyricsString = textSearch
-            ? song.lyrics.flat(Infinity).join(" ")
+            ? song.contents.flat(Infinity).join(" ")
             : "";
-        const matchingTitles = song.title
+        const matchingTitles = song.meta.title
             .toLowerCase()
             .includes(searchTerm.toLowerCase());
         const matchingLyrics = fullLyricsString
@@ -138,17 +138,17 @@ const App = () => {
                         </thead>
                         <tbody>
                             {filteredSongs.map((song) => (
-                                <tr key={song.id}>
+                                <tr key={song.meta.id}>
                                     <td>
-                                        <Link to={`/songs/${song.id}`}>
-                                            {song.title}
+                                        <Link to={`/songs/${song.meta.id}`}>
+                                            {song.meta.title}
                                         </Link>
                                     </td>
-                                    <td>{song.year}</td>
-                                    <td>{song.start_page}</td>
-                                    <td>{song.author}</td>
-                                    <td>{song.melody}</td>
-                                    <td>{song.event}</td>
+                                    <td>{song.meta.year}</td>
+                                    <td>{song.meta.start_page}</td>
+                                    <td>{song.meta.author}</td>
+                                    <td>{song.meta.melody}</td>
+                                    <td>{song.meta.event}</td>
                                 </tr>
                             ))}
                         </tbody>
