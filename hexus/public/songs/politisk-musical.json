@@ -9,13 +9,13 @@
         "comments": [],
         "start_page": 152,
         "end_page": 155,
-        "youtube_link": "",
-        "spotify_link": ""
+        "youtube_link": "https://www.youtube.com/watch?v=-_2hPVzBeSk",
+        "spotify_link": "https://open.spotify.com/track/49wiLlHeAnZgnyrsPBbyvv?si=9e2dfdf94eff4e44"
     },
     "contents": [
         [
             {
-                "type": "lyric",
+                "type": "instruction",
                 "text": "Valgvake (mel:Akerselva):"
             },
             {
@@ -37,12 +37,8 @@
         ],
         [
             {
-                "type": "lyric",
-                "text": "HØYRE (Om eg var ein rik mann, Fra Spelle-"
-            },
-            {
-                "type": "lyric",
-                "text": "mann på taket):"
+                "type": "instruction",
+                "text": "HØYRE (Om eg var ein rik mann, Fra Spellemann på taket):"
             },
             {
                 "type": "lyric",
@@ -107,7 +103,7 @@
         ],
         [
             {
-                "type": "lyric",
+                "type": "instruction",
                 "text": "VENSTRE (Tomorrow, fra Annie):"
             },
             {
@@ -169,7 +165,7 @@
         ],
         [
             {
-                "type": "lyric",
+                "type": "instruction",
                 "text": "KRISTELIG FOLKEPARTI (Oh, happy day)"
             },
             {
@@ -227,7 +223,7 @@
         ],
         [
             {
-                "type": "lyric",
+                "type": "instruction",
                 "text": "SENTERPARTIET (Gøy på landet)"
             },
             {
@@ -276,21 +272,13 @@
             },
             {
                 "type": "lyric",
-                "text": "(Kor: Inga-Inga-Berit - "
-            },
-            {
-                "type": "lyric",
-                "text": "meld deg på Farmen, bondetøs!)"
+                "text": "(Kor: Inga-Inga-Berit - meld deg på Farmen, bondetøs!)"
             }
         ],
         [
             {
-                "type": "lyric",
-                "text": "SOSIALISTISK VENSTREPARTI"
-            },
-            {
-                "type": "lyric",
-                "text": "(I will follow him, fra Sisters Act)"
+                "type": "instruction",
+                "text": "SOSIALISTISK VENSTREPARTI (I will follow him, fra Sisters Act)"
             },
             {
                 "type": "lyric",
@@ -335,15 +323,13 @@
         ],
         [
             {
-                "type": "lyric",
+                "type": "instruction",
                 "text": "KOMMUNISTENE (mel: Russlands nasjonalsang)"
             },
             {
                 "type": "lyric",
                 "text": "Vi står her i flokk og vår fane er rød."
-            }
-        ],
-        [
+            },
             {
                 "type": "lyric",
                 "text": "Hvem i helvete mente at Lenin var død?"
@@ -383,7 +369,7 @@
         ],
         [
             {
-                "type": "lyric",
+                "type": "instruction",
                 "text": "ARBEIDERPARTIET "
             },
             {

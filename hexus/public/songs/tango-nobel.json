@@ -12,8 +12,8 @@
         ],
         "start_page": 93,
         "end_page": 94,
-        "youtube_link": "",
-        "spotify_link": ""
+        "youtube_link": "https://www.youtube.com/watch?v=PTHoTlyd548",
+        "spotify_link": "https://open.spotify.com/track/1kCi65l0xJrOM8KQ4Sebpl?si=29c0d34268a44b97"
     },
     "contents": [
         [
@@ -120,9 +120,7 @@
             {
                 "type": "lyric",
                 "text": "L: Vi har Chiang Ching og Ian Smith, "
-            }
-        ],
-        [
+            },
             {
                 "type": "lyric",
                 "text": "     Amin og Ky var sterke."

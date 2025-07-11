@@ -9,8 +9,8 @@
         "comments": [],
         "start_page": 180,
         "end_page": 181,
-        "youtube_link": "",
-        "spotify_link": ""
+        "youtube_link": "https://www.youtube.com/watch?v=cmQ_SGgc1C0",
+        "spotify_link": "https://open.spotify.com/track/76gKHzNJP5iohtbgKmNuRK?si=880a4a6db4c3443b"
     },
     "contents": [
         [
@@ -107,9 +107,7 @@
             {
                 "type": "lyric",
                 "text": "første gang han spilte golf"
-            }
-        ],
-        [
+            },
             {
                 "type": "lyric",
                 "text": "For en helt han er, "

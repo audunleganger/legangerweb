@@ -9,8 +9,8 @@
         "comments": [],
         "start_page": 165,
         "end_page": 167,
-        "youtube_link": "",
-        "spotify_link": ""
+        "youtube_link": "https://www.youtube.com/watch?v=J2PNV40rmL4",
+        "spotify_link": "https://open.spotify.com/track/3ItOz9ZKfJSzMonPbRPs7y?si=a91038e2a48c4e3d"
     },
     "contents": [
         [
@@ -64,7 +64,7 @@
         [
             {
                 "type": "lyric",
-                "text": "Se på meg\t"
+                "text": "Se på meg"
             },
             {
                 "type": "lyric",
@@ -135,23 +135,21 @@
             {
                 "type": "chorus-lyric",
                 "text": "Se på meg, se på deg"
-            }
-        ],
-        [
+            },
             {
-                "type": "lyric",
+                "type": "chorus-lyric",
                 "text": "Superfine liv"
             },
             {
-                "type": "lyric",
+                "type": "chorus-lyric",
                 "text": "Se på deg, se på meg."
             },
             {
-                "type": "lyric",
+                "type": "chorus-lyric",
                 "text": "Superfine, superfine, superfine liv"
             },
             {
-                "type": "lyric",
+                "type": "chorus-lyric",
                 "text": "superfine, superfine, superfine liv"
             }
         ],
@@ -248,7 +246,7 @@
             },
             {
                 "type": "lyric",
-                "text": "Vi fortjener alt                                                                                                                                  "
+                "text": "Vi fortjener alt"
             },
             {
                 "type": "lyric",
@@ -275,15 +273,13 @@
             {
                 "type": "chorus-lyric",
                 "text": "Se på deg, se på meg"
-            }
-        ],
-        [
+            },
             {
-                "type": "lyric",
+                "type": "chorus-lyric",
                 "text": "Superfine, superfine, superfine liv"
             },
             {
-                "type": "lyric",
+                "type": "chorus-lyric",
                 "text": "superfine, superfine, superfine liv"
             }
         ],

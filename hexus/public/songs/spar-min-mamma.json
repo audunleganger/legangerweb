@@ -9,8 +9,8 @@
         "comments": [],
         "start_page": 158,
         "end_page": 160,
-        "youtube_link": "",
-        "spotify_link": ""
+        "youtube_link": "https://www.youtube.com/watch?v=4aw9u1rtDBs",
+        "spotify_link": "https://open.spotify.com/track/6Yok1fL2qRl6DMSBk57WOG?si=d5c834a6f50b427e"
     },
     "contents": [
         [
@@ -221,9 +221,7 @@
             {
                 "type": "lyric",
                 "text": "for den skrekken"
-            }
-        ],
-        [
+            },
             {
                 "type": "lyric",
                 "text": "for bann på hun vil snurpe "

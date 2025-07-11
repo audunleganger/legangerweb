@@ -9,8 +9,8 @@
         "comments": [],
         "start_page": 170,
         "end_page": 171,
-        "youtube_link": "",
-        "spotify_link": ""
+        "youtube_link": "https://www.youtube.com/watch?v=F-5i39UMFJo",
+        "spotify_link": "https://open.spotify.com/track/2JIVeQQvIdyQvrz9Mhi6qL?si=aeeaed57e974433b"
     },
     "contents": [
         [
@@ -111,9 +111,7 @@
             {
                 "type": "lyric",
                 "text": "Sliter du  med mørketid?"
-            }
-        ],
-        [
+            },
             {
                 "type": "lyric",
                 "text": "Har du angst, og fobi, allergi eller anoreksi?"

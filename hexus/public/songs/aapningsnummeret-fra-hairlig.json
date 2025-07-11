@@ -11,8 +11,8 @@
         ],
         "start_page": 76,
         "end_page": 77,
-        "youtube_link": "",
-        "spotify_link": ""
+        "youtube_link": "https://www.youtube.com/watch?v=ISYwosO04fg",
+        "spotify_link": "https://open.spotify.com/track/0WviwuG403gqtW6bZevBpP?si=78d1e824b79142ea"
     },
     "contents": [
         [
@@ -35,7 +35,7 @@
         ],
         [
             {
-                "type": "lyric",
+                "type": "instruction",
                 "text": "Kor:"
             },
             {
@@ -95,7 +95,7 @@
         ],
         [
             {
-                "type": "lyric",
+                "type": "instruction",
                 "text": "Kor:"
             },
             {

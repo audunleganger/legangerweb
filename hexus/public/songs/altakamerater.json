@@ -7,6 +7,7 @@
         "event": "Blindernrevyen 1981 ”Vi gjør det – q.e.d.”",
         "year": 1981,
         "comments": [
+            "Onkel Andreas er Andreas Cappelen, Justisminister (A) 1979-80. Oddvar er Statsminister O. Nordli 1976-81.",
             "Over 800 demonstranter mot utbyggingen av Alta/Kautokei-no-vassdraget lenket seg sammen på anleggsveien i Alta i januar 1981. Hver enkelt måtte skjæres løs av politiet og ble så fjernet, arrestert og bøtelagt. Kraftverket sto ferdig i mai 1987."
         ],
         "start_page": 117,
@@ -17,7 +18,7 @@
     "contents": [
         [
             {
-                "type": "lyric",
+                "type": "instruction",
                 "text": "Politi:"
             },
             {
@@ -59,7 +60,7 @@
         ],
         [
             {
-                "type": "lyric",
+                "type": "instruction",
                 "text": "Demonstranter:"
             },
             {
@@ -93,7 +94,7 @@
         ],
         [
             {
-                "type": "lyric",
+                "type": "instruction",
                 "text": "Politi:"
             },
             {
@@ -127,7 +128,7 @@
         ],
         [
             {
-                "type": "lyric",
+                "type": "instruction",
                 "text": "Demonstranter:"
             },
             {
@@ -169,7 +170,7 @@
         ],
         [
             {
-                "type": "lyric",
+                "type": "instruction",
                 "text": "Politi sammen med demonstranter:"
             },
             {
@@ -207,18 +208,8 @@
         ],
         [
             {
-                "type": "lyric",
+                "type": "instruction",
                 "text": "(Politi synger sitt siste vers om igjen)"
-            }
-        ],
-        [
-            {
-                "type": "lyric",
-                "text": "Onkel Andreas er Andreas Cappelen, Justisminister (A) 1979-80."
-            },
-            {
-                "type": "lyric",
-                "text": "Oddvar er Statsminister O. Nordli 1976-81."
             }
         ]
     ]

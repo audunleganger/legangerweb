@@ -13,8 +13,8 @@
         ],
         "start_page": 70,
         "end_page": 72,
-        "youtube_link": "",
-        "spotify_link": ""
+        "youtube_link": "https://www.youtube.com/watch?v=BGoe1nPdZjg",
+        "spotify_link": "https://open.spotify.com/track/5T9tcVXHDVW24GkxNsfGQu?si=080a2805e3ae4662"
     },
     "contents": [
         [
@@ -101,9 +101,7 @@
             {
                 "type": "lyric",
                 "text": "hva ante de om megatonn?"
-            }
-        ],
-        [
+            },
             {
                 "type": "lyric",
                 "text": "Med strutsefjær og røde kapper "
@@ -205,9 +203,7 @@
             {
                 "type": "lyric",
                 "text": "og så fikk hele Norge svar"
-            }
-        ],
-        [
+            },
             {
                 "type": "lyric",
                 "text": "hver gang de lærde sukker oppgitt "

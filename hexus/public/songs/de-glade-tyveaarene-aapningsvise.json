@@ -9,8 +9,8 @@
         "comments": [],
         "start_page": 73,
         "end_page": 73,
-        "youtube_link": "",
-        "spotify_link": ""
+        "youtube_link": "https://www.youtube.com/watch?v=Hv-EGeLEnko",
+        "spotify_link": "https://open.spotify.com/track/5HPsMYpuJ0NpGMosae6Lxa?si=ccf6734bde2446b8"
     },
     "contents": [
         [
@@ -88,7 +88,7 @@
             },
             {
                 "type": "lyric",
-                "text": "voldsomt  -   til sentimentalitet!"
+                "text": "voldsomt  -  til sentimentalitet!"
             },
             {
                 "type": "lyric",

@@ -6,7 +6,9 @@
         "melody": "Pjokken Eide",
         "event": "Blindernrevyen 1969 «Fall oss om halsen»",
         "year": 1969,
-        "comments": [],
+        "comments": [
+            "Karl Evang (1902-81), redaktør av Populært Tidsskrift for Seksuell Opplysning (1934-54), helsedirektør 1938-72."
+        ],
         "start_page": 74,
         "end_page": 75,
         "youtube_link": "",
@@ -133,16 +135,6 @@
             {
                 "type": "lyric",
                 "text": "og der dåfter’e a maisol og sjasmin»."
-            }
-        ],
-        [
-            {
-                "type": "lyric",
-                "text": "Karl Evang (1902-81), redaktør av Populært Tidsskrift for Seksuell Opplysning "
-            },
-            {
-                "type": "lyric",
-                "text": "(1934-54), helsedirektør 1938-72."
             }
         ]
     ]

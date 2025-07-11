@@ -9,8 +9,8 @@
         "comments": [],
         "start_page": 161,
         "end_page": 162,
-        "youtube_link": "",
-        "spotify_link": ""
+        "youtube_link": "https://www.youtube.com/watch?v=FCWbKPoWPKk",
+        "spotify_link": "https://open.spotify.com/track/1pppzzZPItJ5nyVR8PKS5p?si=739a642522dc488b"
     },
     "contents": [
         [
@@ -108,13 +108,7 @@
             },
             {
                 "type": "lyric",
-                "text": "(Synger og skatter jazz som ender i et høyt "
-            }
-        ],
-        [
-            {
-                "type": "lyric",
-                "text": "WOHOOO!)"
+                "text": "(Synger og skatter jazz som ender i et høyt WOHOOO!)"
             },
             {
                 "type": "lyric",

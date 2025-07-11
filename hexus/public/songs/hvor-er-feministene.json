@@ -9,8 +9,8 @@
         "comments": [],
         "start_page": 156,
         "end_page": 157,
-        "youtube_link": "",
-        "spotify_link": ""
+        "youtube_link": "https://www.youtube.com/watch?v=YPCT57s_Scw",
+        "spotify_link": "https://open.spotify.com/track/5qrvqRlHTF8nE5aoCSR7e6?si=c0e9b638213448d7"
     },
     "contents": [
         [
@@ -107,15 +107,13 @@
             {
                 "type": "chorus-lyric",
                 "text": "Medsøstre, gå ut og kjemp"
-            }
-        ],
-        [
+            },
             {
-                "type": "lyric",
+                "type": "chorus-lyric",
                 "text": "til alle menn er glemt"
             },
             {
-                "type": "lyric",
+                "type": "chorus-lyric",
                 "text": "BH-bålet gjør meg veldig tent."
             }
         ],
