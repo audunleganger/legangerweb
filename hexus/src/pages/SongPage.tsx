@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import "./SongPage.css";
 import { Song, Line } from "../types/song";
+import Sidebar from "../components/Sidebar";
 
 const SongPage = () => {
     const { songId } = useParams<{ songId: string }>();
@@ -108,8 +109,10 @@ const SongPage = () => {
         return null;
     };
 
+    // upon reaching
     return (
         <>
+            <Sidebar />
             {loading ? (
                 <p className="centered-on-page">Loading...</p>
             ) : (
@@ -134,9 +137,14 @@ const SongPage = () => {
                         {songContents.map((section, index) => (
                             <p key={index}>
                                 {section.map((line, lineIndex) => (
-                                    <span key={lineIndex} className={line.type}>
+                                    <span
+                                        key={`${songId}-${lineIndex}`}
+                                        className={line.type}
+                                    >
                                         {line.text}
-                                        <br />
+                                        {!line.type.includes(
+                                            "no-line-break"
+                                        ) && <br />}
                                     </span>
                                 ))}
                             </p>

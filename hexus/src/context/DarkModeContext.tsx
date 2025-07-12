@@ -21,6 +21,7 @@ export const DarkModeProvider = ({ children }: { children: ReactNode }) => {
     );
 
     useEffect(() => {
+        document.body.classList.remove("dark-mode-no-transition");
         if (darkMode) {
             document.body.classList.add("dark-mode");
         } else {
@@ -40,6 +41,7 @@ export const DarkModeProvider = ({ children }: { children: ReactNode }) => {
     );
 };
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const useDarkMode = () => {
     const context = useContext(DarkModeContext);
     if (!context) {

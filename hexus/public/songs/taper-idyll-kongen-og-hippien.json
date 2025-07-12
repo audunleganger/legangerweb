@@ -19,24 +19,44 @@
     "contents": [
         [
             {
-                "type": "lyric",
-                "text": "K: Jeg går en tur i parken min, som ligger rundt mitt slott."
+                "type": "italic underline no-line-break",
+                "text": "K:"
             },
             {
                 "type": "lyric",
-                "text": "H: Jeg tar en tur i parken med en groovy pipe pot."
+                "text": " Jeg går en tur i parken min, som ligger rundt mitt slott."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "H:"
             },
             {
                 "type": "lyric",
-                "text": "K: Kontakten med naturen er en ekte men’skerett."
+                "text": " Jeg tar en tur i parken med en groovy pipe pot."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "K:"
             },
             {
                 "type": "lyric",
-                "text": "H: Gud sign vår konge god som gir oss denne freda plett."
+                "text": " Kontakten med naturen er en ekte men’skerett."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "H:"
             },
             {
                 "type": "lyric",
-                "text": "Begge: For her har vi gått sammen i mange, mange år."
+                "text": " Gud sign vår konge god som gir oss denne freda plett."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "Begge:"
+            },
+            {
+                "type": "lyric",
+                "text": " For her har vi gått sammen i mange, mange år."
             },
             {
                 "type": "lyric",
@@ -53,32 +73,56 @@
         ],
         [
             {
-                "type": "lyric",
-                "text": "H: Her har jeg funnet hjemmet mitt..."
+                "type": "italic underline no-line-break",
+                "text": "H:"
             },
             {
                 "type": "lyric",
-                "text": "K:                                                 ... og her er også mitt."
+                "text": " Her har jeg funnet hjemmet mitt..."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "K:"
             },
             {
                 "type": "lyric",
-                "text": "H:  Husholdningen er enkel..."
+                "text": "                                                 ... og her er også mitt."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "H:"
             },
             {
                 "type": "lyric",
-                "text": "K:                                        ...kan’ke si det samme, gitt."
+                "text": "  Husholdningen er enkel..."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "K:"
+            },
+            {
+                "type": "lyric",
+                "text": "                                        ...kan’ke si det samme, gitt."
             },
             {
                 "type": "lyric",
                 "text": "     Hver fredag har jeg statsråd, jeg og Borten prater dritt."
             },
             {
-                "type": "lyric",
-                "text": "H: Problemene i verden løser jeg imens med shit."
+                "type": "italic underline no-line-break",
+                "text": "H:"
             },
             {
                 "type": "lyric",
-                "text": "B: Med det som vi har evnet -  er vi blitt kastet av."
+                "text": " Problemene i verden løser jeg imens med shit."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "B:"
+            },
+            {
+                "type": "lyric",
+                "text": " Med det som vi har evnet -  er vi blitt kastet av."
             },
             {
                 "type": "lyric",
@@ -95,34 +139,58 @@
         ],
         [
             {
-                "type": "lyric",
-                "text": "H: Problemet mitt er hjemmet, - det er under all kritikk."
+                "type": "italic underline no-line-break",
+                "text": "H:"
             },
             {
                 "type": "lyric",
-                "text": "K: Problemet mitt er at jeg ikke makter politikk."
+                "text": " Problemet mitt er hjemmet, - det er under all kritikk."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "K:"
+            },
+            {
+                "type": "lyric",
+                "text": " Problemet mitt er at jeg ikke makter politikk."
             },
             {
                 "type": "lyric",
                 "text": "    Om lasten er forskjellig…"
             },
             {
-                "type": "lyric",
-                "text": "H:                                  … så er summen dog konstant."
+                "type": "italic underline no-line-break",
+                "text": "H:"
             },
             {
                 "type": "lyric",
-                "text": "K: For jeg er glad i portvin…"
+                "text": "                                  … så er summen dog konstant."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "K:"
             },
             {
                 "type": "lyric",
-                "text": "H:                                      …mens jeg tenner på iblant."
+                "text": " For jeg er glad i portvin…"
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "H:"
+            },
+            {
+                "type": "lyric",
+                "text": "                                      …mens jeg tenner på iblant."
             }
         ],
         [
             {
+                "type": "italic underline no-line-break",
+                "text": "B:"
+            },
+            {
                 "type": "lyric",
-                "text": "B: Så møtes vi i parken og nyter felles trøst, "
+                "text": " Så møtes vi i parken og nyter felles trøst, "
             },
             {
                 "type": "lyric",

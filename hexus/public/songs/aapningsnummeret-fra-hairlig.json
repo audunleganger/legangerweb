@@ -1,7 +1,7 @@
 {
     "meta": {
         "id": "aapningsnummeret-fra-hairlig",
-        "title": "Åpningsnummeret  fra ”Hairlig”",
+        "title": "Åpningsnummeret fra ”Hairlig”",
         "author": "Ole-Jacob Bull / Georg ”Groggy” Kamfjord",
         "melody": "Aquarius, fra musikalen Hair, Galt MacDermot (1967)",
         "event": "Blindernrevyen 1971 ”Hairlig”",
@@ -35,7 +35,7 @@
         ],
         [
             {
-                "type": "instruction",
+                "type": "italic underline",
                 "text": "Kor:"
             },
             {
@@ -95,7 +95,7 @@
         ],
         [
             {
-                "type": "instruction",
+                "type": "italic underline",
                 "text": "Kor:"
             },
             {
@@ -109,9 +109,7 @@
             {
                 "type": "lyric",
                 "text": "er vi her i aften samlet, "
-            }
-        ],
-        [
+            },
             {
                 "type": "lyric",
                 "text": "frigjort vi til kveldens nummer ser frem."

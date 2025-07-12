@@ -15,7 +15,7 @@
     "contents": [
         [
             {
-                "type": "lyric",
+                "type": "italic underline",
                 "text": "(REPORTERE):"
             },
             {
@@ -49,7 +49,7 @@
         ],
         [
             {
-                "type": "lyric",
+                "type": "italic underline",
                 "text": "(SIV JENSEN):"
             },
             {
@@ -87,7 +87,7 @@
         ],
         [
             {
-                "type": "lyric",
+                "type": "italic underline",
                 "text": "(KJENDIS):"
             },
             {
@@ -109,7 +109,7 @@
         ],
         [
             {
-                "type": "lyric",
+                "type": "italic underline",
                 "text": "(JESUS):"
             },
             {
@@ -143,7 +143,7 @@
         ],
         [
             {
-                "type": "lyric",
+                "type": "italic underline",
                 "text": "(REPORTER og POLITIKER):"
             },
             {
@@ -161,7 +161,7 @@
         ],
         [
             {
-                "type": "lyric",
+                "type": "italic underline",
                 "text": "(TAXI-SJÅFØR):"
             },
             {
@@ -187,7 +187,7 @@
         ],
         [
             {
-                "type": "lyric",
+                "type": "italic underline",
                 "text": "(PASSASJER):"
             },
             {
@@ -205,7 +205,7 @@
         ],
         [
             {
-                "type": "lyric",
+                "type": "italic underline",
                 "text": "(TAXI-SJÅFØR):"
             },
             {
@@ -239,7 +239,7 @@
         ],
         [
             {
-                "type": "lyric",
+                "type": "italic underline",
                 "text": "(ALLE):"
             },
             {

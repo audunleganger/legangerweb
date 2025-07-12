@@ -15,7 +15,7 @@
     "contents": [
         [
             {
-                "type": "instruction",
+                "type": "italic underline",
                 "text": "Mann:"
             },
             {
@@ -73,7 +73,7 @@
         ],
         [
             {
-                "type": "instruction",
+                "type": "italic underline",
                 "text": "Kvinne:"
             },
             {
@@ -99,7 +99,7 @@
         ],
         [
             {
-                "type": "instruction",
+                "type": "italic underline",
                 "text": "Mann:"
             },
             {
@@ -109,7 +109,7 @@
         ],
         [
             {
-                "type": "instruction",
+                "type": "italic underline",
                 "text": "Kvinne:"
             },
             {
@@ -135,7 +135,7 @@
         ],
         [
             {
-                "type": "instruction",
+                "type": "italic underline",
                 "text": "Mann:"
             },
             {
@@ -143,7 +143,7 @@
                 "text": "Hun har reist verden rundt"
             },
             {
-                "type": "instruction",
+                "type": "italic underline",
                 "text": "Kvinne:"
             },
             {
@@ -153,7 +153,7 @@
         ],
         [
             {
-                "type": "instruction",
+                "type": "italic underline",
                 "text": "Mann:"
             },
             {
@@ -161,7 +161,7 @@
                 "text": "Hun har en tvillingsøster"
             },
             {
-                "type": "instruction",
+                "type": "italic underline",
                 "text": "Kvinne:"
             },
             {
@@ -179,7 +179,7 @@
         ],
         [
             {
-                "type": "instruction",
+                "type": "italic underline",
                 "text": "Mann:"
             },
             {
@@ -187,7 +187,7 @@
                 "text": "Jeg har få krav"
             },
             {
-                "type": "instruction",
+                "type": "italic underline",
                 "text": "Kvinne:"
             },
             {
@@ -197,7 +197,7 @@
         ],
         [
             {
-                "type": "instruction",
+                "type": "italic underline",
                 "text": "Mann:"
             },
             {
@@ -205,7 +205,7 @@
                 "text": "Hun lar meg spille TV-spill"
             },
             {
-                "type": "instruction",
+                "type": "italic underline",
                 "text": "Kvinne:"
             },
             {
@@ -215,7 +215,7 @@
         ],
         [
             {
-                "type": "instruction",
+                "type": "italic underline",
                 "text": "Begge:"
             },
             {
@@ -233,7 +233,7 @@
         ],
         [
             {
-                "type": "instruction",
+                "type": "italic underline",
                 "text": "Mann:"
             },
             {
@@ -241,7 +241,7 @@
                 "text": "Jeg har få krav"
             },
             {
-                "type": "instruction",
+                "type": "italic underline",
                 "text": "Kvinne:"
             },
             {
@@ -249,7 +249,7 @@
                 "text": "Jeg har få krav"
             },
             {
-                "type": "instruction",
+                "type": "italic underline",
                 "text": "Mann:"
             },
             {
@@ -257,7 +257,7 @@
                 "text": "Fortjener det"
             },
             {
-                "type": "instruction",
+                "type": "italic underline",
                 "text": "Kvinne:"
             },
             {
@@ -265,7 +265,7 @@
                 "text": "Fortjener det"
             },
             {
-                "type": "instruction",
+                "type": "italic underline",
                 "text": "Mann:"
             },
             {
@@ -273,7 +273,7 @@
                 "text": "Men finnes du?"
             },
             {
-                "type": "instruction",
+                "type": "italic underline",
                 "text": "Kvinne:"
             },
             {
@@ -281,7 +281,7 @@
                 "text": "Men finnes du?"
             },
             {
-                "type": "instruction",
+                "type": "italic underline",
                 "text": "Begge:"
             },
             {

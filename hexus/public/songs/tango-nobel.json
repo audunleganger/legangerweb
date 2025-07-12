@@ -18,206 +18,254 @@
     "contents": [
         [
             {
-                "type": "lyric",
-                "text": "S: Jeg heter Sato, kjære deg, "
+                "type": "italic underline no-line-break",
+                "text": "S:"
             },
             {
                 "type": "lyric",
-                "text": "     du heter visstnok Aase?"
+                "text": "\tJeg heter Sato, kjære deg, "
             },
             {
                 "type": "lyric",
-                "text": "     Du vil vel gjerne kjenne meg, "
+                "text": "\tdu heter visstnok Aase?"
             },
             {
                 "type": "lyric",
-                "text": "     det skal gå greit, det skal jeg påse…"
+                "text": "\tDu vil vel gjerne kjenne meg, "
             },
             {
                 "type": "lyric",
-                "text": "L:  Men kjære, kall meg Lionæs. "
+                "text": "\tdet skal gå greit, det skal jeg påse…"
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "L:"
             },
             {
                 "type": "lyric",
-                "text": "     jeg kjenner Dem slett ikke."
+                "text": "\tMen kjære, kall meg Lionæs. "
             },
             {
                 "type": "lyric",
-                "text": "     Sett ikke opp et ydmykt fjes,"
+                "text": "\tjeg kjenner Dem slett ikke."
             },
             {
                 "type": "lyric",
-                "text": "     av Deres sake får jeg hikke…"
+                "text": "\tSett ikke opp et ydmykt fjes,"
             },
             {
                 "type": "lyric",
-                "text": "S: Jeg har min hær av gode venner med idéen,"
+                "text": "\tav Deres sake får jeg hikke…"
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "S:"
             },
             {
                 "type": "lyric",
-                "text": "     de sa: nå skal vi lure hele komitéen. "
+                "text": "\tJeg har min hær av gode venner med idéen,"
             },
             {
                 "type": "lyric",
-                "text": "     En Fredspris er jo nettopp hva du trenger."
+                "text": "\tde sa: nå skal vi lure hele komitéen. "
             },
             {
                 "type": "lyric",
-                "text": "     En større statsmann er jo oft’ i beit for penger."
+                "text": "\tEn Fredspris er jo nettopp hva du trenger."
+            },
+            {
+                "type": "lyric",
+                "text": "\tEn større statsmann er jo oft’ i beit for penger."
             }
         ],
         [
             {
-                "type": "lyric",
-                "text": "L: Jeg sa til Ingvaldsen: du Bernt, "
+                "type": "italic underline no-line-break",
+                "text": "L:"
             },
             {
                 "type": "lyric",
-                "text": "     vi må jo se å velge,"
+                "text": "\tJeg sa til Ingvaldsen: du Bernt, "
             },
             {
                 "type": "lyric",
-                "text": "     og valget kan jo godt bli fjernt, "
+                "text": "\tvi må jo se å velge,"
             },
             {
                 "type": "lyric",
-                "text": "     da blir det lettere å svelge."
+                "text": "\tog valget kan jo godt bli fjernt, "
             },
             {
                 "type": "lyric",
-                "text": "S:  Men hvor fortreffelig jeg var, "
+                "text": "\tda blir det lettere å svelge."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "S:"
             },
             {
                 "type": "lyric",
-                "text": "     se, det forsto Partiet."
+                "text": "\tMen hvor fortreffelig jeg var, "
             },
             {
                 "type": "lyric",
-                "text": "     Vi sendte verden rundt no’n brev, "
+                "text": "\tse, det forsto Partiet."
             },
             {
                 "type": "lyric",
-                "text": "     og jeg var lur - og bare tiet."
+                "text": "\tVi sendte verden rundt no’n brev, "
             },
             {
                 "type": "lyric",
-                "text": "L:  Men De skjønner da vel hvorfor De fikk prisen?"
+                "text": "\tog jeg var lur - og bare tiet."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "L:"
             },
             {
                 "type": "lyric",
-                "text": "     Komitéen var jo ganske enkelt brisen,"
+                "text": "\tMen De skjønner da vel hvorfor De fikk prisen?"
             },
             {
                 "type": "lyric",
-                "text": "     vi satt igjen med hele tredve kandidater,"
+                "text": "\tKomitéen var jo ganske enkelt brisen,"
             },
             {
                 "type": "lyric",
-                "text": "     og jeg blir veldig sur når alle bare prater!"
+                "text": "\tvi satt igjen med hele tredve kandidater,"
+            },
+            {
+                "type": "lyric",
+                "text": "\tog jeg blir veldig sur når alle bare prater!"
             }
         ],
         [
             {
-                "type": "lyric",
-                "text": "L: Vi har Chiang Ching og Ian Smith, "
+                "type": "italic underline no-line-break",
+                "text": "L:"
             },
             {
                 "type": "lyric",
-                "text": "     Amin og Ky var sterke."
+                "text": "\tVi har Chiang Ching og Ian Smith, "
             },
             {
                 "type": "lyric",
-                "text": "S:  Så fulgte Franco, ja, og Kjell, "
+                "text": "\tAmin og Ky var sterke."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "S:"
             },
             {
                 "type": "lyric",
-                "text": "     Guatemala bør man merke."
+                "text": "\tSå fulgte Franco, ja, og Kjell, "
             },
             {
                 "type": "lyric",
-                "text": "L:  Som De nå skjønner, Eisaku, "
+                "text": "\tGuatemala bør man merke."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "L:"
             },
             {
                 "type": "lyric",
-                "text": "     Så bør De ikke skryte. "
+                "text": "\tSom De nå skjønner, Eisaku, "
             },
             {
                 "type": "lyric",
-                "text": "     De hadde flaks, det kan De tru, "
+                "text": "\tSå bør De ikke skryte. "
             },
             {
                 "type": "lyric",
-                "text": "     De må ei hem’ligheten bryte:"
+                "text": "\tDe hadde flaks, det kan De tru, "
             },
             {
                 "type": "lyric",
-                "text": "     Vi har gjort valget særdeles demokratisk,"
+                "text": "\tDe må ei hem’ligheten bryte:"
             },
             {
                 "type": "lyric",
-                "text": "     Nå er det helt rettferdig, systematisk:"
+                "text": "\tVi har gjort valget særdeles demokratisk,"
             },
             {
                 "type": "lyric",
-                "text": "     Vi putter alle forslag i en kjempetrommel"
+                "text": "\tNå er det helt rettferdig, systematisk:"
             },
             {
                 "type": "lyric",
-                "text": "     og trekker ut; det sparer oss for mye sommel."
+                "text": "\tVi putter alle forslag i en kjempetrommel"
+            },
+            {
+                "type": "lyric",
+                "text": "\tog trekker ut; det sparer oss for mye sommel."
             }
         ],
         [
             {
-                "type": "lyric",
-                "text": "L:  Og valget, nå som før, "
+                "type": "italic underline no-line-break",
+                "text": "L:"
             },
             {
                 "type": "lyric",
-                "text": "     ja, det blir grundig feiret. "
+                "text": "\tOg valget, nå som før, "
             },
             {
                 "type": "lyric",
-                "text": "     Vi løfter stemningen no’n hakk"
+                "text": "\tja, det blir grundig feiret. "
             },
             {
                 "type": "lyric",
-                "text": "     og Tostrupkjeller’n blir beleiret."
+                "text": "\tVi løfter stemningen no’n hakk"
             },
             {
                 "type": "lyric",
-                "text": "S:  Nå skjønner faktisk også jeg"
+                "text": "\tog Tostrupkjeller’n blir beleiret."
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "S:"
             },
             {
                 "type": "lyric",
-                "text": "     hvem Fredsprisen skal tjene."
+                "text": "\tNå skjønner faktisk også jeg"
             },
             {
                 "type": "lyric",
-                "text": "     Kriteriet er jo veldig greit: "
+                "text": "\thvem Fredsprisen skal tjene."
             },
             {
                 "type": "lyric",
-                "text": "     man plukker ut de pene!"
+                "text": "\tKriteriet er jo veldig greit: "
             },
             {
                 "type": "lyric",
-                "text": "L:  Som De nå skjønner har vi ingen store kvaler"
+                "text": "\tman plukker ut de pene!"
+            },
+            {
+                "type": "italic underline no-line-break",
+                "text": "L:"
             },
             {
                 "type": "lyric",
-                "text": "     Vi sitter ei i ukevis og baler… "
+                "text": "\tSom De nå skjønner har vi ingen store kvaler"
             },
             {
                 "type": "lyric",
-                "text": "     Hvem som vinner, se det er ett fett,"
+                "text": "\tVi sitter ei i ukevis og baler… "
             },
             {
                 "type": "lyric",
-                "text": "     Er vi brisne, så velger vi rett..."
+                "text": "\tHvem som vinner, se det er ett fett,"
             },
             {
                 "type": "lyric",
-                "text": "     Uansett!"
+                "text": "\tEr vi brisne, så velger vi rett..."
+            },
+            {
+                "type": "lyric",
+                "text": "\tUansett!"
             }
         ]
     ]

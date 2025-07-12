@@ -87,45 +87,43 @@
         ],
         [
             {
-                "type": "instruction",
+                "type": "italic underline",
                 "text": "(Tale:)"
             },
             {
-                "type": "lyric",
+                "type": "italic",
                 "text": "Kjære medproletarer: Nå må vi ruste oss"
             },
             {
-                "type": "lyric",
+                "type": "italic",
                 "text": "til kamp mot Høyre-regjeringa som gjør"
             },
             {
-                "type": "lyric",
+                "type": "italic",
                 "text": "livet surt for oss LO-organiserte arbeidere!"
             },
             {
-                "type": "lyric",
+                "type": "italic",
                 "text": "Vi må ikke finne oss i at arbeiderpressa"
-            }
-        ],
-        [
+            },
             {
-                "type": "lyric",
+                "type": "italic",
                 "text": "får mindre støtte, at AOF’s hobbykurs stanses,"
             },
             {
-                "type": "lyric",
+                "type": "italic",
                 "text": "eller at Landsbanken får mindre utlånsrammer!"
             },
             {
-                "type": "lyric",
+                "type": "italic",
                 "text": "Vi må stanse dette egoistiske Høyre!"
             },
             {
-                "type": "lyric",
+                "type": "italic",
                 "text": "Det som mangler er solidaritet –"
             },
             {
-                "type": "lyric",
+                "type": "italic",
                 "text": "og Arbeiderpartiet!"
             }
         ],

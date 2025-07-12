@@ -4,6 +4,7 @@
     "service": "dev",
     "workspaceFolder": "/ws/legangerweb",
     "postStartCommand": "sudo chmod 666 /var/run/docker.sock",
+    "forwardPorts": [8080],
     "customizations": {
         "vscode": {
             "extensions": [

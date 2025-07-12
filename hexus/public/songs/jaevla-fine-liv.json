@@ -63,56 +63,56 @@
         ],
         [
             {
-                "type": "lyric",
-                "text": "Se på meg"
+                "type": "lyric no-line-break",
+                "text": "Se på meg\t\t"
             },
             {
                 "type": "lyric",
                 "text": "Jeg er norsk"
             },
             {
-                "type": "lyric",
-                "text": "Se på deg\t"
+                "type": "lyric no-line-break",
+                "text": "Se på deg\t\t"
             },
             {
                 "type": "lyric",
                 "text": "Hva har du?"
             },
             {
-                "type": "lyric",
-                "text": "Olje? Nei!\t"
+                "type": "lyric no-line-break",
+                "text": "Olje? Nei!\t\t"
             },
             {
                 "type": "lyric",
                 "text": "Brunost? Nei!"
             },
             {
-                "type": "lyric",
-                "text": "Samer? Nei!\t"
+                "type": "lyric no-line-break",
+                "text": "Samer? Nei!\t\t"
             },
             {
                 "type": "lyric",
                 "text": "Penger? Nei!"
             },
             {
-                "type": "lyric",
-                "text": "Klimapress?\t"
+                "type": "lyric no-line-break",
+                "text": "Klimapress?\t\t"
             },
             {
                 "type": "lyric",
                 "text": "Kvoter nå!"
             },
             {
-                "type": "lyric",
-                "text": "U-hjelp og?\t"
+                "type": "lyric no-line-break",
+                "text": "U-hjelp og?\t\t"
             },
             {
                 "type": "lyric",
                 "text": "Du skal få"
             },
             {
-                "type": "lyric",
-                "text": "En prosent\t"
+                "type": "lyric no-line-break",
+                "text": "En prosent\t\t"
             },
             {
                 "type": "lyric",
@@ -189,31 +189,31 @@
         ],
         [
             {
-                "type": "lyric",
-                "text": "Vi er best\t"
+                "type": "lyric no-line-break",
+                "text": "Vi er best\t\t"
             },
             {
                 "type": "lyric",
                 "text": "Typisk norsk"
             },
             {
-                "type": "lyric",
-                "text": "Se vår prakt\t"
+                "type": "lyric no-line-break",
+                "text": "Se vår prakt\t\t"
             },
             {
                 "type": "lyric",
                 "text": "Hvem har vi?"
             },
             {
-                "type": "lyric",
-                "text": "Ibsen (Hei!)\t"
+                "type": "lyric no-line-break",
+                "text": "Ibsen (Hei!)\t\t"
             },
             {
                 "type": "lyric",
                 "text": "Nesbø (Hei!)"
             },
             {
-                "type": "lyric",
+                "type": "lyric no-line-break",
                 "text": "Solskjær (Hei!)\t"
             },
             {
@@ -221,24 +221,24 @@
                 "text": "Nansen (Hei!)"
             },
             {
-                "type": "lyric",
-                "text": "Tjener mer\t"
+                "type": "lyric no-line-break",
+                "text": "Tjener mer\t\t"
             },
             {
                 "type": "lyric",
                 "text": "Mer enn nok?"
             },
             {
-                "type": "lyric",
-                "text": "Mer på bok!\t"
+                "type": "lyric no-line-break",
+                "text": "Mer på bok!\t\t"
             },
             {
                 "type": "lyric",
                 "text": "Invester,"
             },
             {
-                "type": "lyric",
-                "text": "Enda mer!\t"
+                "type": "lyric no-line-break",
+                "text": "Enda mer!\t\t"
             },
             {
                 "type": "lyric",

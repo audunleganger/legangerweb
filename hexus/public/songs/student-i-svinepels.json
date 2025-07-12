@@ -113,8 +113,12 @@
                 "text": "et plagg som tåler spy De"
             },
             {
-                "type": "lyric",
-                "text": "og følgelig revy, De, – Her."
+                "type": "lyric no-line-break",
+                "text": "og følgelig revy, De, – "
+            },
+            {
+                "type": "lyric italic",
+                "text": "Her."
             }
         ],
         [
@@ -126,10 +130,19 @@
                 "type": "lyric",
                 "text": "ser jeg ungdommen igjen"
             },
-            { "type": "lyric", "text": "her ser jeg de tapte år" },
+            { "type": "lyric italic no-line-break", "text": "her" },
+            { "type": "lyric", "text": " ser jeg de tapte år" },
+            {
+                "type": "lyric no-line-break",
+                "text": "og "
+            },
+            {
+                "type": "lyric italic no-line-break",
+                "text": "her"
+            },
             {
                 "type": "lyric",
-                "text": "og her en gammel venn"
+                "text": " en gammel venn"
             },
             {
                 "type": "lyric",
@@ -154,12 +167,24 @@
         ],
         [
             {
-                "type": "lyric",
-                "text": "Her er et ball"
+                "type": "lyric italic no-line-break",
+                "text": "Her"
             },
             {
                 "type": "lyric",
-                "text": "og her er et fall"
+                "text": " er et ball"
+            },
+            {
+                "type": "lyric no-line-break",
+                "text": "og "
+            },
+            {
+                "type": "lyric italic no-line-break",
+                "text": "her"
+            },
+            {
+                "type": "lyric",
+                "text": " er et fall"
             },
             {
                 "type": "lyric",
@@ -230,12 +255,24 @@
         ],
         [
             {
-                "type": "lyric",
-                "text": "Her sitter grisefesten"
+                "type": "lyric italic no-line-break",
+                "text": "Her"
             },
             {
                 "type": "lyric",
-                "text": "og her den triste resten"
+                "text": " sitter grisefesten"
+            },
+            {
+                "type": "lyric no-line-break",
+                "text": "og "
+            },
+            {
+                "type": "lyric italic no-line-break",
+                "text": "her"
+            },
+            {
+                "type": "lyric",
+                "text": " den triste resten"
             },
             {
                 "type": "lyric",
@@ -247,11 +284,23 @@
             },
             {
                 "type": "lyric",
-                "text": "og her -- promilletesten"
+                "text": "og "
+            },
+            {
+                "type": "lyric italic no-line-break",
+                "text": "her"
             },
             {
                 "type": "lyric",
-                "text": "mitt møte med arresten – her."
+                "text": " -- promilletesten"
+            },
+            {
+                "type": "lyric no-line-break",
+                "text": "mitt møte med arresten – "
+            },
+            {
+                "type": "lyric italic",
+                "text": "her."
             }
         ],
         [
