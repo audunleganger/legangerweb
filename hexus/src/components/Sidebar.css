@@ -10,12 +10,28 @@
     border-right: 1px solid black;
     display: flex;
     flex-direction: column;
+    scrollbar-width: thin;
+    z-index: 4;
 }
+
+.sidebar-list::-webkit-scrollbar {
+    width: 4px;
+}
+.sidebar-list::-webkit-scrollbar-thumb {
+    background: #888; /* thumb color */
+    border-radius: 4px;
+}
+
+.sidebar-list::-webkit-scrollbar-thumb:hover {
+    background: #000000;
+}
+
 .sidebar-top {
     margin-bottom: 2rem;
 }
 
 .sidebar-list {
+    border-top: 1px solid black;
     flex: 1 1 0;
     width: 100%;
     overflow-y: auto;
@@ -42,6 +58,12 @@
     margin: 0;
     padding: 0;
 }
+li > .selected-song {
+    font-weight: bold;
+    text-decoration: none;
+    color: inherit;
+    cursor: default;
+}
 
 .sidebar-header {
     text-align: center;
@@ -51,15 +73,12 @@
 .sidebar.dark {
     background-color: #333;
 }
-.sidebar.dark * a {
-    color: #5b8fff;
-}
 .sidebar-burger {
     display: none;
     position: fixed;
     top: 1rem;
     right: 1rem;
-    z-index: 1;
+    z-index: 5;
     border: none;
     width: 4rem;
     height: 4rem;
@@ -100,10 +119,7 @@
 .sidebar-burger.open::after {
     opacity: 1;
 }
-/* .sidebar-burger.open {
-    background-size: 50%;
-    background-image: url("/close.png");
-} */
+
 .sidebar-burger.dark {
     background-color: rgba(2, 1, 1, 0.5);
     filter: invert(1);

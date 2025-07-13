@@ -8,39 +8,9 @@ import { useDarkMode } from "./context/DarkModeContext";
 import { Song } from "./types/song";
 import { setStoredSortMethod } from "./utils/sortStorage";
 import { Line } from "./types/song";
-
-// START EXTRACT
-type SortMethod =
-    | "title asc"
-    | "title desc"
-    | "year asc"
-    | "year desc"
-    | "page asc"
-    | "page desc";
-
-const sortSongs = (songs: Song[], method: SortMethod) => {
-    switch (method) {
-        case "title asc":
-            return songs.sort((a, b) =>
-                a.meta.title.localeCompare(b.meta.title, "nb")
-            );
-        case "title desc":
-            return songs.sort((a, b) =>
-                b.meta.title.localeCompare(a.meta.title, "nb")
-            );
-        case "year asc":
-            return songs.sort((a, b) => a.meta.year - b.meta.year);
-        case "year desc":
-            return songs.sort((a, b) => b.meta.year - a.meta.year);
-        case "page asc":
-            return songs.sort((a, b) => a.meta.start_page - b.meta.start_page);
-        case "page desc":
-            return songs.sort((a, b) => b.meta.start_page - a.meta.start_page);
-        default:
-            return songs;
-    }
-};
-// END EXTRACT
+import { SortMethod, sortSongs } from "./utils/songSort";
+// import InstallPrompt from "./components/InstallPrompt";
+// import InstallPWA from "./components/InstallPWA";
 
 const App = () => {
     const [searchTerm, setSearchTerm] = useState("");
@@ -85,16 +55,7 @@ const App = () => {
     const handleTextSearchToggle = (e: ChangeEvent<HTMLInputElement>) => {
         setTextSearch(e.target.checked);
     };
-    /*
-    const updateSort = (newSort: SortMethod) => {
-        setCurrentSort(newSort);
-        localStorage.setItem("sortMethod", newSort);
-        const sortedSongs = sortSongs([...songs], newSort);
-        setSongs(sortedSongs);
-        setSortedSongs(() => sortedSongs);
-        console.log(sortedSongs);
-    };
-*/
+
     const handleHeaderToggle = (headerText: string) => {
         let newSort: SortMethod;
         switch (headerText) {
@@ -126,30 +87,8 @@ const App = () => {
         setCurrentSort(newSort);
         setStoredSortMethod(newSort);
     };
-    /*
-    const handleSortTitleToggle = () => {
-        updateSort(currentSort === "title asc" ? "title desc" : "title asc");
-    };
-    const handleSortYearToggle = () => {
-        updateSort(currentSort === "year asc" ? "year desc" : "year asc");
-    };
-    const handleSortPageToggle = () => {
-        updateSort(currentSort === "page asc" ? "page desc" : "page asc");
-    };
-*/
+
     const flattenSongText = (song: Song): string => {
-        // const verses = song.contents;
-        // const flattenedLines = verses
-        //     .flat(Infinity)
-        //     .filter(
-        //         (line): line is Line =>
-        //             !Array.isArray(line) &&
-        //             typeof line === "object" &&
-        //             "text" in line
-        //     )
-        //     .map((line) => line.text)
-        //     .filter(Boolean);
-        // return flattenedLines.join(" ");
         return song.contents
             .flat()
             .map((line: Line) => line.text)
@@ -173,6 +112,8 @@ const App = () => {
         <div className="centered">
             <h1>HEXUS</h1>
             <DarkModeButton />
+            {/* <InstallPrompt /> */}
+            {/* <InstallPWA /> */}
             <section>
                 <label htmlFor="searchField">Søk: </label>
                 <input type="text" id="searchField" onChange={handleUpdate} />

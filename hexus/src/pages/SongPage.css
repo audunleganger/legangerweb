@@ -3,6 +3,7 @@
     flex-flow: column;
     align-items: center;
     min-height: 100vh;
+    margin-top: 2rem;
 }
 .song-metadata {
     display: flex;

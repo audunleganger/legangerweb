@@ -18,6 +18,7 @@ const SongPage = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
+        setHasMp3(false);
         const fetchSongObject = async () => {
             try {
                 const response = await fetch(`/songs/${songId}.json`);
@@ -39,7 +40,7 @@ const SongPage = () => {
 
         const checkMp3FileExists = async () => {
             try {
-                const res = await fetch(`/public/mp3/${songId}.mp3`, {
+                const res = await fetch(`/mp3/${songId}.mp3`, {
                     method: "HEAD",
                 });
                 const contentType = res.headers.get("Content-Type");
@@ -112,7 +113,7 @@ const SongPage = () => {
     // upon reaching
     return (
         <>
-            <Sidebar />
+            <Sidebar currentSongTitle={songTitle} />
             {loading ? (
                 <p className="centered-on-page">Loading...</p>
             ) : (
@@ -125,9 +126,9 @@ const SongPage = () => {
                         {renderStreamingLinks()}
                     </section>
                     {hasMp3 && (
-                        <audio controls>
+                        <audio key={songId} controls>
                             <source
-                                src={`/public/mp3/${songId}.mp3`}
+                                src={`/mp3/${songId}.mp3`}
                                 type="audio/mpeg"
                             />
                             Your browser does not support the audio element.

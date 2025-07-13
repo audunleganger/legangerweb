@@ -5,9 +5,12 @@ import { Link } from "react-router-dom";
 import { DarkModeButton } from "./DarkModeButton";
 import "./Sidebar.css";
 import { useDarkMode } from "../context/DarkModeContext";
-// import Song from "../types/song";
 
-const Sidebar = () => {
+type SidebarProps = {
+    currentSongTitle?: string;
+};
+
+const Sidebar = ({ currentSongTitle }: SidebarProps) => {
     const { songs } = useSongs();
     const [searchTerm, setSearchTerm] = useState("");
     const [open, setOpen] = useState(false);
@@ -34,13 +37,7 @@ const Sidebar = () => {
                     .join(" ")}
                 onClick={() => setOpen((v) => !v)}
                 aria-label="Toggle menu"
-            >
-                {/* {open ? (
-                    <span>&#10005;</span>
-                ) : (
-                    <span style={{ marginTop: "-1rem" }}>&#9776;</span>
-                )} */}
-            </button>
+            ></button>
             <div
                 className={`sidebar ${darkMode ? "dark" : ""} ${
                     open ? "open" : ""
@@ -59,19 +56,32 @@ const Sidebar = () => {
                     />
                 </div>
                 <ul className="sidebar-list">
-                    {filteredSongs.map((song) => (
-                        <li key={song.meta.id}>
-                            <Link
-                                to={`/songs/${song.meta.id}`}
-                                onClick={() => {
-                                    setOpen(false);
-                                    window.scrollTo(0, 0);
-                                }}
-                            >
-                                {song.meta.title}
-                            </Link>
-                        </li>
-                    ))}
+                    {filteredSongs.map((song) => {
+                        const isCurrentSong =
+                            song.meta.title === currentSongTitle;
+                        return (
+                            <li key={song.meta.id}>
+                                <Link
+                                    to={
+                                        isCurrentSong
+                                            ? "#"
+                                            : `/songs/${song.meta.id}`
+                                    }
+                                    onClick={() => {
+                                        if (!isCurrentSong) {
+                                            setOpen(false);
+                                            window.scrollTo(0, 0);
+                                        }
+                                    }}
+                                    className={
+                                        isCurrentSong ? "selected-song" : ""
+                                    }
+                                >
+                                    {song.meta.title}
+                                </Link>
+                            </li>
+                        );
+                    })}
                 </ul>
             </div>
         </>

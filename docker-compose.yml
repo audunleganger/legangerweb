@@ -148,6 +148,8 @@ services:
             - ./hexus/src:/app/src
             - ./hexus/public:/app/public
             - ./hexus/index.html:/app/index.html
+            - ./hexus/.cert:/app/.cert
+            - ./hexus/vite.config.ts:/app/vite.config.ts
         network_mode: host
         # networks:
         #     - legangerweb-net
