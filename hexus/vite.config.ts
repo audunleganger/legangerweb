@@ -13,6 +13,7 @@ export default defineConfig({
             includeAssets: ["**/*"],
             workbox: {
                 globPatterns: ["**/*.{js,css,html,png,svg,mp3,json}"],
+		maximumFileSizeToCacheInBytes: 50 * 1024 * 1024,
             },
             manifest: {
                 name: "Hexus",
@@ -41,9 +42,5 @@ export default defineConfig({
         host: "0.0.0.0",
         port: 3000,
         allowedHosts: true,
-        https: {
-            key: fs.readFileSync(path.resolve(__dirname, "./.cert/key.pem")),
-            cert: fs.readFileSync(path.resolve(__dirname, "./.cert/cert.pem")),
-        },
     },
 });

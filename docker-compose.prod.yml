@@ -16,6 +16,7 @@ services:
             - matmeny-frontend
         networks:
             - legangerweb-net
+        restart: unless-stopped
 
     frontend:
         # React app in "dev" mode (hot-reload)
@@ -27,6 +28,7 @@ services:
             - "3000"
         networks:
             - legangerweb-net
+        restart: unless-stopped
 
     # minecraft:
     #     image: itzg/minecraft-server:latest
