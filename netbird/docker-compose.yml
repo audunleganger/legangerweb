@@ -1,0 +1,14 @@
+services:
+  netbird-management:
+    image: netbirdio/netbird:latest
+    container_name: netbird-management
+    ports:
+      - "8080:8080"         # internal web UI/API
+      - "51820:51820/udp"   # signalling (needs a WAN forward)
+    environment:
+      - NETBIRD_DOMAIN=netbird.leganger.dev
+      # - NETBIRD_LETSENCRYPT_DOMAIN=netbird.leganger.dev
+      - NETBIRD_DISABLE_DEFAULT_USER=true
+    volumes:
+      - ./data:/data
+    restart: unless-stopped

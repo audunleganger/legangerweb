@@ -8,8 +8,8 @@ declare module "express-serve-static-core" {
 }
 
 const USERS: Record<string, string> = {
-    "1234": "admin",
-    "5678": "user",
+    "1800": "AudunTheViking",
+    "5678": "EvenRotta",
 };
 const JWT_SECRET = process.env.JWT_SECRET || "secret_jwt_key";
 
