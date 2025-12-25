@@ -2,3 +2,4 @@ minecraft-admin/minecraft
 minecraft-admin/backend/node_modules
 **/db/data/
 **/.vscode/
+.env*

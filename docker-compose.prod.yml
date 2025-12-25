@@ -22,20 +22,10 @@ services:
     frontend:
         build:
             context: ./frontend
-            dockerfile: docker/Dockerfile
+            dockerfile: docker/Dockerfile.prod
         container_name: frontend
         expose:
-            - "${FRONTEND_PORT}"
-        environment:
-            PORT: ${FRONTEND_PORT}
-        volumes:
-            - ./frontend/src:/app/src
-            - ./frontend/public:/app/public
-            - ./frontend/index.html:/app/index.html
-            - ./frontend/tsconfig.json:/app/tsconfig.json
-            - ./frontend/tsconfig.app.json:/app/tsconfig.app.json
-            - ./frontend/tsconfig.node.json:/app/tsconfig.node.json
-            - ./frontend/vite.config.ts:/app/vite.config.ts
+            - "3000"
         networks:
             - legangerweb-net
         restart: unless-stopped
@@ -43,35 +33,23 @@ services:
     matmeny-frontend:
         build:
             context: ./matmeny/frontend
-            dockerfile: docker/Dockerfile
+            dockerfile: docker/Dockerfile.prod
         container_name: matmeny-frontend
         expose:
-            - "${MATMENY_FRONTEND_PORT}"
+            - "3000"
         restart: unless-stopped
-        volumes:
-            - ./matmeny/frontend/src:/app/src
-            - ./matmeny/frontend/public:/app/public
-            - ./matmeny/frontend/index.html:/app/index.html
-            - ./matmeny/frontend/tsconfig.json:/app/tsconfig.json
-            - ./matmeny/frontend/tsconfig.app.json:/app/tsconfig.app.json
-            - ./matmeny/frontend/tsconfig.node.json:/app/tsconfig.node.json
-            - ./matmeny/frontend/vite.config.ts:/app/vite.config.ts
         networks:
             - legangerweb-net
 
     matmeny-backend:
         build:
             context: ./matmeny/backend
-            dockerfile: docker/Dockerfile
+            dockerfile: docker/Dockerfile.prod
         container_name: matmeny-backend
         expose:
-            - "${MATMENY_BACKEND_PORT}"
+            - "8000"
         environment:
             DATABASE_URL: postgresql://${MATMENY_DB_USER}:${MATMENY_DB_PASSWORD}@matmeny-db:${MATMENY_DB_PORT}/${MATMENY_DB_NAME}
-        volumes:
-            - "./matmeny/backend/src:/app/src"
-            - "./matmeny/backend/package.json:/app/package.json"
-            - "./matmeny/backend/tsconfig.json:/app/tsconfig.json"
         depends_on:
             - matmeny-db
         restart: unless-stopped
@@ -90,27 +68,18 @@ services:
             - ./matmeny/db/initdb:/docker-entrypoint-initdb.d
         restart: unless-stopped
         expose:
-            - "${MATMENY_DB_PORT}"
+            - "5432"
         networks:
             - legangerweb-net
 
     hexus:
         build:
             context: ./hexus
-            dockerfile: docker/Dockerfile
+            dockerfile: docker/Dockerfile.prod
         container_name: hexus
         restart: unless-stopped
         expose:
-            - "${HEXUS_PORT}"
-        volumes:
-            - ./hexus/src:/app/src
-            - ./hexus/public:/app/public
-            - ./hexus/scripts:/app/scripts
-            - ./hexus/index.html:/app/index.html
-            - ./hexus/tsconfig.json:/app/tsconfig.json
-            - ./hexus/tsconfig.app.json:/app/tsconfig.app.json
-            - ./hexus/tsconfig.node.json:/app/tsconfig.node.json
-            - ./hexus/vite.config.ts:/app/vite.config.ts
+            - "30000"
         networks:
             - legangerweb-net
 

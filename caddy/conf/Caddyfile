@@ -1,0 +1,16 @@
+{$ROOT_HOST} {
+    reverse_proxy frontend:3000
+}
+
+{$MATMENY_HOST}.{$ROOT_HOST} {
+    reverse_proxy /api/* matmeny-backend:8000
+    reverse_proxy matmeny-frontend:3000
+}
+
+{$MATMENY_ALT_HOSTS} {
+    redir https://{$MATMENY_HOST}.{$ROOT_HOST}
+}
+
+{$HEXUS_HOST} {
+    reverse_proxy hexus:3000
+}
