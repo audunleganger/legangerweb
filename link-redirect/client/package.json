@@ -10,7 +10,6 @@
         "dev": "vite --host --port 3000",
         "build": "tsc -b && vite build",
         "test": "echo \"Error: no test specified\" && exit 1"
-
     },
     "devDependencies": {
         "typescript": "^5.9.3"

@@ -14,6 +14,7 @@
 {$HEXUS_HOST} {
     reverse_proxy hexus:3000
 }
+
 {$LINK_REDIRECT_HOST}.{$ROOT_HOST} {
     reverse_proxy /api/* link-redirect-server:8000
     reverse_proxy link-redirect-client:3000
