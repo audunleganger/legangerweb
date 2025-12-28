@@ -12,8 +12,10 @@ services:
             MATMENY_ALT_HOSTS: ${MATMENY_ALT_HOSTS}
             HEXUS_HOST: ${HEXUS_HOST}
         volumes:
-            - ./caddy/conf:/etc/caddy
-            - ./caddy/site:/srv
+            # - ./caddy/conf:/etc/caddy
+            # - ./caddy/site:/srv
+            - /home/audun/development/legangerweb/caddy/conf:/etc/caddy
+            - /home/audun/development/legangerweb/caddy/site:/srv
             - caddy_data:/data
             - caddy_config:/config
         networks:
@@ -70,7 +72,6 @@ services:
             DATABASE_URL: postgresql://${MATMENY_DB_USER}:${MATMENY_DB_PASSWORD}@matmeny-db:${MATMENY_DB_PORT}/${MATMENY_DB_NAME}
         volumes:
             - "./matmeny/backend/src:/app/src"
-            - "./matmeny/backend/package.json:/app/package.json"
             - "./matmeny/backend/tsconfig.json:/app/tsconfig.json"
         depends_on:
             - matmeny-db
@@ -111,6 +112,36 @@ services:
             - ./hexus/tsconfig.app.json:/app/tsconfig.app.json
             - ./hexus/tsconfig.node.json:/app/tsconfig.node.json
             - ./hexus/vite.config.ts:/app/vite.config.ts
+        networks:
+            - legangerweb-net
+
+    link-redirect-server:
+        build:
+            context: ./link-redirect/server
+            dockerfile: docker/Dockerfile
+        container_name: link-redirect-server
+        restart: unless-stopped
+        expose:
+            - "${LINK_REDIRECT_SERVER_PORT}"
+        volumes:
+            - ./link-redirect/server/src:/app/src
+            - ./link-redirect/server/tsconfig.json:/app/tsconfig.json
+            - ./link-redirect/server/main.py:/app/main.py
+        networks:
+            - legangerweb-net
+
+    link-redirect-client:
+        build:
+            context: ./link-redirect/client
+            dockerfile: docker/Dockerfile
+        container_name: link-redirect-client
+        restart: unless-stopped
+        expose:
+            - "${LINK_REDIRECT_CLIENT_PORT}"
+        volumes:
+            - ./link-redirect/client/index.html:/app/index.html
+            - ./link-redirect/client/tsconfig.json:/app/tsconfig.json
+            - ./link-redirect/client/src:/app/src
         networks:
             - legangerweb-net
 
