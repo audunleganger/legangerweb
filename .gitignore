@@ -2,4 +2,6 @@ minecraft-admin/minecraft
 minecraft-admin/backend/node_modules
 **/db/data/
 **/.vscode/
+*.__pycache__/
 .env*
+

@@ -3,14 +3,15 @@ services:
         image: caddy:latest
         container_name: caddy
         ports:
-            - "${CADDY_HTTP_PORT}:80"
-            - "${CADDY_HTTPS_PORT}:443"
-            - "${CADDY_HTTPS_PORT}:443/udp"
+            - "80:80"
+            - "443:443"
+            - "443:443/udp"
         environment:
             ROOT_HOST: ${ROOT_HOST}
             MATMENY_HOST: ${MATMENY_HOST}
             MATMENY_ALT_HOSTS: ${MATMENY_ALT_HOSTS}
             HEXUS_HOST: ${HEXUS_HOST}
+            LINK_REDIRECT_HOST: ${LINK_REDIRECT_HOST}
         volumes:
             - ./caddy/conf:/etc/caddy
             - ./caddy/site:/srv
@@ -79,7 +80,37 @@ services:
         container_name: hexus
         restart: unless-stopped
         expose:
-            - "30000"
+            - "3000"
+        networks:
+            - legangerweb-net
+
+    link-redirect-server:
+        build:
+            context: ./link-redirect/server
+            dockerfile: docker/Dockerfile
+        container_name: link-redirect-server
+        restart: unless-stopped
+        expose:
+            - "8000"
+        volumes:
+            - ./link-redirect/server/src:/app/src
+            - ./link-redirect/server/tsconfig.json:/app/tsconfig.json
+            - ./link-redirect/server/main.py:/app/main.py
+        networks:
+            - legangerweb-net
+
+    link-redirect-client:
+        build:
+            context: ./link-redirect/client
+            dockerfile: docker/Dockerfile.prod
+        container_name: link-redirect-client
+        restart: unless-stopped
+        expose:
+            - "3000"
+        volumes:
+            - ./link-redirect/client/index.html:/app/index.html
+            - ./link-redirect/client/tsconfig.json:/app/tsconfig.json
+            - ./link-redirect/client/src:/app/src
         networks:
             - legangerweb-net
 
